@@ -1,0 +1,96 @@
+{
+  "updated_at": "2026-01-16T00:00:00+01:00",
+  "source": "https://www.km.bayern.de/ministerium/termine/ferientermine.html",
+  "vacations": [
+    {
+      "name": "Winterferien 2025",
+      "start": "2025-03-03",
+      "end": "2025-03-07"
+    },
+    {
+      "name": "Osterferien 2025",
+      "start": "2025-04-14",
+      "end": "2025-04-25"
+    },
+    {
+      "name": "Pfingstferien 2025",
+      "start": "2025-06-10",
+      "end": "2025-06-20"
+    },
+    {
+      "name": "Sommerferien 2025",
+      "start": "2025-08-01",
+      "end": "2025-09-15"
+    },
+    {
+      "name": "Herbstferien 2025",
+      "start": "2025-11-03",
+      "end": "2025-11-07"
+    },
+    {
+      "name": "Weihnachtsferien 2025/2026",
+      "start": "2025-12-23",
+      "end": "2026-01-03"
+    },
+    {
+      "name": "Winterferien 2026",
+      "start": "2026-02-16",
+      "end": "2026-02-20"
+    },
+    {
+      "name": "Osterferien 2026",
+      "start": "2026-03-30",
+      "end": "2026-04-10"
+    },
+    {
+      "name": "Pfingstferien 2026",
+      "start": "2026-05-26",
+      "end": "2026-06-05"
+    },
+    {
+      "name": "Sommerferien 2026",
+      "start": "2026-08-03",
+      "end": "2026-09-14"
+    },
+    {
+      "name": "Herbstferien 2026",
+      "start": "2026-11-02",
+      "end": "2026-11-06"
+    },
+    {
+      "name": "Weihnachtsferien 2026/2027",
+      "start": "2026-12-23",
+      "end": "2027-01-09"
+    },
+    {
+      "name": "Winterferien 2027",
+      "start": "2027-02-15",
+      "end": "2027-02-19"
+    },
+    {
+      "name": "Osterferien 2027",
+      "start": "2027-03-29",
+      "end": "2027-04-09"
+    },
+    {
+      "name": "Pfingstferien 2027",
+      "start": "2027-05-18",
+      "end": "2027-05-28"
+    },
+    {
+      "name": "Sommerferien 2027",
+      "start": "2027-07-29",
+      "end": "2027-09-13"
+    },
+    {
+      "name": "Herbstferien 2027",
+      "start": "2027-11-02",
+      "end": "2027-11-05"
+    },
+    {
+      "name": "Weihnachtsferien 2027/2028",
+      "start": "2027-12-24",
+      "end": "2028-01-08"
+    }
+  ]
+}
