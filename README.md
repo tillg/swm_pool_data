@@ -109,6 +109,41 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
+### Syncing with GitHub
+
+Since GitHub Actions updates this repo every 15 minutes with new data, your local copy will quickly become outdated. Here's how to stay in sync:
+
+**Get the latest data (no local changes):**
+
+```bash
+git pull
+```
+
+**If you're in the middle of editing (not done yet):**
+
+```bash
+git stash            # Temporarily hide your work-in-progress
+git pull             # Get the latest from GitHub
+git stash pop        # Bring your work-in-progress back
+```
+
+**If you're done and want to save & upload your changes:**
+
+```bash
+git add .                              # Stage all your changes
+git commit -m "Describe your change"   # Save to git history
+git pull --rebase                      # Get latest, put your commit on top
+git push                               # Upload to GitHub
+```
+
+**If you get merge conflicts:** This can happen if you edited a file that was also changed on GitHub. Git will tell you which files have conflicts. Open them, look for the `<<<<<<<` markers, decide which version to keep, remove the markers, then:
+
+```bash
+git add .
+git commit -m "Resolved merge conflicts"
+git push
+```
+
 ### Running the Weather Loader
 
 Fetches 7 days of historical and 7 days of forecast weather data from Open-Meteo:
