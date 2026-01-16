@@ -25,7 +25,31 @@ Data is scraped from [Stadtwerke München (SWM)](https://www.swm.de/baeder/ausla
 - Südbad
 - Westbad
 
-## Data Format
+## Repository Structure
+
+```
+swm_pool_data/
+├── pool_scrapes_raw/          # Raw pool occupancy JSON (every 15 min)
+├── weather_raw/               # Hourly weather data from Open-Meteo
+├── holidays/                  # Public holidays and school vacations
+│   ├── public_holidays.json   # Bavarian public holidays
+│   └── school_holidays.json   # Bavarian school vacations
+├── datasets/                  # ML-ready transformed data
+│   └── occupancy_features.csv
+├── src/
+│   ├── loaders/
+│   │   ├── weather_loader.py  # Fetches weather from Open-Meteo
+│   │   └── holiday_loader.py  # Generates/loads holiday data
+│   └── transform.py           # Merges all data into ML features
+└── .github/workflows/
+    ├── scrape.yml             # Pool scraping (every 15 min)
+    ├── load_weather.yml       # Weather fetching (daily 06:00 UTC)
+    └── transform.yml          # Data transformation (daily 07:00 UTC)
+```
+
+## Data Formats
+
+### Raw Pool Data
 
 Each JSON file in `pool_scrapes_raw/` contains:
 
@@ -50,22 +74,112 @@ Each JSON file in `pool_scrapes_raw/` contains:
 }
 ```
 
-Each facility entry includes:
-- `pool_name` - Facility name
-- `occupancy_percent` - Current free capacity (0-100%)
-- `current_visitors` - Number of people currently inside
-- `max_capacity` - Maximum allowed visitors
-- `facility_type` - "pool" or "sauna"
+### Transformed Dataset
+
+The `datasets/occupancy_features.csv` contains ML-ready features:
+
+| Column | Description |
+| ------ | ----------- |
+| `timestamp` | ISO 8601 timestamp |
+| `pool_name` | Facility name |
+| `facility_type` | "pool" or "sauna" |
+| `occupancy_percent` | Free capacity (0-100%) |
+| `is_open` | 0 or 1 |
+| `hour` | Hour of day (0-23) |
+| `day_of_week` | 0=Monday, 6=Sunday |
+| `month` | Month (1-12) |
+| `is_weekend` | 0 or 1 |
+| `is_holiday` | Public holiday (0 or 1) |
+| `is_school_vacation` | School vacation (0 or 1) |
+| `temperature_c` | Air temperature in °C |
+| `precipitation_mm` | Precipitation in mm |
+| `weather_code` | WMO weather code |
+| `cloud_cover_percent` | Cloud cover percentage |
+
+## Local Development
+
+### Setup
+
+```bash
+# Create virtual environment
+python3 -m venv .venv
+source .venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+### Running the Weather Loader
+
+Fetches 7 days of historical and 7 days of forecast weather data from Open-Meteo:
+
+```bash
+# From repository root
+python src/loaders/weather_loader.py --output-dir weather_raw
+```
+
+Options:
+- `--output-dir` - Output directory (default: `weather_raw`)
+- `--past-days` - Historical days to fetch (default: 7)
+- `--forecast-days` - Forecast days to fetch (default: 7)
+
+### Running the Holiday Loader
+
+Generates Bavarian public holidays using the `holidays` Python package:
+
+```bash
+# From repository root
+python src/loaders/holiday_loader.py --output holidays/public_holidays.json --years 2025 2026 2027
+```
+
+Options:
+- `--output` - Output file path (default: `holidays/public_holidays.json`)
+- `--years` - Years to generate (default: 2025 2026 2027)
+
+School holidays are manually maintained in `holidays/school_holidays.json` from the official Bavarian calendar.
+
+### Running the Transform Pipeline
+
+Merges pool occupancy, weather, and holiday data into a single ML-ready CSV:
+
+```bash
+# From src directory
+cd src
+python transform.py
+```
+
+Or with explicit paths:
+
+```bash
+cd src
+python transform.py \
+  --pool-dir ../pool_scrapes_raw \
+  --weather-dir ../weather_raw \
+  --holiday-dir ../holidays \
+  --output ../datasets/occupancy_features.csv
+```
+
+The transform:
+1. Loads all pool JSON files from `pool_scrapes_raw/`
+2. Loads weather data and aligns by hour
+3. Adds holiday and school vacation flags
+4. Deduplicates and appends to existing CSV
+5. Outputs to `datasets/occupancy_features.csv`
 
 ## Collection Schedule
 
-Data is collected automatically every 15 minutes via GitHub Actions (~96 data points per day).
+| Workflow | Schedule | Description |
+| -------- | -------- | ----------- |
+| Pool scraping | Every 15 min | ~96 data points per day |
+| Weather loading | Daily 06:00 UTC | 14 days of hourly weather |
+| Data transform | Daily 07:00 UTC | Merges all features |
 
 ## Use Cases
 
 - Machine learning models for predicting pool occupancy
 - Historical analysis of usage patterns
 - Planning visits to avoid crowds
+- Correlating weather with pool attendance
 
 ## Related
 

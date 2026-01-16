@@ -2,7 +2,7 @@ name: Load Weather Data
 
 on:
   schedule:
-    - cron: "0 6 * * *"  # Daily at 06:00 UTC (07:00 Berlin winter, 08:00 summer)
+    - cron: "0 5 * * *"  # Daily at 05:00 UTC (06:00 Berlin winter, 07:00 summer)
   workflow_dispatch:
 
 permissions:
