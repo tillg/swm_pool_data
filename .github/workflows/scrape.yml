@@ -35,3 +35,7 @@ jobs:
           git add pool_scrapes_raw/
           git diff --staged --quiet || git commit -m "Scrape $(date -u +%Y-%m-%d\ %H:%M)"
           git push
+
+  transform:
+    needs: scrape
+    uses: ./.github/workflows/transform.yml

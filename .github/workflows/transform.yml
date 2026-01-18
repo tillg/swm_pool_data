@@ -3,8 +3,8 @@ name: Transform Data
 on:
   push:
     paths:
-      - 'pool_scrapes_raw/**'
       - 'weather_raw/**'
+  workflow_call:
   workflow_dispatch:
 
 concurrency:

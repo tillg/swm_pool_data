@@ -34,7 +34,13 @@ concurrency:
 - Remove the daily schedule trigger (no longer needed)
 - Keep `workflow_dispatch` for manual runs
 
+## Problem
+
+GitHub Actions workflows triggered by the default `GITHUB_TOKEN` don't trigger other workflows (prevents infinite loops). The scrape workflow commits with `github-actions[bot]`, so pushes don't trigger transform.
+
 ## Implementation
 
-1. Update `transform.yml` with the trigger and concurrency settings above
-2. Remove the `schedule` trigger
+1. Add `workflow_call` trigger to `transform.yml` so it can be called from other workflows
+2. Have `scrape.yml` call the transform workflow after pushing data
+3. Keep `workflow_dispatch` for manual runs
+4. Keep the `push` trigger for weather data changes (weather loader runs separately)
