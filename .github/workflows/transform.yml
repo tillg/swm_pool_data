@@ -1,9 +1,15 @@
 name: Transform Data
 
 on:
-  schedule:
-    - cron: "0 6 * * *"  # Daily at 06:00 UTC (after weather load)
+  push:
+    paths:
+      - 'pool_scrapes_raw/**'
+      - 'weather_raw/**'
   workflow_dispatch:
+
+concurrency:
+  group: transform-pipeline
+  cancel-in-progress: true
 
 permissions:
   contents: write
