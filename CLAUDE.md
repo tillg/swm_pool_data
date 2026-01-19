@@ -32,9 +32,9 @@ python transform.py \
 ## Architecture
 
 **Data Pipeline Flow:**
-1. `scrape.yml` (every 15 min) → raw pool JSON to `pool_scrapes_raw/`
-2. `load_weather.yml` (daily 05:00 UTC) → weather JSON to `weather_raw/`
-3. `transform.yml` (daily 06:00 UTC) → merged CSV to `datasets/occupancy_features.csv`
+1. `scrape.yml` (every 15 min) → raw pool JSON to `pool_scrapes_raw/` → triggers transform
+2. `load_weather.yml` (daily 05:00 UTC) → weather JSON to `weather_raw/` → triggers transform
+3. `transform.yml` (triggered after scrape or weather update) → merged CSV to `datasets/occupancy_features.csv`
 
 **Key Components:**
 - `src/loaders/weather_loader.py` - Fetches hourly weather from Open-Meteo API for Munich

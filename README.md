@@ -1,6 +1,6 @@
 # SWM Pool Occupancy Data
 
-Real-time occupancy data from Munich's public swimming pools and saunas, collected every 15 minutes via GitHub Actions.
+Real-time occupancy data from Munich's public SWM facilities (pools, saunas, ice rinks), collected every 15 minutes via GitHub Actions.
 
 ## Data Source
 
@@ -25,6 +25,9 @@ Data is scraped from [Stadtwerke München (SWM)](https://www.swm.de/baeder/ausla
 - Südbad
 - Westbad
 
+**Ice Rinks:**
+- Prinzregentenstadion - Eislaufbahn
+
 ## Repository Structure
 
 ```
@@ -42,9 +45,9 @@ swm_pool_data/
 │   │   └── holiday_loader.py  # Generates/loads holiday data
 │   └── transform.py           # Merges all data into ML features
 └── .github/workflows/
-    ├── scrape.yml             # Pool scraping (every 15 min)
-    ├── load_weather.yml       # Weather fetching (daily 06:00 UTC)
-    └── transform.yml          # Data transformation (daily 07:00 UTC)
+    ├── scrape.yml             # Pool scraping (every 15 min) → triggers transform
+    ├── load_weather.yml       # Weather fetching (daily 05:00 UTC) → triggers transform
+    └── transform.yml          # Data transformation (after scrape or weather update)
 ```
 
 ## Data Formats
@@ -82,7 +85,7 @@ The `datasets/occupancy_features.csv` contains ML-ready features:
 | ------ | ----------- |
 | `timestamp` | ISO 8601 timestamp |
 | `pool_name` | Facility name |
-| `facility_type` | "pool" or "sauna" |
+| `facility_type` | "pool", "sauna", or "ice_rink" |
 | `occupancy_percent` | Free capacity (0-100%) |
 | `is_open` | 0 or 1 |
 | `hour` | Hour of day (0-23) |
@@ -205,9 +208,9 @@ The transform:
 
 | Workflow | Schedule | Description |
 | -------- | -------- | ----------- |
-| Pool scraping | Every 15 min | ~96 data points per day |
-| Weather loading | Daily 06:00 UTC | 14 days of hourly weather |
-| Data transform | Daily 07:00 UTC | Merges all features |
+| Pool scraping | Every 15 min | ~96 data points per day, triggers transform |
+| Weather loading | Daily 05:00 UTC | 14 days of hourly weather, triggers transform |
+| Data transform | After scrape/weather | Merges all features into CSV |
 
 ## Use Cases
 
