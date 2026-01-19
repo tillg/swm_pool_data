@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a data collection and transformation pipeline for Munich swimming pool occupancy data. It scrapes real-time occupancy from SWM pools/saunas, combines it with weather and holiday data, and outputs ML-ready features.
+This is a data collection and transformation pipeline for Munich SWM facility occupancy data. It scrapes real-time occupancy from SWM facilities (pools, saunas, ice rinks, etc.), combines it with weather and holiday data, and outputs ML-ready features.
 
 ## Common Commands
 
@@ -40,7 +40,8 @@ python transform.py \
 - `src/loaders/weather_loader.py` - Fetches hourly weather from Open-Meteo API for Munich
 - `src/loaders/holiday_loader.py` - Generates Bavarian public holidays; school holidays are manually maintained in `holidays/school_holidays.json`
 - `src/transform.py` - Main pipeline that:
-  - Loads pool JSON files (supports incremental loading via `since` parameter)
+  - Loads facility JSON files (auto-discovers all facility types: pools, saunas, ice rinks, etc.)
+  - Supports incremental loading via `since` parameter
   - Aligns weather data by hour
   - Adds holiday/school vacation flags
   - Deduplicates and appends to existing CSV
@@ -54,4 +55,4 @@ python transform.py \
 - Transform script must be run from `src/` directory due to relative imports
 - All timestamps use Europe/Berlin timezone
 - Weather data uses WMO weather codes
-- Pool data collects both pools (7 facilities) and saunas (6 facilities)
+- Facility data includes all SWM facility types (pools, saunas, ice rinks, etc.) - automatically discovered from raw JSON

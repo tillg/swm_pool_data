@@ -57,18 +57,24 @@ def load_pool_data(input_dir: Path, since: datetime = None) -> pd.DataFrame:
                 if file_dt.replace(tzinfo=None) < since.replace(tzinfo=None):
                     continue
 
-            # Process pools and saunas
-            for facility in data.get("pools", []) + data.get("saunas", []):
-                records.append({
-                    "timestamp": facility.get("timestamp"),
-                    "pool_name": facility.get("pool_name"),
-                    "facility_type": facility.get("facility_type"),
-                    "occupancy_percent": facility.get("occupancy_percent"),
-                    "is_open": 1 if facility.get("is_open") else 0,
-                    "hour": facility.get("hour"),
-                    "day_of_week": facility.get("day_of_week"),
-                    "is_weekend": 1 if facility.get("is_weekend") else 0,
-                })
+            # Process all facility types (pools, saunas, ice_rinks, etc.)
+            # Dynamically find all keys containing facility data (lists of dicts with facility_type)
+            for key, value in data.items():
+                if not isinstance(value, list) or not value:
+                    continue
+                # Check if this looks like facility data (first item has facility_type)
+                if isinstance(value[0], dict) and "facility_type" in value[0]:
+                    for facility in value:
+                        records.append({
+                            "timestamp": facility.get("timestamp"),
+                            "pool_name": facility.get("pool_name"),
+                            "facility_type": facility.get("facility_type"),
+                            "occupancy_percent": facility.get("occupancy_percent"),
+                            "is_open": 1 if facility.get("is_open") else 0,
+                            "hour": facility.get("hour"),
+                            "day_of_week": facility.get("day_of_week"),
+                            "is_weekend": 1 if facility.get("is_weekend") else 0,
+                        })
 
         except (json.JSONDecodeError, KeyError) as e:
             logger.warning(f"Skipping invalid file {filepath}: {e}")
