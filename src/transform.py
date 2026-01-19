@@ -285,7 +285,9 @@ def transform(
     since = None
     if not existing_df.empty:
         since = existing_df["timestamp"].max()
-        logger.info(f"Loading new data since {since}")
+        logger.info(f"Incremental mode: loading data since {since}")
+    else:
+        logger.info("No existing dataset found - processing all raw data files")
 
     # Load pool data
     logger.info(f"Loading pool data from {pool_dir}")
