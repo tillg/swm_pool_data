@@ -1,0 +1,35 @@
+name: Generate Forecast
+
+on:
+  schedule:
+    - cron: '0 5 * * *'  # 05:00 UTC (06:00 Europe/Berlin)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  forecast:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: pip install pandas lightgbm
+
+      - name: Generate forecast
+        working-directory: src/forecast
+        run: python forecast.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add forecasts/
+          git diff --staged --quiet || git commit -m "Forecast $(date -u +%Y-%m-%d)"
+          git pull --rebase
+          git push
