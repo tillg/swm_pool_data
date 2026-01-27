@@ -1,1897 +1,27 @@
 {
-  "generated_at": "2026-01-26T08:19:10.858802+01:00",
+  "generated_at": "2026-01-27T06:15:01.223425+01:00",
   "forecasts": [
     {
       "facility": "Bad Giesing-Harlaching",
-      "timestamp": "2026-01-26T08:00:00+01:00",
-      "predicted_occupancy": 87.9
-    },
-    {
-      "facility": "Cosimawellenbad",
-      "timestamp": "2026-01-26T08:00:00+01:00",
-      "predicted_occupancy": 95.6
-    },
-    {
-      "facility": "Cosimawellenbad Sauna",
-      "timestamp": "2026-01-26T08:00:00+01:00",
-      "predicted_occupancy": 95.3
-    },
-    {
-      "facility": "Dantebad Sauna",
-      "timestamp": "2026-01-26T08:00:00+01:00",
-      "predicted_occupancy": 91.0
-    },
-    {
-      "facility": "Michaelibad",
-      "timestamp": "2026-01-26T08:00:00+01:00",
-      "predicted_occupancy": 87.5
-    },
-    {
-      "facility": "Michaelibad Sauna",
-      "timestamp": "2026-01-26T08:00:00+01:00",
-      "predicted_occupancy": 92.0
-    },
-    {
-      "facility": "M\u00fcller'sches Volksbad",
-      "timestamp": "2026-01-26T08:00:00+01:00",
-      "predicted_occupancy": 82.0
-    },
-    {
-      "facility": "Nordbad",
-      "timestamp": "2026-01-26T08:00:00+01:00",
-      "predicted_occupancy": 80.8
-    },
-    {
-      "facility": "Nordbad Sauna",
-      "timestamp": "2026-01-26T08:00:00+01:00",
-      "predicted_occupancy": 95.3
-    },
-    {
-      "facility": "S\u00fcdbad",
-      "timestamp": "2026-01-26T08:00:00+01:00",
-      "predicted_occupancy": 83.5
-    },
-    {
-      "facility": "S\u00fcdbad Sauna",
-      "timestamp": "2026-01-26T08:00:00+01:00",
-      "predicted_occupancy": 93.6
-    },
-    {
-      "facility": "Westbad",
-      "timestamp": "2026-01-26T08:00:00+01:00",
-      "predicted_occupancy": 90.7
-    },
-    {
-      "facility": "Westbad Sauna",
-      "timestamp": "2026-01-26T08:00:00+01:00",
-      "predicted_occupancy": 90.0
-    },
-    {
-      "facility": "Dante-Winter-Warmfreibad",
-      "timestamp": "2026-01-26T08:00:00+01:00",
-      "predicted_occupancy": 88.8
-    },
-    {
-      "facility": "Dantebad",
-      "timestamp": "2026-01-26T08:00:00+01:00",
-      "predicted_occupancy": 91.3
-    },
-    {
-      "facility": "Olympia-Schwimmhalle",
-      "timestamp": "2026-01-26T08:00:00+01:00",
-      "predicted_occupancy": 87.4
-    },
-    {
-      "facility": "Prinzregentenstadion - Eislaufbahn",
-      "timestamp": "2026-01-26T08:00:00+01:00",
-      "predicted_occupancy": 96.9
-    },
-    {
-      "facility": "Bad Giesing-Harlaching",
-      "timestamp": "2026-01-26T09:00:00+01:00",
-      "predicted_occupancy": 85.4
-    },
-    {
-      "facility": "Cosimawellenbad",
-      "timestamp": "2026-01-26T09:00:00+01:00",
-      "predicted_occupancy": 91.5
-    },
-    {
-      "facility": "Cosimawellenbad Sauna",
-      "timestamp": "2026-01-26T09:00:00+01:00",
-      "predicted_occupancy": 92.4
-    },
-    {
-      "facility": "Dantebad Sauna",
-      "timestamp": "2026-01-26T09:00:00+01:00",
-      "predicted_occupancy": 84.5
-    },
-    {
-      "facility": "Michaelibad",
-      "timestamp": "2026-01-26T09:00:00+01:00",
-      "predicted_occupancy": 84.1
-    },
-    {
-      "facility": "Michaelibad Sauna",
-      "timestamp": "2026-01-26T09:00:00+01:00",
-      "predicted_occupancy": 89.0
-    },
-    {
-      "facility": "M\u00fcller'sches Volksbad",
-      "timestamp": "2026-01-26T09:00:00+01:00",
-      "predicted_occupancy": 78.8
-    },
-    {
-      "facility": "Nordbad",
-      "timestamp": "2026-01-26T09:00:00+01:00",
-      "predicted_occupancy": 76.9
-    },
-    {
-      "facility": "Nordbad Sauna",
-      "timestamp": "2026-01-26T09:00:00+01:00",
-      "predicted_occupancy": 91.4
-    },
-    {
-      "facility": "S\u00fcdbad",
-      "timestamp": "2026-01-26T09:00:00+01:00",
-      "predicted_occupancy": 80.8
-    },
-    {
-      "facility": "S\u00fcdbad Sauna",
-      "timestamp": "2026-01-26T09:00:00+01:00",
-      "predicted_occupancy": 88.5
-    },
-    {
-      "facility": "Westbad",
-      "timestamp": "2026-01-26T09:00:00+01:00",
-      "predicted_occupancy": 86.9
-    },
-    {
-      "facility": "Westbad Sauna",
-      "timestamp": "2026-01-26T09:00:00+01:00",
-      "predicted_occupancy": 83.7
-    },
-    {
-      "facility": "Dante-Winter-Warmfreibad",
-      "timestamp": "2026-01-26T09:00:00+01:00",
-      "predicted_occupancy": 84.9
-    },
-    {
-      "facility": "Dantebad",
-      "timestamp": "2026-01-26T09:00:00+01:00",
-      "predicted_occupancy": 84.8
-    },
-    {
-      "facility": "Olympia-Schwimmhalle",
-      "timestamp": "2026-01-26T09:00:00+01:00",
-      "predicted_occupancy": 82.7
-    },
-    {
-      "facility": "Prinzregentenstadion - Eislaufbahn",
-      "timestamp": "2026-01-26T09:00:00+01:00",
-      "predicted_occupancy": 93.2
-    },
-    {
-      "facility": "Bad Giesing-Harlaching",
-      "timestamp": "2026-01-26T10:00:00+01:00",
-      "predicted_occupancy": 83.9
-    },
-    {
-      "facility": "Cosimawellenbad",
-      "timestamp": "2026-01-26T10:00:00+01:00",
-      "predicted_occupancy": 87.0
-    },
-    {
-      "facility": "Cosimawellenbad Sauna",
-      "timestamp": "2026-01-26T10:00:00+01:00",
-      "predicted_occupancy": 87.9
-    },
-    {
-      "facility": "Dantebad Sauna",
-      "timestamp": "2026-01-26T10:00:00+01:00",
-      "predicted_occupancy": 75.8
-    },
-    {
-      "facility": "Michaelibad",
-      "timestamp": "2026-01-26T10:00:00+01:00",
-      "predicted_occupancy": 80.4
-    },
-    {
-      "facility": "Michaelibad Sauna",
-      "timestamp": "2026-01-26T10:00:00+01:00",
-      "predicted_occupancy": 86.6
-    },
-    {
-      "facility": "M\u00fcller'sches Volksbad",
-      "timestamp": "2026-01-26T10:00:00+01:00",
-      "predicted_occupancy": 75.5
-    },
-    {
-      "facility": "Nordbad",
-      "timestamp": "2026-01-26T10:00:00+01:00",
-      "predicted_occupancy": 72.3
-    },
-    {
-      "facility": "Nordbad Sauna",
-      "timestamp": "2026-01-26T10:00:00+01:00",
-      "predicted_occupancy": 86.7
-    },
-    {
-      "facility": "S\u00fcdbad",
-      "timestamp": "2026-01-26T10:00:00+01:00",
-      "predicted_occupancy": 76.3
-    },
-    {
-      "facility": "S\u00fcdbad Sauna",
-      "timestamp": "2026-01-26T10:00:00+01:00",
-      "predicted_occupancy": 83.1
-    },
-    {
-      "facility": "Westbad",
-      "timestamp": "2026-01-26T10:00:00+01:00",
-      "predicted_occupancy": 83.4
-    },
-    {
-      "facility": "Westbad Sauna",
-      "timestamp": "2026-01-26T10:00:00+01:00",
-      "predicted_occupancy": 76.5
-    },
-    {
-      "facility": "Dante-Winter-Warmfreibad",
-      "timestamp": "2026-01-26T10:00:00+01:00",
-      "predicted_occupancy": 84.8
-    },
-    {
-      "facility": "Dantebad",
-      "timestamp": "2026-01-26T10:00:00+01:00",
-      "predicted_occupancy": 75.2
-    },
-    {
-      "facility": "Olympia-Schwimmhalle",
-      "timestamp": "2026-01-26T10:00:00+01:00",
-      "predicted_occupancy": 83.3
-    },
-    {
-      "facility": "Prinzregentenstadion - Eislaufbahn",
-      "timestamp": "2026-01-26T10:00:00+01:00",
-      "predicted_occupancy": 86.3
-    },
-    {
-      "facility": "Bad Giesing-Harlaching",
-      "timestamp": "2026-01-26T11:00:00+01:00",
-      "predicted_occupancy": 84.1
-    },
-    {
-      "facility": "Cosimawellenbad",
-      "timestamp": "2026-01-26T11:00:00+01:00",
-      "predicted_occupancy": 86.8
-    },
-    {
-      "facility": "Cosimawellenbad Sauna",
-      "timestamp": "2026-01-26T11:00:00+01:00",
-      "predicted_occupancy": 87.9
-    },
-    {
-      "facility": "Dantebad Sauna",
-      "timestamp": "2026-01-26T11:00:00+01:00",
-      "predicted_occupancy": 75.0
-    },
-    {
-      "facility": "Michaelibad",
-      "timestamp": "2026-01-26T11:00:00+01:00",
-      "predicted_occupancy": 79.3
-    },
-    {
-      "facility": "Michaelibad Sauna",
-      "timestamp": "2026-01-26T11:00:00+01:00",
-      "predicted_occupancy": 86.6
-    },
-    {
-      "facility": "M\u00fcller'sches Volksbad",
-      "timestamp": "2026-01-26T11:00:00+01:00",
-      "predicted_occupancy": 74.7
-    },
-    {
-      "facility": "Nordbad",
-      "timestamp": "2026-01-26T11:00:00+01:00",
-      "predicted_occupancy": 72.3
-    },
-    {
-      "facility": "Nordbad Sauna",
-      "timestamp": "2026-01-26T11:00:00+01:00",
-      "predicted_occupancy": 86.4
-    },
-    {
-      "facility": "S\u00fcdbad",
-      "timestamp": "2026-01-26T11:00:00+01:00",
-      "predicted_occupancy": 75.6
-    },
-    {
-      "facility": "S\u00fcdbad Sauna",
-      "timestamp": "2026-01-26T11:00:00+01:00",
-      "predicted_occupancy": 82.7
-    },
-    {
-      "facility": "Westbad",
-      "timestamp": "2026-01-26T11:00:00+01:00",
-      "predicted_occupancy": 83.4
-    },
-    {
-      "facility": "Westbad Sauna",
-      "timestamp": "2026-01-26T11:00:00+01:00",
-      "predicted_occupancy": 76.3
-    },
-    {
-      "facility": "Dante-Winter-Warmfreibad",
-      "timestamp": "2026-01-26T11:00:00+01:00",
-      "predicted_occupancy": 84.8
-    },
-    {
-      "facility": "Dantebad",
-      "timestamp": "2026-01-26T11:00:00+01:00",
-      "predicted_occupancy": 74.6
-    },
-    {
-      "facility": "Olympia-Schwimmhalle",
-      "timestamp": "2026-01-26T11:00:00+01:00",
-      "predicted_occupancy": 83.0
-    },
-    {
-      "facility": "Prinzregentenstadion - Eislaufbahn",
-      "timestamp": "2026-01-26T11:00:00+01:00",
-      "predicted_occupancy": 86.3
-    },
-    {
-      "facility": "Bad Giesing-Harlaching",
-      "timestamp": "2026-01-26T12:00:00+01:00",
-      "predicted_occupancy": 85.0
-    },
-    {
-      "facility": "Cosimawellenbad",
-      "timestamp": "2026-01-26T12:00:00+01:00",
-      "predicted_occupancy": 88.6
-    },
-    {
-      "facility": "Cosimawellenbad Sauna",
-      "timestamp": "2026-01-26T12:00:00+01:00",
-      "predicted_occupancy": 88.0
-    },
-    {
-      "facility": "Dantebad Sauna",
-      "timestamp": "2026-01-26T12:00:00+01:00",
-      "predicted_occupancy": 74.9
-    },
-    {
-      "facility": "Michaelibad",
-      "timestamp": "2026-01-26T12:00:00+01:00",
-      "predicted_occupancy": 79.6
-    },
-    {
-      "facility": "Michaelibad Sauna",
-      "timestamp": "2026-01-26T12:00:00+01:00",
-      "predicted_occupancy": 86.7
-    },
-    {
-      "facility": "M\u00fcller'sches Volksbad",
-      "timestamp": "2026-01-26T12:00:00+01:00",
-      "predicted_occupancy": 75.4
-    },
-    {
-      "facility": "Nordbad",
-      "timestamp": "2026-01-26T12:00:00+01:00",
-      "predicted_occupancy": 73.6
-    },
-    {
-      "facility": "Nordbad Sauna",
-      "timestamp": "2026-01-26T12:00:00+01:00",
-      "predicted_occupancy": 86.7
-    },
-    {
-      "facility": "S\u00fcdbad",
-      "timestamp": "2026-01-26T12:00:00+01:00",
-      "predicted_occupancy": 76.2
-    },
-    {
-      "facility": "S\u00fcdbad Sauna",
-      "timestamp": "2026-01-26T12:00:00+01:00",
-      "predicted_occupancy": 82.4
-    },
-    {
-      "facility": "Westbad",
-      "timestamp": "2026-01-26T12:00:00+01:00",
-      "predicted_occupancy": 84.4
-    },
-    {
-      "facility": "Westbad Sauna",
-      "timestamp": "2026-01-26T12:00:00+01:00",
-      "predicted_occupancy": 76.6
-    },
-    {
-      "facility": "Dante-Winter-Warmfreibad",
-      "timestamp": "2026-01-26T12:00:00+01:00",
-      "predicted_occupancy": 84.8
-    },
-    {
-      "facility": "Dantebad",
-      "timestamp": "2026-01-26T12:00:00+01:00",
-      "predicted_occupancy": 74.5
-    },
-    {
-      "facility": "Olympia-Schwimmhalle",
-      "timestamp": "2026-01-26T12:00:00+01:00",
-      "predicted_occupancy": 83.8
-    },
-    {
-      "facility": "Prinzregentenstadion - Eislaufbahn",
-      "timestamp": "2026-01-26T12:00:00+01:00",
-      "predicted_occupancy": 89.1
-    },
-    {
-      "facility": "Bad Giesing-Harlaching",
-      "timestamp": "2026-01-26T13:00:00+01:00",
-      "predicted_occupancy": 85.7
-    },
-    {
-      "facility": "Cosimawellenbad",
-      "timestamp": "2026-01-26T13:00:00+01:00",
-      "predicted_occupancy": 90.2
-    },
-    {
-      "facility": "Cosimawellenbad Sauna",
-      "timestamp": "2026-01-26T13:00:00+01:00",
-      "predicted_occupancy": 88.0
-    },
-    {
-      "facility": "Dantebad Sauna",
-      "timestamp": "2026-01-26T13:00:00+01:00",
-      "predicted_occupancy": 77.1
-    },
-    {
-      "facility": "Michaelibad",
-      "timestamp": "2026-01-26T13:00:00+01:00",
-      "predicted_occupancy": 83.5
-    },
-    {
-      "facility": "Michaelibad Sauna",
-      "timestamp": "2026-01-26T13:00:00+01:00",
-      "predicted_occupancy": 86.4
-    },
-    {
-      "facility": "M\u00fcller'sches Volksbad",
-      "timestamp": "2026-01-26T13:00:00+01:00",
-      "predicted_occupancy": 80.6
-    },
-    {
-      "facility": "Nordbad",
-      "timestamp": "2026-01-26T13:00:00+01:00",
-      "predicted_occupancy": 77.2
-    },
-    {
-      "facility": "Nordbad Sauna",
-      "timestamp": "2026-01-26T13:00:00+01:00",
-      "predicted_occupancy": 86.4
-    },
-    {
-      "facility": "S\u00fcdbad",
-      "timestamp": "2026-01-26T13:00:00+01:00",
-      "predicted_occupancy": 81.0
-    },
-    {
-      "facility": "S\u00fcdbad Sauna",
-      "timestamp": "2026-01-26T13:00:00+01:00",
-      "predicted_occupancy": 82.4
-    },
-    {
-      "facility": "Westbad",
-      "timestamp": "2026-01-26T13:00:00+01:00",
-      "predicted_occupancy": 86.2
-    },
-    {
-      "facility": "Westbad Sauna",
-      "timestamp": "2026-01-26T13:00:00+01:00",
-      "predicted_occupancy": 78.3
-    },
-    {
-      "facility": "Dante-Winter-Warmfreibad",
-      "timestamp": "2026-01-26T13:00:00+01:00",
-      "predicted_occupancy": 85.6
-    },
-    {
-      "facility": "Dantebad",
-      "timestamp": "2026-01-26T13:00:00+01:00",
-      "predicted_occupancy": 76.3
-    },
-    {
-      "facility": "Olympia-Schwimmhalle",
-      "timestamp": "2026-01-26T13:00:00+01:00",
-      "predicted_occupancy": 85.4
-    },
-    {
-      "facility": "Prinzregentenstadion - Eislaufbahn",
-      "timestamp": "2026-01-26T13:00:00+01:00",
-      "predicted_occupancy": 90.0
-    },
-    {
-      "facility": "Bad Giesing-Harlaching",
-      "timestamp": "2026-01-26T14:00:00+01:00",
-      "predicted_occupancy": 85.5
-    },
-    {
-      "facility": "Cosimawellenbad",
-      "timestamp": "2026-01-26T14:00:00+01:00",
-      "predicted_occupancy": 90.0
-    },
-    {
-      "facility": "Cosimawellenbad Sauna",
-      "timestamp": "2026-01-26T14:00:00+01:00",
-      "predicted_occupancy": 87.1
-    },
-    {
-      "facility": "Dantebad Sauna",
-      "timestamp": "2026-01-26T14:00:00+01:00",
-      "predicted_occupancy": 76.0
-    },
-    {
-      "facility": "Michaelibad",
-      "timestamp": "2026-01-26T14:00:00+01:00",
-      "predicted_occupancy": 82.9
-    },
-    {
-      "facility": "Michaelibad Sauna",
-      "timestamp": "2026-01-26T14:00:00+01:00",
-      "predicted_occupancy": 86.2
-    },
-    {
-      "facility": "M\u00fcller'sches Volksbad",
-      "timestamp": "2026-01-26T14:00:00+01:00",
-      "predicted_occupancy": 79.9
-    },
-    {
-      "facility": "Nordbad",
-      "timestamp": "2026-01-26T14:00:00+01:00",
-      "predicted_occupancy": 76.9
-    },
-    {
-      "facility": "Nordbad Sauna",
-      "timestamp": "2026-01-26T14:00:00+01:00",
-      "predicted_occupancy": 86.1
-    },
-    {
-      "facility": "S\u00fcdbad",
-      "timestamp": "2026-01-26T14:00:00+01:00",
-      "predicted_occupancy": 80.7
-    },
-    {
-      "facility": "S\u00fcdbad Sauna",
-      "timestamp": "2026-01-26T14:00:00+01:00",
-      "predicted_occupancy": 81.0
-    },
-    {
-      "facility": "Westbad",
-      "timestamp": "2026-01-26T14:00:00+01:00",
-      "predicted_occupancy": 86.0
-    },
-    {
-      "facility": "Westbad Sauna",
-      "timestamp": "2026-01-26T14:00:00+01:00",
-      "predicted_occupancy": 77.4
-    },
-    {
-      "facility": "Dante-Winter-Warmfreibad",
-      "timestamp": "2026-01-26T14:00:00+01:00",
-      "predicted_occupancy": 85.3
-    },
-    {
-      "facility": "Dantebad",
-      "timestamp": "2026-01-26T14:00:00+01:00",
-      "predicted_occupancy": 75.1
-    },
-    {
-      "facility": "Olympia-Schwimmhalle",
-      "timestamp": "2026-01-26T14:00:00+01:00",
-      "predicted_occupancy": 85.1
-    },
-    {
-      "facility": "Prinzregentenstadion - Eislaufbahn",
-      "timestamp": "2026-01-26T14:00:00+01:00",
-      "predicted_occupancy": 89.8
-    },
-    {
-      "facility": "Bad Giesing-Harlaching",
-      "timestamp": "2026-01-26T15:00:00+01:00",
-      "predicted_occupancy": 85.2
-    },
-    {
-      "facility": "Cosimawellenbad",
-      "timestamp": "2026-01-26T15:00:00+01:00",
-      "predicted_occupancy": 88.7
-    },
-    {
-      "facility": "Cosimawellenbad Sauna",
-      "timestamp": "2026-01-26T15:00:00+01:00",
-      "predicted_occupancy": 87.3
-    },
-    {
-      "facility": "Dantebad Sauna",
-      "timestamp": "2026-01-26T15:00:00+01:00",
-      "predicted_occupancy": 74.7
-    },
-    {
-      "facility": "Michaelibad",
-      "timestamp": "2026-01-26T15:00:00+01:00",
-      "predicted_occupancy": 80.8
-    },
-    {
-      "facility": "Michaelibad Sauna",
-      "timestamp": "2026-01-26T15:00:00+01:00",
-      "predicted_occupancy": 85.9
-    },
-    {
-      "facility": "M\u00fcller'sches Volksbad",
-      "timestamp": "2026-01-26T15:00:00+01:00",
-      "predicted_occupancy": 78.1
-    },
-    {
-      "facility": "Nordbad",
-      "timestamp": "2026-01-26T15:00:00+01:00",
-      "predicted_occupancy": 75.8
-    },
-    {
-      "facility": "Nordbad Sauna",
-      "timestamp": "2026-01-26T15:00:00+01:00",
-      "predicted_occupancy": 85.7
-    },
-    {
-      "facility": "S\u00fcdbad",
-      "timestamp": "2026-01-26T15:00:00+01:00",
-      "predicted_occupancy": 79.3
-    },
-    {
-      "facility": "S\u00fcdbad Sauna",
-      "timestamp": "2026-01-26T15:00:00+01:00",
-      "predicted_occupancy": 80.2
-    },
-    {
-      "facility": "Westbad",
-      "timestamp": "2026-01-26T15:00:00+01:00",
-      "predicted_occupancy": 85.2
-    },
-    {
-      "facility": "Westbad Sauna",
-      "timestamp": "2026-01-26T15:00:00+01:00",
-      "predicted_occupancy": 77.1
-    },
-    {
-      "facility": "Dante-Winter-Warmfreibad",
-      "timestamp": "2026-01-26T15:00:00+01:00",
-      "predicted_occupancy": 85.2
-    },
-    {
-      "facility": "Dantebad",
-      "timestamp": "2026-01-26T15:00:00+01:00",
-      "predicted_occupancy": 74.6
-    },
-    {
-      "facility": "Olympia-Schwimmhalle",
-      "timestamp": "2026-01-26T15:00:00+01:00",
-      "predicted_occupancy": 84.7
-    },
-    {
-      "facility": "Prinzregentenstadion - Eislaufbahn",
-      "timestamp": "2026-01-26T15:00:00+01:00",
-      "predicted_occupancy": 88.7
-    },
-    {
-      "facility": "Bad Giesing-Harlaching",
-      "timestamp": "2026-01-26T16:00:00+01:00",
-      "predicted_occupancy": 77.5
-    },
-    {
-      "facility": "Cosimawellenbad",
-      "timestamp": "2026-01-26T16:00:00+01:00",
-      "predicted_occupancy": 84.7
-    },
-    {
-      "facility": "Cosimawellenbad Sauna",
-      "timestamp": "2026-01-26T16:00:00+01:00",
-      "predicted_occupancy": 83.3
-    },
-    {
-      "facility": "Dantebad Sauna",
-      "timestamp": "2026-01-26T16:00:00+01:00",
-      "predicted_occupancy": 70.3
-    },
-    {
-      "facility": "Michaelibad",
-      "timestamp": "2026-01-26T16:00:00+01:00",
-      "predicted_occupancy": 74.9
-    },
-    {
-      "facility": "Michaelibad Sauna",
-      "timestamp": "2026-01-26T16:00:00+01:00",
-      "predicted_occupancy": 80.0
-    },
-    {
-      "facility": "M\u00fcller'sches Volksbad",
-      "timestamp": "2026-01-26T16:00:00+01:00",
-      "predicted_occupancy": 69.0
-    },
-    {
-      "facility": "Nordbad",
-      "timestamp": "2026-01-26T16:00:00+01:00",
-      "predicted_occupancy": 68.6
-    },
-    {
-      "facility": "Nordbad Sauna",
-      "timestamp": "2026-01-26T16:00:00+01:00",
-      "predicted_occupancy": 80.7
-    },
-    {
-      "facility": "S\u00fcdbad",
-      "timestamp": "2026-01-26T16:00:00+01:00",
-      "predicted_occupancy": 70.0
-    },
-    {
-      "facility": "S\u00fcdbad Sauna",
-      "timestamp": "2026-01-26T16:00:00+01:00",
-      "predicted_occupancy": 74.8
-    },
-    {
-      "facility": "Westbad",
-      "timestamp": "2026-01-26T16:00:00+01:00",
-      "predicted_occupancy": 80.1
-    },
-    {
-      "facility": "Westbad Sauna",
-      "timestamp": "2026-01-26T16:00:00+01:00",
-      "predicted_occupancy": 72.7
-    },
-    {
-      "facility": "Dante-Winter-Warmfreibad",
-      "timestamp": "2026-01-26T16:00:00+01:00",
-      "predicted_occupancy": 80.9
-    },
-    {
-      "facility": "Dantebad",
-      "timestamp": "2026-01-26T16:00:00+01:00",
-      "predicted_occupancy": 71.8
-    },
-    {
-      "facility": "Olympia-Schwimmhalle",
-      "timestamp": "2026-01-26T16:00:00+01:00",
-      "predicted_occupancy": 76.3
-    },
-    {
-      "facility": "Prinzregentenstadion - Eislaufbahn",
-      "timestamp": "2026-01-26T16:00:00+01:00",
-      "predicted_occupancy": 85.1
-    },
-    {
-      "facility": "Bad Giesing-Harlaching",
-      "timestamp": "2026-01-26T17:00:00+01:00",
-      "predicted_occupancy": 71.0
-    },
-    {
-      "facility": "Cosimawellenbad",
-      "timestamp": "2026-01-26T17:00:00+01:00",
-      "predicted_occupancy": 82.3
-    },
-    {
-      "facility": "Cosimawellenbad Sauna",
-      "timestamp": "2026-01-26T17:00:00+01:00",
-      "predicted_occupancy": 79.5
-    },
-    {
-      "facility": "Dantebad Sauna",
-      "timestamp": "2026-01-26T17:00:00+01:00",
-      "predicted_occupancy": 66.3
-    },
-    {
-      "facility": "Michaelibad",
-      "timestamp": "2026-01-26T17:00:00+01:00",
-      "predicted_occupancy": 70.4
-    },
-    {
-      "facility": "Michaelibad Sauna",
-      "timestamp": "2026-01-26T17:00:00+01:00",
-      "predicted_occupancy": 73.6
-    },
-    {
-      "facility": "M\u00fcller'sches Volksbad",
-      "timestamp": "2026-01-26T17:00:00+01:00",
-      "predicted_occupancy": 62.1
-    },
-    {
-      "facility": "Nordbad",
-      "timestamp": "2026-01-26T17:00:00+01:00",
-      "predicted_occupancy": 61.6
-    },
-    {
-      "facility": "Nordbad Sauna",
-      "timestamp": "2026-01-26T17:00:00+01:00",
-      "predicted_occupancy": 76.3
-    },
-    {
-      "facility": "S\u00fcdbad",
-      "timestamp": "2026-01-26T17:00:00+01:00",
-      "predicted_occupancy": 65.0
-    },
-    {
-      "facility": "S\u00fcdbad Sauna",
-      "timestamp": "2026-01-26T17:00:00+01:00",
-      "predicted_occupancy": 70.2
-    },
-    {
-      "facility": "Westbad",
-      "timestamp": "2026-01-26T17:00:00+01:00",
-      "predicted_occupancy": 77.4
-    },
-    {
-      "facility": "Westbad Sauna",
-      "timestamp": "2026-01-26T17:00:00+01:00",
-      "predicted_occupancy": 68.8
-    },
-    {
-      "facility": "Dante-Winter-Warmfreibad",
-      "timestamp": "2026-01-26T17:00:00+01:00",
-      "predicted_occupancy": 76.5
-    },
-    {
-      "facility": "Dantebad",
-      "timestamp": "2026-01-26T17:00:00+01:00",
-      "predicted_occupancy": 67.9
-    },
-    {
-      "facility": "Olympia-Schwimmhalle",
-      "timestamp": "2026-01-26T17:00:00+01:00",
-      "predicted_occupancy": 69.2
-    },
-    {
-      "facility": "Prinzregentenstadion - Eislaufbahn",
-      "timestamp": "2026-01-26T17:00:00+01:00",
-      "predicted_occupancy": 83.1
-    },
-    {
-      "facility": "Bad Giesing-Harlaching",
-      "timestamp": "2026-01-26T18:00:00+01:00",
-      "predicted_occupancy": 71.4
-    },
-    {
-      "facility": "Cosimawellenbad",
-      "timestamp": "2026-01-26T18:00:00+01:00",
-      "predicted_occupancy": 83.4
-    },
-    {
-      "facility": "Cosimawellenbad Sauna",
-      "timestamp": "2026-01-26T18:00:00+01:00",
-      "predicted_occupancy": 79.3
-    },
-    {
-      "facility": "Dantebad Sauna",
-      "timestamp": "2026-01-26T18:00:00+01:00",
-      "predicted_occupancy": 65.2
-    },
-    {
-      "facility": "Michaelibad",
-      "timestamp": "2026-01-26T18:00:00+01:00",
-      "predicted_occupancy": 70.6
-    },
-    {
-      "facility": "Michaelibad Sauna",
-      "timestamp": "2026-01-26T18:00:00+01:00",
-      "predicted_occupancy": 73.6
-    },
-    {
-      "facility": "M\u00fcller'sches Volksbad",
-      "timestamp": "2026-01-26T18:00:00+01:00",
-      "predicted_occupancy": 60.7
-    },
-    {
-      "facility": "Nordbad",
-      "timestamp": "2026-01-26T18:00:00+01:00",
-      "predicted_occupancy": 59.5
-    },
-    {
-      "facility": "Nordbad Sauna",
-      "timestamp": "2026-01-26T18:00:00+01:00",
-      "predicted_occupancy": 76.0
-    },
-    {
-      "facility": "S\u00fcdbad",
-      "timestamp": "2026-01-26T18:00:00+01:00",
-      "predicted_occupancy": 65.9
-    },
-    {
-      "facility": "S\u00fcdbad Sauna",
-      "timestamp": "2026-01-26T18:00:00+01:00",
-      "predicted_occupancy": 68.9
-    },
-    {
-      "facility": "Westbad",
-      "timestamp": "2026-01-26T18:00:00+01:00",
-      "predicted_occupancy": 78.6
-    },
-    {
-      "facility": "Westbad Sauna",
-      "timestamp": "2026-01-26T18:00:00+01:00",
-      "predicted_occupancy": 66.9
-    },
-    {
-      "facility": "Dante-Winter-Warmfreibad",
-      "timestamp": "2026-01-26T18:00:00+01:00",
-      "predicted_occupancy": 76.2
-    },
-    {
-      "facility": "Dantebad",
-      "timestamp": "2026-01-26T18:00:00+01:00",
-      "predicted_occupancy": 65.9
-    },
-    {
-      "facility": "Olympia-Schwimmhalle",
-      "timestamp": "2026-01-26T18:00:00+01:00",
-      "predicted_occupancy": 69.4
-    },
-    {
-      "facility": "Prinzregentenstadion - Eislaufbahn",
-      "timestamp": "2026-01-26T18:00:00+01:00",
-      "predicted_occupancy": 84.6
-    },
-    {
-      "facility": "Bad Giesing-Harlaching",
-      "timestamp": "2026-01-26T19:00:00+01:00",
-      "predicted_occupancy": 75.2
-    },
-    {
-      "facility": "Cosimawellenbad",
-      "timestamp": "2026-01-26T19:00:00+01:00",
-      "predicted_occupancy": 84.9
-    },
-    {
-      "facility": "Cosimawellenbad Sauna",
-      "timestamp": "2026-01-26T19:00:00+01:00",
-      "predicted_occupancy": 78.0
-    },
-    {
-      "facility": "Dantebad Sauna",
-      "timestamp": "2026-01-26T19:00:00+01:00",
-      "predicted_occupancy": 64.3
-    },
-    {
-      "facility": "Michaelibad",
-      "timestamp": "2026-01-26T19:00:00+01:00",
-      "predicted_occupancy": 71.5
-    },
-    {
-      "facility": "Michaelibad Sauna",
-      "timestamp": "2026-01-26T19:00:00+01:00",
-      "predicted_occupancy": 73.5
-    },
-    {
-      "facility": "M\u00fcller'sches Volksbad",
-      "timestamp": "2026-01-26T19:00:00+01:00",
-      "predicted_occupancy": 61.4
-    },
-    {
-      "facility": "Nordbad",
-      "timestamp": "2026-01-26T19:00:00+01:00",
-      "predicted_occupancy": 60.3
-    },
-    {
-      "facility": "Nordbad Sauna",
-      "timestamp": "2026-01-26T19:00:00+01:00",
-      "predicted_occupancy": 74.7
-    },
-    {
-      "facility": "S\u00fcdbad",
-      "timestamp": "2026-01-26T19:00:00+01:00",
-      "predicted_occupancy": 66.1
-    },
-    {
-      "facility": "S\u00fcdbad Sauna",
-      "timestamp": "2026-01-26T19:00:00+01:00",
-      "predicted_occupancy": 67.9
-    },
-    {
-      "facility": "Westbad",
-      "timestamp": "2026-01-26T19:00:00+01:00",
-      "predicted_occupancy": 79.6
-    },
-    {
-      "facility": "Westbad Sauna",
-      "timestamp": "2026-01-26T19:00:00+01:00",
-      "predicted_occupancy": 64.4
-    },
-    {
-      "facility": "Dante-Winter-Warmfreibad",
-      "timestamp": "2026-01-26T19:00:00+01:00",
-      "predicted_occupancy": 77.1
-    },
-    {
-      "facility": "Dantebad",
-      "timestamp": "2026-01-26T19:00:00+01:00",
-      "predicted_occupancy": 65.2
-    },
-    {
-      "facility": "Olympia-Schwimmhalle",
-      "timestamp": "2026-01-26T19:00:00+01:00",
-      "predicted_occupancy": 68.9
-    },
-    {
-      "facility": "Prinzregentenstadion - Eislaufbahn",
-      "timestamp": "2026-01-26T19:00:00+01:00",
-      "predicted_occupancy": 87.2
-    },
-    {
-      "facility": "Bad Giesing-Harlaching",
-      "timestamp": "2026-01-26T20:00:00+01:00",
-      "predicted_occupancy": 82.0
-    },
-    {
-      "facility": "Cosimawellenbad",
-      "timestamp": "2026-01-26T20:00:00+01:00",
-      "predicted_occupancy": 86.1
-    },
-    {
-      "facility": "Cosimawellenbad Sauna",
-      "timestamp": "2026-01-26T20:00:00+01:00",
-      "predicted_occupancy": 75.1
-    },
-    {
-      "facility": "Dantebad Sauna",
-      "timestamp": "2026-01-26T20:00:00+01:00",
-      "predicted_occupancy": 53.1
-    },
-    {
-      "facility": "Michaelibad",
-      "timestamp": "2026-01-26T20:00:00+01:00",
-      "predicted_occupancy": 75.8
-    },
-    {
-      "facility": "Michaelibad Sauna",
-      "timestamp": "2026-01-26T20:00:00+01:00",
-      "predicted_occupancy": 71.4
-    },
-    {
-      "facility": "M\u00fcller'sches Volksbad",
-      "timestamp": "2026-01-26T20:00:00+01:00",
-      "predicted_occupancy": 66.1
-    },
-    {
-      "facility": "Nordbad",
-      "timestamp": "2026-01-26T20:00:00+01:00",
-      "predicted_occupancy": 63.6
-    },
-    {
-      "facility": "Nordbad Sauna",
-      "timestamp": "2026-01-26T20:00:00+01:00",
-      "predicted_occupancy": 70.4
-    },
-    {
-      "facility": "S\u00fcdbad",
-      "timestamp": "2026-01-26T20:00:00+01:00",
-      "predicted_occupancy": 71.5
-    },
-    {
-      "facility": "S\u00fcdbad Sauna",
-      "timestamp": "2026-01-26T20:00:00+01:00",
-      "predicted_occupancy": 61.8
-    },
-    {
-      "facility": "Westbad",
-      "timestamp": "2026-01-26T20:00:00+01:00",
-      "predicted_occupancy": 83.2
-    },
-    {
-      "facility": "Westbad Sauna",
-      "timestamp": "2026-01-26T20:00:00+01:00",
-      "predicted_occupancy": 54.6
-    },
-    {
-      "facility": "Dante-Winter-Warmfreibad",
-      "timestamp": "2026-01-26T20:00:00+01:00",
-      "predicted_occupancy": 80.9
-    },
-    {
-      "facility": "Dantebad",
-      "timestamp": "2026-01-26T20:00:00+01:00",
-      "predicted_occupancy": 53.2
-    },
-    {
-      "facility": "Olympia-Schwimmhalle",
-      "timestamp": "2026-01-26T20:00:00+01:00",
-      "predicted_occupancy": 70.7
-    },
-    {
-      "facility": "Prinzregentenstadion - Eislaufbahn",
-      "timestamp": "2026-01-26T20:00:00+01:00",
-      "predicted_occupancy": 86.5
-    },
-    {
-      "facility": "Bad Giesing-Harlaching",
-      "timestamp": "2026-01-26T21:00:00+01:00",
-      "predicted_occupancy": 87.7
-    },
-    {
-      "facility": "Cosimawellenbad",
-      "timestamp": "2026-01-26T21:00:00+01:00",
-      "predicted_occupancy": 90.9
-    },
-    {
-      "facility": "Cosimawellenbad Sauna",
-      "timestamp": "2026-01-26T21:00:00+01:00",
-      "predicted_occupancy": 78.5
-    },
-    {
-      "facility": "Dantebad Sauna",
-      "timestamp": "2026-01-26T21:00:00+01:00",
-      "predicted_occupancy": 59.2
-    },
-    {
-      "facility": "Michaelibad",
-      "timestamp": "2026-01-26T21:00:00+01:00",
-      "predicted_occupancy": 81.6
-    },
-    {
-      "facility": "Michaelibad Sauna",
-      "timestamp": "2026-01-26T21:00:00+01:00",
-      "predicted_occupancy": 74.7
-    },
-    {
-      "facility": "M\u00fcller'sches Volksbad",
-      "timestamp": "2026-01-26T21:00:00+01:00",
-      "predicted_occupancy": 73.0
-    },
-    {
-      "facility": "Nordbad",
-      "timestamp": "2026-01-26T21:00:00+01:00",
-      "predicted_occupancy": 69.9
-    },
-    {
-      "facility": "Nordbad Sauna",
-      "timestamp": "2026-01-26T21:00:00+01:00",
-      "predicted_occupancy": 74.0
-    },
-    {
-      "facility": "S\u00fcdbad",
-      "timestamp": "2026-01-26T21:00:00+01:00",
-      "predicted_occupancy": 78.2
-    },
-    {
-      "facility": "S\u00fcdbad Sauna",
-      "timestamp": "2026-01-26T21:00:00+01:00",
-      "predicted_occupancy": 67.4
-    },
-    {
-      "facility": "Westbad",
-      "timestamp": "2026-01-26T21:00:00+01:00",
-      "predicted_occupancy": 88.1
-    },
-    {
-      "facility": "Westbad Sauna",
-      "timestamp": "2026-01-26T21:00:00+01:00",
-      "predicted_occupancy": 61.0
-    },
-    {
-      "facility": "Dante-Winter-Warmfreibad",
-      "timestamp": "2026-01-26T21:00:00+01:00",
-      "predicted_occupancy": 84.2
-    },
-    {
-      "facility": "Dantebad",
-      "timestamp": "2026-01-26T21:00:00+01:00",
-      "predicted_occupancy": 57.6
-    },
-    {
-      "facility": "Olympia-Schwimmhalle",
-      "timestamp": "2026-01-26T21:00:00+01:00",
-      "predicted_occupancy": 76.6
-    },
-    {
-      "facility": "Prinzregentenstadion - Eislaufbahn",
-      "timestamp": "2026-01-26T21:00:00+01:00",
-      "predicted_occupancy": 92.0
-    },
-    {
-      "facility": "Bad Giesing-Harlaching",
-      "timestamp": "2026-01-26T22:00:00+01:00",
-      "predicted_occupancy": 94.2
-    },
-    {
-      "facility": "Cosimawellenbad",
-      "timestamp": "2026-01-26T22:00:00+01:00",
-      "predicted_occupancy": 95.3
-    },
-    {
-      "facility": "Cosimawellenbad Sauna",
-      "timestamp": "2026-01-26T22:00:00+01:00",
-      "predicted_occupancy": 83.2
-    },
-    {
-      "facility": "Dantebad Sauna",
-      "timestamp": "2026-01-26T22:00:00+01:00",
-      "predicted_occupancy": 73.4
-    },
-    {
-      "facility": "Michaelibad",
-      "timestamp": "2026-01-26T22:00:00+01:00",
-      "predicted_occupancy": 90.3
-    },
-    {
-      "facility": "Michaelibad Sauna",
-      "timestamp": "2026-01-26T22:00:00+01:00",
-      "predicted_occupancy": 83.6
-    },
-    {
-      "facility": "M\u00fcller'sches Volksbad",
-      "timestamp": "2026-01-26T22:00:00+01:00",
-      "predicted_occupancy": 84.8
-    },
-    {
-      "facility": "Nordbad",
-      "timestamp": "2026-01-26T22:00:00+01:00",
-      "predicted_occupancy": 84.0
-    },
-    {
-      "facility": "Nordbad Sauna",
-      "timestamp": "2026-01-26T22:00:00+01:00",
-      "predicted_occupancy": 76.8
-    },
-    {
-      "facility": "S\u00fcdbad",
-      "timestamp": "2026-01-26T22:00:00+01:00",
-      "predicted_occupancy": 90.2
-    },
-    {
-      "facility": "S\u00fcdbad Sauna",
-      "timestamp": "2026-01-26T22:00:00+01:00",
-      "predicted_occupancy": 76.8
-    },
-    {
-      "facility": "Westbad",
-      "timestamp": "2026-01-26T22:00:00+01:00",
-      "predicted_occupancy": 94.0
-    },
-    {
-      "facility": "Westbad Sauna",
-      "timestamp": "2026-01-26T22:00:00+01:00",
-      "predicted_occupancy": 71.9
-    },
-    {
-      "facility": "Dante-Winter-Warmfreibad",
-      "timestamp": "2026-01-26T22:00:00+01:00",
-      "predicted_occupancy": 91.1
-    },
-    {
-      "facility": "Dantebad",
-      "timestamp": "2026-01-26T22:00:00+01:00",
-      "predicted_occupancy": 72.6
-    },
-    {
-      "facility": "Olympia-Schwimmhalle",
-      "timestamp": "2026-01-26T22:00:00+01:00",
-      "predicted_occupancy": 86.2
-    },
-    {
-      "facility": "Prinzregentenstadion - Eislaufbahn",
-      "timestamp": "2026-01-26T22:00:00+01:00",
-      "predicted_occupancy": 95.9
-    },
-    {
-      "facility": "Bad Giesing-Harlaching",
-      "timestamp": "2026-01-26T23:00:00+01:00",
-      "predicted_occupancy": 96.5
-    },
-    {
-      "facility": "Cosimawellenbad",
-      "timestamp": "2026-01-26T23:00:00+01:00",
-      "predicted_occupancy": 98.0
-    },
-    {
-      "facility": "Cosimawellenbad Sauna",
-      "timestamp": "2026-01-26T23:00:00+01:00",
-      "predicted_occupancy": 94.3
-    },
-    {
-      "facility": "Dantebad Sauna",
-      "timestamp": "2026-01-26T23:00:00+01:00",
-      "predicted_occupancy": 94.8
-    },
-    {
-      "facility": "Michaelibad",
-      "timestamp": "2026-01-26T23:00:00+01:00",
-      "predicted_occupancy": 97.3
-    },
-    {
-      "facility": "Michaelibad Sauna",
-      "timestamp": "2026-01-26T23:00:00+01:00",
-      "predicted_occupancy": 95.5
-    },
-    {
-      "facility": "M\u00fcller'sches Volksbad",
-      "timestamp": "2026-01-26T23:00:00+01:00",
-      "predicted_occupancy": 93.0
-    },
-    {
-      "facility": "Nordbad",
-      "timestamp": "2026-01-26T23:00:00+01:00",
-      "predicted_occupancy": 93.2
-    },
-    {
-      "facility": "Nordbad Sauna",
-      "timestamp": "2026-01-26T23:00:00+01:00",
-      "predicted_occupancy": 96.1
-    },
-    {
-      "facility": "S\u00fcdbad",
-      "timestamp": "2026-01-26T23:00:00+01:00",
-      "predicted_occupancy": 95.1
-    },
-    {
-      "facility": "S\u00fcdbad Sauna",
-      "timestamp": "2026-01-26T23:00:00+01:00",
-      "predicted_occupancy": 93.9
-    },
-    {
-      "facility": "Westbad",
-      "timestamp": "2026-01-26T23:00:00+01:00",
-      "predicted_occupancy": 98.0
-    },
-    {
-      "facility": "Westbad Sauna",
-      "timestamp": "2026-01-26T23:00:00+01:00",
-      "predicted_occupancy": 93.9
-    },
-    {
-      "facility": "Dante-Winter-Warmfreibad",
-      "timestamp": "2026-01-26T23:00:00+01:00",
-      "predicted_occupancy": 96.2
-    },
-    {
-      "facility": "Dantebad",
-      "timestamp": "2026-01-26T23:00:00+01:00",
-      "predicted_occupancy": 94.1
-    },
-    {
-      "facility": "Olympia-Schwimmhalle",
-      "timestamp": "2026-01-26T23:00:00+01:00",
-      "predicted_occupancy": 94.7
-    },
-    {
-      "facility": "Prinzregentenstadion - Eislaufbahn",
-      "timestamp": "2026-01-26T23:00:00+01:00",
-      "predicted_occupancy": 98.0
-    },
-    {
-      "facility": "Bad Giesing-Harlaching",
-      "timestamp": "2026-01-27T00:00:00+01:00",
-      "predicted_occupancy": 98.3
-    },
-    {
-      "facility": "Cosimawellenbad",
-      "timestamp": "2026-01-27T00:00:00+01:00",
-      "predicted_occupancy": 100
-    },
-    {
-      "facility": "Cosimawellenbad Sauna",
-      "timestamp": "2026-01-27T00:00:00+01:00",
+      "timestamp": "2026-01-27T06:00:00+01:00",
       "predicted_occupancy": 99.2
     },
     {
-      "facility": "Dantebad Sauna",
-      "timestamp": "2026-01-27T00:00:00+01:00",
-      "predicted_occupancy": 96.4
-    },
-    {
-      "facility": "Michaelibad",
-      "timestamp": "2026-01-27T00:00:00+01:00",
-      "predicted_occupancy": 99.3
-    },
-    {
-      "facility": "Michaelibad Sauna",
-      "timestamp": "2026-01-27T00:00:00+01:00",
-      "predicted_occupancy": 98.2
-    },
-    {
-      "facility": "M\u00fcller'sches Volksbad",
-      "timestamp": "2026-01-27T00:00:00+01:00",
-      "predicted_occupancy": 96.3
-    },
-    {
-      "facility": "Nordbad",
-      "timestamp": "2026-01-27T00:00:00+01:00",
-      "predicted_occupancy": 96.1
-    },
-    {
-      "facility": "Nordbad Sauna",
-      "timestamp": "2026-01-27T00:00:00+01:00",
-      "predicted_occupancy": 99.5
-    },
-    {
-      "facility": "S\u00fcdbad",
-      "timestamp": "2026-01-27T00:00:00+01:00",
-      "predicted_occupancy": 97.0
-    },
-    {
-      "facility": "S\u00fcdbad Sauna",
-      "timestamp": "2026-01-27T00:00:00+01:00",
-      "predicted_occupancy": 96.9
-    },
-    {
-      "facility": "Westbad",
-      "timestamp": "2026-01-27T00:00:00+01:00",
-      "predicted_occupancy": 99.5
-    },
-    {
-      "facility": "Westbad Sauna",
-      "timestamp": "2026-01-27T00:00:00+01:00",
-      "predicted_occupancy": 96.5
-    },
-    {
-      "facility": "Dante-Winter-Warmfreibad",
-      "timestamp": "2026-01-27T00:00:00+01:00",
-      "predicted_occupancy": 97.9
-    },
-    {
-      "facility": "Dantebad",
-      "timestamp": "2026-01-27T00:00:00+01:00",
-      "predicted_occupancy": 96.7
-    },
-    {
-      "facility": "Olympia-Schwimmhalle",
-      "timestamp": "2026-01-27T00:00:00+01:00",
-      "predicted_occupancy": 97.5
-    },
-    {
-      "facility": "Prinzregentenstadion - Eislaufbahn",
-      "timestamp": "2026-01-27T00:00:00+01:00",
-      "predicted_occupancy": 100
-    },
-    {
-      "facility": "Bad Giesing-Harlaching",
-      "timestamp": "2026-01-27T01:00:00+01:00",
-      "predicted_occupancy": 98.3
-    },
-    {
       "facility": "Cosimawellenbad",
-      "timestamp": "2026-01-27T01:00:00+01:00",
+      "timestamp": "2026-01-27T06:00:00+01:00",
       "predicted_occupancy": 100
     },
     {
       "facility": "Cosimawellenbad Sauna",
-      "timestamp": "2026-01-27T01:00:00+01:00",
-      "predicted_occupancy": 99.2
+      "timestamp": "2026-01-27T06:00:00+01:00",
+      "predicted_occupancy": 99.6
     },
     {
       "facility": "Dantebad Sauna",
-      "timestamp": "2026-01-27T01:00:00+01:00",
-      "predicted_occupancy": 96.4
-    },
-    {
-      "facility": "Michaelibad",
-      "timestamp": "2026-01-27T01:00:00+01:00",
-      "predicted_occupancy": 99.3
-    },
-    {
-      "facility": "Michaelibad Sauna",
-      "timestamp": "2026-01-27T01:00:00+01:00",
-      "predicted_occupancy": 98.2
-    },
-    {
-      "facility": "M\u00fcller'sches Volksbad",
-      "timestamp": "2026-01-27T01:00:00+01:00",
-      "predicted_occupancy": 96.3
-    },
-    {
-      "facility": "Nordbad",
-      "timestamp": "2026-01-27T01:00:00+01:00",
-      "predicted_occupancy": 96.1
-    },
-    {
-      "facility": "Nordbad Sauna",
-      "timestamp": "2026-01-27T01:00:00+01:00",
-      "predicted_occupancy": 99.5
-    },
-    {
-      "facility": "S\u00fcdbad",
-      "timestamp": "2026-01-27T01:00:00+01:00",
-      "predicted_occupancy": 97.0
-    },
-    {
-      "facility": "S\u00fcdbad Sauna",
-      "timestamp": "2026-01-27T01:00:00+01:00",
-      "predicted_occupancy": 96.9
-    },
-    {
-      "facility": "Westbad",
-      "timestamp": "2026-01-27T01:00:00+01:00",
-      "predicted_occupancy": 99.5
-    },
-    {
-      "facility": "Westbad Sauna",
-      "timestamp": "2026-01-27T01:00:00+01:00",
-      "predicted_occupancy": 96.5
-    },
-    {
-      "facility": "Dante-Winter-Warmfreibad",
-      "timestamp": "2026-01-27T01:00:00+01:00",
-      "predicted_occupancy": 97.9
-    },
-    {
-      "facility": "Dantebad",
-      "timestamp": "2026-01-27T01:00:00+01:00",
-      "predicted_occupancy": 96.7
-    },
-    {
-      "facility": "Olympia-Schwimmhalle",
-      "timestamp": "2026-01-27T01:00:00+01:00",
-      "predicted_occupancy": 97.5
-    },
-    {
-      "facility": "Prinzregentenstadion - Eislaufbahn",
-      "timestamp": "2026-01-27T01:00:00+01:00",
-      "predicted_occupancy": 100
-    },
-    {
-      "facility": "Bad Giesing-Harlaching",
-      "timestamp": "2026-01-27T02:00:00+01:00",
-      "predicted_occupancy": 98.4
-    },
-    {
-      "facility": "Cosimawellenbad",
-      "timestamp": "2026-01-27T02:00:00+01:00",
-      "predicted_occupancy": 100
-    },
-    {
-      "facility": "Cosimawellenbad Sauna",
-      "timestamp": "2026-01-27T02:00:00+01:00",
-      "predicted_occupancy": 99.3
-    },
-    {
-      "facility": "Dantebad Sauna",
-      "timestamp": "2026-01-27T02:00:00+01:00",
-      "predicted_occupancy": 96.4
-    },
-    {
-      "facility": "Michaelibad",
-      "timestamp": "2026-01-27T02:00:00+01:00",
-      "predicted_occupancy": 99.3
-    },
-    {
-      "facility": "Michaelibad Sauna",
-      "timestamp": "2026-01-27T02:00:00+01:00",
-      "predicted_occupancy": 98.3
-    },
-    {
-      "facility": "M\u00fcller'sches Volksbad",
-      "timestamp": "2026-01-27T02:00:00+01:00",
-      "predicted_occupancy": 96.3
-    },
-    {
-      "facility": "Nordbad",
-      "timestamp": "2026-01-27T02:00:00+01:00",
-      "predicted_occupancy": 96.1
-    },
-    {
-      "facility": "Nordbad Sauna",
-      "timestamp": "2026-01-27T02:00:00+01:00",
-      "predicted_occupancy": 99.5
-    },
-    {
-      "facility": "S\u00fcdbad",
-      "timestamp": "2026-01-27T02:00:00+01:00",
-      "predicted_occupancy": 97.0
-    },
-    {
-      "facility": "S\u00fcdbad Sauna",
-      "timestamp": "2026-01-27T02:00:00+01:00",
-      "predicted_occupancy": 97.0
-    },
-    {
-      "facility": "Westbad",
-      "timestamp": "2026-01-27T02:00:00+01:00",
-      "predicted_occupancy": 99.5
-    },
-    {
-      "facility": "Westbad Sauna",
-      "timestamp": "2026-01-27T02:00:00+01:00",
-      "predicted_occupancy": 96.5
-    },
-    {
-      "facility": "Dante-Winter-Warmfreibad",
-      "timestamp": "2026-01-27T02:00:00+01:00",
-      "predicted_occupancy": 98.0
-    },
-    {
-      "facility": "Dantebad",
-      "timestamp": "2026-01-27T02:00:00+01:00",
-      "predicted_occupancy": 96.7
-    },
-    {
-      "facility": "Olympia-Schwimmhalle",
-      "timestamp": "2026-01-27T02:00:00+01:00",
-      "predicted_occupancy": 97.5
-    },
-    {
-      "facility": "Prinzregentenstadion - Eislaufbahn",
-      "timestamp": "2026-01-27T02:00:00+01:00",
-      "predicted_occupancy": 100
-    },
-    {
-      "facility": "Bad Giesing-Harlaching",
-      "timestamp": "2026-01-27T03:00:00+01:00",
-      "predicted_occupancy": 98.2
-    },
-    {
-      "facility": "Cosimawellenbad",
-      "timestamp": "2026-01-27T03:00:00+01:00",
-      "predicted_occupancy": 100
-    },
-    {
-      "facility": "Cosimawellenbad Sauna",
-      "timestamp": "2026-01-27T03:00:00+01:00",
-      "predicted_occupancy": 99.1
-    },
-    {
-      "facility": "Dantebad Sauna",
-      "timestamp": "2026-01-27T03:00:00+01:00",
-      "predicted_occupancy": 96.4
-    },
-    {
-      "facility": "Michaelibad",
-      "timestamp": "2026-01-27T03:00:00+01:00",
-      "predicted_occupancy": 99.3
-    },
-    {
-      "facility": "Michaelibad Sauna",
-      "timestamp": "2026-01-27T03:00:00+01:00",
-      "predicted_occupancy": 98.3
-    },
-    {
-      "facility": "M\u00fcller'sches Volksbad",
-      "timestamp": "2026-01-27T03:00:00+01:00",
-      "predicted_occupancy": 96.1
-    },
-    {
-      "facility": "Nordbad",
-      "timestamp": "2026-01-27T03:00:00+01:00",
-      "predicted_occupancy": 95.9
-    },
-    {
-      "facility": "Nordbad Sauna",
-      "timestamp": "2026-01-27T03:00:00+01:00",
-      "predicted_occupancy": 99.5
-    },
-    {
-      "facility": "S\u00fcdbad",
-      "timestamp": "2026-01-27T03:00:00+01:00",
-      "predicted_occupancy": 97.1
-    },
-    {
-      "facility": "S\u00fcdbad Sauna",
-      "timestamp": "2026-01-27T03:00:00+01:00",
-      "predicted_occupancy": 96.8
-    },
-    {
-      "facility": "Westbad",
-      "timestamp": "2026-01-27T03:00:00+01:00",
-      "predicted_occupancy": 99.4
-    },
-    {
-      "facility": "Westbad Sauna",
-      "timestamp": "2026-01-27T03:00:00+01:00",
-      "predicted_occupancy": 96.5
-    },
-    {
-      "facility": "Dante-Winter-Warmfreibad",
-      "timestamp": "2026-01-27T03:00:00+01:00",
-      "predicted_occupancy": 98.0
-    },
-    {
-      "facility": "Dantebad",
-      "timestamp": "2026-01-27T03:00:00+01:00",
-      "predicted_occupancy": 96.5
-    },
-    {
-      "facility": "Olympia-Schwimmhalle",
-      "timestamp": "2026-01-27T03:00:00+01:00",
-      "predicted_occupancy": 97.3
-    },
-    {
-      "facility": "Prinzregentenstadion - Eislaufbahn",
-      "timestamp": "2026-01-27T03:00:00+01:00",
-      "predicted_occupancy": 100
-    },
-    {
-      "facility": "Bad Giesing-Harlaching",
-      "timestamp": "2026-01-27T04:00:00+01:00",
-      "predicted_occupancy": 97.4
-    },
-    {
-      "facility": "Cosimawellenbad",
-      "timestamp": "2026-01-27T04:00:00+01:00",
-      "predicted_occupancy": 100
-    },
-    {
-      "facility": "Cosimawellenbad Sauna",
-      "timestamp": "2026-01-27T04:00:00+01:00",
-      "predicted_occupancy": 99.1
-    },
-    {
-      "facility": "Dantebad Sauna",
-      "timestamp": "2026-01-27T04:00:00+01:00",
-      "predicted_occupancy": 95.8
-    },
-    {
-      "facility": "Michaelibad",
-      "timestamp": "2026-01-27T04:00:00+01:00",
-      "predicted_occupancy": 99.1
-    },
-    {
-      "facility": "Michaelibad Sauna",
-      "timestamp": "2026-01-27T04:00:00+01:00",
-      "predicted_occupancy": 97.8
-    },
-    {
-      "facility": "M\u00fcller'sches Volksbad",
-      "timestamp": "2026-01-27T04:00:00+01:00",
-      "predicted_occupancy": 95.3
-    },
-    {
-      "facility": "Nordbad",
-      "timestamp": "2026-01-27T04:00:00+01:00",
-      "predicted_occupancy": 95.3
-    },
-    {
-      "facility": "Nordbad Sauna",
-      "timestamp": "2026-01-27T04:00:00+01:00",
-      "predicted_occupancy": 99.0
-    },
-    {
-      "facility": "S\u00fcdbad",
-      "timestamp": "2026-01-27T04:00:00+01:00",
-      "predicted_occupancy": 96.7
-    },
-    {
-      "facility": "S\u00fcdbad Sauna",
-      "timestamp": "2026-01-27T04:00:00+01:00",
-      "predicted_occupancy": 96.5
-    },
-    {
-      "facility": "Westbad",
-      "timestamp": "2026-01-27T04:00:00+01:00",
-      "predicted_occupancy": 98.9
-    },
-    {
-      "facility": "Westbad Sauna",
-      "timestamp": "2026-01-27T04:00:00+01:00",
-      "predicted_occupancy": 96.2
-    },
-    {
-      "facility": "Dante-Winter-Warmfreibad",
-      "timestamp": "2026-01-27T04:00:00+01:00",
-      "predicted_occupancy": 97.5
-    },
-    {
-      "facility": "Dantebad",
-      "timestamp": "2026-01-27T04:00:00+01:00",
-      "predicted_occupancy": 96.2
-    },
-    {
-      "facility": "Olympia-Schwimmhalle",
-      "timestamp": "2026-01-27T04:00:00+01:00",
-      "predicted_occupancy": 96.2
-    },
-    {
-      "facility": "Prinzregentenstadion - Eislaufbahn",
-      "timestamp": "2026-01-27T04:00:00+01:00",
-      "predicted_occupancy": 100
-    },
-    {
-      "facility": "Bad Giesing-Harlaching",
-      "timestamp": "2026-01-27T05:00:00+01:00",
-      "predicted_occupancy": 97.3
-    },
-    {
-      "facility": "Cosimawellenbad",
-      "timestamp": "2026-01-27T05:00:00+01:00",
-      "predicted_occupancy": 100
-    },
-    {
-      "facility": "Cosimawellenbad Sauna",
-      "timestamp": "2026-01-27T05:00:00+01:00",
-      "predicted_occupancy": 99.0
-    },
-    {
-      "facility": "Dantebad Sauna",
-      "timestamp": "2026-01-27T05:00:00+01:00",
-      "predicted_occupancy": 96.4
-    },
-    {
-      "facility": "Michaelibad",
-      "timestamp": "2026-01-27T05:00:00+01:00",
-      "predicted_occupancy": 99.3
-    },
-    {
-      "facility": "Michaelibad Sauna",
-      "timestamp": "2026-01-27T05:00:00+01:00",
-      "predicted_occupancy": 98.1
-    },
-    {
-      "facility": "M\u00fcller'sches Volksbad",
-      "timestamp": "2026-01-27T05:00:00+01:00",
-      "predicted_occupancy": 95.9
-    },
-    {
-      "facility": "Nordbad",
-      "timestamp": "2026-01-27T05:00:00+01:00",
-      "predicted_occupancy": 95.3
-    },
-    {
-      "facility": "Nordbad Sauna",
-      "timestamp": "2026-01-27T05:00:00+01:00",
-      "predicted_occupancy": 99.2
-    },
-    {
-      "facility": "S\u00fcdbad",
-      "timestamp": "2026-01-27T05:00:00+01:00",
-      "predicted_occupancy": 96.7
-    },
-    {
-      "facility": "S\u00fcdbad Sauna",
-      "timestamp": "2026-01-27T05:00:00+01:00",
-      "predicted_occupancy": 96.6
-    },
-    {
-      "facility": "Westbad",
-      "timestamp": "2026-01-27T05:00:00+01:00",
-      "predicted_occupancy": 99.1
-    },
-    {
-      "facility": "Westbad Sauna",
-      "timestamp": "2026-01-27T05:00:00+01:00",
-      "predicted_occupancy": 96.2
-    },
-    {
-      "facility": "Dante-Winter-Warmfreibad",
-      "timestamp": "2026-01-27T05:00:00+01:00",
+      "timestamp": "2026-01-27T06:00:00+01:00",
       "predicted_occupancy": 97.7
     },
     {
-      "facility": "Dantebad",
-      "timestamp": "2026-01-27T05:00:00+01:00",
-      "predicted_occupancy": 96.2
-    },
-    {
-      "facility": "Olympia-Schwimmhalle",
-      "timestamp": "2026-01-27T05:00:00+01:00",
-      "predicted_occupancy": 96.8
-    },
-    {
-      "facility": "Prinzregentenstadion - Eislaufbahn",
-      "timestamp": "2026-01-27T05:00:00+01:00",
-      "predicted_occupancy": 100
-    },
-    {
-      "facility": "Bad Giesing-Harlaching",
-      "timestamp": "2026-01-27T06:00:00+01:00",
-      "predicted_occupancy": 98.9
-    },
-    {
-      "facility": "Cosimawellenbad",
-      "timestamp": "2026-01-27T06:00:00+01:00",
-      "predicted_occupancy": 100
-    },
-    {
-      "facility": "Cosimawellenbad Sauna",
-      "timestamp": "2026-01-27T06:00:00+01:00",
-      "predicted_occupancy": 99.6
-    },
-    {
-      "facility": "Dantebad Sauna",
-      "timestamp": "2026-01-27T06:00:00+01:00",
-      "predicted_occupancy": 96.5
-    },
-    {
       "facility": "Michaelibad",
       "timestamp": "2026-01-27T06:00:00+01:00",
       "predicted_occupancy": 100
@@ -1899,17 +29,17 @@
     {
       "facility": "Michaelibad Sauna",
       "timestamp": "2026-01-27T06:00:00+01:00",
-      "predicted_occupancy": 98.2
+      "predicted_occupancy": 99.0
     },
     {
       "facility": "M\u00fcller'sches Volksbad",
       "timestamp": "2026-01-27T06:00:00+01:00",
-      "predicted_occupancy": 95.9
+      "predicted_occupancy": 97.6
     },
     {
       "facility": "Nordbad",
       "timestamp": "2026-01-27T06:00:00+01:00",
-      "predicted_occupancy": 95.8
+      "predicted_occupancy": 97.1
     },
     {
       "facility": "Nordbad Sauna",
@@ -1919,12 +49,12 @@
     {
       "facility": "S\u00fcdbad",
       "timestamp": "2026-01-27T06:00:00+01:00",
-      "predicted_occupancy": 97.1
+      "predicted_occupancy": 98.6
     },
     {
       "facility": "S\u00fcdbad Sauna",
       "timestamp": "2026-01-27T06:00:00+01:00",
-      "predicted_occupancy": 97.2
+      "predicted_occupancy": 98.0
     },
     {
       "facility": "Westbad",
@@ -1934,22 +64,22 @@
     {
       "facility": "Westbad Sauna",
       "timestamp": "2026-01-27T06:00:00+01:00",
-      "predicted_occupancy": 96.6
+      "predicted_occupancy": 97.6
     },
     {
       "facility": "Dante-Winter-Warmfreibad",
       "timestamp": "2026-01-27T06:00:00+01:00",
-      "predicted_occupancy": 98.9
+      "predicted_occupancy": 99.2
     },
     {
       "facility": "Dantebad",
       "timestamp": "2026-01-27T06:00:00+01:00",
-      "predicted_occupancy": 96.7
+      "predicted_occupancy": 97.8
     },
     {
       "facility": "Olympia-Schwimmhalle",
       "timestamp": "2026-01-27T06:00:00+01:00",
-      "predicted_occupancy": 96.8
+      "predicted_occupancy": 97.5
     },
     {
       "facility": "Prinzregentenstadion - Eislaufbahn",
@@ -1959,22 +89,22 @@
     {
       "facility": "Bad Giesing-Harlaching",
       "timestamp": "2026-01-27T07:00:00+01:00",
-      "predicted_occupancy": 96.5
+      "predicted_occupancy": 97.1
     },
     {
       "facility": "Cosimawellenbad",
       "timestamp": "2026-01-27T07:00:00+01:00",
-      "predicted_occupancy": 99.6
+      "predicted_occupancy": 99.7
     },
     {
       "facility": "Cosimawellenbad Sauna",
       "timestamp": "2026-01-27T07:00:00+01:00",
-      "predicted_occupancy": 99.8
+      "predicted_occupancy": 100
     },
     {
       "facility": "Dantebad Sauna",
       "timestamp": "2026-01-27T07:00:00+01:00",
-      "predicted_occupancy": 97.1
+      "predicted_occupancy": 97.7
     },
     {
       "facility": "Michaelibad",
@@ -1989,12 +119,12 @@
     {
       "facility": "M\u00fcller'sches Volksbad",
       "timestamp": "2026-01-27T07:00:00+01:00",
-      "predicted_occupancy": 94.5
+      "predicted_occupancy": 95.1
     },
     {
       "facility": "Nordbad",
       "timestamp": "2026-01-27T07:00:00+01:00",
-      "predicted_occupancy": 93.5
+      "predicted_occupancy": 94.3
     },
     {
       "facility": "Nordbad Sauna",
@@ -2004,12 +134,12 @@
     {
       "facility": "S\u00fcdbad",
       "timestamp": "2026-01-27T07:00:00+01:00",
-      "predicted_occupancy": 95.3
+      "predicted_occupancy": 95.2
     },
     {
       "facility": "S\u00fcdbad Sauna",
       "timestamp": "2026-01-27T07:00:00+01:00",
-      "predicted_occupancy": 98.1
+      "predicted_occupancy": 98.9
     },
     {
       "facility": "Westbad",
@@ -2019,22 +149,22 @@
     {
       "facility": "Westbad Sauna",
       "timestamp": "2026-01-27T07:00:00+01:00",
-      "predicted_occupancy": 96.6
+      "predicted_occupancy": 97.4
     },
     {
       "facility": "Dante-Winter-Warmfreibad",
       "timestamp": "2026-01-27T07:00:00+01:00",
-      "predicted_occupancy": 95.9
+      "predicted_occupancy": 96.5
     },
     {
       "facility": "Dantebad",
       "timestamp": "2026-01-27T07:00:00+01:00",
-      "predicted_occupancy": 97.2
+      "predicted_occupancy": 97.7
     },
     {
       "facility": "Olympia-Schwimmhalle",
       "timestamp": "2026-01-27T07:00:00+01:00",
-      "predicted_occupancy": 94.4
+      "predicted_occupancy": 95.4
     },
     {
       "facility": "Prinzregentenstadion - Eislaufbahn",
@@ -2044,177 +174,177 @@
     {
       "facility": "Bad Giesing-Harlaching",
       "timestamp": "2026-01-27T08:00:00+01:00",
-      "predicted_occupancy": 87.5
+      "predicted_occupancy": 88.5
     },
     {
       "facility": "Cosimawellenbad",
-      "timestamp": "2026-01-27T08:00:00+01:00",
-      "predicted_occupancy": 95.1
-    },
-    {
-      "facility": "Cosimawellenbad Sauna",
-      "timestamp": "2026-01-27T08:00:00+01:00",
-      "predicted_occupancy": 96.3
-    },
-    {
-      "facility": "Dantebad Sauna",
-      "timestamp": "2026-01-27T08:00:00+01:00",
-      "predicted_occupancy": 93.1
-    },
-    {
-      "facility": "Michaelibad",
-      "timestamp": "2026-01-27T08:00:00+01:00",
-      "predicted_occupancy": 88.2
-    },
-    {
-      "facility": "Michaelibad Sauna",
-      "timestamp": "2026-01-27T08:00:00+01:00",
-      "predicted_occupancy": 92.8
-    },
-    {
-      "facility": "M\u00fcller'sches Volksbad",
-      "timestamp": "2026-01-27T08:00:00+01:00",
-      "predicted_occupancy": 83.5
-    },
-    {
-      "facility": "Nordbad",
-      "timestamp": "2026-01-27T08:00:00+01:00",
-      "predicted_occupancy": 82.0
-    },
-    {
-      "facility": "Nordbad Sauna",
-      "timestamp": "2026-01-27T08:00:00+01:00",
-      "predicted_occupancy": 95.6
-    },
-    {
-      "facility": "S\u00fcdbad",
-      "timestamp": "2026-01-27T08:00:00+01:00",
-      "predicted_occupancy": 84.6
-    },
-    {
-      "facility": "S\u00fcdbad Sauna",
       "timestamp": "2026-01-27T08:00:00+01:00",
       "predicted_occupancy": 95.2
     },
     {
+      "facility": "Cosimawellenbad Sauna",
+      "timestamp": "2026-01-27T08:00:00+01:00",
+      "predicted_occupancy": 97.4
+    },
+    {
+      "facility": "Dantebad Sauna",
+      "timestamp": "2026-01-27T08:00:00+01:00",
+      "predicted_occupancy": 95.5
+    },
+    {
+      "facility": "Michaelibad",
+      "timestamp": "2026-01-27T08:00:00+01:00",
+      "predicted_occupancy": 88.5
+    },
+    {
+      "facility": "Michaelibad Sauna",
+      "timestamp": "2026-01-27T08:00:00+01:00",
+      "predicted_occupancy": 94.3
+    },
+    {
+      "facility": "M\u00fcller'sches Volksbad",
+      "timestamp": "2026-01-27T08:00:00+01:00",
+      "predicted_occupancy": 85.3
+    },
+    {
+      "facility": "Nordbad",
+      "timestamp": "2026-01-27T08:00:00+01:00",
+      "predicted_occupancy": 84.2
+    },
+    {
+      "facility": "Nordbad Sauna",
+      "timestamp": "2026-01-27T08:00:00+01:00",
+      "predicted_occupancy": 96.1
+    },
+    {
+      "facility": "S\u00fcdbad",
+      "timestamp": "2026-01-27T08:00:00+01:00",
+      "predicted_occupancy": 86.2
+    },
+    {
+      "facility": "S\u00fcdbad Sauna",
+      "timestamp": "2026-01-27T08:00:00+01:00",
+      "predicted_occupancy": 97.4
+    },
+    {
       "facility": "Westbad",
       "timestamp": "2026-01-27T08:00:00+01:00",
-      "predicted_occupancy": 91.7
+      "predicted_occupancy": 91.9
     },
     {
       "facility": "Westbad Sauna",
       "timestamp": "2026-01-27T08:00:00+01:00",
-      "predicted_occupancy": 91.5
+      "predicted_occupancy": 93.6
     },
     {
       "facility": "Dante-Winter-Warmfreibad",
       "timestamp": "2026-01-27T08:00:00+01:00",
-      "predicted_occupancy": 89.1
+      "predicted_occupancy": 90.0
     },
     {
       "facility": "Dantebad",
       "timestamp": "2026-01-27T08:00:00+01:00",
-      "predicted_occupancy": 93.4
+      "predicted_occupancy": 95.5
     },
     {
       "facility": "Olympia-Schwimmhalle",
       "timestamp": "2026-01-27T08:00:00+01:00",
-      "predicted_occupancy": 87.9
+      "predicted_occupancy": 90.5
     },
     {
       "facility": "Prinzregentenstadion - Eislaufbahn",
       "timestamp": "2026-01-27T08:00:00+01:00",
-      "predicted_occupancy": 97.0
+      "predicted_occupancy": 97.2
     },
     {
       "facility": "Bad Giesing-Harlaching",
       "timestamp": "2026-01-27T09:00:00+01:00",
-      "predicted_occupancy": 85.3
+      "predicted_occupancy": 86.6
     },
     {
       "facility": "Cosimawellenbad",
       "timestamp": "2026-01-27T09:00:00+01:00",
-      "predicted_occupancy": 92.6
+      "predicted_occupancy": 93.0
     },
     {
       "facility": "Cosimawellenbad Sauna",
       "timestamp": "2026-01-27T09:00:00+01:00",
-      "predicted_occupancy": 93.5
+      "predicted_occupancy": 95.0
     },
     {
       "facility": "Dantebad Sauna",
       "timestamp": "2026-01-27T09:00:00+01:00",
-      "predicted_occupancy": 86.4
+      "predicted_occupancy": 89.2
     },
     {
       "facility": "Michaelibad",
       "timestamp": "2026-01-27T09:00:00+01:00",
-      "predicted_occupancy": 85.1
+      "predicted_occupancy": 85.9
     },
     {
       "facility": "Michaelibad Sauna",
       "timestamp": "2026-01-27T09:00:00+01:00",
-      "predicted_occupancy": 90.2
+      "predicted_occupancy": 91.8
     },
     {
       "facility": "M\u00fcller'sches Volksbad",
       "timestamp": "2026-01-27T09:00:00+01:00",
-      "predicted_occupancy": 80.2
+      "predicted_occupancy": 83.0
     },
     {
       "facility": "Nordbad",
       "timestamp": "2026-01-27T09:00:00+01:00",
-      "predicted_occupancy": 78.0
+      "predicted_occupancy": 81.2
     },
     {
       "facility": "Nordbad Sauna",
       "timestamp": "2026-01-27T09:00:00+01:00",
-      "predicted_occupancy": 92.1
+      "predicted_occupancy": 92.5
     },
     {
       "facility": "S\u00fcdbad",
       "timestamp": "2026-01-27T09:00:00+01:00",
-      "predicted_occupancy": 82.1
+      "predicted_occupancy": 84.1
     },
     {
       "facility": "S\u00fcdbad Sauna",
       "timestamp": "2026-01-27T09:00:00+01:00",
-      "predicted_occupancy": 89.6
+      "predicted_occupancy": 92.5
     },
     {
       "facility": "Westbad",
       "timestamp": "2026-01-27T09:00:00+01:00",
-      "predicted_occupancy": 88.3
+      "predicted_occupancy": 88.6
     },
     {
       "facility": "Westbad Sauna",
       "timestamp": "2026-01-27T09:00:00+01:00",
-      "predicted_occupancy": 85.0
+      "predicted_occupancy": 87.5
     },
     {
       "facility": "Dante-Winter-Warmfreibad",
       "timestamp": "2026-01-27T09:00:00+01:00",
-      "predicted_occupancy": 85.2
+      "predicted_occupancy": 86.6
     },
     {
       "facility": "Dantebad",
       "timestamp": "2026-01-27T09:00:00+01:00",
-      "predicted_occupancy": 87.1
+      "predicted_occupancy": 89.5
     },
     {
       "facility": "Olympia-Schwimmhalle",
       "timestamp": "2026-01-27T09:00:00+01:00",
-      "predicted_occupancy": 84.3
+      "predicted_occupancy": 87.3
     },
     {
       "facility": "Prinzregentenstadion - Eislaufbahn",
       "timestamp": "2026-01-27T09:00:00+01:00",
-      "predicted_occupancy": 94.8
+      "predicted_occupancy": 95.1
     },
     {
       "facility": "Bad Giesing-Harlaching",
       "timestamp": "2026-01-27T10:00:00+01:00",
-      "predicted_occupancy": 80.4
+      "predicted_occupancy": 79.6
     },
     {
       "facility": "Cosimawellenbad",
@@ -2224,47 +354,47 @@
     {
       "facility": "Cosimawellenbad Sauna",
       "timestamp": "2026-01-27T10:00:00+01:00",
-      "predicted_occupancy": 86.6
+      "predicted_occupancy": 86.8
     },
     {
       "facility": "Dantebad Sauna",
       "timestamp": "2026-01-27T10:00:00+01:00",
-      "predicted_occupancy": 73.4
+      "predicted_occupancy": 73.9
     },
     {
       "facility": "Michaelibad",
       "timestamp": "2026-01-27T10:00:00+01:00",
-      "predicted_occupancy": 81.3
+      "predicted_occupancy": 81.5
     },
     {
       "facility": "Michaelibad Sauna",
       "timestamp": "2026-01-27T10:00:00+01:00",
-      "predicted_occupancy": 84.8
+      "predicted_occupancy": 85.4
     },
     {
       "facility": "M\u00fcller'sches Volksbad",
       "timestamp": "2026-01-27T10:00:00+01:00",
-      "predicted_occupancy": 74.8
+      "predicted_occupancy": 75.3
     },
     {
       "facility": "Nordbad",
       "timestamp": "2026-01-27T10:00:00+01:00",
-      "predicted_occupancy": 70.7
+      "predicted_occupancy": 70.9
     },
     {
       "facility": "Nordbad Sauna",
       "timestamp": "2026-01-27T10:00:00+01:00",
-      "predicted_occupancy": 84.8
+      "predicted_occupancy": 85.6
     },
     {
       "facility": "S\u00fcdbad",
       "timestamp": "2026-01-27T10:00:00+01:00",
-      "predicted_occupancy": 76.3
+      "predicted_occupancy": 76.6
     },
     {
       "facility": "S\u00fcdbad Sauna",
       "timestamp": "2026-01-27T10:00:00+01:00",
-      "predicted_occupancy": 80.2
+      "predicted_occupancy": 80.9
     },
     {
       "facility": "Westbad",
@@ -2274,7 +404,7 @@
     {
       "facility": "Westbad Sauna",
       "timestamp": "2026-01-27T10:00:00+01:00",
-      "predicted_occupancy": 74.6
+      "predicted_occupancy": 75.3
     },
     {
       "facility": "Dante-Winter-Warmfreibad",
@@ -2284,17 +414,17 @@
     {
       "facility": "Dantebad",
       "timestamp": "2026-01-27T10:00:00+01:00",
-      "predicted_occupancy": 73.8
+      "predicted_occupancy": 74.0
     },
     {
       "facility": "Olympia-Schwimmhalle",
       "timestamp": "2026-01-27T10:00:00+01:00",
-      "predicted_occupancy": 82.2
+      "predicted_occupancy": 82.5
     },
     {
       "facility": "Prinzregentenstadion - Eislaufbahn",
       "timestamp": "2026-01-27T10:00:00+01:00",
-      "predicted_occupancy": 87.2
+      "predicted_occupancy": 87.1
     },
     {
       "facility": "Bad Giesing-Harlaching",
@@ -2314,7 +444,7 @@
     {
       "facility": "Dantebad Sauna",
       "timestamp": "2026-01-27T11:00:00+01:00",
-      "predicted_occupancy": 76.5
+      "predicted_occupancy": 76.2
     },
     {
       "facility": "Michaelibad",
@@ -2329,12 +459,12 @@
     {
       "facility": "M\u00fcller'sches Volksbad",
       "timestamp": "2026-01-27T11:00:00+01:00",
-      "predicted_occupancy": 79.3
+      "predicted_occupancy": 79.0
     },
     {
       "facility": "Nordbad",
       "timestamp": "2026-01-27T11:00:00+01:00",
-      "predicted_occupancy": 75.2
+      "predicted_occupancy": 75.0
     },
     {
       "facility": "Nordbad Sauna",
@@ -2349,7 +479,7 @@
     {
       "facility": "S\u00fcdbad Sauna",
       "timestamp": "2026-01-27T11:00:00+01:00",
-      "predicted_occupancy": 82.7
+      "predicted_occupancy": 82.5
     },
     {
       "facility": "Westbad",
@@ -2359,12 +489,12 @@
     {
       "facility": "Westbad Sauna",
       "timestamp": "2026-01-27T11:00:00+01:00",
-      "predicted_occupancy": 77.8
+      "predicted_occupancy": 77.5
     },
     {
       "facility": "Dante-Winter-Warmfreibad",
       "timestamp": "2026-01-27T11:00:00+01:00",
-      "predicted_occupancy": 85.4
+      "predicted_occupancy": 85.1
     },
     {
       "facility": "Dantebad",
@@ -2374,7 +504,7 @@
     {
       "facility": "Olympia-Schwimmhalle",
       "timestamp": "2026-01-27T11:00:00+01:00",
-      "predicted_occupancy": 86.3
+      "predicted_occupancy": 86.0
     },
     {
       "facility": "Prinzregentenstadion - Eislaufbahn",
@@ -2389,7 +519,7 @@
     {
       "facility": "Cosimawellenbad",
       "timestamp": "2026-01-27T12:00:00+01:00",
-      "predicted_occupancy": 90.4
+      "predicted_occupancy": 90.6
     },
     {
       "facility": "Cosimawellenbad Sauna",
@@ -2399,12 +529,12 @@
     {
       "facility": "Dantebad Sauna",
       "timestamp": "2026-01-27T12:00:00+01:00",
-      "predicted_occupancy": 76.0
+      "predicted_occupancy": 76.1
     },
     {
       "facility": "Michaelibad",
       "timestamp": "2026-01-27T12:00:00+01:00",
-      "predicted_occupancy": 84.1
+      "predicted_occupancy": 84.3
     },
     {
       "facility": "Michaelibad Sauna",
@@ -2414,17 +544,17 @@
     {
       "facility": "M\u00fcller'sches Volksbad",
       "timestamp": "2026-01-27T12:00:00+01:00",
-      "predicted_occupancy": 79.2
+      "predicted_occupancy": 79.5
     },
     {
       "facility": "Nordbad",
       "timestamp": "2026-01-27T12:00:00+01:00",
-      "predicted_occupancy": 75.9
+      "predicted_occupancy": 76.1
     },
     {
       "facility": "Nordbad Sauna",
       "timestamp": "2026-01-27T12:00:00+01:00",
-      "predicted_occupancy": 86.6
+      "predicted_occupancy": 86.8
     },
     {
       "facility": "S\u00fcdbad",
@@ -2444,112 +574,112 @@
     {
       "facility": "Westbad Sauna",
       "timestamp": "2026-01-27T12:00:00+01:00",
-      "predicted_occupancy": 77.4
+      "predicted_occupancy": 77.7
     },
     {
       "facility": "Dante-Winter-Warmfreibad",
       "timestamp": "2026-01-27T12:00:00+01:00",
-      "predicted_occupancy": 85.2
+      "predicted_occupancy": 85.1
     },
     {
       "facility": "Dantebad",
       "timestamp": "2026-01-27T12:00:00+01:00",
-      "predicted_occupancy": 75.7
+      "predicted_occupancy": 75.9
     },
     {
       "facility": "Olympia-Schwimmhalle",
       "timestamp": "2026-01-27T12:00:00+01:00",
-      "predicted_occupancy": 86.0
+      "predicted_occupancy": 86.1
     },
     {
       "facility": "Prinzregentenstadion - Eislaufbahn",
       "timestamp": "2026-01-27T12:00:00+01:00",
-      "predicted_occupancy": 91.7
+      "predicted_occupancy": 91.9
     },
     {
       "facility": "Bad Giesing-Harlaching",
       "timestamp": "2026-01-27T13:00:00+01:00",
-      "predicted_occupancy": 85.7
+      "predicted_occupancy": 85.9
     },
     {
       "facility": "Cosimawellenbad",
       "timestamp": "2026-01-27T13:00:00+01:00",
-      "predicted_occupancy": 90.9
+      "predicted_occupancy": 90.6
     },
     {
       "facility": "Cosimawellenbad Sauna",
       "timestamp": "2026-01-27T13:00:00+01:00",
-      "predicted_occupancy": 88.7
+      "predicted_occupancy": 88.6
     },
     {
       "facility": "Dantebad Sauna",
       "timestamp": "2026-01-27T13:00:00+01:00",
-      "predicted_occupancy": 76.5
+      "predicted_occupancy": 77.3
     },
     {
       "facility": "Michaelibad",
       "timestamp": "2026-01-27T13:00:00+01:00",
-      "predicted_occupancy": 84.6
+      "predicted_occupancy": 83.6
     },
     {
       "facility": "Michaelibad Sauna",
       "timestamp": "2026-01-27T13:00:00+01:00",
-      "predicted_occupancy": 86.6
+      "predicted_occupancy": 86.8
     },
     {
       "facility": "M\u00fcller'sches Volksbad",
       "timestamp": "2026-01-27T13:00:00+01:00",
-      "predicted_occupancy": 80.4
+      "predicted_occupancy": 80.8
     },
     {
       "facility": "Nordbad",
       "timestamp": "2026-01-27T13:00:00+01:00",
-      "predicted_occupancy": 77.2
+      "predicted_occupancy": 77.6
     },
     {
       "facility": "Nordbad Sauna",
       "timestamp": "2026-01-27T13:00:00+01:00",
-      "predicted_occupancy": 86.7
+      "predicted_occupancy": 86.9
     },
     {
       "facility": "S\u00fcdbad",
       "timestamp": "2026-01-27T13:00:00+01:00",
-      "predicted_occupancy": 80.6
+      "predicted_occupancy": 81.0
     },
     {
       "facility": "S\u00fcdbad Sauna",
       "timestamp": "2026-01-27T13:00:00+01:00",
-      "predicted_occupancy": 82.2
+      "predicted_occupancy": 82.5
     },
     {
       "facility": "Westbad",
       "timestamp": "2026-01-27T13:00:00+01:00",
-      "predicted_occupancy": 87.5
+      "predicted_occupancy": 85.8
     },
     {
       "facility": "Westbad Sauna",
       "timestamp": "2026-01-27T13:00:00+01:00",
-      "predicted_occupancy": 78.2
+      "predicted_occupancy": 78.6
     },
     {
       "facility": "Dante-Winter-Warmfreibad",
       "timestamp": "2026-01-27T13:00:00+01:00",
-      "predicted_occupancy": 85.3
+      "predicted_occupancy": 85.6
     },
     {
       "facility": "Dantebad",
       "timestamp": "2026-01-27T13:00:00+01:00",
-      "predicted_occupancy": 76.2
+      "predicted_occupancy": 76.3
     },
     {
       "facility": "Olympia-Schwimmhalle",
       "timestamp": "2026-01-27T13:00:00+01:00",
-      "predicted_occupancy": 86.2
+      "predicted_occupancy": 85.9
     },
     {
       "facility": "Prinzregentenstadion - Eislaufbahn",
       "timestamp": "2026-01-27T13:00:00+01:00",
-      "predicted_occupancy": 92.2
+      "predicted_occupancy": 90.8
     },
     {
       "facility": "Bad Giesing-Harlaching",
@@ -2569,12 +699,12 @@
     {
       "facility": "Dantebad Sauna",
       "timestamp": "2026-01-27T14:00:00+01:00",
-      "predicted_occupancy": 75.8
+      "predicted_occupancy": 75.7
     },
     {
       "facility": "Michaelibad",
       "timestamp": "2026-01-27T14:00:00+01:00",
-      "predicted_occupancy": 84.4
+      "predicted_occupancy": 84.2
     },
     {
       "facility": "Michaelibad Sauna",
@@ -2584,12 +714,12 @@
     {
       "facility": "M\u00fcller'sches Volksbad",
       "timestamp": "2026-01-27T14:00:00+01:00",
-      "predicted_occupancy": 80.2
+      "predicted_occupancy": 80.1
     },
     {
       "facility": "Nordbad",
       "timestamp": "2026-01-27T14:00:00+01:00",
-      "predicted_occupancy": 77.0
+      "predicted_occupancy": 76.9
     },
     {
       "facility": "Nordbad Sauna",
@@ -2599,7 +729,7 @@
     {
       "facility": "S\u00fcdbad",
       "timestamp": "2026-01-27T14:00:00+01:00",
-      "predicted_occupancy": 80.4
+      "predicted_occupancy": 80.0
     },
     {
       "facility": "S\u00fcdbad Sauna",
@@ -2609,27 +739,27 @@
     {
       "facility": "Westbad",
       "timestamp": "2026-01-27T14:00:00+01:00",
-      "predicted_occupancy": 87.0
+      "predicted_occupancy": 86.6
     },
     {
       "facility": "Westbad Sauna",
       "timestamp": "2026-01-27T14:00:00+01:00",
-      "predicted_occupancy": 77.7
+      "predicted_occupancy": 77.6
     },
     {
       "facility": "Dante-Winter-Warmfreibad",
       "timestamp": "2026-01-27T14:00:00+01:00",
-      "predicted_occupancy": 85.3
+      "predicted_occupancy": 85.2
     },
     {
       "facility": "Dantebad",
       "timestamp": "2026-01-27T14:00:00+01:00",
-      "predicted_occupancy": 75.1
+      "predicted_occupancy": 75.0
     },
     {
       "facility": "Olympia-Schwimmhalle",
       "timestamp": "2026-01-27T14:00:00+01:00",
-      "predicted_occupancy": 86.2
+      "predicted_occupancy": 86.1
     },
     {
       "facility": "Prinzregentenstadion - Eislaufbahn",
@@ -2639,92 +769,92 @@
     {
       "facility": "Bad Giesing-Harlaching",
       "timestamp": "2026-01-27T15:00:00+01:00",
-      "predicted_occupancy": 85.4
+      "predicted_occupancy": 86.2
     },
     {
       "facility": "Cosimawellenbad",
       "timestamp": "2026-01-27T15:00:00+01:00",
-      "predicted_occupancy": 89.4
+      "predicted_occupancy": 90.7
     },
     {
       "facility": "Cosimawellenbad Sauna",
       "timestamp": "2026-01-27T15:00:00+01:00",
-      "predicted_occupancy": 87.9
+      "predicted_occupancy": 88.8
     },
     {
       "facility": "Dantebad Sauna",
       "timestamp": "2026-01-27T15:00:00+01:00",
-      "predicted_occupancy": 74.9
+      "predicted_occupancy": 74.2
     },
     {
       "facility": "Michaelibad",
       "timestamp": "2026-01-27T15:00:00+01:00",
-      "predicted_occupancy": 80.9
+      "predicted_occupancy": 82.2
     },
     {
       "facility": "Michaelibad Sauna",
       "timestamp": "2026-01-27T15:00:00+01:00",
-      "predicted_occupancy": 86.3
+      "predicted_occupancy": 86.4
     },
     {
       "facility": "M\u00fcller'sches Volksbad",
       "timestamp": "2026-01-27T15:00:00+01:00",
-      "predicted_occupancy": 78.3
+      "predicted_occupancy": 78.4
     },
     {
       "facility": "Nordbad",
       "timestamp": "2026-01-27T15:00:00+01:00",
-      "predicted_occupancy": 76.2
+      "predicted_occupancy": 76.0
     },
     {
       "facility": "Nordbad Sauna",
       "timestamp": "2026-01-27T15:00:00+01:00",
-      "predicted_occupancy": 86.2
+      "predicted_occupancy": 86.9
     },
     {
       "facility": "S\u00fcdbad",
       "timestamp": "2026-01-27T15:00:00+01:00",
-      "predicted_occupancy": 79.3
+      "predicted_occupancy": 78.7
     },
     {
       "facility": "S\u00fcdbad Sauna",
       "timestamp": "2026-01-27T15:00:00+01:00",
-      "predicted_occupancy": 80.3
+      "predicted_occupancy": 81.1
     },
     {
       "facility": "Westbad",
       "timestamp": "2026-01-27T15:00:00+01:00",
-      "predicted_occupancy": 84.8
+      "predicted_occupancy": 85.5
     },
     {
       "facility": "Westbad Sauna",
       "timestamp": "2026-01-27T15:00:00+01:00",
-      "predicted_occupancy": 77.4
+      "predicted_occupancy": 77.3
     },
     {
       "facility": "Dante-Winter-Warmfreibad",
       "timestamp": "2026-01-27T15:00:00+01:00",
-      "predicted_occupancy": 85.2
+      "predicted_occupancy": 85.9
     },
     {
       "facility": "Dantebad",
       "timestamp": "2026-01-27T15:00:00+01:00",
-      "predicted_occupancy": 74.6
+      "predicted_occupancy": 74.3
     },
     {
       "facility": "Olympia-Schwimmhalle",
       "timestamp": "2026-01-27T15:00:00+01:00",
-      "predicted_occupancy": 85.2
+      "predicted_occupancy": 85.4
     },
     {
       "facility": "Prinzregentenstadion - Eislaufbahn",
       "timestamp": "2026-01-27T15:00:00+01:00",
-      "predicted_occupancy": 89.8
+      "predicted_occupancy": 92.1
     },
     {
       "facility": "Bad Giesing-Harlaching",
       "timestamp": "2026-01-27T16:00:00+01:00",
-      "predicted_occupancy": 77.5
+      "predicted_occupancy": 77.7
     },
     {
       "facility": "Cosimawellenbad",
@@ -2734,7 +864,7 @@
     {
       "facility": "Cosimawellenbad Sauna",
       "timestamp": "2026-01-27T16:00:00+01:00",
-      "predicted_occupancy": 84.8
+      "predicted_occupancy": 84.6
     },
     {
       "facility": "Dantebad Sauna",
@@ -2744,7 +874,7 @@
     {
       "facility": "Michaelibad",
       "timestamp": "2026-01-27T16:00:00+01:00",
-      "predicted_occupancy": 75.0
+      "predicted_occupancy": 74.6
     },
     {
       "facility": "Michaelibad Sauna",
@@ -2764,7 +894,7 @@
     {
       "facility": "Nordbad Sauna",
       "timestamp": "2026-01-27T16:00:00+01:00",
-      "predicted_occupancy": 81.8
+      "predicted_occupancy": 81.4
     },
     {
       "facility": "S\u00fcdbad",
@@ -2774,12 +904,12 @@
     {
       "facility": "S\u00fcdbad Sauna",
       "timestamp": "2026-01-27T16:00:00+01:00",
-      "predicted_occupancy": 75.5
+      "predicted_occupancy": 75.0
     },
     {
       "facility": "Westbad",
       "timestamp": "2026-01-27T16:00:00+01:00",
-      "predicted_occupancy": 80.1
+      "predicted_occupancy": 79.3
     },
     {
       "facility": "Westbad Sauna",
@@ -2794,7 +924,7 @@
     {
       "facility": "Dantebad",
       "timestamp": "2026-01-27T16:00:00+01:00",
-      "predicted_occupancy": 72.2
+      "predicted_occupancy": 71.8
     },
     {
       "facility": "Olympia-Schwimmhalle",
@@ -2804,7 +934,7 @@
     {
       "facility": "Prinzregentenstadion - Eislaufbahn",
       "timestamp": "2026-01-27T16:00:00+01:00",
-      "predicted_occupancy": 86.1
+      "predicted_occupancy": 86.2
     },
     {
       "facility": "Bad Giesing-Harlaching",
@@ -2814,17 +944,17 @@
     {
       "facility": "Cosimawellenbad",
       "timestamp": "2026-01-27T17:00:00+01:00",
-      "predicted_occupancy": 83.0
+      "predicted_occupancy": 82.8
     },
     {
       "facility": "Cosimawellenbad Sauna",
       "timestamp": "2026-01-27T17:00:00+01:00",
-      "predicted_occupancy": 79.7
+      "predicted_occupancy": 80.2
     },
     {
       "facility": "Dantebad Sauna",
       "timestamp": "2026-01-27T17:00:00+01:00",
-      "predicted_occupancy": 65.4
+      "predicted_occupancy": 66.3
     },
     {
       "facility": "Michaelibad",
@@ -2839,22 +969,22 @@
     {
       "facility": "M\u00fcller'sches Volksbad",
       "timestamp": "2026-01-27T17:00:00+01:00",
-      "predicted_occupancy": 61.9
+      "predicted_occupancy": 62.0
     },
     {
       "facility": "Nordbad",
       "timestamp": "2026-01-27T17:00:00+01:00",
-      "predicted_occupancy": 60.6
+      "predicted_occupancy": 61.7
     },
     {
       "facility": "Nordbad Sauna",
       "timestamp": "2026-01-27T17:00:00+01:00",
-      "predicted_occupancy": 76.2
+      "predicted_occupancy": 76.5
     },
     {
       "facility": "S\u00fcdbad",
       "timestamp": "2026-01-27T17:00:00+01:00",
-      "predicted_occupancy": 64.8
+      "predicted_occupancy": 65.0
     },
     {
       "facility": "S\u00fcdbad Sauna",
@@ -2864,12 +994,12 @@
     {
       "facility": "Westbad",
       "timestamp": "2026-01-27T17:00:00+01:00",
-      "predicted_occupancy": 77.2
+      "predicted_occupancy": 77.4
     },
     {
       "facility": "Westbad Sauna",
       "timestamp": "2026-01-27T17:00:00+01:00",
-      "predicted_occupancy": 67.9
+      "predicted_occupancy": 68.8
     },
     {
       "facility": "Dante-Winter-Warmfreibad",
@@ -2879,32 +1009,32 @@
     {
       "facility": "Dantebad",
       "timestamp": "2026-01-27T17:00:00+01:00",
-      "predicted_occupancy": 67.3
+      "predicted_occupancy": 68.2
     },
     {
       "facility": "Olympia-Schwimmhalle",
       "timestamp": "2026-01-27T17:00:00+01:00",
-      "predicted_occupancy": 69.3
+      "predicted_occupancy": 69.6
     },
     {
       "facility": "Prinzregentenstadion - Eislaufbahn",
       "timestamp": "2026-01-27T17:00:00+01:00",
-      "predicted_occupancy": 84.2
+      "predicted_occupancy": 84.0
     },
     {
       "facility": "Bad Giesing-Harlaching",
       "timestamp": "2026-01-27T18:00:00+01:00",
-      "predicted_occupancy": 70.1
+      "predicted_occupancy": 70.5
     },
     {
       "facility": "Cosimawellenbad",
       "timestamp": "2026-01-27T18:00:00+01:00",
-      "predicted_occupancy": 84.6
+      "predicted_occupancy": 84.8
     },
     {
       "facility": "Cosimawellenbad Sauna",
       "timestamp": "2026-01-27T18:00:00+01:00",
-      "predicted_occupancy": 79.2
+      "predicted_occupancy": 79.3
     },
     {
       "facility": "Dantebad Sauna",
@@ -2914,7 +1044,7 @@
     {
       "facility": "Michaelibad",
       "timestamp": "2026-01-27T18:00:00+01:00",
-      "predicted_occupancy": 70.3
+      "predicted_occupancy": 70.5
     },
     {
       "facility": "Michaelibad Sauna",
@@ -2924,22 +1054,22 @@
     {
       "facility": "M\u00fcller'sches Volksbad",
       "timestamp": "2026-01-27T18:00:00+01:00",
-      "predicted_occupancy": 60.0
+      "predicted_occupancy": 60.3
     },
     {
       "facility": "Nordbad",
       "timestamp": "2026-01-27T18:00:00+01:00",
-      "predicted_occupancy": 57.1
+      "predicted_occupancy": 57.6
     },
     {
       "facility": "Nordbad Sauna",
       "timestamp": "2026-01-27T18:00:00+01:00",
-      "predicted_occupancy": 75.8
+      "predicted_occupancy": 75.9
     },
     {
       "facility": "S\u00fcdbad",
       "timestamp": "2026-01-27T18:00:00+01:00",
-      "predicted_occupancy": 65.0
+      "predicted_occupancy": 65.4
     },
     {
       "facility": "S\u00fcdbad Sauna",
@@ -2954,12 +1084,12 @@
     {
       "facility": "Westbad Sauna",
       "timestamp": "2026-01-27T18:00:00+01:00",
-      "predicted_occupancy": 65.2
+      "predicted_occupancy": 65.3
     },
     {
       "facility": "Dante-Winter-Warmfreibad",
       "timestamp": "2026-01-27T18:00:00+01:00",
-      "predicted_occupancy": 75.3
+      "predicted_occupancy": 75.8
     },
     {
       "facility": "Dantebad",
@@ -2969,12 +1099,12 @@
     {
       "facility": "Olympia-Schwimmhalle",
       "timestamp": "2026-01-27T18:00:00+01:00",
-      "predicted_occupancy": 69.1
+      "predicted_occupancy": 69.3
     },
     {
       "facility": "Prinzregentenstadion - Eislaufbahn",
       "timestamp": "2026-01-27T18:00:00+01:00",
-      "predicted_occupancy": 86.2
+      "predicted_occupancy": 86.3
     },
     {
       "facility": "Bad Giesing-Harlaching",
@@ -2984,12 +1114,12 @@
     {
       "facility": "Cosimawellenbad",
       "timestamp": "2026-01-27T19:00:00+01:00",
-      "predicted_occupancy": 85.7
+      "predicted_occupancy": 85.6
     },
     {
       "facility": "Cosimawellenbad Sauna",
       "timestamp": "2026-01-27T19:00:00+01:00",
-      "predicted_occupancy": 78.2
+      "predicted_occupancy": 78.0
     },
     {
       "facility": "Dantebad Sauna",
@@ -3009,12 +1139,12 @@
     {
       "facility": "M\u00fcller'sches Volksbad",
       "timestamp": "2026-01-27T19:00:00+01:00",
-      "predicted_occupancy": 60.6
+      "predicted_occupancy": 60.9
     },
     {
       "facility": "Nordbad",
       "timestamp": "2026-01-27T19:00:00+01:00",
-      "predicted_occupancy": 58.4
+      "predicted_occupancy": 58.7
     },
     {
       "facility": "Nordbad Sauna",
@@ -3029,12 +1159,12 @@
     {
       "facility": "S\u00fcdbad Sauna",
       "timestamp": "2026-01-27T19:00:00+01:00",
-      "predicted_occupancy": 67.8
+      "predicted_occupancy": 67.5
     },
     {
       "facility": "Westbad",
       "timestamp": "2026-01-27T19:00:00+01:00",
-      "predicted_occupancy": 79.4
+      "predicted_occupancy": 79.5
     },
     {
       "facility": "Westbad Sauna",
@@ -3064,7 +1194,7 @@
     {
       "facility": "Bad Giesing-Harlaching",
       "timestamp": "2026-01-27T20:00:00+01:00",
-      "predicted_occupancy": 81.3
+      "predicted_occupancy": 81.7
     },
     {
       "facility": "Cosimawellenbad",
@@ -3074,32 +1204,32 @@
     {
       "facility": "Cosimawellenbad Sauna",
       "timestamp": "2026-01-27T20:00:00+01:00",
-      "predicted_occupancy": 75.9
+      "predicted_occupancy": 76.1
     },
     {
       "facility": "Dantebad Sauna",
       "timestamp": "2026-01-27T20:00:00+01:00",
-      "predicted_occupancy": 51.6
+      "predicted_occupancy": 52.3
     },
     {
       "facility": "Michaelibad",
       "timestamp": "2026-01-27T20:00:00+01:00",
-      "predicted_occupancy": 75.8
+      "predicted_occupancy": 76.1
     },
     {
       "facility": "Michaelibad Sauna",
       "timestamp": "2026-01-27T20:00:00+01:00",
-      "predicted_occupancy": 71.9
+      "predicted_occupancy": 72.0
     },
     {
       "facility": "M\u00fcller'sches Volksbad",
       "timestamp": "2026-01-27T20:00:00+01:00",
-      "predicted_occupancy": 65.1
+      "predicted_occupancy": 66.0
     },
     {
       "facility": "Nordbad",
       "timestamp": "2026-01-27T20:00:00+01:00",
-      "predicted_occupancy": 62.4
+      "predicted_occupancy": 63.2
     },
     {
       "facility": "Nordbad Sauna",
@@ -3109,37 +1239,37 @@
     {
       "facility": "S\u00fcdbad",
       "timestamp": "2026-01-27T20:00:00+01:00",
-      "predicted_occupancy": 71.6
+      "predicted_occupancy": 71.7
     },
     {
       "facility": "S\u00fcdbad Sauna",
       "timestamp": "2026-01-27T20:00:00+01:00",
-      "predicted_occupancy": 62.1
+      "predicted_occupancy": 62.5
     },
     {
       "facility": "Westbad",
       "timestamp": "2026-01-27T20:00:00+01:00",
-      "predicted_occupancy": 82.6
+      "predicted_occupancy": 82.7
     },
     {
       "facility": "Westbad Sauna",
       "timestamp": "2026-01-27T20:00:00+01:00",
-      "predicted_occupancy": 53.4
+      "predicted_occupancy": 53.8
     },
     {
       "facility": "Dante-Winter-Warmfreibad",
       "timestamp": "2026-01-27T20:00:00+01:00",
-      "predicted_occupancy": 80.0
+      "predicted_occupancy": 80.2
     },
     {
       "facility": "Dantebad",
       "timestamp": "2026-01-27T20:00:00+01:00",
-      "predicted_occupancy": 52.3
+      "predicted_occupancy": 52.7
     },
     {
       "facility": "Olympia-Schwimmhalle",
       "timestamp": "2026-01-27T20:00:00+01:00",
-      "predicted_occupancy": 69.6
+      "predicted_occupancy": 70.8
     },
     {
       "facility": "Prinzregentenstadion - Eislaufbahn",
@@ -3149,12 +1279,12 @@
     {
       "facility": "Bad Giesing-Harlaching",
       "timestamp": "2026-01-27T21:00:00+01:00",
-      "predicted_occupancy": 87.2
+      "predicted_occupancy": 87.6
     },
     {
       "facility": "Cosimawellenbad",
       "timestamp": "2026-01-27T21:00:00+01:00",
-      "predicted_occupancy": 92.0
+      "predicted_occupancy": 92.3
     },
     {
       "facility": "Cosimawellenbad Sauna",
@@ -3169,12 +1299,12 @@
     {
       "facility": "Michaelibad",
       "timestamp": "2026-01-27T21:00:00+01:00",
-      "predicted_occupancy": 82.5
+      "predicted_occupancy": 82.3
     },
     {
       "facility": "Michaelibad Sauna",
       "timestamp": "2026-01-27T21:00:00+01:00",
-      "predicted_occupancy": 75.5
+      "predicted_occupancy": 75.8
     },
     {
       "facility": "M\u00fcller'sches Volksbad",
@@ -3189,7 +1319,7 @@
     {
       "facility": "Nordbad Sauna",
       "timestamp": "2026-01-27T21:00:00+01:00",
-      "predicted_occupancy": 74.3
+      "predicted_occupancy": 74.7
     },
     {
       "facility": "S\u00fcdbad",
@@ -3234,47 +1364,47 @@
     {
       "facility": "Bad Giesing-Harlaching",
       "timestamp": "2026-01-27T22:00:00+01:00",
-      "predicted_occupancy": 93.6
+      "predicted_occupancy": 94.0
     },
     {
       "facility": "Cosimawellenbad",
       "timestamp": "2026-01-27T22:00:00+01:00",
-      "predicted_occupancy": 96.2
+      "predicted_occupancy": 96.5
     },
     {
       "facility": "Cosimawellenbad Sauna",
       "timestamp": "2026-01-27T22:00:00+01:00",
-      "predicted_occupancy": 84.5
+      "predicted_occupancy": 84.6
     },
     {
       "facility": "Dantebad Sauna",
       "timestamp": "2026-01-27T22:00:00+01:00",
-      "predicted_occupancy": 71.9
+      "predicted_occupancy": 72.0
     },
     {
       "facility": "Michaelibad",
       "timestamp": "2026-01-27T22:00:00+01:00",
-      "predicted_occupancy": 90.7
+      "predicted_occupancy": 90.8
     },
     {
       "facility": "Michaelibad Sauna",
       "timestamp": "2026-01-27T22:00:00+01:00",
-      "predicted_occupancy": 84.4
+      "predicted_occupancy": 84.8
     },
     {
       "facility": "M\u00fcller'sches Volksbad",
       "timestamp": "2026-01-27T22:00:00+01:00",
-      "predicted_occupancy": 84.2
+      "predicted_occupancy": 84.3
     },
     {
       "facility": "Nordbad",
       "timestamp": "2026-01-27T22:00:00+01:00",
-      "predicted_occupancy": 83.6
+      "predicted_occupancy": 83.8
     },
     {
       "facility": "Nordbad Sauna",
       "timestamp": "2026-01-27T22:00:00+01:00",
-      "predicted_occupancy": 76.3
+      "predicted_occupancy": 76.7
     },
     {
       "facility": "S\u00fcdbad",
@@ -3284,17 +1414,17 @@
     {
       "facility": "S\u00fcdbad Sauna",
       "timestamp": "2026-01-27T22:00:00+01:00",
-      "predicted_occupancy": 75.9
+      "predicted_occupancy": 76.0
     },
     {
       "facility": "Westbad",
       "timestamp": "2026-01-27T22:00:00+01:00",
-      "predicted_occupancy": 94.1
+      "predicted_occupancy": 94.0
     },
     {
       "facility": "Westbad Sauna",
       "timestamp": "2026-01-27T22:00:00+01:00",
-      "predicted_occupancy": 70.7
+      "predicted_occupancy": 70.8
     },
     {
       "facility": "Dante-Winter-Warmfreibad",
@@ -3304,397 +1434,397 @@
     {
       "facility": "Dantebad",
       "timestamp": "2026-01-27T22:00:00+01:00",
-      "predicted_occupancy": 71.7
+      "predicted_occupancy": 71.8
     },
     {
       "facility": "Olympia-Schwimmhalle",
       "timestamp": "2026-01-27T22:00:00+01:00",
-      "predicted_occupancy": 85.7
+      "predicted_occupancy": 85.8
     },
     {
       "facility": "Prinzregentenstadion - Eislaufbahn",
       "timestamp": "2026-01-27T22:00:00+01:00",
-      "predicted_occupancy": 97.2
+      "predicted_occupancy": 97.3
     },
     {
       "facility": "Bad Giesing-Harlaching",
       "timestamp": "2026-01-27T23:00:00+01:00",
-      "predicted_occupancy": 96.9
+      "predicted_occupancy": 95.4
     },
     {
       "facility": "Cosimawellenbad",
       "timestamp": "2026-01-27T23:00:00+01:00",
-      "predicted_occupancy": 98.6
+      "predicted_occupancy": 98.4
     },
     {
       "facility": "Cosimawellenbad Sauna",
       "timestamp": "2026-01-27T23:00:00+01:00",
-      "predicted_occupancy": 95.3
+      "predicted_occupancy": 95.0
     },
     {
       "facility": "Dantebad Sauna",
       "timestamp": "2026-01-27T23:00:00+01:00",
-      "predicted_occupancy": 95.3
+      "predicted_occupancy": 94.2
     },
     {
       "facility": "Michaelibad",
       "timestamp": "2026-01-27T23:00:00+01:00",
-      "predicted_occupancy": 98.2
+      "predicted_occupancy": 97.2
     },
     {
       "facility": "Michaelibad Sauna",
-      "timestamp": "2026-01-27T23:00:00+01:00",
-      "predicted_occupancy": 95.7
-    },
-    {
-      "facility": "M\u00fcller'sches Volksbad",
-      "timestamp": "2026-01-27T23:00:00+01:00",
-      "predicted_occupancy": 93.2
-    },
-    {
-      "facility": "Nordbad",
-      "timestamp": "2026-01-27T23:00:00+01:00",
-      "predicted_occupancy": 93.5
-    },
-    {
-      "facility": "Nordbad Sauna",
-      "timestamp": "2026-01-27T23:00:00+01:00",
-      "predicted_occupancy": 96.5
-    },
-    {
-      "facility": "S\u00fcdbad",
       "timestamp": "2026-01-27T23:00:00+01:00",
       "predicted_occupancy": 95.5
     },
     {
-      "facility": "S\u00fcdbad Sauna",
-      "timestamp": "2026-01-27T23:00:00+01:00",
-      "predicted_occupancy": 94.0
-    },
-    {
-      "facility": "Westbad",
-      "timestamp": "2026-01-27T23:00:00+01:00",
-      "predicted_occupancy": 98.8
-    },
-    {
-      "facility": "Westbad Sauna",
-      "timestamp": "2026-01-27T23:00:00+01:00",
-      "predicted_occupancy": 94.0
-    },
-    {
-      "facility": "Dante-Winter-Warmfreibad",
-      "timestamp": "2026-01-27T23:00:00+01:00",
-      "predicted_occupancy": 96.4
-    },
-    {
-      "facility": "Dantebad",
-      "timestamp": "2026-01-27T23:00:00+01:00",
-      "predicted_occupancy": 94.6
-    },
-    {
-      "facility": "Olympia-Schwimmhalle",
-      "timestamp": "2026-01-27T23:00:00+01:00",
-      "predicted_occupancy": 94.6
-    },
-    {
-      "facility": "Prinzregentenstadion - Eislaufbahn",
-      "timestamp": "2026-01-27T23:00:00+01:00",
-      "predicted_occupancy": 98.9
-    },
-    {
-      "facility": "Bad Giesing-Harlaching",
-      "timestamp": "2026-01-28T00:00:00+01:00",
-      "predicted_occupancy": 99.1
-    },
-    {
-      "facility": "Cosimawellenbad",
-      "timestamp": "2026-01-28T00:00:00+01:00",
-      "predicted_occupancy": 100
-    },
-    {
-      "facility": "Cosimawellenbad Sauna",
-      "timestamp": "2026-01-28T00:00:00+01:00",
-      "predicted_occupancy": 99.6
-    },
-    {
-      "facility": "Dantebad Sauna",
-      "timestamp": "2026-01-28T00:00:00+01:00",
-      "predicted_occupancy": 97.1
-    },
-    {
-      "facility": "Michaelibad",
-      "timestamp": "2026-01-28T00:00:00+01:00",
-      "predicted_occupancy": 99.7
-    },
-    {
-      "facility": "Michaelibad Sauna",
-      "timestamp": "2026-01-28T00:00:00+01:00",
-      "predicted_occupancy": 97.9
-    },
-    {
       "facility": "M\u00fcller'sches Volksbad",
-      "timestamp": "2026-01-28T00:00:00+01:00",
-      "predicted_occupancy": 96.2
+      "timestamp": "2026-01-27T23:00:00+01:00",
+      "predicted_occupancy": 91.9
     },
     {
       "facility": "Nordbad",
-      "timestamp": "2026-01-28T00:00:00+01:00",
-      "predicted_occupancy": 95.9
+      "timestamp": "2026-01-27T23:00:00+01:00",
+      "predicted_occupancy": 92.7
     },
     {
       "facility": "Nordbad Sauna",
-      "timestamp": "2026-01-28T00:00:00+01:00",
-      "predicted_occupancy": 99.5
+      "timestamp": "2026-01-27T23:00:00+01:00",
+      "predicted_occupancy": 95.9
     },
     {
       "facility": "S\u00fcdbad",
-      "timestamp": "2026-01-28T00:00:00+01:00",
-      "predicted_occupancy": 96.9
+      "timestamp": "2026-01-27T23:00:00+01:00",
+      "predicted_occupancy": 95.1
     },
     {
       "facility": "S\u00fcdbad Sauna",
-      "timestamp": "2026-01-28T00:00:00+01:00",
-      "predicted_occupancy": 97.3
+      "timestamp": "2026-01-27T23:00:00+01:00",
+      "predicted_occupancy": 93.7
     },
     {
       "facility": "Westbad",
-      "timestamp": "2026-01-28T00:00:00+01:00",
-      "predicted_occupancy": 100
-    },
-    {
-      "facility": "Westbad Sauna",
-      "timestamp": "2026-01-28T00:00:00+01:00",
-      "predicted_occupancy": 96.6
-    },
-    {
-      "facility": "Dante-Winter-Warmfreibad",
-      "timestamp": "2026-01-28T00:00:00+01:00",
-      "predicted_occupancy": 98.9
-    },
-    {
-      "facility": "Dantebad",
-      "timestamp": "2026-01-28T00:00:00+01:00",
-      "predicted_occupancy": 96.5
-    },
-    {
-      "facility": "Olympia-Schwimmhalle",
-      "timestamp": "2026-01-28T00:00:00+01:00",
+      "timestamp": "2026-01-27T23:00:00+01:00",
       "predicted_occupancy": 97.4
     },
     {
+      "facility": "Westbad Sauna",
+      "timestamp": "2026-01-27T23:00:00+01:00",
+      "predicted_occupancy": 93.7
+    },
+    {
+      "facility": "Dante-Winter-Warmfreibad",
+      "timestamp": "2026-01-27T23:00:00+01:00",
+      "predicted_occupancy": 95.2
+    },
+    {
+      "facility": "Dantebad",
+      "timestamp": "2026-01-27T23:00:00+01:00",
+      "predicted_occupancy": 94.1
+    },
+    {
+      "facility": "Olympia-Schwimmhalle",
+      "timestamp": "2026-01-27T23:00:00+01:00",
+      "predicted_occupancy": 93.6
+    },
+    {
       "facility": "Prinzregentenstadion - Eislaufbahn",
-      "timestamp": "2026-01-28T00:00:00+01:00",
-      "predicted_occupancy": 100
+      "timestamp": "2026-01-27T23:00:00+01:00",
+      "predicted_occupancy": 99.0
     },
     {
       "facility": "Bad Giesing-Harlaching",
-      "timestamp": "2026-01-28T01:00:00+01:00",
-      "predicted_occupancy": 97.6
+      "timestamp": "2026-01-28T00:00:00+01:00",
+      "predicted_occupancy": 97.7
     },
     {
       "facility": "Cosimawellenbad",
-      "timestamp": "2026-01-28T01:00:00+01:00",
+      "timestamp": "2026-01-28T00:00:00+01:00",
       "predicted_occupancy": 99.8
     },
     {
       "facility": "Cosimawellenbad Sauna",
-      "timestamp": "2026-01-28T01:00:00+01:00",
-      "predicted_occupancy": 98.4
+      "timestamp": "2026-01-28T00:00:00+01:00",
+      "predicted_occupancy": 98.5
     },
     {
       "facility": "Dantebad Sauna",
-      "timestamp": "2026-01-28T01:00:00+01:00",
-      "predicted_occupancy": 96.8
+      "timestamp": "2026-01-28T00:00:00+01:00",
+      "predicted_occupancy": 96.1
     },
     {
       "facility": "Michaelibad",
-      "timestamp": "2026-01-28T01:00:00+01:00",
-      "predicted_occupancy": 98.5
-    },
-    {
-      "facility": "Michaelibad Sauna",
-      "timestamp": "2026-01-28T01:00:00+01:00",
-      "predicted_occupancy": 97.2
-    },
-    {
-      "facility": "M\u00fcller'sches Volksbad",
-      "timestamp": "2026-01-28T01:00:00+01:00",
-      "predicted_occupancy": 96.2
-    },
-    {
-      "facility": "Nordbad",
-      "timestamp": "2026-01-28T01:00:00+01:00",
-      "predicted_occupancy": 95.9
-    },
-    {
-      "facility": "Nordbad Sauna",
-      "timestamp": "2026-01-28T01:00:00+01:00",
-      "predicted_occupancy": 98.5
-    },
-    {
-      "facility": "S\u00fcdbad",
-      "timestamp": "2026-01-28T01:00:00+01:00",
-      "predicted_occupancy": 96.6
-    },
-    {
-      "facility": "S\u00fcdbad Sauna",
-      "timestamp": "2026-01-28T01:00:00+01:00",
-      "predicted_occupancy": 96.6
-    },
-    {
-      "facility": "Westbad",
-      "timestamp": "2026-01-28T01:00:00+01:00",
+      "timestamp": "2026-01-28T00:00:00+01:00",
       "predicted_occupancy": 98.7
     },
     {
-      "facility": "Westbad Sauna",
-      "timestamp": "2026-01-28T01:00:00+01:00",
-      "predicted_occupancy": 96.6
-    },
-    {
-      "facility": "Dante-Winter-Warmfreibad",
-      "timestamp": "2026-01-28T01:00:00+01:00",
-      "predicted_occupancy": 97.8
-    },
-    {
-      "facility": "Dantebad",
-      "timestamp": "2026-01-28T01:00:00+01:00",
-      "predicted_occupancy": 96.2
-    },
-    {
-      "facility": "Olympia-Schwimmhalle",
-      "timestamp": "2026-01-28T01:00:00+01:00",
-      "predicted_occupancy": 97.4
-    },
-    {
-      "facility": "Prinzregentenstadion - Eislaufbahn",
-      "timestamp": "2026-01-28T01:00:00+01:00",
-      "predicted_occupancy": 99.9
-    },
-    {
-      "facility": "Bad Giesing-Harlaching",
-      "timestamp": "2026-01-28T02:00:00+01:00",
-      "predicted_occupancy": 97.6
-    },
-    {
-      "facility": "Cosimawellenbad",
-      "timestamp": "2026-01-28T02:00:00+01:00",
-      "predicted_occupancy": 99.8
-    },
-    {
-      "facility": "Cosimawellenbad Sauna",
-      "timestamp": "2026-01-28T02:00:00+01:00",
-      "predicted_occupancy": 98.4
-    },
-    {
-      "facility": "Dantebad Sauna",
-      "timestamp": "2026-01-28T02:00:00+01:00",
-      "predicted_occupancy": 96.7
-    },
-    {
-      "facility": "Michaelibad",
-      "timestamp": "2026-01-28T02:00:00+01:00",
-      "predicted_occupancy": 98.8
-    },
-    {
       "facility": "Michaelibad Sauna",
-      "timestamp": "2026-01-28T02:00:00+01:00",
+      "timestamp": "2026-01-28T00:00:00+01:00",
       "predicted_occupancy": 97.2
     },
     {
       "facility": "M\u00fcller'sches Volksbad",
-      "timestamp": "2026-01-28T02:00:00+01:00",
-      "predicted_occupancy": 95.9
+      "timestamp": "2026-01-28T00:00:00+01:00",
+      "predicted_occupancy": 95.3
     },
     {
       "facility": "Nordbad",
-      "timestamp": "2026-01-28T02:00:00+01:00",
+      "timestamp": "2026-01-28T00:00:00+01:00",
       "predicted_occupancy": 95.4
     },
     {
       "facility": "Nordbad Sauna",
-      "timestamp": "2026-01-28T02:00:00+01:00",
+      "timestamp": "2026-01-28T00:00:00+01:00",
       "predicted_occupancy": 98.5
     },
     {
       "facility": "S\u00fcdbad",
-      "timestamp": "2026-01-28T02:00:00+01:00",
+      "timestamp": "2026-01-28T00:00:00+01:00",
       "predicted_occupancy": 96.5
     },
     {
       "facility": "S\u00fcdbad Sauna",
-      "timestamp": "2026-01-28T02:00:00+01:00",
-      "predicted_occupancy": 96.7
+      "timestamp": "2026-01-28T00:00:00+01:00",
+      "predicted_occupancy": 96.8
     },
     {
       "facility": "Westbad",
-      "timestamp": "2026-01-28T02:00:00+01:00",
+      "timestamp": "2026-01-28T00:00:00+01:00",
       "predicted_occupancy": 98.8
     },
     {
       "facility": "Westbad Sauna",
-      "timestamp": "2026-01-28T02:00:00+01:00",
+      "timestamp": "2026-01-28T00:00:00+01:00",
       "predicted_occupancy": 96.3
     },
     {
       "facility": "Dante-Winter-Warmfreibad",
-      "timestamp": "2026-01-28T02:00:00+01:00",
+      "timestamp": "2026-01-28T00:00:00+01:00",
       "predicted_occupancy": 97.8
     },
     {
       "facility": "Dantebad",
-      "timestamp": "2026-01-28T02:00:00+01:00",
+      "timestamp": "2026-01-28T00:00:00+01:00",
       "predicted_occupancy": 96.0
     },
     {
       "facility": "Olympia-Schwimmhalle",
-      "timestamp": "2026-01-28T02:00:00+01:00",
-      "predicted_occupancy": 97.1
+      "timestamp": "2026-01-28T00:00:00+01:00",
+      "predicted_occupancy": 96.5
     },
     {
       "facility": "Prinzregentenstadion - Eislaufbahn",
-      "timestamp": "2026-01-28T02:00:00+01:00",
-      "predicted_occupancy": 99.9
+      "timestamp": "2026-01-28T00:00:00+01:00",
+      "predicted_occupancy": 100
     },
     {
       "facility": "Bad Giesing-Harlaching",
-      "timestamp": "2026-01-28T03:00:00+01:00",
+      "timestamp": "2026-01-28T01:00:00+01:00",
       "predicted_occupancy": 97.6
     },
     {
       "facility": "Cosimawellenbad",
-      "timestamp": "2026-01-28T03:00:00+01:00",
+      "timestamp": "2026-01-28T01:00:00+01:00",
       "predicted_occupancy": 99.8
     },
     {
       "facility": "Cosimawellenbad Sauna",
-      "timestamp": "2026-01-28T03:00:00+01:00",
+      "timestamp": "2026-01-28T01:00:00+01:00",
       "predicted_occupancy": 98.4
     },
     {
       "facility": "Dantebad Sauna",
-      "timestamp": "2026-01-28T03:00:00+01:00",
+      "timestamp": "2026-01-28T01:00:00+01:00",
       "predicted_occupancy": 95.9
     },
     {
       "facility": "Michaelibad",
-      "timestamp": "2026-01-28T03:00:00+01:00",
+      "timestamp": "2026-01-28T01:00:00+01:00",
       "predicted_occupancy": 98.6
     },
     {
       "facility": "Michaelibad Sauna",
+      "timestamp": "2026-01-28T01:00:00+01:00",
+      "predicted_occupancy": 97.2
+    },
+    {
+      "facility": "M\u00fcller'sches Volksbad",
+      "timestamp": "2026-01-28T01:00:00+01:00",
+      "predicted_occupancy": 95.1
+    },
+    {
+      "facility": "Nordbad",
+      "timestamp": "2026-01-28T01:00:00+01:00",
+      "predicted_occupancy": 95.3
+    },
+    {
+      "facility": "Nordbad Sauna",
+      "timestamp": "2026-01-28T01:00:00+01:00",
+      "predicted_occupancy": 98.5
+    },
+    {
+      "facility": "S\u00fcdbad",
+      "timestamp": "2026-01-28T01:00:00+01:00",
+      "predicted_occupancy": 96.3
+    },
+    {
+      "facility": "S\u00fcdbad Sauna",
+      "timestamp": "2026-01-28T01:00:00+01:00",
+      "predicted_occupancy": 96.7
+    },
+    {
+      "facility": "Westbad",
+      "timestamp": "2026-01-28T01:00:00+01:00",
+      "predicted_occupancy": 98.8
+    },
+    {
+      "facility": "Westbad Sauna",
+      "timestamp": "2026-01-28T01:00:00+01:00",
+      "predicted_occupancy": 96.1
+    },
+    {
+      "facility": "Dante-Winter-Warmfreibad",
+      "timestamp": "2026-01-28T01:00:00+01:00",
+      "predicted_occupancy": 97.8
+    },
+    {
+      "facility": "Dantebad",
+      "timestamp": "2026-01-28T01:00:00+01:00",
+      "predicted_occupancy": 95.8
+    },
+    {
+      "facility": "Olympia-Schwimmhalle",
+      "timestamp": "2026-01-28T01:00:00+01:00",
+      "predicted_occupancy": 96.4
+    },
+    {
+      "facility": "Prinzregentenstadion - Eislaufbahn",
+      "timestamp": "2026-01-28T01:00:00+01:00",
+      "predicted_occupancy": 99.9
+    },
+    {
+      "facility": "Bad Giesing-Harlaching",
+      "timestamp": "2026-01-28T02:00:00+01:00",
+      "predicted_occupancy": 97.6
+    },
+    {
+      "facility": "Cosimawellenbad",
+      "timestamp": "2026-01-28T02:00:00+01:00",
+      "predicted_occupancy": 99.8
+    },
+    {
+      "facility": "Cosimawellenbad Sauna",
+      "timestamp": "2026-01-28T02:00:00+01:00",
+      "predicted_occupancy": 98.4
+    },
+    {
+      "facility": "Dantebad Sauna",
+      "timestamp": "2026-01-28T02:00:00+01:00",
+      "predicted_occupancy": 95.9
+    },
+    {
+      "facility": "Michaelibad",
+      "timestamp": "2026-01-28T02:00:00+01:00",
+      "predicted_occupancy": 98.6
+    },
+    {
+      "facility": "Michaelibad Sauna",
+      "timestamp": "2026-01-28T02:00:00+01:00",
+      "predicted_occupancy": 97.2
+    },
+    {
+      "facility": "M\u00fcller'sches Volksbad",
+      "timestamp": "2026-01-28T02:00:00+01:00",
+      "predicted_occupancy": 95.1
+    },
+    {
+      "facility": "Nordbad",
+      "timestamp": "2026-01-28T02:00:00+01:00",
+      "predicted_occupancy": 95.3
+    },
+    {
+      "facility": "Nordbad Sauna",
+      "timestamp": "2026-01-28T02:00:00+01:00",
+      "predicted_occupancy": 98.5
+    },
+    {
+      "facility": "S\u00fcdbad",
+      "timestamp": "2026-01-28T02:00:00+01:00",
+      "predicted_occupancy": 96.3
+    },
+    {
+      "facility": "S\u00fcdbad Sauna",
+      "timestamp": "2026-01-28T02:00:00+01:00",
+      "predicted_occupancy": 96.7
+    },
+    {
+      "facility": "Westbad",
+      "timestamp": "2026-01-28T02:00:00+01:00",
+      "predicted_occupancy": 98.8
+    },
+    {
+      "facility": "Westbad Sauna",
+      "timestamp": "2026-01-28T02:00:00+01:00",
+      "predicted_occupancy": 96.1
+    },
+    {
+      "facility": "Dante-Winter-Warmfreibad",
+      "timestamp": "2026-01-28T02:00:00+01:00",
+      "predicted_occupancy": 97.8
+    },
+    {
+      "facility": "Dantebad",
+      "timestamp": "2026-01-28T02:00:00+01:00",
+      "predicted_occupancy": 95.8
+    },
+    {
+      "facility": "Olympia-Schwimmhalle",
+      "timestamp": "2026-01-28T02:00:00+01:00",
+      "predicted_occupancy": 96.4
+    },
+    {
+      "facility": "Prinzregentenstadion - Eislaufbahn",
+      "timestamp": "2026-01-28T02:00:00+01:00",
+      "predicted_occupancy": 99.9
+    },
+    {
+      "facility": "Bad Giesing-Harlaching",
+      "timestamp": "2026-01-28T03:00:00+01:00",
+      "predicted_occupancy": 97.7
+    },
+    {
+      "facility": "Cosimawellenbad",
+      "timestamp": "2026-01-28T03:00:00+01:00",
+      "predicted_occupancy": 99.8
+    },
+    {
+      "facility": "Cosimawellenbad Sauna",
+      "timestamp": "2026-01-28T03:00:00+01:00",
+      "predicted_occupancy": 98.5
+    },
+    {
+      "facility": "Dantebad Sauna",
+      "timestamp": "2026-01-28T03:00:00+01:00",
+      "predicted_occupancy": 96.1
+    },
+    {
+      "facility": "Michaelibad",
+      "timestamp": "2026-01-28T03:00:00+01:00",
+      "predicted_occupancy": 98.7
+    },
+    {
+      "facility": "Michaelibad Sauna",
       "timestamp": "2026-01-28T03:00:00+01:00",
       "predicted_occupancy": 97.2
     },
     {
       "facility": "M\u00fcller'sches Volksbad",
       "timestamp": "2026-01-28T03:00:00+01:00",
-      "predicted_occupancy": 95.1
+      "predicted_occupancy": 95.3
     },
     {
       "facility": "Nordbad",
       "timestamp": "2026-01-28T03:00:00+01:00",
-      "predicted_occupancy": 95.3
+      "predicted_occupancy": 95.4
     },
     {
       "facility": "Nordbad Sauna",
@@ -3704,12 +1834,12 @@
     {
       "facility": "S\u00fcdbad",
       "timestamp": "2026-01-28T03:00:00+01:00",
-      "predicted_occupancy": 96.3
+      "predicted_occupancy": 96.5
     },
     {
       "facility": "S\u00fcdbad Sauna",
       "timestamp": "2026-01-28T03:00:00+01:00",
-      "predicted_occupancy": 96.7
+      "predicted_occupancy": 96.8
     },
     {
       "facility": "Westbad",
@@ -3719,7 +1849,7 @@
     {
       "facility": "Westbad Sauna",
       "timestamp": "2026-01-28T03:00:00+01:00",
-      "predicted_occupancy": 96.1
+      "predicted_occupancy": 96.3
     },
     {
       "facility": "Dante-Winter-Warmfreibad",
@@ -3729,52 +1859,52 @@
     {
       "facility": "Dantebad",
       "timestamp": "2026-01-28T03:00:00+01:00",
-      "predicted_occupancy": 95.8
+      "predicted_occupancy": 96.0
     },
     {
       "facility": "Olympia-Schwimmhalle",
       "timestamp": "2026-01-28T03:00:00+01:00",
-      "predicted_occupancy": 96.4
+      "predicted_occupancy": 96.5
     },
     {
       "facility": "Prinzregentenstadion - Eislaufbahn",
       "timestamp": "2026-01-28T03:00:00+01:00",
-      "predicted_occupancy": 99.9
+      "predicted_occupancy": 100
     },
     {
       "facility": "Bad Giesing-Harlaching",
       "timestamp": "2026-01-28T04:00:00+01:00",
-      "predicted_occupancy": 97.6
+      "predicted_occupancy": 97.8
     },
     {
       "facility": "Cosimawellenbad",
       "timestamp": "2026-01-28T04:00:00+01:00",
-      "predicted_occupancy": 99.8
+      "predicted_occupancy": 99.9
     },
     {
       "facility": "Cosimawellenbad Sauna",
       "timestamp": "2026-01-28T04:00:00+01:00",
-      "predicted_occupancy": 98.4
+      "predicted_occupancy": 98.5
     },
     {
       "facility": "Dantebad Sauna",
       "timestamp": "2026-01-28T04:00:00+01:00",
-      "predicted_occupancy": 96.7
+      "predicted_occupancy": 96.1
     },
     {
       "facility": "Michaelibad",
       "timestamp": "2026-01-28T04:00:00+01:00",
-      "predicted_occupancy": 98.8
+      "predicted_occupancy": 98.7
     },
     {
       "facility": "Michaelibad Sauna",
       "timestamp": "2026-01-28T04:00:00+01:00",
-      "predicted_occupancy": 97.2
+      "predicted_occupancy": 97.3
     },
     {
       "facility": "M\u00fcller'sches Volksbad",
       "timestamp": "2026-01-28T04:00:00+01:00",
-      "predicted_occupancy": 95.9
+      "predicted_occupancy": 95.3
     },
     {
       "facility": "Nordbad",
@@ -3784,7 +1914,7 @@
     {
       "facility": "Nordbad Sauna",
       "timestamp": "2026-01-28T04:00:00+01:00",
-      "predicted_occupancy": 98.5
+      "predicted_occupancy": 98.6
     },
     {
       "facility": "S\u00fcdbad",
@@ -3794,7 +1924,7 @@
     {
       "facility": "S\u00fcdbad Sauna",
       "timestamp": "2026-01-28T04:00:00+01:00",
-      "predicted_occupancy": 96.7
+      "predicted_occupancy": 96.8
     },
     {
       "facility": "Westbad",
@@ -3819,37 +1949,37 @@
     {
       "facility": "Olympia-Schwimmhalle",
       "timestamp": "2026-01-28T04:00:00+01:00",
-      "predicted_occupancy": 97.1
+      "predicted_occupancy": 96.5
     },
     {
       "facility": "Prinzregentenstadion - Eislaufbahn",
       "timestamp": "2026-01-28T04:00:00+01:00",
-      "predicted_occupancy": 99.9
+      "predicted_occupancy": 100
     },
     {
       "facility": "Bad Giesing-Harlaching",
       "timestamp": "2026-01-28T05:00:00+01:00",
-      "predicted_occupancy": 97.6
+      "predicted_occupancy": 97.8
     },
     {
       "facility": "Cosimawellenbad",
       "timestamp": "2026-01-28T05:00:00+01:00",
-      "predicted_occupancy": 99.8
+      "predicted_occupancy": 99.9
     },
     {
       "facility": "Cosimawellenbad Sauna",
       "timestamp": "2026-01-28T05:00:00+01:00",
-      "predicted_occupancy": 98.4
+      "predicted_occupancy": 98.5
     },
     {
       "facility": "Dantebad Sauna",
       "timestamp": "2026-01-28T05:00:00+01:00",
-      "predicted_occupancy": 96.8
+      "predicted_occupancy": 96.0
     },
     {
       "facility": "Michaelibad",
       "timestamp": "2026-01-28T05:00:00+01:00",
-      "predicted_occupancy": 98.5
+      "predicted_occupancy": 98.6
     },
     {
       "facility": "Michaelibad Sauna",
@@ -3859,12 +1989,12 @@
     {
       "facility": "M\u00fcller'sches Volksbad",
       "timestamp": "2026-01-28T05:00:00+01:00",
-      "predicted_occupancy": 96.2
+      "predicted_occupancy": 95.3
     },
     {
       "facility": "Nordbad",
       "timestamp": "2026-01-28T05:00:00+01:00",
-      "predicted_occupancy": 95.9
+      "predicted_occupancy": 95.4
     },
     {
       "facility": "Nordbad Sauna",
@@ -3874,22 +2004,22 @@
     {
       "facility": "S\u00fcdbad",
       "timestamp": "2026-01-28T05:00:00+01:00",
-      "predicted_occupancy": 96.6
+      "predicted_occupancy": 96.5
     },
     {
       "facility": "S\u00fcdbad Sauna",
       "timestamp": "2026-01-28T05:00:00+01:00",
-      "predicted_occupancy": 96.6
+      "predicted_occupancy": 96.7
     },
     {
       "facility": "Westbad",
       "timestamp": "2026-01-28T05:00:00+01:00",
-      "predicted_occupancy": 98.7
+      "predicted_occupancy": 98.8
     },
     {
       "facility": "Westbad Sauna",
       "timestamp": "2026-01-28T05:00:00+01:00",
-      "predicted_occupancy": 96.6
+      "predicted_occupancy": 96.2
     },
     {
       "facility": "Dante-Winter-Warmfreibad",
@@ -3899,186 +2029,2056 @@
     {
       "facility": "Dantebad",
       "timestamp": "2026-01-28T05:00:00+01:00",
-      "predicted_occupancy": 96.2
-    },
-    {
-      "facility": "Olympia-Schwimmhalle",
-      "timestamp": "2026-01-28T05:00:00+01:00",
-      "predicted_occupancy": 97.4
-    },
-    {
-      "facility": "Prinzregentenstadion - Eislaufbahn",
-      "timestamp": "2026-01-28T05:00:00+01:00",
-      "predicted_occupancy": 99.9
-    },
-    {
-      "facility": "Bad Giesing-Harlaching",
-      "timestamp": "2026-01-28T06:00:00+01:00",
-      "predicted_occupancy": 99.1
-    },
-    {
-      "facility": "Cosimawellenbad",
-      "timestamp": "2026-01-28T06:00:00+01:00",
-      "predicted_occupancy": 100
-    },
-    {
-      "facility": "Cosimawellenbad Sauna",
-      "timestamp": "2026-01-28T06:00:00+01:00",
-      "predicted_occupancy": 99.6
-    },
-    {
-      "facility": "Dantebad Sauna",
-      "timestamp": "2026-01-28T06:00:00+01:00",
-      "predicted_occupancy": 97.1
-    },
-    {
-      "facility": "Michaelibad",
-      "timestamp": "2026-01-28T06:00:00+01:00",
-      "predicted_occupancy": 99.7
-    },
-    {
-      "facility": "Michaelibad Sauna",
-      "timestamp": "2026-01-28T06:00:00+01:00",
-      "predicted_occupancy": 97.9
-    },
-    {
-      "facility": "M\u00fcller'sches Volksbad",
-      "timestamp": "2026-01-28T06:00:00+01:00",
-      "predicted_occupancy": 96.2
-    },
-    {
-      "facility": "Nordbad",
-      "timestamp": "2026-01-28T06:00:00+01:00",
       "predicted_occupancy": 95.9
     },
     {
-      "facility": "Nordbad Sauna",
-      "timestamp": "2026-01-28T06:00:00+01:00",
-      "predicted_occupancy": 99.5
-    },
-    {
-      "facility": "S\u00fcdbad",
-      "timestamp": "2026-01-28T06:00:00+01:00",
-      "predicted_occupancy": 96.9
-    },
-    {
-      "facility": "S\u00fcdbad Sauna",
-      "timestamp": "2026-01-28T06:00:00+01:00",
-      "predicted_occupancy": 97.3
-    },
-    {
-      "facility": "Westbad",
-      "timestamp": "2026-01-28T06:00:00+01:00",
-      "predicted_occupancy": 100
-    },
-    {
-      "facility": "Westbad Sauna",
-      "timestamp": "2026-01-28T06:00:00+01:00",
-      "predicted_occupancy": 96.6
-    },
-    {
-      "facility": "Dante-Winter-Warmfreibad",
-      "timestamp": "2026-01-28T06:00:00+01:00",
-      "predicted_occupancy": 98.9
-    },
-    {
-      "facility": "Dantebad",
-      "timestamp": "2026-01-28T06:00:00+01:00",
+      "facility": "Olympia-Schwimmhalle",
+      "timestamp": "2026-01-28T05:00:00+01:00",
       "predicted_occupancy": 96.5
     },
     {
-      "facility": "Olympia-Schwimmhalle",
-      "timestamp": "2026-01-28T06:00:00+01:00",
-      "predicted_occupancy": 97.4
-    },
-    {
       "facility": "Prinzregentenstadion - Eislaufbahn",
-      "timestamp": "2026-01-28T06:00:00+01:00",
+      "timestamp": "2026-01-28T05:00:00+01:00",
       "predicted_occupancy": 100
     },
     {
       "facility": "Bad Giesing-Harlaching",
-      "timestamp": "2026-01-28T07:00:00+01:00",
-      "predicted_occupancy": 96.3
+      "timestamp": "2026-01-28T06:00:00+01:00",
+      "predicted_occupancy": 97.7
     },
     {
       "facility": "Cosimawellenbad",
-      "timestamp": "2026-01-28T07:00:00+01:00",
-      "predicted_occupancy": 99.3
-    },
-    {
-      "facility": "Cosimawellenbad Sauna",
-      "timestamp": "2026-01-28T07:00:00+01:00",
+      "timestamp": "2026-01-28T06:00:00+01:00",
       "predicted_occupancy": 99.8
     },
     {
+      "facility": "Cosimawellenbad Sauna",
+      "timestamp": "2026-01-28T06:00:00+01:00",
+      "predicted_occupancy": 98.5
+    },
+    {
       "facility": "Dantebad Sauna",
-      "timestamp": "2026-01-28T07:00:00+01:00",
-      "predicted_occupancy": 96.5
+      "timestamp": "2026-01-28T06:00:00+01:00",
+      "predicted_occupancy": 96.1
     },
     {
       "facility": "Michaelibad",
-      "timestamp": "2026-01-28T07:00:00+01:00",
-      "predicted_occupancy": 97.0
+      "timestamp": "2026-01-28T06:00:00+01:00",
+      "predicted_occupancy": 98.7
     },
     {
       "facility": "Michaelibad Sauna",
-      "timestamp": "2026-01-28T07:00:00+01:00",
-      "predicted_occupancy": 96.6
+      "timestamp": "2026-01-28T06:00:00+01:00",
+      "predicted_occupancy": 97.2
     },
     {
       "facility": "M\u00fcller'sches Volksbad",
-      "timestamp": "2026-01-28T07:00:00+01:00",
-      "predicted_occupancy": 93.2
+      "timestamp": "2026-01-28T06:00:00+01:00",
+      "predicted_occupancy": 95.3
     },
     {
       "facility": "Nordbad",
-      "timestamp": "2026-01-28T07:00:00+01:00",
-      "predicted_occupancy": 92.6
+      "timestamp": "2026-01-28T06:00:00+01:00",
+      "predicted_occupancy": 95.4
     },
     {
       "facility": "Nordbad Sauna",
-      "timestamp": "2026-01-28T07:00:00+01:00",
-      "predicted_occupancy": 99.5
+      "timestamp": "2026-01-28T06:00:00+01:00",
+      "predicted_occupancy": 98.5
     },
     {
       "facility": "S\u00fcdbad",
-      "timestamp": "2026-01-28T07:00:00+01:00",
-      "predicted_occupancy": 93.6
+      "timestamp": "2026-01-28T06:00:00+01:00",
+      "predicted_occupancy": 96.5
     },
     {
       "facility": "S\u00fcdbad Sauna",
-      "timestamp": "2026-01-28T07:00:00+01:00",
-      "predicted_occupancy": 97.4
+      "timestamp": "2026-01-28T06:00:00+01:00",
+      "predicted_occupancy": 96.8
     },
     {
       "facility": "Westbad",
-      "timestamp": "2026-01-28T07:00:00+01:00",
-      "predicted_occupancy": 97.9
+      "timestamp": "2026-01-28T06:00:00+01:00",
+      "predicted_occupancy": 98.8
     },
     {
       "facility": "Westbad Sauna",
-      "timestamp": "2026-01-28T07:00:00+01:00",
-      "predicted_occupancy": 95.9
+      "timestamp": "2026-01-28T06:00:00+01:00",
+      "predicted_occupancy": 96.3
     },
     {
       "facility": "Dante-Winter-Warmfreibad",
-      "timestamp": "2026-01-28T07:00:00+01:00",
-      "predicted_occupancy": 95.9
+      "timestamp": "2026-01-28T06:00:00+01:00",
+      "predicted_occupancy": 97.8
     },
     {
       "facility": "Dantebad",
-      "timestamp": "2026-01-28T07:00:00+01:00",
+      "timestamp": "2026-01-28T06:00:00+01:00",
       "predicted_occupancy": 96.0
     },
     {
       "facility": "Olympia-Schwimmhalle",
+      "timestamp": "2026-01-28T06:00:00+01:00",
+      "predicted_occupancy": 96.5
+    },
+    {
+      "facility": "Prinzregentenstadion - Eislaufbahn",
+      "timestamp": "2026-01-28T06:00:00+01:00",
+      "predicted_occupancy": 100
+    },
+    {
+      "facility": "Bad Giesing-Harlaching",
       "timestamp": "2026-01-28T07:00:00+01:00",
-      "predicted_occupancy": 94.3
+      "predicted_occupancy": 95.4
+    },
+    {
+      "facility": "Cosimawellenbad",
+      "timestamp": "2026-01-28T07:00:00+01:00",
+      "predicted_occupancy": 98.7
+    },
+    {
+      "facility": "Cosimawellenbad Sauna",
+      "timestamp": "2026-01-28T07:00:00+01:00",
+      "predicted_occupancy": 98.6
+    },
+    {
+      "facility": "Dantebad Sauna",
+      "timestamp": "2026-01-28T07:00:00+01:00",
+      "predicted_occupancy": 96.1
+    },
+    {
+      "facility": "Michaelibad",
+      "timestamp": "2026-01-28T07:00:00+01:00",
+      "predicted_occupancy": 96.1
+    },
+    {
+      "facility": "Michaelibad Sauna",
+      "timestamp": "2026-01-28T07:00:00+01:00",
+      "predicted_occupancy": 96.0
+    },
+    {
+      "facility": "M\u00fcller'sches Volksbad",
+      "timestamp": "2026-01-28T07:00:00+01:00",
+      "predicted_occupancy": 92.9
+    },
+    {
+      "facility": "Nordbad",
+      "timestamp": "2026-01-28T07:00:00+01:00",
+      "predicted_occupancy": 92.1
+    },
+    {
+      "facility": "Nordbad Sauna",
+      "timestamp": "2026-01-28T07:00:00+01:00",
+      "predicted_occupancy": 98.5
+    },
+    {
+      "facility": "S\u00fcdbad",
+      "timestamp": "2026-01-28T07:00:00+01:00",
+      "predicted_occupancy": 93.2
+    },
+    {
+      "facility": "S\u00fcdbad Sauna",
+      "timestamp": "2026-01-28T07:00:00+01:00",
+      "predicted_occupancy": 96.9
+    },
+    {
+      "facility": "Westbad",
+      "timestamp": "2026-01-28T07:00:00+01:00",
+      "predicted_occupancy": 96.6
+    },
+    {
+      "facility": "Westbad Sauna",
+      "timestamp": "2026-01-28T07:00:00+01:00",
+      "predicted_occupancy": 95.6
+    },
+    {
+      "facility": "Dante-Winter-Warmfreibad",
+      "timestamp": "2026-01-28T07:00:00+01:00",
+      "predicted_occupancy": 94.7
+    },
+    {
+      "facility": "Dantebad",
+      "timestamp": "2026-01-28T07:00:00+01:00",
+      "predicted_occupancy": 95.4
+    },
+    {
+      "facility": "Olympia-Schwimmhalle",
+      "timestamp": "2026-01-28T07:00:00+01:00",
+      "predicted_occupancy": 94.0
     },
     {
       "facility": "Prinzregentenstadion - Eislaufbahn",
       "timestamp": "2026-01-28T07:00:00+01:00",
+      "predicted_occupancy": 99.9
+    },
+    {
+      "facility": "Bad Giesing-Harlaching",
+      "timestamp": "2026-01-28T08:00:00+01:00",
+      "predicted_occupancy": 87.1
+    },
+    {
+      "facility": "Cosimawellenbad",
+      "timestamp": "2026-01-28T08:00:00+01:00",
+      "predicted_occupancy": 94.4
+    },
+    {
+      "facility": "Cosimawellenbad Sauna",
+      "timestamp": "2026-01-28T08:00:00+01:00",
+      "predicted_occupancy": 95.9
+    },
+    {
+      "facility": "Dantebad Sauna",
+      "timestamp": "2026-01-28T08:00:00+01:00",
+      "predicted_occupancy": 92.0
+    },
+    {
+      "facility": "Michaelibad",
+      "timestamp": "2026-01-28T08:00:00+01:00",
+      "predicted_occupancy": 87.7
+    },
+    {
+      "facility": "Michaelibad Sauna",
+      "timestamp": "2026-01-28T08:00:00+01:00",
+      "predicted_occupancy": 91.9
+    },
+    {
+      "facility": "M\u00fcller'sches Volksbad",
+      "timestamp": "2026-01-28T08:00:00+01:00",
+      "predicted_occupancy": 81.8
+    },
+    {
+      "facility": "Nordbad",
+      "timestamp": "2026-01-28T08:00:00+01:00",
+      "predicted_occupancy": 80.7
+    },
+    {
+      "facility": "Nordbad Sauna",
+      "timestamp": "2026-01-28T08:00:00+01:00",
+      "predicted_occupancy": 95.6
+    },
+    {
+      "facility": "S\u00fcdbad",
+      "timestamp": "2026-01-28T08:00:00+01:00",
+      "predicted_occupancy": 82.4
+    },
+    {
+      "facility": "S\u00fcdbad Sauna",
+      "timestamp": "2026-01-28T08:00:00+01:00",
+      "predicted_occupancy": 94.1
+    },
+    {
+      "facility": "Westbad",
+      "timestamp": "2026-01-28T08:00:00+01:00",
+      "predicted_occupancy": 90.7
+    },
+    {
+      "facility": "Westbad Sauna",
+      "timestamp": "2026-01-28T08:00:00+01:00",
+      "predicted_occupancy": 90.9
+    },
+    {
+      "facility": "Dante-Winter-Warmfreibad",
+      "timestamp": "2026-01-28T08:00:00+01:00",
+      "predicted_occupancy": 88.6
+    },
+    {
+      "facility": "Dantebad",
+      "timestamp": "2026-01-28T08:00:00+01:00",
+      "predicted_occupancy": 92.2
+    },
+    {
+      "facility": "Olympia-Schwimmhalle",
+      "timestamp": "2026-01-28T08:00:00+01:00",
+      "predicted_occupancy": 87.1
+    },
+    {
+      "facility": "Prinzregentenstadion - Eislaufbahn",
+      "timestamp": "2026-01-28T08:00:00+01:00",
+      "predicted_occupancy": 96.4
+    },
+    {
+      "facility": "Bad Giesing-Harlaching",
+      "timestamp": "2026-01-28T09:00:00+01:00",
+      "predicted_occupancy": 85.1
+    },
+    {
+      "facility": "Cosimawellenbad",
+      "timestamp": "2026-01-28T09:00:00+01:00",
+      "predicted_occupancy": 90.7
+    },
+    {
+      "facility": "Cosimawellenbad Sauna",
+      "timestamp": "2026-01-28T09:00:00+01:00",
+      "predicted_occupancy": 93.1
+    },
+    {
+      "facility": "Dantebad Sauna",
+      "timestamp": "2026-01-28T09:00:00+01:00",
+      "predicted_occupancy": 85.9
+    },
+    {
+      "facility": "Michaelibad",
+      "timestamp": "2026-01-28T09:00:00+01:00",
+      "predicted_occupancy": 84.5
+    },
+    {
+      "facility": "Michaelibad Sauna",
+      "timestamp": "2026-01-28T09:00:00+01:00",
+      "predicted_occupancy": 89.0
+    },
+    {
+      "facility": "M\u00fcller'sches Volksbad",
+      "timestamp": "2026-01-28T09:00:00+01:00",
+      "predicted_occupancy": 78.8
+    },
+    {
+      "facility": "Nordbad",
+      "timestamp": "2026-01-28T09:00:00+01:00",
+      "predicted_occupancy": 77.1
+    },
+    {
+      "facility": "Nordbad Sauna",
+      "timestamp": "2026-01-28T09:00:00+01:00",
+      "predicted_occupancy": 91.8
+    },
+    {
+      "facility": "S\u00fcdbad",
+      "timestamp": "2026-01-28T09:00:00+01:00",
+      "predicted_occupancy": 80.0
+    },
+    {
+      "facility": "S\u00fcdbad Sauna",
+      "timestamp": "2026-01-28T09:00:00+01:00",
+      "predicted_occupancy": 89.3
+    },
+    {
+      "facility": "Westbad",
+      "timestamp": "2026-01-28T09:00:00+01:00",
+      "predicted_occupancy": 87.3
+    },
+    {
+      "facility": "Westbad Sauna",
+      "timestamp": "2026-01-28T09:00:00+01:00",
+      "predicted_occupancy": 84.8
+    },
+    {
+      "facility": "Dante-Winter-Warmfreibad",
+      "timestamp": "2026-01-28T09:00:00+01:00",
+      "predicted_occupancy": 85.1
+    },
+    {
+      "facility": "Dantebad",
+      "timestamp": "2026-01-28T09:00:00+01:00",
+      "predicted_occupancy": 86.0
+    },
+    {
+      "facility": "Olympia-Schwimmhalle",
+      "timestamp": "2026-01-28T09:00:00+01:00",
+      "predicted_occupancy": 82.8
+    },
+    {
+      "facility": "Prinzregentenstadion - Eislaufbahn",
+      "timestamp": "2026-01-28T09:00:00+01:00",
+      "predicted_occupancy": 91.6
+    },
+    {
+      "facility": "Bad Giesing-Harlaching",
+      "timestamp": "2026-01-28T10:00:00+01:00",
+      "predicted_occupancy": 80.8
+    },
+    {
+      "facility": "Cosimawellenbad",
+      "timestamp": "2026-01-28T10:00:00+01:00",
+      "predicted_occupancy": 85.5
+    },
+    {
+      "facility": "Cosimawellenbad Sauna",
+      "timestamp": "2026-01-28T10:00:00+01:00",
+      "predicted_occupancy": 84.9
+    },
+    {
+      "facility": "Dantebad Sauna",
+      "timestamp": "2026-01-28T10:00:00+01:00",
+      "predicted_occupancy": 75.1
+    },
+    {
+      "facility": "Michaelibad",
+      "timestamp": "2026-01-28T10:00:00+01:00",
+      "predicted_occupancy": 79.7
+    },
+    {
+      "facility": "Michaelibad Sauna",
+      "timestamp": "2026-01-28T10:00:00+01:00",
+      "predicted_occupancy": 84.0
+    },
+    {
+      "facility": "M\u00fcller'sches Volksbad",
+      "timestamp": "2026-01-28T10:00:00+01:00",
+      "predicted_occupancy": 75.7
+    },
+    {
+      "facility": "Nordbad",
+      "timestamp": "2026-01-28T10:00:00+01:00",
+      "predicted_occupancy": 71.1
+    },
+    {
+      "facility": "Nordbad Sauna",
+      "timestamp": "2026-01-28T10:00:00+01:00",
+      "predicted_occupancy": 83.7
+    },
+    {
+      "facility": "S\u00fcdbad",
+      "timestamp": "2026-01-28T10:00:00+01:00",
+      "predicted_occupancy": 75.8
+    },
+    {
+      "facility": "S\u00fcdbad Sauna",
+      "timestamp": "2026-01-28T10:00:00+01:00",
+      "predicted_occupancy": 80.9
+    },
+    {
+      "facility": "Westbad",
+      "timestamp": "2026-01-28T10:00:00+01:00",
+      "predicted_occupancy": 81.9
+    },
+    {
+      "facility": "Westbad Sauna",
+      "timestamp": "2026-01-28T10:00:00+01:00",
+      "predicted_occupancy": 75.5
+    },
+    {
+      "facility": "Dante-Winter-Warmfreibad",
+      "timestamp": "2026-01-28T10:00:00+01:00",
+      "predicted_occupancy": 82.6
+    },
+    {
+      "facility": "Dantebad",
+      "timestamp": "2026-01-28T10:00:00+01:00",
+      "predicted_occupancy": 74.2
+    },
+    {
+      "facility": "Olympia-Schwimmhalle",
+      "timestamp": "2026-01-28T10:00:00+01:00",
+      "predicted_occupancy": 82.5
+    },
+    {
+      "facility": "Prinzregentenstadion - Eislaufbahn",
+      "timestamp": "2026-01-28T10:00:00+01:00",
+      "predicted_occupancy": 81.8
+    },
+    {
+      "facility": "Bad Giesing-Harlaching",
+      "timestamp": "2026-01-28T11:00:00+01:00",
+      "predicted_occupancy": 81.0
+    },
+    {
+      "facility": "Cosimawellenbad",
+      "timestamp": "2026-01-28T11:00:00+01:00",
+      "predicted_occupancy": 85.4
+    },
+    {
+      "facility": "Cosimawellenbad Sauna",
+      "timestamp": "2026-01-28T11:00:00+01:00",
+      "predicted_occupancy": 84.9
+    },
+    {
+      "facility": "Dantebad Sauna",
+      "timestamp": "2026-01-28T11:00:00+01:00",
+      "predicted_occupancy": 74.0
+    },
+    {
+      "facility": "Michaelibad",
+      "timestamp": "2026-01-28T11:00:00+01:00",
+      "predicted_occupancy": 79.6
+    },
+    {
+      "facility": "Michaelibad Sauna",
+      "timestamp": "2026-01-28T11:00:00+01:00",
+      "predicted_occupancy": 83.6
+    },
+    {
+      "facility": "M\u00fcller'sches Volksbad",
+      "timestamp": "2026-01-28T11:00:00+01:00",
+      "predicted_occupancy": 75.1
+    },
+    {
+      "facility": "Nordbad",
+      "timestamp": "2026-01-28T11:00:00+01:00",
+      "predicted_occupancy": 71.0
+    },
+    {
+      "facility": "Nordbad Sauna",
+      "timestamp": "2026-01-28T11:00:00+01:00",
+      "predicted_occupancy": 83.1
+    },
+    {
+      "facility": "S\u00fcdbad",
+      "timestamp": "2026-01-28T11:00:00+01:00",
+      "predicted_occupancy": 75.7
+    },
+    {
+      "facility": "S\u00fcdbad Sauna",
+      "timestamp": "2026-01-28T11:00:00+01:00",
+      "predicted_occupancy": 80.3
+    },
+    {
+      "facility": "Westbad",
+      "timestamp": "2026-01-28T11:00:00+01:00",
+      "predicted_occupancy": 81.9
+    },
+    {
+      "facility": "Westbad Sauna",
+      "timestamp": "2026-01-28T11:00:00+01:00",
+      "predicted_occupancy": 75.1
+    },
+    {
+      "facility": "Dante-Winter-Warmfreibad",
+      "timestamp": "2026-01-28T11:00:00+01:00",
+      "predicted_occupancy": 82.5
+    },
+    {
+      "facility": "Dantebad",
+      "timestamp": "2026-01-28T11:00:00+01:00",
+      "predicted_occupancy": 73.7
+    },
+    {
+      "facility": "Olympia-Schwimmhalle",
+      "timestamp": "2026-01-28T11:00:00+01:00",
+      "predicted_occupancy": 81.9
+    },
+    {
+      "facility": "Prinzregentenstadion - Eislaufbahn",
+      "timestamp": "2026-01-28T11:00:00+01:00",
+      "predicted_occupancy": 82.1
+    },
+    {
+      "facility": "Bad Giesing-Harlaching",
+      "timestamp": "2026-01-28T12:00:00+01:00",
+      "predicted_occupancy": 81.5
+    },
+    {
+      "facility": "Cosimawellenbad",
+      "timestamp": "2026-01-28T12:00:00+01:00",
+      "predicted_occupancy": 87.1
+    },
+    {
+      "facility": "Cosimawellenbad Sauna",
+      "timestamp": "2026-01-28T12:00:00+01:00",
+      "predicted_occupancy": 84.7
+    },
+    {
+      "facility": "Dantebad Sauna",
+      "timestamp": "2026-01-28T12:00:00+01:00",
+      "predicted_occupancy": 73.8
+    },
+    {
+      "facility": "Michaelibad",
+      "timestamp": "2026-01-28T12:00:00+01:00",
+      "predicted_occupancy": 79.6
+    },
+    {
+      "facility": "Michaelibad Sauna",
+      "timestamp": "2026-01-28T12:00:00+01:00",
+      "predicted_occupancy": 83.6
+    },
+    {
+      "facility": "M\u00fcller'sches Volksbad",
+      "timestamp": "2026-01-28T12:00:00+01:00",
+      "predicted_occupancy": 75.2
+    },
+    {
+      "facility": "Nordbad",
+      "timestamp": "2026-01-28T12:00:00+01:00",
+      "predicted_occupancy": 72.0
+    },
+    {
+      "facility": "Nordbad Sauna",
+      "timestamp": "2026-01-28T12:00:00+01:00",
+      "predicted_occupancy": 83.1
+    },
+    {
+      "facility": "S\u00fcdbad",
+      "timestamp": "2026-01-28T12:00:00+01:00",
+      "predicted_occupancy": 76.6
+    },
+    {
+      "facility": "S\u00fcdbad Sauna",
+      "timestamp": "2026-01-28T12:00:00+01:00",
+      "predicted_occupancy": 79.7
+    },
+    {
+      "facility": "Westbad",
+      "timestamp": "2026-01-28T12:00:00+01:00",
+      "predicted_occupancy": 83.0
+    },
+    {
+      "facility": "Westbad Sauna",
+      "timestamp": "2026-01-28T12:00:00+01:00",
+      "predicted_occupancy": 74.8
+    },
+    {
+      "facility": "Dante-Winter-Warmfreibad",
+      "timestamp": "2026-01-28T12:00:00+01:00",
+      "predicted_occupancy": 82.5
+    },
+    {
+      "facility": "Dantebad",
+      "timestamp": "2026-01-28T12:00:00+01:00",
+      "predicted_occupancy": 73.0
+    },
+    {
+      "facility": "Olympia-Schwimmhalle",
+      "timestamp": "2026-01-28T12:00:00+01:00",
+      "predicted_occupancy": 81.9
+    },
+    {
+      "facility": "Prinzregentenstadion - Eislaufbahn",
+      "timestamp": "2026-01-28T12:00:00+01:00",
+      "predicted_occupancy": 84.5
+    },
+    {
+      "facility": "Bad Giesing-Harlaching",
+      "timestamp": "2026-01-28T13:00:00+01:00",
+      "predicted_occupancy": 84.5
+    },
+    {
+      "facility": "Cosimawellenbad",
+      "timestamp": "2026-01-28T13:00:00+01:00",
+      "predicted_occupancy": 90.1
+    },
+    {
+      "facility": "Cosimawellenbad Sauna",
+      "timestamp": "2026-01-28T13:00:00+01:00",
+      "predicted_occupancy": 86.8
+    },
+    {
+      "facility": "Dantebad Sauna",
+      "timestamp": "2026-01-28T13:00:00+01:00",
+      "predicted_occupancy": 77.5
+    },
+    {
+      "facility": "Michaelibad",
+      "timestamp": "2026-01-28T13:00:00+01:00",
+      "predicted_occupancy": 83.5
+    },
+    {
+      "facility": "Michaelibad Sauna",
+      "timestamp": "2026-01-28T13:00:00+01:00",
+      "predicted_occupancy": 85.6
+    },
+    {
+      "facility": "M\u00fcller'sches Volksbad",
+      "timestamp": "2026-01-28T13:00:00+01:00",
+      "predicted_occupancy": 80.2
+    },
+    {
+      "facility": "Nordbad",
+      "timestamp": "2026-01-28T13:00:00+01:00",
+      "predicted_occupancy": 77.2
+    },
+    {
+      "facility": "Nordbad Sauna",
+      "timestamp": "2026-01-28T13:00:00+01:00",
+      "predicted_occupancy": 85.1
+    },
+    {
+      "facility": "S\u00fcdbad",
+      "timestamp": "2026-01-28T13:00:00+01:00",
+      "predicted_occupancy": 80.5
+    },
+    {
+      "facility": "S\u00fcdbad Sauna",
+      "timestamp": "2026-01-28T13:00:00+01:00",
+      "predicted_occupancy": 82.6
+    },
+    {
+      "facility": "Westbad",
+      "timestamp": "2026-01-28T13:00:00+01:00",
+      "predicted_occupancy": 86.1
+    },
+    {
+      "facility": "Westbad Sauna",
+      "timestamp": "2026-01-28T13:00:00+01:00",
+      "predicted_occupancy": 78.6
+    },
+    {
+      "facility": "Dante-Winter-Warmfreibad",
+      "timestamp": "2026-01-28T13:00:00+01:00",
+      "predicted_occupancy": 85.3
+    },
+    {
+      "facility": "Dantebad",
+      "timestamp": "2026-01-28T13:00:00+01:00",
+      "predicted_occupancy": 76.6
+    },
+    {
+      "facility": "Olympia-Schwimmhalle",
+      "timestamp": "2026-01-28T13:00:00+01:00",
+      "predicted_occupancy": 85.7
+    },
+    {
+      "facility": "Prinzregentenstadion - Eislaufbahn",
+      "timestamp": "2026-01-28T13:00:00+01:00",
+      "predicted_occupancy": 87.6
+    },
+    {
+      "facility": "Bad Giesing-Harlaching",
+      "timestamp": "2026-01-28T14:00:00+01:00",
+      "predicted_occupancy": 85.0
+    },
+    {
+      "facility": "Cosimawellenbad",
+      "timestamp": "2026-01-28T14:00:00+01:00",
+      "predicted_occupancy": 90.0
+    },
+    {
+      "facility": "Cosimawellenbad Sauna",
+      "timestamp": "2026-01-28T14:00:00+01:00",
+      "predicted_occupancy": 85.9
+    },
+    {
+      "facility": "Dantebad Sauna",
+      "timestamp": "2026-01-28T14:00:00+01:00",
+      "predicted_occupancy": 76.3
+    },
+    {
+      "facility": "Michaelibad",
+      "timestamp": "2026-01-28T14:00:00+01:00",
+      "predicted_occupancy": 82.3
+    },
+    {
+      "facility": "Michaelibad Sauna",
+      "timestamp": "2026-01-28T14:00:00+01:00",
+      "predicted_occupancy": 85.3
+    },
+    {
+      "facility": "M\u00fcller'sches Volksbad",
+      "timestamp": "2026-01-28T14:00:00+01:00",
+      "predicted_occupancy": 78.7
+    },
+    {
+      "facility": "Nordbad",
+      "timestamp": "2026-01-28T14:00:00+01:00",
+      "predicted_occupancy": 76.6
+    },
+    {
+      "facility": "Nordbad Sauna",
+      "timestamp": "2026-01-28T14:00:00+01:00",
+      "predicted_occupancy": 84.7
+    },
+    {
+      "facility": "S\u00fcdbad",
+      "timestamp": "2026-01-28T14:00:00+01:00",
+      "predicted_occupancy": 79.7
+    },
+    {
+      "facility": "S\u00fcdbad Sauna",
+      "timestamp": "2026-01-28T14:00:00+01:00",
+      "predicted_occupancy": 80.7
+    },
+    {
+      "facility": "Westbad",
+      "timestamp": "2026-01-28T14:00:00+01:00",
+      "predicted_occupancy": 86.0
+    },
+    {
+      "facility": "Westbad Sauna",
+      "timestamp": "2026-01-28T14:00:00+01:00",
+      "predicted_occupancy": 77.0
+    },
+    {
+      "facility": "Dante-Winter-Warmfreibad",
+      "timestamp": "2026-01-28T14:00:00+01:00",
+      "predicted_occupancy": 85.1
+    },
+    {
+      "facility": "Dantebad",
+      "timestamp": "2026-01-28T14:00:00+01:00",
+      "predicted_occupancy": 75.5
+    },
+    {
+      "facility": "Olympia-Schwimmhalle",
+      "timestamp": "2026-01-28T14:00:00+01:00",
+      "predicted_occupancy": 85.7
+    },
+    {
+      "facility": "Prinzregentenstadion - Eislaufbahn",
+      "timestamp": "2026-01-28T14:00:00+01:00",
+      "predicted_occupancy": 88.1
+    },
+    {
+      "facility": "Bad Giesing-Harlaching",
+      "timestamp": "2026-01-28T15:00:00+01:00",
+      "predicted_occupancy": 83.6
+    },
+    {
+      "facility": "Cosimawellenbad",
+      "timestamp": "2026-01-28T15:00:00+01:00",
+      "predicted_occupancy": 88.6
+    },
+    {
+      "facility": "Cosimawellenbad Sauna",
+      "timestamp": "2026-01-28T15:00:00+01:00",
+      "predicted_occupancy": 85.9
+    },
+    {
+      "facility": "Dantebad Sauna",
+      "timestamp": "2026-01-28T15:00:00+01:00",
+      "predicted_occupancy": 74.7
+    },
+    {
+      "facility": "Michaelibad",
+      "timestamp": "2026-01-28T15:00:00+01:00",
+      "predicted_occupancy": 80.0
+    },
+    {
+      "facility": "Michaelibad Sauna",
+      "timestamp": "2026-01-28T15:00:00+01:00",
+      "predicted_occupancy": 84.7
+    },
+    {
+      "facility": "M\u00fcller'sches Volksbad",
+      "timestamp": "2026-01-28T15:00:00+01:00",
+      "predicted_occupancy": 76.5
+    },
+    {
+      "facility": "Nordbad",
+      "timestamp": "2026-01-28T15:00:00+01:00",
+      "predicted_occupancy": 74.5
+    },
+    {
+      "facility": "Nordbad Sauna",
+      "timestamp": "2026-01-28T15:00:00+01:00",
+      "predicted_occupancy": 84.0
+    },
+    {
+      "facility": "S\u00fcdbad",
+      "timestamp": "2026-01-28T15:00:00+01:00",
+      "predicted_occupancy": 78.0
+    },
+    {
+      "facility": "S\u00fcdbad Sauna",
+      "timestamp": "2026-01-28T15:00:00+01:00",
+      "predicted_occupancy": 79.5
+    },
+    {
+      "facility": "Westbad",
+      "timestamp": "2026-01-28T15:00:00+01:00",
+      "predicted_occupancy": 84.9
+    },
+    {
+      "facility": "Westbad Sauna",
+      "timestamp": "2026-01-28T15:00:00+01:00",
+      "predicted_occupancy": 76.4
+    },
+    {
+      "facility": "Dante-Winter-Warmfreibad",
+      "timestamp": "2026-01-28T15:00:00+01:00",
+      "predicted_occupancy": 84.6
+    },
+    {
+      "facility": "Dantebad",
+      "timestamp": "2026-01-28T15:00:00+01:00",
+      "predicted_occupancy": 74.7
+    },
+    {
+      "facility": "Olympia-Schwimmhalle",
+      "timestamp": "2026-01-28T15:00:00+01:00",
+      "predicted_occupancy": 84.9
+    },
+    {
+      "facility": "Prinzregentenstadion - Eislaufbahn",
+      "timestamp": "2026-01-28T15:00:00+01:00",
+      "predicted_occupancy": 86.9
+    },
+    {
+      "facility": "Bad Giesing-Harlaching",
+      "timestamp": "2026-01-28T16:00:00+01:00",
+      "predicted_occupancy": 76.1
+    },
+    {
+      "facility": "Cosimawellenbad",
+      "timestamp": "2026-01-28T16:00:00+01:00",
+      "predicted_occupancy": 84.8
+    },
+    {
+      "facility": "Cosimawellenbad Sauna",
+      "timestamp": "2026-01-28T16:00:00+01:00",
+      "predicted_occupancy": 82.1
+    },
+    {
+      "facility": "Dantebad Sauna",
+      "timestamp": "2026-01-28T16:00:00+01:00",
+      "predicted_occupancy": 70.1
+    },
+    {
+      "facility": "Michaelibad",
+      "timestamp": "2026-01-28T16:00:00+01:00",
+      "predicted_occupancy": 74.2
+    },
+    {
+      "facility": "Michaelibad Sauna",
+      "timestamp": "2026-01-28T16:00:00+01:00",
+      "predicted_occupancy": 79.2
+    },
+    {
+      "facility": "M\u00fcller'sches Volksbad",
+      "timestamp": "2026-01-28T16:00:00+01:00",
+      "predicted_occupancy": 67.4
+    },
+    {
+      "facility": "Nordbad",
+      "timestamp": "2026-01-28T16:00:00+01:00",
+      "predicted_occupancy": 66.8
+    },
+    {
+      "facility": "Nordbad Sauna",
+      "timestamp": "2026-01-28T16:00:00+01:00",
+      "predicted_occupancy": 79.3
+    },
+    {
+      "facility": "S\u00fcdbad",
+      "timestamp": "2026-01-28T16:00:00+01:00",
+      "predicted_occupancy": 68.6
+    },
+    {
+      "facility": "S\u00fcdbad Sauna",
+      "timestamp": "2026-01-28T16:00:00+01:00",
+      "predicted_occupancy": 74.0
+    },
+    {
+      "facility": "Westbad",
+      "timestamp": "2026-01-28T16:00:00+01:00",
+      "predicted_occupancy": 79.7
+    },
+    {
+      "facility": "Westbad Sauna",
+      "timestamp": "2026-01-28T16:00:00+01:00",
+      "predicted_occupancy": 71.8
+    },
+    {
+      "facility": "Dante-Winter-Warmfreibad",
+      "timestamp": "2026-01-28T16:00:00+01:00",
+      "predicted_occupancy": 80.5
+    },
+    {
+      "facility": "Dantebad",
+      "timestamp": "2026-01-28T16:00:00+01:00",
+      "predicted_occupancy": 71.7
+    },
+    {
+      "facility": "Olympia-Schwimmhalle",
+      "timestamp": "2026-01-28T16:00:00+01:00",
+      "predicted_occupancy": 76.4
+    },
+    {
+      "facility": "Prinzregentenstadion - Eislaufbahn",
+      "timestamp": "2026-01-28T16:00:00+01:00",
+      "predicted_occupancy": 84.0
+    },
+    {
+      "facility": "Bad Giesing-Harlaching",
+      "timestamp": "2026-01-28T17:00:00+01:00",
+      "predicted_occupancy": 69.9
+    },
+    {
+      "facility": "Cosimawellenbad",
+      "timestamp": "2026-01-28T17:00:00+01:00",
+      "predicted_occupancy": 82.3
+    },
+    {
+      "facility": "Cosimawellenbad Sauna",
+      "timestamp": "2026-01-28T17:00:00+01:00",
+      "predicted_occupancy": 77.9
+    },
+    {
+      "facility": "Dantebad Sauna",
+      "timestamp": "2026-01-28T17:00:00+01:00",
+      "predicted_occupancy": 65.0
+    },
+    {
+      "facility": "Michaelibad",
+      "timestamp": "2026-01-28T17:00:00+01:00",
+      "predicted_occupancy": 69.9
+    },
+    {
+      "facility": "Michaelibad Sauna",
+      "timestamp": "2026-01-28T17:00:00+01:00",
+      "predicted_occupancy": 72.8
+    },
+    {
+      "facility": "M\u00fcller'sches Volksbad",
+      "timestamp": "2026-01-28T17:00:00+01:00",
+      "predicted_occupancy": 60.7
+    },
+    {
+      "facility": "Nordbad",
+      "timestamp": "2026-01-28T17:00:00+01:00",
+      "predicted_occupancy": 58.8
+    },
+    {
+      "facility": "Nordbad Sauna",
+      "timestamp": "2026-01-28T17:00:00+01:00",
+      "predicted_occupancy": 74.5
+    },
+    {
+      "facility": "S\u00fcdbad",
+      "timestamp": "2026-01-28T17:00:00+01:00",
+      "predicted_occupancy": 64.0
+    },
+    {
+      "facility": "S\u00fcdbad Sauna",
+      "timestamp": "2026-01-28T17:00:00+01:00",
+      "predicted_occupancy": 69.5
+    },
+    {
+      "facility": "Westbad",
+      "timestamp": "2026-01-28T17:00:00+01:00",
+      "predicted_occupancy": 77.2
+    },
+    {
+      "facility": "Westbad Sauna",
+      "timestamp": "2026-01-28T17:00:00+01:00",
+      "predicted_occupancy": 66.9
+    },
+    {
+      "facility": "Dante-Winter-Warmfreibad",
+      "timestamp": "2026-01-28T17:00:00+01:00",
+      "predicted_occupancy": 76.4
+    },
+    {
+      "facility": "Dantebad",
+      "timestamp": "2026-01-28T17:00:00+01:00",
+      "predicted_occupancy": 66.8
+    },
+    {
+      "facility": "Olympia-Schwimmhalle",
+      "timestamp": "2026-01-28T17:00:00+01:00",
+      "predicted_occupancy": 69.1
+    },
+    {
+      "facility": "Prinzregentenstadion - Eislaufbahn",
+      "timestamp": "2026-01-28T17:00:00+01:00",
+      "predicted_occupancy": 82.1
+    },
+    {
+      "facility": "Bad Giesing-Harlaching",
+      "timestamp": "2026-01-28T18:00:00+01:00",
+      "predicted_occupancy": 70.1
+    },
+    {
+      "facility": "Cosimawellenbad",
+      "timestamp": "2026-01-28T18:00:00+01:00",
+      "predicted_occupancy": 83.9
+    },
+    {
+      "facility": "Cosimawellenbad Sauna",
+      "timestamp": "2026-01-28T18:00:00+01:00",
+      "predicted_occupancy": 77.8
+    },
+    {
+      "facility": "Dantebad Sauna",
+      "timestamp": "2026-01-28T18:00:00+01:00",
+      "predicted_occupancy": 63.8
+    },
+    {
+      "facility": "Michaelibad",
+      "timestamp": "2026-01-28T18:00:00+01:00",
+      "predicted_occupancy": 70.1
+    },
+    {
+      "facility": "Michaelibad Sauna",
+      "timestamp": "2026-01-28T18:00:00+01:00",
+      "predicted_occupancy": 72.9
+    },
+    {
+      "facility": "M\u00fcller'sches Volksbad",
+      "timestamp": "2026-01-28T18:00:00+01:00",
+      "predicted_occupancy": 59.9
+    },
+    {
+      "facility": "Nordbad",
+      "timestamp": "2026-01-28T18:00:00+01:00",
+      "predicted_occupancy": 57.7
+    },
+    {
+      "facility": "Nordbad Sauna",
+      "timestamp": "2026-01-28T18:00:00+01:00",
+      "predicted_occupancy": 74.4
+    },
+    {
+      "facility": "S\u00fcdbad",
+      "timestamp": "2026-01-28T18:00:00+01:00",
+      "predicted_occupancy": 65.1
+    },
+    {
+      "facility": "S\u00fcdbad Sauna",
+      "timestamp": "2026-01-28T18:00:00+01:00",
+      "predicted_occupancy": 68.0
+    },
+    {
+      "facility": "Westbad",
+      "timestamp": "2026-01-28T18:00:00+01:00",
+      "predicted_occupancy": 78.3
+    },
+    {
+      "facility": "Westbad Sauna",
+      "timestamp": "2026-01-28T18:00:00+01:00",
+      "predicted_occupancy": 65.0
+    },
+    {
+      "facility": "Dante-Winter-Warmfreibad",
+      "timestamp": "2026-01-28T18:00:00+01:00",
+      "predicted_occupancy": 76.2
+    },
+    {
+      "facility": "Dantebad",
+      "timestamp": "2026-01-28T18:00:00+01:00",
+      "predicted_occupancy": 64.4
+    },
+    {
+      "facility": "Olympia-Schwimmhalle",
+      "timestamp": "2026-01-28T18:00:00+01:00",
+      "predicted_occupancy": 70.0
+    },
+    {
+      "facility": "Prinzregentenstadion - Eislaufbahn",
+      "timestamp": "2026-01-28T18:00:00+01:00",
+      "predicted_occupancy": 83.8
+    },
+    {
+      "facility": "Bad Giesing-Harlaching",
+      "timestamp": "2026-01-28T19:00:00+01:00",
+      "predicted_occupancy": 75.2
+    },
+    {
+      "facility": "Cosimawellenbad",
+      "timestamp": "2026-01-28T19:00:00+01:00",
+      "predicted_occupancy": 85.5
+    },
+    {
+      "facility": "Cosimawellenbad Sauna",
+      "timestamp": "2026-01-28T19:00:00+01:00",
+      "predicted_occupancy": 76.9
+    },
+    {
+      "facility": "Dantebad Sauna",
+      "timestamp": "2026-01-28T19:00:00+01:00",
+      "predicted_occupancy": 63.0
+    },
+    {
+      "facility": "Michaelibad",
+      "timestamp": "2026-01-28T19:00:00+01:00",
+      "predicted_occupancy": 71.2
+    },
+    {
+      "facility": "Michaelibad Sauna",
+      "timestamp": "2026-01-28T19:00:00+01:00",
+      "predicted_occupancy": 72.8
+    },
+    {
+      "facility": "M\u00fcller'sches Volksbad",
+      "timestamp": "2026-01-28T19:00:00+01:00",
+      "predicted_occupancy": 60.5
+    },
+    {
+      "facility": "Nordbad",
+      "timestamp": "2026-01-28T19:00:00+01:00",
+      "predicted_occupancy": 59.1
+    },
+    {
+      "facility": "Nordbad Sauna",
+      "timestamp": "2026-01-28T19:00:00+01:00",
+      "predicted_occupancy": 73.0
+    },
+    {
+      "facility": "S\u00fcdbad",
+      "timestamp": "2026-01-28T19:00:00+01:00",
+      "predicted_occupancy": 65.6
+    },
+    {
+      "facility": "S\u00fcdbad Sauna",
+      "timestamp": "2026-01-28T19:00:00+01:00",
+      "predicted_occupancy": 67.2
+    },
+    {
+      "facility": "Westbad",
+      "timestamp": "2026-01-28T19:00:00+01:00",
+      "predicted_occupancy": 79.3
+    },
+    {
+      "facility": "Westbad Sauna",
+      "timestamp": "2026-01-28T19:00:00+01:00",
+      "predicted_occupancy": 62.4
+    },
+    {
+      "facility": "Dante-Winter-Warmfreibad",
+      "timestamp": "2026-01-28T19:00:00+01:00",
+      "predicted_occupancy": 77.2
+    },
+    {
+      "facility": "Dantebad",
+      "timestamp": "2026-01-28T19:00:00+01:00",
+      "predicted_occupancy": 63.7
+    },
+    {
+      "facility": "Olympia-Schwimmhalle",
+      "timestamp": "2026-01-28T19:00:00+01:00",
+      "predicted_occupancy": 69.6
+    },
+    {
+      "facility": "Prinzregentenstadion - Eislaufbahn",
+      "timestamp": "2026-01-28T19:00:00+01:00",
+      "predicted_occupancy": 86.6
+    },
+    {
+      "facility": "Bad Giesing-Harlaching",
+      "timestamp": "2026-01-28T20:00:00+01:00",
+      "predicted_occupancy": 81.3
+    },
+    {
+      "facility": "Cosimawellenbad",
+      "timestamp": "2026-01-28T20:00:00+01:00",
+      "predicted_occupancy": 86.1
+    },
+    {
+      "facility": "Cosimawellenbad Sauna",
+      "timestamp": "2026-01-28T20:00:00+01:00",
+      "predicted_occupancy": 75.2
+    },
+    {
+      "facility": "Dantebad Sauna",
+      "timestamp": "2026-01-28T20:00:00+01:00",
+      "predicted_occupancy": 51.4
+    },
+    {
+      "facility": "Michaelibad",
+      "timestamp": "2026-01-28T20:00:00+01:00",
+      "predicted_occupancy": 75.3
+    },
+    {
+      "facility": "Michaelibad Sauna",
+      "timestamp": "2026-01-28T20:00:00+01:00",
+      "predicted_occupancy": 71.0
+    },
+    {
+      "facility": "M\u00fcller'sches Volksbad",
+      "timestamp": "2026-01-28T20:00:00+01:00",
+      "predicted_occupancy": 64.5
+    },
+    {
+      "facility": "Nordbad",
+      "timestamp": "2026-01-28T20:00:00+01:00",
+      "predicted_occupancy": 62.3
+    },
+    {
+      "facility": "Nordbad Sauna",
+      "timestamp": "2026-01-28T20:00:00+01:00",
+      "predicted_occupancy": 69.5
+    },
+    {
+      "facility": "S\u00fcdbad",
+      "timestamp": "2026-01-28T20:00:00+01:00",
+      "predicted_occupancy": 71.2
+    },
+    {
+      "facility": "S\u00fcdbad Sauna",
+      "timestamp": "2026-01-28T20:00:00+01:00",
+      "predicted_occupancy": 61.9
+    },
+    {
+      "facility": "Westbad",
+      "timestamp": "2026-01-28T20:00:00+01:00",
+      "predicted_occupancy": 82.5
+    },
+    {
+      "facility": "Westbad Sauna",
+      "timestamp": "2026-01-28T20:00:00+01:00",
+      "predicted_occupancy": 52.7
+    },
+    {
+      "facility": "Dante-Winter-Warmfreibad",
+      "timestamp": "2026-01-28T20:00:00+01:00",
+      "predicted_occupancy": 80.3
+    },
+    {
+      "facility": "Dantebad",
+      "timestamp": "2026-01-28T20:00:00+01:00",
+      "predicted_occupancy": 51.2
+    },
+    {
+      "facility": "Olympia-Schwimmhalle",
+      "timestamp": "2026-01-28T20:00:00+01:00",
+      "predicted_occupancy": 69.9
+    },
+    {
+      "facility": "Prinzregentenstadion - Eislaufbahn",
+      "timestamp": "2026-01-28T20:00:00+01:00",
+      "predicted_occupancy": 86.1
+    },
+    {
+      "facility": "Bad Giesing-Harlaching",
+      "timestamp": "2026-01-28T21:00:00+01:00",
+      "predicted_occupancy": 87.6
+    },
+    {
+      "facility": "Cosimawellenbad",
+      "timestamp": "2026-01-28T21:00:00+01:00",
+      "predicted_occupancy": 91.6
+    },
+    {
+      "facility": "Cosimawellenbad Sauna",
+      "timestamp": "2026-01-28T21:00:00+01:00",
+      "predicted_occupancy": 78.7
+    },
+    {
+      "facility": "Dantebad Sauna",
+      "timestamp": "2026-01-28T21:00:00+01:00",
+      "predicted_occupancy": 57.3
+    },
+    {
+      "facility": "Michaelibad",
+      "timestamp": "2026-01-28T21:00:00+01:00",
+      "predicted_occupancy": 82.2
+    },
+    {
+      "facility": "Michaelibad Sauna",
+      "timestamp": "2026-01-28T21:00:00+01:00",
+      "predicted_occupancy": 74.9
+    },
+    {
+      "facility": "M\u00fcller'sches Volksbad",
+      "timestamp": "2026-01-28T21:00:00+01:00",
+      "predicted_occupancy": 72.0
+    },
+    {
+      "facility": "Nordbad",
+      "timestamp": "2026-01-28T21:00:00+01:00",
+      "predicted_occupancy": 68.1
+    },
+    {
+      "facility": "Nordbad Sauna",
+      "timestamp": "2026-01-28T21:00:00+01:00",
+      "predicted_occupancy": 73.4
+    },
+    {
+      "facility": "S\u00fcdbad",
+      "timestamp": "2026-01-28T21:00:00+01:00",
+      "predicted_occupancy": 78.5
+    },
+    {
+      "facility": "S\u00fcdbad Sauna",
+      "timestamp": "2026-01-28T21:00:00+01:00",
+      "predicted_occupancy": 68.1
+    },
+    {
+      "facility": "Westbad",
+      "timestamp": "2026-01-28T21:00:00+01:00",
+      "predicted_occupancy": 88.0
+    },
+    {
+      "facility": "Westbad Sauna",
+      "timestamp": "2026-01-28T21:00:00+01:00",
+      "predicted_occupancy": 58.7
+    },
+    {
+      "facility": "Dante-Winter-Warmfreibad",
+      "timestamp": "2026-01-28T21:00:00+01:00",
+      "predicted_occupancy": 84.1
+    },
+    {
+      "facility": "Dantebad",
+      "timestamp": "2026-01-28T21:00:00+01:00",
+      "predicted_occupancy": 55.3
+    },
+    {
+      "facility": "Olympia-Schwimmhalle",
+      "timestamp": "2026-01-28T21:00:00+01:00",
+      "predicted_occupancy": 76.2
+    },
+    {
+      "facility": "Prinzregentenstadion - Eislaufbahn",
+      "timestamp": "2026-01-28T21:00:00+01:00",
+      "predicted_occupancy": 92.4
+    },
+    {
+      "facility": "Bad Giesing-Harlaching",
+      "timestamp": "2026-01-28T22:00:00+01:00",
+      "predicted_occupancy": 93.9
+    },
+    {
+      "facility": "Cosimawellenbad",
+      "timestamp": "2026-01-28T22:00:00+01:00",
+      "predicted_occupancy": 95.8
+    },
+    {
+      "facility": "Cosimawellenbad Sauna",
+      "timestamp": "2026-01-28T22:00:00+01:00",
+      "predicted_occupancy": 83.6
+    },
+    {
+      "facility": "Dantebad Sauna",
+      "timestamp": "2026-01-28T22:00:00+01:00",
+      "predicted_occupancy": 72.0
+    },
+    {
+      "facility": "Michaelibad",
+      "timestamp": "2026-01-28T22:00:00+01:00",
+      "predicted_occupancy": 90.8
+    },
+    {
+      "facility": "Michaelibad Sauna",
+      "timestamp": "2026-01-28T22:00:00+01:00",
+      "predicted_occupancy": 83.5
+    },
+    {
+      "facility": "M\u00fcller'sches Volksbad",
+      "timestamp": "2026-01-28T22:00:00+01:00",
+      "predicted_occupancy": 84.7
+    },
+    {
+      "facility": "Nordbad",
+      "timestamp": "2026-01-28T22:00:00+01:00",
+      "predicted_occupancy": 84.2
+    },
+    {
+      "facility": "Nordbad Sauna",
+      "timestamp": "2026-01-28T22:00:00+01:00",
+      "predicted_occupancy": 74.4
+    },
+    {
+      "facility": "S\u00fcdbad",
+      "timestamp": "2026-01-28T22:00:00+01:00",
+      "predicted_occupancy": 90.4
+    },
+    {
+      "facility": "S\u00fcdbad Sauna",
+      "timestamp": "2026-01-28T22:00:00+01:00",
+      "predicted_occupancy": 75.6
+    },
+    {
+      "facility": "Westbad",
+      "timestamp": "2026-01-28T22:00:00+01:00",
+      "predicted_occupancy": 94.3
+    },
+    {
+      "facility": "Westbad Sauna",
+      "timestamp": "2026-01-28T22:00:00+01:00",
+      "predicted_occupancy": 69.5
+    },
+    {
+      "facility": "Dante-Winter-Warmfreibad",
+      "timestamp": "2026-01-28T22:00:00+01:00",
+      "predicted_occupancy": 91.0
+    },
+    {
+      "facility": "Dantebad",
+      "timestamp": "2026-01-28T22:00:00+01:00",
+      "predicted_occupancy": 70.2
+    },
+    {
+      "facility": "Olympia-Schwimmhalle",
+      "timestamp": "2026-01-28T22:00:00+01:00",
+      "predicted_occupancy": 85.7
+    },
+    {
+      "facility": "Prinzregentenstadion - Eislaufbahn",
+      "timestamp": "2026-01-28T22:00:00+01:00",
+      "predicted_occupancy": 96.0
+    },
+    {
+      "facility": "Bad Giesing-Harlaching",
+      "timestamp": "2026-01-28T23:00:00+01:00",
+      "predicted_occupancy": 95.6
+    },
+    {
+      "facility": "Cosimawellenbad",
+      "timestamp": "2026-01-28T23:00:00+01:00",
+      "predicted_occupancy": 98.0
+    },
+    {
+      "facility": "Cosimawellenbad Sauna",
+      "timestamp": "2026-01-28T23:00:00+01:00",
+      "predicted_occupancy": 94.2
+    },
+    {
+      "facility": "Dantebad Sauna",
+      "timestamp": "2026-01-28T23:00:00+01:00",
+      "predicted_occupancy": 95.2
+    },
+    {
+      "facility": "Michaelibad",
+      "timestamp": "2026-01-28T23:00:00+01:00",
+      "predicted_occupancy": 97.0
+    },
+    {
+      "facility": "Michaelibad Sauna",
+      "timestamp": "2026-01-28T23:00:00+01:00",
+      "predicted_occupancy": 94.9
+    },
+    {
+      "facility": "M\u00fcller'sches Volksbad",
+      "timestamp": "2026-01-28T23:00:00+01:00",
+      "predicted_occupancy": 92.6
+    },
+    {
+      "facility": "Nordbad",
+      "timestamp": "2026-01-28T23:00:00+01:00",
+      "predicted_occupancy": 92.8
+    },
+    {
+      "facility": "Nordbad Sauna",
+      "timestamp": "2026-01-28T23:00:00+01:00",
+      "predicted_occupancy": 95.3
+    },
+    {
+      "facility": "S\u00fcdbad",
+      "timestamp": "2026-01-28T23:00:00+01:00",
+      "predicted_occupancy": 94.7
+    },
+    {
+      "facility": "S\u00fcdbad Sauna",
+      "timestamp": "2026-01-28T23:00:00+01:00",
+      "predicted_occupancy": 93.8
+    },
+    {
+      "facility": "Westbad",
+      "timestamp": "2026-01-28T23:00:00+01:00",
+      "predicted_occupancy": 97.4
+    },
+    {
+      "facility": "Westbad Sauna",
+      "timestamp": "2026-01-28T23:00:00+01:00",
+      "predicted_occupancy": 93.7
+    },
+    {
+      "facility": "Dante-Winter-Warmfreibad",
+      "timestamp": "2026-01-28T23:00:00+01:00",
+      "predicted_occupancy": 95.5
+    },
+    {
+      "facility": "Dantebad",
+      "timestamp": "2026-01-28T23:00:00+01:00",
+      "predicted_occupancy": 93.9
+    },
+    {
+      "facility": "Olympia-Schwimmhalle",
+      "timestamp": "2026-01-28T23:00:00+01:00",
+      "predicted_occupancy": 94.6
+    },
+    {
+      "facility": "Prinzregentenstadion - Eislaufbahn",
+      "timestamp": "2026-01-28T23:00:00+01:00",
+      "predicted_occupancy": 97.8
+    },
+    {
+      "facility": "Bad Giesing-Harlaching",
+      "timestamp": "2026-01-29T00:00:00+01:00",
+      "predicted_occupancy": 97.7
+    },
+    {
+      "facility": "Cosimawellenbad",
+      "timestamp": "2026-01-29T00:00:00+01:00",
+      "predicted_occupancy": 99.8
+    },
+    {
+      "facility": "Cosimawellenbad Sauna",
+      "timestamp": "2026-01-29T00:00:00+01:00",
+      "predicted_occupancy": 98.5
+    },
+    {
+      "facility": "Dantebad Sauna",
+      "timestamp": "2026-01-29T00:00:00+01:00",
+      "predicted_occupancy": 96.8
+    },
+    {
+      "facility": "Michaelibad",
+      "timestamp": "2026-01-29T00:00:00+01:00",
+      "predicted_occupancy": 98.8
+    },
+    {
+      "facility": "Michaelibad Sauna",
+      "timestamp": "2026-01-29T00:00:00+01:00",
+      "predicted_occupancy": 97.3
+    },
+    {
+      "facility": "M\u00fcller'sches Volksbad",
+      "timestamp": "2026-01-29T00:00:00+01:00",
+      "predicted_occupancy": 96.2
+    },
+    {
+      "facility": "Nordbad",
+      "timestamp": "2026-01-29T00:00:00+01:00",
+      "predicted_occupancy": 95.5
+    },
+    {
+      "facility": "Nordbad Sauna",
+      "timestamp": "2026-01-29T00:00:00+01:00",
+      "predicted_occupancy": 98.5
+    },
+    {
+      "facility": "S\u00fcdbad",
+      "timestamp": "2026-01-29T00:00:00+01:00",
+      "predicted_occupancy": 96.6
+    },
+    {
+      "facility": "S\u00fcdbad Sauna",
+      "timestamp": "2026-01-29T00:00:00+01:00",
+      "predicted_occupancy": 96.8
+    },
+    {
+      "facility": "Westbad",
+      "timestamp": "2026-01-29T00:00:00+01:00",
+      "predicted_occupancy": 98.9
+    },
+    {
+      "facility": "Westbad Sauna",
+      "timestamp": "2026-01-29T00:00:00+01:00",
+      "predicted_occupancy": 96.3
+    },
+    {
+      "facility": "Dante-Winter-Warmfreibad",
+      "timestamp": "2026-01-29T00:00:00+01:00",
+      "predicted_occupancy": 97.8
+    },
+    {
+      "facility": "Dantebad",
+      "timestamp": "2026-01-29T00:00:00+01:00",
+      "predicted_occupancy": 96.0
+    },
+    {
+      "facility": "Olympia-Schwimmhalle",
+      "timestamp": "2026-01-29T00:00:00+01:00",
+      "predicted_occupancy": 97.2
+    },
+    {
+      "facility": "Prinzregentenstadion - Eislaufbahn",
+      "timestamp": "2026-01-29T00:00:00+01:00",
+      "predicted_occupancy": 100.0
+    },
+    {
+      "facility": "Bad Giesing-Harlaching",
+      "timestamp": "2026-01-29T01:00:00+01:00",
+      "predicted_occupancy": 97.7
+    },
+    {
+      "facility": "Cosimawellenbad",
+      "timestamp": "2026-01-29T01:00:00+01:00",
+      "predicted_occupancy": 99.8
+    },
+    {
+      "facility": "Cosimawellenbad Sauna",
+      "timestamp": "2026-01-29T01:00:00+01:00",
+      "predicted_occupancy": 98.5
+    },
+    {
+      "facility": "Dantebad Sauna",
+      "timestamp": "2026-01-29T01:00:00+01:00",
+      "predicted_occupancy": 96.8
+    },
+    {
+      "facility": "Michaelibad",
+      "timestamp": "2026-01-29T01:00:00+01:00",
+      "predicted_occupancy": 98.8
+    },
+    {
+      "facility": "Michaelibad Sauna",
+      "timestamp": "2026-01-29T01:00:00+01:00",
+      "predicted_occupancy": 97.3
+    },
+    {
+      "facility": "M\u00fcller'sches Volksbad",
+      "timestamp": "2026-01-29T01:00:00+01:00",
+      "predicted_occupancy": 96.2
+    },
+    {
+      "facility": "Nordbad",
+      "timestamp": "2026-01-29T01:00:00+01:00",
+      "predicted_occupancy": 95.5
+    },
+    {
+      "facility": "Nordbad Sauna",
+      "timestamp": "2026-01-29T01:00:00+01:00",
+      "predicted_occupancy": 98.5
+    },
+    {
+      "facility": "S\u00fcdbad",
+      "timestamp": "2026-01-29T01:00:00+01:00",
+      "predicted_occupancy": 96.6
+    },
+    {
+      "facility": "S\u00fcdbad Sauna",
+      "timestamp": "2026-01-29T01:00:00+01:00",
+      "predicted_occupancy": 96.8
+    },
+    {
+      "facility": "Westbad",
+      "timestamp": "2026-01-29T01:00:00+01:00",
+      "predicted_occupancy": 98.9
+    },
+    {
+      "facility": "Westbad Sauna",
+      "timestamp": "2026-01-29T01:00:00+01:00",
+      "predicted_occupancy": 96.3
+    },
+    {
+      "facility": "Dante-Winter-Warmfreibad",
+      "timestamp": "2026-01-29T01:00:00+01:00",
+      "predicted_occupancy": 97.8
+    },
+    {
+      "facility": "Dantebad",
+      "timestamp": "2026-01-29T01:00:00+01:00",
+      "predicted_occupancy": 96.0
+    },
+    {
+      "facility": "Olympia-Schwimmhalle",
+      "timestamp": "2026-01-29T01:00:00+01:00",
+      "predicted_occupancy": 97.2
+    },
+    {
+      "facility": "Prinzregentenstadion - Eislaufbahn",
+      "timestamp": "2026-01-29T01:00:00+01:00",
+      "predicted_occupancy": 100.0
+    },
+    {
+      "facility": "Bad Giesing-Harlaching",
+      "timestamp": "2026-01-29T02:00:00+01:00",
+      "predicted_occupancy": 97.7
+    },
+    {
+      "facility": "Cosimawellenbad",
+      "timestamp": "2026-01-29T02:00:00+01:00",
+      "predicted_occupancy": 99.8
+    },
+    {
+      "facility": "Cosimawellenbad Sauna",
+      "timestamp": "2026-01-29T02:00:00+01:00",
+      "predicted_occupancy": 98.5
+    },
+    {
+      "facility": "Dantebad Sauna",
+      "timestamp": "2026-01-29T02:00:00+01:00",
+      "predicted_occupancy": 96.8
+    },
+    {
+      "facility": "Michaelibad",
+      "timestamp": "2026-01-29T02:00:00+01:00",
+      "predicted_occupancy": 98.8
+    },
+    {
+      "facility": "Michaelibad Sauna",
+      "timestamp": "2026-01-29T02:00:00+01:00",
+      "predicted_occupancy": 97.3
+    },
+    {
+      "facility": "M\u00fcller'sches Volksbad",
+      "timestamp": "2026-01-29T02:00:00+01:00",
+      "predicted_occupancy": 96.2
+    },
+    {
+      "facility": "Nordbad",
+      "timestamp": "2026-01-29T02:00:00+01:00",
+      "predicted_occupancy": 95.5
+    },
+    {
+      "facility": "Nordbad Sauna",
+      "timestamp": "2026-01-29T02:00:00+01:00",
+      "predicted_occupancy": 98.5
+    },
+    {
+      "facility": "S\u00fcdbad",
+      "timestamp": "2026-01-29T02:00:00+01:00",
+      "predicted_occupancy": 96.6
+    },
+    {
+      "facility": "S\u00fcdbad Sauna",
+      "timestamp": "2026-01-29T02:00:00+01:00",
+      "predicted_occupancy": 96.8
+    },
+    {
+      "facility": "Westbad",
+      "timestamp": "2026-01-29T02:00:00+01:00",
+      "predicted_occupancy": 98.9
+    },
+    {
+      "facility": "Westbad Sauna",
+      "timestamp": "2026-01-29T02:00:00+01:00",
+      "predicted_occupancy": 96.3
+    },
+    {
+      "facility": "Dante-Winter-Warmfreibad",
+      "timestamp": "2026-01-29T02:00:00+01:00",
+      "predicted_occupancy": 97.8
+    },
+    {
+      "facility": "Dantebad",
+      "timestamp": "2026-01-29T02:00:00+01:00",
+      "predicted_occupancy": 96.0
+    },
+    {
+      "facility": "Olympia-Schwimmhalle",
+      "timestamp": "2026-01-29T02:00:00+01:00",
+      "predicted_occupancy": 97.2
+    },
+    {
+      "facility": "Prinzregentenstadion - Eislaufbahn",
+      "timestamp": "2026-01-29T02:00:00+01:00",
+      "predicted_occupancy": 100.0
+    },
+    {
+      "facility": "Bad Giesing-Harlaching",
+      "timestamp": "2026-01-29T03:00:00+01:00",
+      "predicted_occupancy": 97.7
+    },
+    {
+      "facility": "Cosimawellenbad",
+      "timestamp": "2026-01-29T03:00:00+01:00",
+      "predicted_occupancy": 99.8
+    },
+    {
+      "facility": "Cosimawellenbad Sauna",
+      "timestamp": "2026-01-29T03:00:00+01:00",
+      "predicted_occupancy": 98.5
+    },
+    {
+      "facility": "Dantebad Sauna",
+      "timestamp": "2026-01-29T03:00:00+01:00",
+      "predicted_occupancy": 96.9
+    },
+    {
+      "facility": "Michaelibad",
+      "timestamp": "2026-01-29T03:00:00+01:00",
+      "predicted_occupancy": 98.5
+    },
+    {
+      "facility": "Michaelibad Sauna",
+      "timestamp": "2026-01-29T03:00:00+01:00",
+      "predicted_occupancy": 97.3
+    },
+    {
+      "facility": "M\u00fcller'sches Volksbad",
+      "timestamp": "2026-01-29T03:00:00+01:00",
+      "predicted_occupancy": 96.6
+    },
+    {
+      "facility": "Nordbad",
+      "timestamp": "2026-01-29T03:00:00+01:00",
+      "predicted_occupancy": 96.0
+    },
+    {
+      "facility": "Nordbad Sauna",
+      "timestamp": "2026-01-29T03:00:00+01:00",
+      "predicted_occupancy": 98.5
+    },
+    {
+      "facility": "S\u00fcdbad",
+      "timestamp": "2026-01-29T03:00:00+01:00",
+      "predicted_occupancy": 96.7
+    },
+    {
+      "facility": "S\u00fcdbad Sauna",
+      "timestamp": "2026-01-29T03:00:00+01:00",
+      "predicted_occupancy": 96.7
+    },
+    {
+      "facility": "Westbad",
+      "timestamp": "2026-01-29T03:00:00+01:00",
+      "predicted_occupancy": 98.8
+    },
+    {
+      "facility": "Westbad Sauna",
+      "timestamp": "2026-01-29T03:00:00+01:00",
+      "predicted_occupancy": 96.7
+    },
+    {
+      "facility": "Dante-Winter-Warmfreibad",
+      "timestamp": "2026-01-29T03:00:00+01:00",
+      "predicted_occupancy": 97.8
+    },
+    {
+      "facility": "Dantebad",
+      "timestamp": "2026-01-29T03:00:00+01:00",
+      "predicted_occupancy": 96.3
+    },
+    {
+      "facility": "Olympia-Schwimmhalle",
+      "timestamp": "2026-01-29T03:00:00+01:00",
+      "predicted_occupancy": 97.5
+    },
+    {
+      "facility": "Prinzregentenstadion - Eislaufbahn",
+      "timestamp": "2026-01-29T03:00:00+01:00",
+      "predicted_occupancy": 100.0
+    },
+    {
+      "facility": "Bad Giesing-Harlaching",
+      "timestamp": "2026-01-29T04:00:00+01:00",
+      "predicted_occupancy": 97.7
+    },
+    {
+      "facility": "Cosimawellenbad",
+      "timestamp": "2026-01-29T04:00:00+01:00",
+      "predicted_occupancy": 99.8
+    },
+    {
+      "facility": "Cosimawellenbad Sauna",
+      "timestamp": "2026-01-29T04:00:00+01:00",
+      "predicted_occupancy": 98.5
+    },
+    {
+      "facility": "Dantebad Sauna",
+      "timestamp": "2026-01-29T04:00:00+01:00",
+      "predicted_occupancy": 96.9
+    },
+    {
+      "facility": "Michaelibad",
+      "timestamp": "2026-01-29T04:00:00+01:00",
+      "predicted_occupancy": 98.5
+    },
+    {
+      "facility": "Michaelibad Sauna",
+      "timestamp": "2026-01-29T04:00:00+01:00",
+      "predicted_occupancy": 97.3
+    },
+    {
+      "facility": "M\u00fcller'sches Volksbad",
+      "timestamp": "2026-01-29T04:00:00+01:00",
+      "predicted_occupancy": 96.6
+    },
+    {
+      "facility": "Nordbad",
+      "timestamp": "2026-01-29T04:00:00+01:00",
+      "predicted_occupancy": 96.0
+    },
+    {
+      "facility": "Nordbad Sauna",
+      "timestamp": "2026-01-29T04:00:00+01:00",
+      "predicted_occupancy": 98.5
+    },
+    {
+      "facility": "S\u00fcdbad",
+      "timestamp": "2026-01-29T04:00:00+01:00",
+      "predicted_occupancy": 96.7
+    },
+    {
+      "facility": "S\u00fcdbad Sauna",
+      "timestamp": "2026-01-29T04:00:00+01:00",
+      "predicted_occupancy": 96.7
+    },
+    {
+      "facility": "Westbad",
+      "timestamp": "2026-01-29T04:00:00+01:00",
+      "predicted_occupancy": 98.8
+    },
+    {
+      "facility": "Westbad Sauna",
+      "timestamp": "2026-01-29T04:00:00+01:00",
+      "predicted_occupancy": 96.7
+    },
+    {
+      "facility": "Dante-Winter-Warmfreibad",
+      "timestamp": "2026-01-29T04:00:00+01:00",
+      "predicted_occupancy": 97.8
+    },
+    {
+      "facility": "Dantebad",
+      "timestamp": "2026-01-29T04:00:00+01:00",
+      "predicted_occupancy": 96.3
+    },
+    {
+      "facility": "Olympia-Schwimmhalle",
+      "timestamp": "2026-01-29T04:00:00+01:00",
+      "predicted_occupancy": 97.5
+    },
+    {
+      "facility": "Prinzregentenstadion - Eislaufbahn",
+      "timestamp": "2026-01-29T04:00:00+01:00",
+      "predicted_occupancy": 100.0
+    },
+    {
+      "facility": "Bad Giesing-Harlaching",
+      "timestamp": "2026-01-29T05:00:00+01:00",
+      "predicted_occupancy": 99.1
+    },
+    {
+      "facility": "Cosimawellenbad",
+      "timestamp": "2026-01-29T05:00:00+01:00",
+      "predicted_occupancy": 100
+    },
+    {
+      "facility": "Cosimawellenbad Sauna",
+      "timestamp": "2026-01-29T05:00:00+01:00",
+      "predicted_occupancy": 99.7
+    },
+    {
+      "facility": "Dantebad Sauna",
+      "timestamp": "2026-01-29T05:00:00+01:00",
+      "predicted_occupancy": 97.2
+    },
+    {
+      "facility": "Michaelibad",
+      "timestamp": "2026-01-29T05:00:00+01:00",
+      "predicted_occupancy": 99.7
+    },
+    {
+      "facility": "Michaelibad Sauna",
+      "timestamp": "2026-01-29T05:00:00+01:00",
+      "predicted_occupancy": 97.9
+    },
+    {
+      "facility": "M\u00fcller'sches Volksbad",
+      "timestamp": "2026-01-29T05:00:00+01:00",
+      "predicted_occupancy": 96.6
+    },
+    {
+      "facility": "Nordbad",
+      "timestamp": "2026-01-29T05:00:00+01:00",
+      "predicted_occupancy": 96.0
+    },
+    {
+      "facility": "Nordbad Sauna",
+      "timestamp": "2026-01-29T05:00:00+01:00",
+      "predicted_occupancy": 99.5
+    },
+    {
+      "facility": "S\u00fcdbad",
+      "timestamp": "2026-01-29T05:00:00+01:00",
+      "predicted_occupancy": 97.0
+    },
+    {
+      "facility": "S\u00fcdbad Sauna",
+      "timestamp": "2026-01-29T05:00:00+01:00",
+      "predicted_occupancy": 97.3
+    },
+    {
+      "facility": "Westbad",
+      "timestamp": "2026-01-29T05:00:00+01:00",
+      "predicted_occupancy": 100
+    },
+    {
+      "facility": "Westbad Sauna",
+      "timestamp": "2026-01-29T05:00:00+01:00",
+      "predicted_occupancy": 96.7
+    },
+    {
+      "facility": "Dante-Winter-Warmfreibad",
+      "timestamp": "2026-01-29T05:00:00+01:00",
+      "predicted_occupancy": 99.0
+    },
+    {
+      "facility": "Dantebad",
+      "timestamp": "2026-01-29T05:00:00+01:00",
+      "predicted_occupancy": 96.6
+    },
+    {
+      "facility": "Olympia-Schwimmhalle",
+      "timestamp": "2026-01-29T05:00:00+01:00",
+      "predicted_occupancy": 97.5
+    },
+    {
+      "facility": "Prinzregentenstadion - Eislaufbahn",
+      "timestamp": "2026-01-29T05:00:00+01:00",
       "predicted_occupancy": 100
     }
   ]
