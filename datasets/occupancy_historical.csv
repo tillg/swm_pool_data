@@ -13999,17 +13999,6 @@ timestamp,facility_name,facility_type,occupancy_percent,is_open,hour,day_of_week
 2026-02-01T15:41:18+01:00,Prinzregentenstadion - Eislaufbahn,ice_rink,42.0,1,15,6,2,1,0,0,3.4,0.0,3.0,93.0,historical
 2026-02-01T15:41:18+01:00,Südbad,pool,38.0,1,15,6,2,1,0,0,3.4,0.0,3.0,93.0,historical
 2026-02-01T15:41:18+01:00,Westbad,pool,24.0,1,15,6,2,1,0,0,3.4,0.0,3.0,93.0,historical
-2026-02-01T15:41:18+01:00,Bad Giesing-Harlaching,pool,68.0,1,15,6,2,1,0,0,3.4,0.0,3.0,93.0,historical
-2026-02-01T15:41:18+01:00,Cosimawellenbad,pool,46.0,1,15,6,2,1,0,0,3.4,0.0,3.0,93.0,historical
-2026-02-01T15:41:18+01:00,Dante-Winter-Warmfreibad,pool,71.0,1,15,6,2,1,0,0,3.4,0.0,3.0,93.0,historical
-2026-02-01T15:41:18+01:00,Dantebad,sauna,27.0,1,15,6,2,1,0,0,3.4,0.0,3.0,93.0,historical
-2026-02-01T15:41:18+01:00,Michaelibad,pool,16.0,1,15,6,2,1,0,0,3.4,0.0,3.0,93.0,historical
-2026-02-01T15:41:18+01:00,Müller'sches Volksbad,pool,62.0,1,15,6,2,1,0,0,3.4,0.0,3.0,93.0,historical
-2026-02-01T15:41:18+01:00,Nordbad,pool,39.0,1,15,6,2,1,0,0,3.4,0.0,3.0,93.0,historical
-2026-02-01T15:41:18+01:00,Olympia-Schwimmhalle,pool,67.0,1,15,6,2,1,0,0,3.4,0.0,3.0,93.0,historical
-2026-02-01T15:41:18+01:00,Prinzregentenstadion - Eislaufbahn,ice_rink,42.0,1,15,6,2,1,0,0,3.4,0.0,3.0,93.0,historical
-2026-02-01T15:41:18+01:00,Südbad,pool,38.0,1,15,6,2,1,0,0,3.4,0.0,3.0,93.0,historical
-2026-02-01T15:41:18+01:00,Westbad,pool,24.0,1,15,6,2,1,0,0,3.4,0.0,3.0,93.0,historical
 2026-02-01T15:53:41+01:00,Bad Giesing-Harlaching,pool,70.0,1,15,6,2,1,0,0,3.4,0.0,3.0,93.0,historical
 2026-02-01T15:53:41+01:00,Cosimawellenbad,pool,48.0,1,15,6,2,1,0,0,3.4,0.0,3.0,93.0,historical
 2026-02-01T15:53:41+01:00,Dante-Winter-Warmfreibad,pool,70.0,1,15,6,2,1,0,0,3.4,0.0,3.0,93.0,historical
@@ -14021,3 +14010,25 @@ timestamp,facility_name,facility_type,occupancy_percent,is_open,hour,day_of_week
 2026-02-01T15:53:41+01:00,Prinzregentenstadion - Eislaufbahn,ice_rink,46.0,1,15,6,2,1,0,0,3.4,0.0,3.0,93.0,historical
 2026-02-01T15:53:41+01:00,Südbad,pool,36.0,1,15,6,2,1,0,0,3.4,0.0,3.0,93.0,historical
 2026-02-01T15:53:41+01:00,Westbad,pool,24.0,1,15,6,2,1,0,0,3.4,0.0,3.0,93.0,historical
+2026-02-01T15:53:41+01:00,Bad Giesing-Harlaching,pool,70.0,1,15,6,2,1,0,0,3.4,0.0,3.0,93.0,historical
+2026-02-01T15:53:41+01:00,Cosimawellenbad,pool,48.0,1,15,6,2,1,0,0,3.4,0.0,3.0,93.0,historical
+2026-02-01T15:53:41+01:00,Dante-Winter-Warmfreibad,pool,70.0,1,15,6,2,1,0,0,3.4,0.0,3.0,93.0,historical
+2026-02-01T15:53:41+01:00,Dantebad,sauna,25.0,1,15,6,2,1,0,0,3.4,0.0,3.0,93.0,historical
+2026-02-01T15:53:41+01:00,Michaelibad,pool,12.0,1,15,6,2,1,0,0,3.4,0.0,3.0,93.0,historical
+2026-02-01T15:53:41+01:00,Müller'sches Volksbad,pool,60.0,1,15,6,2,1,0,0,3.4,0.0,3.0,93.0,historical
+2026-02-01T15:53:41+01:00,Nordbad,pool,36.0,1,15,6,2,1,0,0,3.4,0.0,3.0,93.0,historical
+2026-02-01T15:53:41+01:00,Olympia-Schwimmhalle,pool,66.0,1,15,6,2,1,0,0,3.4,0.0,3.0,93.0,historical
+2026-02-01T15:53:41+01:00,Prinzregentenstadion - Eislaufbahn,ice_rink,46.0,1,15,6,2,1,0,0,3.4,0.0,3.0,93.0,historical
+2026-02-01T15:53:41+01:00,Südbad,pool,36.0,1,15,6,2,1,0,0,3.4,0.0,3.0,93.0,historical
+2026-02-01T15:53:41+01:00,Westbad,pool,24.0,1,15,6,2,1,0,0,3.4,0.0,3.0,93.0,historical
+2026-02-01T16:05:54+01:00,Bad Giesing-Harlaching,pool,70.0,1,16,6,2,1,0,0,3.1,0.0,3.0,87.0,historical
+2026-02-01T16:05:54+01:00,Cosimawellenbad,pool,45.0,1,16,6,2,1,0,0,3.1,0.0,3.0,87.0,historical
+2026-02-01T16:05:54+01:00,Dante-Winter-Warmfreibad,pool,70.0,1,16,6,2,1,0,0,3.1,0.0,3.0,87.0,historical
+2026-02-01T16:05:54+01:00,Dantebad,sauna,25.0,1,16,6,2,1,0,0,3.1,0.0,3.0,87.0,historical
+2026-02-01T16:05:54+01:00,Michaelibad,pool,15.0,1,16,6,2,1,0,0,3.1,0.0,3.0,87.0,historical
+2026-02-01T16:05:54+01:00,Müller'sches Volksbad,pool,54.0,1,16,6,2,1,0,0,3.1,0.0,3.0,87.0,historical
+2026-02-01T16:05:54+01:00,Nordbad,pool,41.0,1,16,6,2,1,0,0,3.1,0.0,3.0,87.0,historical
+2026-02-01T16:05:54+01:00,Olympia-Schwimmhalle,pool,65.0,1,16,6,2,1,0,0,3.1,0.0,3.0,87.0,historical
+2026-02-01T16:05:54+01:00,Prinzregentenstadion - Eislaufbahn,ice_rink,49.0,1,16,6,2,1,0,0,3.1,0.0,3.0,87.0,historical
+2026-02-01T16:05:54+01:00,Südbad,pool,39.0,1,16,6,2,1,0,0,3.1,0.0,3.0,87.0,historical
+2026-02-01T16:05:54+01:00,Westbad,pool,23.0,1,16,6,2,1,0,0,3.1,0.0,3.0,87.0,historical
