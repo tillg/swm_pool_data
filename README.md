@@ -17,22 +17,31 @@ Real-time occupancy data from Munich's public SWM facilities (pools, saunas, ice
 │         ▼                             ▼                        ▼           │
 │  ┌──────────────┐              ┌──────────────┐         ┌──────────────┐   │
 │  │ scrape.yml   │              │load_weather  │         │holiday_loader│   │
-│  │ (every 15m)  │              │   (daily)    │         │  (manual)    │   │
+│  │ every 15 min │              │   .yml       │         │    .py       │   │
+│  │    24/7      │              │ daily 05:00  │         │   manual     │   │
+│  │   (cron)     │              │ UTC (cron)   │         │              │   │
 │  └──────┬───────┘              └──────┬───────┘         └──────┬───────┘   │
 │         │                             │                        │           │
+│         │ commits to repo             │ commits to repo        │           │
 │         ▼                             ▼                        ▼           │
 │  pool_scrapes_raw/             weather_raw/              holidays/         │
 │  └─ pool_data_*.json           └─ weather_*.json         ├─ public_*.json │
 │                                                          └─ school_*.json │
 └─────────────────────────────────────────────────────────────────────────────┘
-                                       │
-                                       ▼
+         │                             │
+         │ triggers (workflow_call)    │ triggers (push to weather_raw/**)
+         ▼                             ▼
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                              TRANSFORM (compile)                            │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
+│  transform.yml  ◄── triggered by: scrape (workflow_call)                   │
+│                                   weather push (path trigger)              │
+│                                   manual (workflow_dispatch)               │
+│                                                                             │
 │  pool JSON + weather JSON + holidays  ──►  transform.py                    │
 │                                                   │                         │
+│                                                   │ commits to repo         │
 │                                                   ▼                         │
 │                                        datasets/occupancy_historical.csv   │
 │                                        src/config/facility_types.json      │
@@ -43,8 +52,11 @@ Real-time occupancy data from Munich's public SWM facilities (pools, saunas, ice
 │                              MODEL TRAINING                                 │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
+│  train.yml  ◄── weekly: Sunday 22:00 UTC (cron)                            │
+│                 manual (workflow_dispatch)                                  │
+│                                                                             │
 │  occupancy_historical.csv  ──►  train.py  ──►  models/occupancy_model.pkl  │
-│                                (weekly)                                     │
+│                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
                                        │
                                        ▼
@@ -52,11 +64,15 @@ Real-time occupancy data from Munich's public SWM facilities (pools, saunas, ice
 │                              FORECAST                                       │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
+│  forecast.yml  ◄── daily: 05:00 UTC (cron)                                 │
+│                    manual (workflow_dispatch)                               │
+│                                                                             │
 │  model + weather forecast + holidays  ──►  forecast.py                     │
 │                                                  │                          │
+│                                                  │ commits to repo          │
 │                                                  ▼                          │
 │                                       datasets/occupancy_forecast.csv      │
-│                                       (48-hour predictions, daily)          │
+│                                       (48-hour predictions)                 │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 

@@ -68,3 +68,11 @@ python forecast.py
 - Transform script must be run from `src/` directory due to relative imports
 - All timestamps use Europe/Berlin timezone with ISO 8601 format
 - Historical and forecast CSVs share the same schema (distinguished by `data_source` column)
+
+## Git Commit Guidelines
+
+**Caution:** Data files in this repo (e.g., `datasets/`, `pool_scrapes_raw/`, `weather_raw/`) are frequently written by external processes (GitHub Actions, scrapers). When committing:
+- Always review `git status` and `git diff` carefully before staging
+- Only commit files you intentionally changed
+- Avoid `git add -A` or `git add .` which may accidentally include data files modified by background processes
+- Stage specific files by name instead

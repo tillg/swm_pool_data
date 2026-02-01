@@ -27,16 +27,50 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-def load_pool_data(input_dir: Path, since: datetime = None) -> pd.DataFrame:
+def load_facility_aliases(config_dir: Path) -> dict:
+    """Load facility alias mapping from JSON file.
+
+    Args:
+        config_dir: Directory containing facility_aliases.json
+
+    Returns:
+        Dictionary mapping "{facility_type}:{old_name}" to canonical name
+    """
+    aliases_path = config_dir / "facility_aliases.json"
+    if not aliases_path.exists():
+        raise FileNotFoundError(f"Facility aliases file not found: {aliases_path}")
+    with open(aliases_path, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def resolve_facility_alias(facility_name: str, facility_type: str, aliases: dict) -> str:
+    """Resolve facility name using type-aware alias mapping.
+
+    Args:
+        facility_name: Original facility name from raw data
+        facility_type: Facility type (pool, sauna, etc.)
+        aliases: Dictionary mapping "{type}:{old_name}" to canonical name
+
+    Returns:
+        Canonical facility name (or original if no alias exists)
+    """
+    key = f"{facility_type}:{facility_name}"
+    return aliases.get(key, facility_name)
+
+
+def load_pool_data(input_dir: Path, since: datetime = None, aliases: dict = None) -> pd.DataFrame:
     """Load pool JSON files into a DataFrame.
 
     Args:
         input_dir: Directory containing pool_data_*.json files
         since: Optional datetime to filter files (only load files after this date)
+        aliases: Optional dict mapping "{type}:{old_name}" to canonical name
 
     Returns:
         DataFrame with pool occupancy records
     """
+    if aliases is None:
+        aliases = {}
     input_dir = Path(input_dir)
     json_files = sorted(input_dir.glob("pool_data_*.json"))
 
@@ -65,10 +99,13 @@ def load_pool_data(input_dir: Path, since: datetime = None) -> pd.DataFrame:
                 # Check if this looks like facility data (first item has facility_type)
                 if isinstance(value[0], dict) and "facility_type" in value[0]:
                     for facility in value:
+                        raw_name = facility.get("pool_name")
+                        fac_type = facility.get("facility_type")
+                        canonical_name = resolve_facility_alias(raw_name, fac_type, aliases)
                         records.append({
                             "timestamp": facility.get("timestamp"),
-                            "facility_name": facility.get("pool_name"),
-                            "facility_type": facility.get("facility_type"),
+                            "facility_name": canonical_name,
+                            "facility_type": fac_type,
                             "occupancy_percent": facility.get("occupancy_percent"),
                             "is_open": 1 if facility.get("is_open") else 0,
                             "hour": facility.get("hour"),
@@ -241,8 +278,8 @@ def validate_data(df: pd.DataFrame) -> pd.DataFrame:
             (df["occupancy_percent"] >= 0) & (df["occupancy_percent"] <= 100)
         ]
 
-    # Check for duplicates
-    duplicates = df.duplicated(subset=["timestamp", "facility_name"], keep="first")
+    # Check for duplicates (include facility_type since same name can be pool and sauna)
+    duplicates = df.duplicated(subset=["timestamp", "facility_name", "facility_type"], keep="first")
     if duplicates.any():
         logger.warning(f"Removing {duplicates.sum()} duplicate records")
         df = df[~duplicates]
@@ -286,6 +323,11 @@ def transform(
         holiday_dir: Directory with holiday JSON files
         output_path: Path for output CSV file
     """
+    # Load facility aliases
+    config_dir = Path(__file__).parent / "config"
+    aliases = load_facility_aliases(config_dir)
+    logger.info(f"Loaded {len(aliases)} facility aliases")
+
     # Load existing data to find the latest timestamp
     existing_df = load_existing_data(output_path)
     since = None
@@ -297,7 +339,7 @@ def transform(
 
     # Load pool data
     logger.info(f"Loading pool data from {pool_dir}")
-    pool_df = load_pool_data(pool_dir, since=since)
+    pool_df = load_pool_data(pool_dir, since=since, aliases=aliases)
     if pool_df.empty:
         logger.warning("No new pool data to transform")
         return
@@ -341,7 +383,7 @@ def transform(
         combined_df = pd.concat([existing_df, validated_df], ignore_index=True)
         # Remove any duplicates that might have crept in
         combined_df = combined_df.drop_duplicates(
-            subset=["timestamp", "facility_name"],
+            subset=["timestamp", "facility_name", "facility_type"],
             keep="last"
         )
     else:
