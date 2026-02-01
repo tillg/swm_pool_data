@@ -425,14 +425,15 @@ def transform(
     logger.info(f"Saved {len(combined_df)} records to {output_path}")
 
     # Generate facility_types.json mapping
+    # Use composite key "type:name" to handle facilities with same name but different types
+    # (e.g., "Cosimawellenbad" exists as both pool and sauna)
     facility_types_path = Path(__file__).parent / "config" / "facility_types.json"
     facility_types_path.parent.mkdir(parents=True, exist_ok=True)
-    facility_types = (
-        combined_df[["facility_name", "facility_type"]]
-        .drop_duplicates()
-        .set_index("facility_name")["facility_type"]
-        .to_dict()
-    )
+    unique_facilities = combined_df[["facility_name", "facility_type"]].drop_duplicates()
+    facility_types = {
+        f"{row['facility_type']}:{row['facility_name']}": row["facility_type"]
+        for _, row in unique_facilities.iterrows()
+    }
     with open(facility_types_path, "w") as f:
         json.dump(facility_types, f, indent=2)
     logger.info(f"Saved facility types mapping to {facility_types_path}")

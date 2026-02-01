@@ -67,14 +67,14 @@ def load_weather_forecast(weather_path: Path, start_time: datetime) -> pd.DataFr
     return df
 
 
-def get_facilities(config_path: Path = None) -> dict[str, str]:
+def get_facilities(config_path: Path = None) -> list[tuple[str, str]]:
     """Get list of facilities and their types from config file.
 
     Args:
         config_path: Path to facility_types.json (default: ../config/facility_types.json)
 
     Returns:
-        Dictionary mapping facility_name to facility_type
+        List of (facility_name, facility_type) tuples
     """
     if config_path is None:
         config_path = Path(__file__).parent.parent / "config" / "facility_types.json"
@@ -85,10 +85,21 @@ def get_facilities(config_path: Path = None) -> dict[str, str]:
         sys.exit(1)
 
     with open(config_path, "r") as f:
-        facility_types = json.load(f)
+        raw_data = json.load(f)
 
-    logger.info(f"Found {len(facility_types)} facilities")
-    return facility_types
+    # Parse composite keys "type:name" -> (name, type)
+    facilities = []
+    for key, facility_type in raw_data.items():
+        if ":" in key:
+            # New composite key format: "type:name"
+            _, facility_name = key.split(":", 1)
+        else:
+            # Legacy format: just the name
+            facility_name = key
+        facilities.append((facility_name, facility_type))
+
+    logger.info(f"Found {len(facilities)} facilities")
+    return facilities
 
 
 def load_holiday_data(holiday_dir: Path) -> tuple[set, list]:
@@ -146,7 +157,7 @@ def generate_forecasts(
         is_school_vac = 1 if is_school_vacation(ts, school_vacations) else 0
 
         # Build features for each facility
-        for facility_name, facility_type in facility_types.items():
+        for facility_name, facility_type in facility_types:
             features = pd.DataFrame([{
                 "facility": facility_name,
                 "hour": hour,
