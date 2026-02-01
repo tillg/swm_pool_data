@@ -33,7 +33,7 @@ def load_data(data_path: Path) -> pd.DataFrame:
     logger.info(f"Loaded {len(df)} rows from {data_path}")
 
     # Convert facility to categorical
-    df["facility"] = df["pool_name"].astype("category")
+    df["facility"] = df["facility_name"].astype("category")
 
     # Keep only rows where facility is open
     df = df[df["is_open"] == 1].copy()
@@ -97,7 +97,7 @@ def main():
     parser.add_argument(
         "--data",
         type=str,
-        default="../../datasets/occupancy_features.csv",
+        default="../../datasets/occupancy_historical.csv",
         help="Path to training data CSV"
     )
     parser.add_argument(

@@ -34,7 +34,7 @@ jobs:
             --pool-dir ../pool_scrapes_raw \
             --weather-dir ../weather_raw \
             --holiday-dir ../holidays \
-            --output ../datasets/occupancy_features.csv
+            --output ../datasets/occupancy_historical.csv
 
       - name: Commit and push
         run: |

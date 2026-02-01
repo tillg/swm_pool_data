@@ -67,12 +67,28 @@ def load_weather_forecast(weather_path: Path, start_time: datetime) -> pd.DataFr
     return df
 
 
-def get_facilities(data_path: Path) -> list[str]:
-    """Get list of facilities from training data."""
-    df = pd.read_csv(data_path, usecols=["pool_name"])
-    facilities = df["pool_name"].unique().tolist()
-    logger.info(f"Found {len(facilities)} facilities")
-    return facilities
+def get_facilities(config_path: Path = None) -> dict[str, str]:
+    """Get list of facilities and their types from config file.
+
+    Args:
+        config_path: Path to facility_types.json (default: ../config/facility_types.json)
+
+    Returns:
+        Dictionary mapping facility_name to facility_type
+    """
+    if config_path is None:
+        config_path = Path(__file__).parent.parent / "config" / "facility_types.json"
+
+    if not config_path.exists():
+        logger.error(f"Facility types config not found: {config_path}")
+        logger.error("Run transform.py first to generate this file")
+        sys.exit(1)
+
+    with open(config_path, "r") as f:
+        facility_types = json.load(f)
+
+    logger.info(f"Found {len(facility_types)} facilities")
+    return facility_types
 
 
 def load_holiday_data(holiday_dir: Path) -> tuple[set, list]:
@@ -109,7 +125,7 @@ def is_school_vacation(dt: datetime, vacations: list) -> bool:
 
 def generate_forecasts(
     model,
-    facilities: list[str],
+    facility_types: dict[str, str],
     weather_df: pd.DataFrame,
     public_holidays: set,
     school_vacations: list,
@@ -121,16 +137,24 @@ def generate_forecasts(
         ts = weather_row["timestamp"]
         ts_tz = ts.tz_localize(TIMEZONE) if ts.tzinfo is None else ts
 
+        # Compute time-based features
+        hour = ts.hour
+        day_of_week = ts.dayofweek
+        month = ts.month
+        is_weekend = 1 if ts.dayofweek >= 5 else 0
+        is_holiday = 1 if ts.strftime("%Y-%m-%d") in public_holidays else 0
+        is_school_vac = 1 if is_school_vacation(ts, school_vacations) else 0
+
         # Build features for each facility
-        for facility in facilities:
+        for facility_name, facility_type in facility_types.items():
             features = pd.DataFrame([{
-                "facility": facility,
-                "hour": ts.hour,
-                "day_of_week": ts.dayofweek,
-                "month": ts.month,
-                "is_weekend": 1 if ts.dayofweek >= 5 else 0,
-                "is_holiday": 1 if ts.strftime("%Y-%m-%d") in public_holidays else 0,
-                "is_school_vacation": 1 if is_school_vacation(ts, school_vacations) else 0,
+                "facility": facility_name,
+                "hour": hour,
+                "day_of_week": day_of_week,
+                "month": month,
+                "is_weekend": is_weekend,
+                "is_holiday": is_holiday,
+                "is_school_vacation": is_school_vac,
                 "temperature_c": weather_row["temperature_c"],
                 "precipitation_mm": weather_row["precipitation_mm"],
                 "weather_code": weather_row["weather_code"],
@@ -141,27 +165,53 @@ def generate_forecasts(
             # Clamp to valid range
             prediction = max(0, min(100, prediction))
 
+            # Format timestamp as ISO 8601 with timezone
+            ts_str = ts_tz.strftime("%Y-%m-%dT%H:%M:%S%z")
+            # Insert colon in timezone offset for ISO 8601 compliance (+0100 -> +01:00)
+            ts_str = ts_str[:-2] + ":" + ts_str[-2:]
+
             forecasts.append({
-                "facility": facility,
-                "timestamp": ts_tz.isoformat(),
-                "predicted_occupancy": round(prediction, 1),
+                "timestamp": ts_str,
+                "facility_name": facility_name,
+                "facility_type": facility_type,
+                "occupancy_percent": round(prediction, 1),
+                "is_open": "NULL",
+                "hour": hour,
+                "day_of_week": day_of_week,
+                "month": month,
+                "is_weekend": is_weekend,
+                "is_holiday": is_holiday,
+                "is_school_vacation": is_school_vac,
+                "temperature_c": weather_row["temperature_c"],
+                "precipitation_mm": weather_row["precipitation_mm"],
+                "weather_code": weather_row["weather_code"],
+                "cloud_cover_percent": weather_row.get("cloud_cover_percent"),
+                "data_source": "forecast",
             })
 
     return forecasts
 
 
 def save_forecasts(forecasts: list[dict], output_path: Path) -> None:
-    """Save forecasts to JSON file."""
+    """Save forecasts to CSV file."""
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
-    output = {
-        "generated_at": datetime.now(TIMEZONE).isoformat(),
-        "forecasts": forecasts,
-    }
+    df = pd.DataFrame(forecasts)
 
-    with open(output_path, "w") as f:
-        json.dump(output, f, indent=2)
+    # Define column order to match historical format
+    columns = [
+        "timestamp", "facility_name", "facility_type", "occupancy_percent",
+        "is_open", "hour", "day_of_week", "month", "is_weekend",
+        "is_holiday", "is_school_vacation",
+        "temperature_c", "precipitation_mm", "weather_code", "cloud_cover_percent",
+        "data_source"
+    ]
+    df = df[columns]
 
+    # Sort by timestamp, facility_name
+    df = df.sort_values(["timestamp", "facility_name"])
+
+    df.to_csv(output_path, index=False)
     logger.info(f"Saved {len(forecasts)} forecasts to {output_path}")
 
 
@@ -180,12 +230,6 @@ def main():
         help="Directory containing weather JSON files"
     )
     parser.add_argument(
-        "--data",
-        type=str,
-        default="../../datasets/occupancy_features.csv",
-        help="Path to training data (for facility list)"
-    )
-    parser.add_argument(
         "--holiday-dir",
         type=str,
         default="../../holidays",
@@ -194,8 +238,8 @@ def main():
     parser.add_argument(
         "--output",
         type=str,
-        default="../../forecasts/forecast_latest.json",
-        help="Path to save forecast JSON"
+        default="../../datasets/occupancy_forecast.csv",
+        help="Path to save forecast CSV"
     )
 
     args = parser.parse_args()
@@ -209,11 +253,11 @@ def main():
     now = datetime.now(TIMEZONE).replace(minute=0, second=0, microsecond=0)
     weather_df = load_weather_forecast(weather_file, now)
 
-    facilities = get_facilities(Path(args.data))
+    facility_types = get_facilities()
     public_holidays, school_vacations = load_holiday_data(Path(args.holiday_dir))
 
     forecasts = generate_forecasts(
-        model, facilities, weather_df, public_holidays, school_vacations
+        model, facility_types, weather_df, public_holidays, school_vacations
     )
 
     save_forecasts(forecasts, Path(args.output))

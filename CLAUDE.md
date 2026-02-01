@@ -26,7 +26,15 @@ python transform.py \
   --pool-dir ../pool_scrapes_raw \
   --weather-dir ../weather_raw \
   --holiday-dir ../holidays \
-  --output ../datasets/occupancy_features.csv
+  --output ../datasets/occupancy_historical.csv
+
+# Train model
+cd src/train
+python train.py
+
+# Generate forecasts
+cd src/forecast
+python forecast.py
 ```
 
 ## Architecture
@@ -34,17 +42,22 @@ python transform.py \
 **Data Pipeline Flow:**
 1. `scrape.yml` (every 15 min) → raw pool JSON to `pool_scrapes_raw/` → triggers transform
 2. `load_weather.yml` (daily 05:00 UTC) → weather JSON to `weather_raw/` → triggers transform
-3. `transform.yml` (triggered after scrape or weather update) → merged CSV to `datasets/occupancy_features.csv`
+3. `transform.yml` (triggered after scrape or weather) → `datasets/occupancy_historical.csv` + `src/config/facility_types.json`
+4. `train.yml` (weekly) → `models/occupancy_model.pkl`
+5. `forecast.yml` (daily) → `datasets/occupancy_forecast.csv`
 
 **Key Components:**
-- `src/loaders/weather_loader.py` - Fetches hourly weather from Open-Meteo API for Munich
-- `src/loaders/holiday_loader.py` - Generates Bavarian public holidays; school holidays are manually maintained in `holidays/school_holidays.json`
-- `src/transform.py` - Main pipeline that:
-  - Loads facility JSON files (auto-discovers all facility types: pools, saunas, ice rinks, etc.)
-  - Supports incremental loading via `since` parameter
-  - Aligns weather data by hour
-  - Adds holiday/school vacation flags
-  - Deduplicates and appends to existing CSV
+- `src/loaders/weather_loader.py` - Fetches hourly weather from Open-Meteo API
+- `src/loaders/holiday_loader.py` - Generates Bavarian public holidays
+- `src/transform.py` - Merges raw data into `occupancy_historical.csv`, generates `facility_types.json`
+- `src/train/train.py` - Trains LightGBM model on historical data
+- `src/forecast/forecast.py` - Generates 48-hour predictions using trained model
+
+**Key Files:**
+- `datasets/occupancy_historical.csv` - Historical observations with weather/holiday features
+- `datasets/occupancy_forecast.csv` - 48-hour predictions (same schema as historical)
+- `src/config/facility_types.json` - Auto-generated facility name → type mapping
+- `models/occupancy_model.pkl` - Trained LightGBM model
 
 **Data Sources:**
 - Pool occupancy: [swm_pool_scraper](https://github.com/tillg/swm_pool_scraper) (external tool)
@@ -53,6 +66,5 @@ python transform.py \
 
 **Important Notes:**
 - Transform script must be run from `src/` directory due to relative imports
-- All timestamps use Europe/Berlin timezone
-- Weather data uses WMO weather codes
-- Facility data includes all SWM facility types (pools, saunas, ice rinks, etc.) - automatically discovered from raw JSON
+- All timestamps use Europe/Berlin timezone with ISO 8601 format
+- Historical and forecast CSVs share the same schema (distinguished by `data_source` column)

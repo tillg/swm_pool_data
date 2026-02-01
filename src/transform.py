@@ -67,7 +67,7 @@ def load_pool_data(input_dir: Path, since: datetime = None) -> pd.DataFrame:
                     for facility in value:
                         records.append({
                             "timestamp": facility.get("timestamp"),
-                            "pool_name": facility.get("pool_name"),
+                            "facility_name": facility.get("pool_name"),
                             "facility_type": facility.get("facility_type"),
                             "occupancy_percent": facility.get("occupancy_percent"),
                             "is_open": 1 if facility.get("is_open") else 0,
@@ -242,7 +242,7 @@ def validate_data(df: pd.DataFrame) -> pd.DataFrame:
         ]
 
     # Check for duplicates
-    duplicates = df.duplicated(subset=["timestamp", "pool_name"], keep="first")
+    duplicates = df.duplicated(subset=["timestamp", "facility_name"], keep="first")
     if duplicates.any():
         logger.warning(f"Removing {duplicates.sum()} duplicate records")
         df = df[~duplicates]
@@ -262,6 +262,12 @@ def load_existing_data(output_path: Path) -> pd.DataFrame:
     if output_path.exists():
         logger.info(f"Loading existing data from {output_path}")
         df = pd.read_csv(output_path, parse_dates=["timestamp"])
+        # Make timezone-naive for internal processing (will add timezone back when saving)
+        if df["timestamp"].dt.tz is not None:
+            df["timestamp"] = df["timestamp"].dt.tz_localize(None)
+        # Handle migration from old column name
+        if "pool_name" in df.columns and "facility_name" not in df.columns:
+            df = df.rename(columns={"pool_name": "facility_name"})
         return df
     return pd.DataFrame()
 
@@ -335,32 +341,59 @@ def transform(
         combined_df = pd.concat([existing_df, validated_df], ignore_index=True)
         # Remove any duplicates that might have crept in
         combined_df = combined_df.drop_duplicates(
-            subset=["timestamp", "pool_name"],
+            subset=["timestamp", "facility_name"],
             keep="last"
         )
     else:
         combined_df = validated_df
 
     # Sort and save
-    combined_df = combined_df.sort_values(["timestamp", "pool_name"])
+    combined_df = combined_df.sort_values(["timestamp", "facility_name"])
 
     # Ensure output directory exists
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
     # Define column order
     columns = [
-        "timestamp", "pool_name", "facility_type", "occupancy_percent",
+        "timestamp", "facility_name", "facility_type", "occupancy_percent",
         "is_open", "hour", "day_of_week", "month", "is_weekend",
         "is_holiday", "is_school_vacation",
-        "temperature_c", "precipitation_mm", "weather_code", "cloud_cover_percent"
+        "temperature_c", "precipitation_mm", "weather_code", "cloud_cover_percent",
+        "data_source"
     ]
+
+    # Add data_source column
+    combined_df["data_source"] = "historical"
 
     # Only include columns that exist
     columns = [c for c in columns if c in combined_df.columns]
     combined_df = combined_df[columns]
 
+    # Add timezone to timestamps and format as ISO 8601
+    combined_df["timestamp"] = pd.to_datetime(combined_df["timestamp"])
+    if combined_df["timestamp"].dt.tz is None:
+        combined_df["timestamp"] = combined_df["timestamp"].dt.tz_localize(TIMEZONE)
+    combined_df["timestamp"] = combined_df["timestamp"].dt.strftime("%Y-%m-%dT%H:%M:%S%z")
+    # Insert colon in timezone offset for ISO 8601 compliance (+0100 -> +01:00)
+    combined_df["timestamp"] = combined_df["timestamp"].str.replace(
+        r"(\+|-)(\d{2})(\d{2})$", r"\1\2:\3", regex=True
+    )
+
     combined_df.to_csv(output_path, index=False)
     logger.info(f"Saved {len(combined_df)} records to {output_path}")
+
+    # Generate facility_types.json mapping
+    facility_types_path = Path(__file__).parent / "config" / "facility_types.json"
+    facility_types_path.parent.mkdir(parents=True, exist_ok=True)
+    facility_types = (
+        combined_df[["facility_name", "facility_type"]]
+        .drop_duplicates()
+        .set_index("facility_name")["facility_type"]
+        .to_dict()
+    )
+    with open(facility_types_path, "w") as f:
+        json.dump(facility_types, f, indent=2)
+    logger.info(f"Saved facility types mapping to {facility_types_path}")
 
 
 def main():
@@ -386,7 +419,7 @@ def main():
     parser.add_argument(
         "--output",
         type=str,
-        default="datasets/occupancy_features.csv",
+        default="datasets/occupancy_historical.csv",
         help="Output CSV file path"
     )
 

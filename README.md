@@ -2,6 +2,64 @@
 
 Real-time occupancy data from Munich's public SWM facilities (pools, saunas, ice rinks), collected every 15 minutes via GitHub Actions.
 
+## Pipeline Overview
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                              DATA COLLECTION                                │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│  ┌──────────────┐              ┌──────────────┐         ┌──────────────┐   │
+│  │   SWM API    │              │  Open-Meteo  │         │   holidays   │   │
+│  │  (external)  │              │     API      │         │   package    │   │
+│  └──────┬───────┘              └──────┬───────┘         └──────┬───────┘   │
+│         │                             │                        │           │
+│         ▼                             ▼                        ▼           │
+│  ┌──────────────┐              ┌──────────────┐         ┌──────────────┐   │
+│  │ scrape.yml   │              │load_weather  │         │holiday_loader│   │
+│  │ (every 15m)  │              │   (daily)    │         │  (manual)    │   │
+│  └──────┬───────┘              └──────┬───────┘         └──────┬───────┘   │
+│         │                             │                        │           │
+│         ▼                             ▼                        ▼           │
+│  pool_scrapes_raw/             weather_raw/              holidays/         │
+│  └─ pool_data_*.json           └─ weather_*.json         ├─ public_*.json │
+│                                                          └─ school_*.json │
+└─────────────────────────────────────────────────────────────────────────────┘
+                                       │
+                                       ▼
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                              TRANSFORM (compile)                            │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│  pool JSON + weather JSON + holidays  ──►  transform.py                    │
+│                                                   │                         │
+│                                                   ▼                         │
+│                                        datasets/occupancy_historical.csv   │
+│                                        src/config/facility_types.json      │
+└─────────────────────────────────────────────────────────────────────────────┘
+                                       │
+                                       ▼
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                              MODEL TRAINING                                 │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│  occupancy_historical.csv  ──►  train.py  ──►  models/occupancy_model.pkl  │
+│                                (weekly)                                     │
+└─────────────────────────────────────────────────────────────────────────────┘
+                                       │
+                                       ▼
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                              FORECAST                                       │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│  model + weather forecast + holidays  ──►  forecast.py                     │
+│                                                  │                          │
+│                                                  ▼                          │
+│                                       datasets/occupancy_forecast.csv      │
+│                                       (48-hour predictions, daily)          │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
 ## Data Source
 
 Data is scraped from [Stadtwerke München (SWM)](https://www.swm.de/baeder/auslastung) using the [swm_pool_scraper](https://github.com/tillg/swm_pool_scraper) tool.
@@ -38,16 +96,27 @@ swm_pool_data/
 │   ├── public_holidays.json   # Bavarian public holidays
 │   └── school_holidays.json   # Bavarian school vacations
 ├── datasets/                  # ML-ready transformed data
-│   └── occupancy_features.csv
+│   ├── occupancy_historical.csv  # Historical observations
+│   └── occupancy_forecast.csv    # 48-hour forecasts
 ├── src/
+│   ├── config/
+│   │   └── facility_types.json   # Auto-generated facility name → type mapping
 │   ├── loaders/
-│   │   ├── weather_loader.py  # Fetches weather from Open-Meteo
-│   │   └── holiday_loader.py  # Generates/loads holiday data
-│   └── transform.py           # Merges all data into ML features
+│   │   ├── weather_loader.py     # Fetches weather from Open-Meteo
+│   │   └── holiday_loader.py     # Generates/loads holiday data
+│   ├── train/
+│   │   └── train.py              # Trains LightGBM model
+│   ├── forecast/
+│   │   └── forecast.py           # Generates 48-hour predictions
+│   └── transform.py              # Merges all data into ML features
+├── models/
+│   └── occupancy_model.pkl       # Trained LightGBM model
 └── .github/workflows/
-    ├── scrape.yml             # Pool scraping (every 15 min) → triggers transform
-    ├── load_weather.yml       # Weather fetching (daily 05:00 UTC) → triggers transform
-    └── transform.yml          # Data transformation (after scrape or weather update)
+    ├── scrape.yml                # Pool scraping (every 15 min) → triggers transform
+    ├── load_weather.yml          # Weather fetching (daily 05:00 UTC) → triggers transform
+    ├── transform.yml             # Data transformation (after scrape or weather update)
+    ├── train.yml                 # Model training (weekly)
+    └── forecast.yml              # Forecast generation (daily)
 ```
 
 ## Data Formats
@@ -79,12 +148,12 @@ Each JSON file in `pool_scrapes_raw/` contains:
 
 ### Transformed Dataset
 
-The `datasets/occupancy_features.csv` contains ML-ready features:
+The `datasets/occupancy_historical.csv` contains ML-ready features:
 
 | Column | Description |
 | ------ | ----------- |
 | `timestamp` | ISO 8601 timestamp |
-| `pool_name` | Facility name |
+| `facility_name` | Facility name |
 | `facility_type` | "pool", "sauna", or "ice_rink" |
 | `occupancy_percent` | Free capacity (0-100%) |
 | `is_open` | 0 or 1 |
@@ -98,6 +167,7 @@ The `datasets/occupancy_features.csv` contains ML-ready features:
 | `precipitation_mm` | Precipitation in mm |
 | `weather_code` | WMO weather code |
 | `cloud_cover_percent` | Cloud cover percentage |
+| `data_source` | "historical" or "forecast" |
 
 ## Local Development
 
@@ -194,7 +264,7 @@ python transform.py \
   --pool-dir ../pool_scrapes_raw \
   --weather-dir ../weather_raw \
   --holiday-dir ../holidays \
-  --output ../datasets/occupancy_features.csv
+  --output ../datasets/occupancy_historical.csv
 ```
 
 The transform:
@@ -202,15 +272,46 @@ The transform:
 2. Loads weather data and aligns by hour
 3. Adds holiday and school vacation flags
 4. Deduplicates and appends to existing CSV
-5. Outputs to `datasets/occupancy_features.csv`
+5. Outputs to `datasets/occupancy_historical.csv`
+6. Generates `src/config/facility_types.json` mapping
 
-## Collection Schedule
+### Training the Model
+
+Trains a LightGBM model on historical data:
+
+```bash
+cd src/train
+python train.py
+```
+
+Options:
+- `--data` - Path to historical CSV (default: `../../datasets/occupancy_historical.csv`)
+- `--output` - Path to save model (default: `../../models/occupancy_model.pkl`)
+
+### Generating Forecasts
+
+Generates 48-hour occupancy predictions:
+
+```bash
+cd src/forecast
+python forecast.py
+```
+
+Options:
+- `--model` - Path to trained model (default: `../../models/occupancy_model.pkl`)
+- `--weather-dir` - Weather data directory (default: `../../weather_raw`)
+- `--holiday-dir` - Holiday data directory (default: `../../holidays`)
+- `--output` - Output CSV path (default: `../../datasets/occupancy_forecast.csv`)
+
+## Automation Schedule
 
 | Workflow | Schedule | Description |
 | -------- | -------- | ----------- |
 | Pool scraping | Every 15 min | ~96 data points per day, triggers transform |
 | Weather loading | Daily 05:00 UTC | 14 days of hourly weather, triggers transform |
-| Data transform | After scrape/weather | Merges all features into CSV |
+| Data transform | After scrape/weather | Merges all features into `occupancy_historical.csv` |
+| Model training | Weekly (Sun 22:00 UTC) | Retrains model on latest historical data |
+| Forecast | Daily 05:00 UTC | Generates 48-hour predictions to `occupancy_forecast.csv` |
 
 ## Use Cases
 
