@@ -1,0 +1,33 @@
+name: Detect Irregularities
+
+on:
+  schedule:
+    - cron: "0 19 * * *"  # 19:00 UTC daily
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  detect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: pip install pandas
+
+      - name: Check raw scrapes
+        run: python src/checks/check_raw_scrapes.py --scrape-dir pool_scrapes_raw
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check compiled data
+        run: python src/checks/check_compiled_data.py --csv datasets/occupancy_historical.csv
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
