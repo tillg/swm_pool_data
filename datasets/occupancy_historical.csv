@@ -28117,23 +28117,6 @@ timestamp,facility_name,facility_type,occupancy_percent,is_open,hour,day_of_week
 2026-02-09T21:29:29+01:00,Südbad,sauna,52.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
 2026-02-09T21:29:29+01:00,Westbad,pool,91.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
 2026-02-09T21:29:29+01:00,Westbad,sauna,55.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
-2026-02-09T21:29:29+01:00,Bad Giesing-Harlaching,pool,87.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
-2026-02-09T21:29:29+01:00,Cosimawellenbad,pool,91.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
-2026-02-09T21:29:29+01:00,Cosimawellenbad,sauna,74.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
-2026-02-09T21:29:29+01:00,Dante-Winter-Warmfreibad,pool,86.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
-2026-02-09T21:29:29+01:00,Dantebad,sauna,73.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
-2026-02-09T21:29:29+01:00,Michaelibad,pool,85.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
-2026-02-09T21:29:29+01:00,Michaelibad,sauna,69.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
-2026-02-09T21:29:29+01:00,Müller'sches Volksbad,pool,72.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
-2026-02-09T21:29:29+01:00,Müller'sches Volksbad,sauna,44.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
-2026-02-09T21:29:29+01:00,Nordbad,pool,68.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
-2026-02-09T21:29:29+01:00,Nordbad,sauna,67.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
-2026-02-09T21:29:29+01:00,Olympia-Schwimmhalle,pool,83.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
-2026-02-09T21:29:29+01:00,Prinzregentenstadion - Eislaufbahn,ice_rink,86.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
-2026-02-09T21:29:29+01:00,Südbad,pool,82.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
-2026-02-09T21:29:29+01:00,Südbad,sauna,52.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
-2026-02-09T21:29:29+01:00,Westbad,pool,91.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
-2026-02-09T21:29:29+01:00,Westbad,sauna,55.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
 2026-02-09T21:51:24+01:00,Bad Giesing-Harlaching,pool,95.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
 2026-02-09T21:51:24+01:00,Cosimawellenbad,pool,93.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
 2026-02-09T21:51:24+01:00,Cosimawellenbad,sauna,76.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
@@ -28151,3 +28134,37 @@ timestamp,facility_name,facility_type,occupancy_percent,is_open,hour,day_of_week
 2026-02-09T21:51:24+01:00,Südbad,sauna,57.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
 2026-02-09T21:51:24+01:00,Westbad,pool,93.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
 2026-02-09T21:51:24+01:00,Westbad,sauna,62.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
+2026-02-09T21:51:24+01:00,Bad Giesing-Harlaching,pool,95.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
+2026-02-09T21:51:24+01:00,Cosimawellenbad,pool,93.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
+2026-02-09T21:51:24+01:00,Cosimawellenbad,sauna,76.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
+2026-02-09T21:51:24+01:00,Dante-Winter-Warmfreibad,pool,88.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
+2026-02-09T21:51:24+01:00,Dantebad,sauna,77.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
+2026-02-09T21:51:24+01:00,Michaelibad,pool,87.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
+2026-02-09T21:51:24+01:00,Michaelibad,sauna,71.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
+2026-02-09T21:51:24+01:00,Müller'sches Volksbad,pool,73.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
+2026-02-09T21:51:24+01:00,Müller'sches Volksbad,sauna,64.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
+2026-02-09T21:51:24+01:00,Nordbad,pool,73.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
+2026-02-09T21:51:24+01:00,Nordbad,sauna,68.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
+2026-02-09T21:51:24+01:00,Olympia-Schwimmhalle,pool,84.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
+2026-02-09T21:51:24+01:00,Prinzregentenstadion - Eislaufbahn,ice_rink,98.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
+2026-02-09T21:51:24+01:00,Südbad,pool,84.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
+2026-02-09T21:51:24+01:00,Südbad,sauna,57.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
+2026-02-09T21:51:24+01:00,Westbad,pool,93.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
+2026-02-09T21:51:24+01:00,Westbad,sauna,62.0,1,21,0,2,0,0,0,2.3,0.0,2.0,44.0,historical
+2026-02-09T22:13:54+01:00,Bad Giesing-Harlaching,pool,95.0,1,22,0,2,0,0,0,1.6,0.0,1.0,11.0,historical
+2026-02-09T22:13:54+01:00,Cosimawellenbad,pool,96.0,1,22,0,2,0,0,0,1.6,0.0,1.0,11.0,historical
+2026-02-09T22:13:54+01:00,Cosimawellenbad,sauna,82.0,1,22,0,2,0,0,0,1.6,0.0,1.0,11.0,historical
+2026-02-09T22:13:54+01:00,Dante-Winter-Warmfreibad,pool,92.0,1,22,0,2,0,0,0,1.6,0.0,1.0,11.0,historical
+2026-02-09T22:13:54+01:00,Dantebad,sauna,82.0,1,22,0,2,0,0,0,1.6,0.0,1.0,11.0,historical
+2026-02-09T22:13:54+01:00,Michaelibad,pool,89.0,1,22,0,2,0,0,0,1.6,0.0,1.0,11.0,historical
+2026-02-09T22:13:54+01:00,Michaelibad,sauna,79.0,1,22,0,2,0,0,0,1.6,0.0,1.0,11.0,historical
+2026-02-09T22:13:54+01:00,Müller'sches Volksbad,pool,84.0,1,22,0,2,0,0,0,1.6,0.0,1.0,11.0,historical
+2026-02-09T22:13:54+01:00,Müller'sches Volksbad,sauna,69.0,1,22,0,2,0,0,0,1.6,0.0,1.0,11.0,historical
+2026-02-09T22:13:54+01:00,Nordbad,pool,78.0,1,22,0,2,0,0,0,1.6,0.0,1.0,11.0,historical
+2026-02-09T22:13:54+01:00,Nordbad,sauna,71.0,1,22,0,2,0,0,0,1.6,0.0,1.0,11.0,historical
+2026-02-09T22:13:54+01:00,Olympia-Schwimmhalle,pool,89.0,1,22,0,2,0,0,0,1.6,0.0,1.0,11.0,historical
+2026-02-09T22:13:54+01:00,Prinzregentenstadion - Eislaufbahn,ice_rink,98.0,1,22,0,2,0,0,0,1.6,0.0,1.0,11.0,historical
+2026-02-09T22:13:54+01:00,Südbad,pool,90.0,1,22,0,2,0,0,0,1.6,0.0,1.0,11.0,historical
+2026-02-09T22:13:54+01:00,Südbad,sauna,72.0,1,22,0,2,0,0,0,1.6,0.0,1.0,11.0,historical
+2026-02-09T22:13:54+01:00,Westbad,pool,94.0,1,22,0,2,0,0,0,1.6,0.0,1.0,11.0,historical
+2026-02-09T22:13:54+01:00,Westbad,sauna,72.0,1,22,0,2,0,0,0,1.6,0.0,1.0,11.0,historical
