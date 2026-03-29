@@ -121,10 +121,10 @@ def load_pool_data(input_dir: Path, since: datetime = None, aliases: dict = None
         return pd.DataFrame()
 
     df = pd.DataFrame(records)
-    df["timestamp"] = pd.to_datetime(df["timestamp"])
-    # Make timezone-naive for consistent matching with weather data
-    if df["timestamp"].dt.tz is not None:
-        df["timestamp"] = df["timestamp"].dt.tz_localize(None)
+    # Parse via UTC to handle mixed offsets (e.g. CET +01:00 / CEST +02:00 around DST switch)
+    df["timestamp"] = pd.to_datetime(df["timestamp"], utc=True)
+    # Convert to Berlin local time, then make timezone-naive for consistent matching
+    df["timestamp"] = df["timestamp"].dt.tz_convert("Europe/Berlin").dt.tz_localize(None)
     return df
 
 
@@ -298,10 +298,11 @@ def load_existing_data(output_path: Path) -> pd.DataFrame:
     """
     if output_path.exists():
         logger.info(f"Loading existing data from {output_path}")
-        df = pd.read_csv(output_path, parse_dates=["timestamp"])
-        # Make timezone-naive for internal processing (will add timezone back when saving)
-        if df["timestamp"].dt.tz is not None:
-            df["timestamp"] = df["timestamp"].dt.tz_localize(None)
+        df = pd.read_csv(output_path)
+        # Parse via UTC to handle mixed offsets (CET/CEST) in historical data
+        df["timestamp"] = pd.to_datetime(df["timestamp"], utc=True)
+        # Convert to Berlin local time, then strip timezone for internal processing
+        df["timestamp"] = df["timestamp"].dt.tz_convert("Europe/Berlin").dt.tz_localize(None)
         # Handle migration from old column name
         if "pool_name" in df.columns and "facility_name" not in df.columns:
             df = df.rename(columns={"pool_name": "facility_name"})
@@ -414,7 +415,9 @@ def transform(
     # Add timezone to timestamps and format as ISO 8601
     combined_df["timestamp"] = pd.to_datetime(combined_df["timestamp"])
     if combined_df["timestamp"].dt.tz is None:
-        combined_df["timestamp"] = combined_df["timestamp"].dt.tz_localize(TIMEZONE)
+        combined_df["timestamp"] = combined_df["timestamp"].dt.tz_localize(
+            TIMEZONE, ambiguous="infer", nonexistent="shift_forward"
+        )
     combined_df["timestamp"] = combined_df["timestamp"].dt.strftime("%Y-%m-%dT%H:%M:%S%z")
     # Insert colon in timezone offset for ISO 8601 compliance (+0100 -> +01:00)
     combined_df["timestamp"] = combined_df["timestamp"].str.replace(

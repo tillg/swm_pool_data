@@ -75,8 +75,15 @@ def _normalize_response(data: dict) -> dict:
 
     hourly_records = []
     for i, ts in enumerate(timestamps):
+        # Open-Meteo returns naive Berlin local times; attach correct CET/CEST offset
+        if "+" not in ts and "-" not in ts[10:]:
+            naive_dt = datetime.fromisoformat(ts)
+            berlin_dt = naive_dt.replace(tzinfo=TIMEZONE)
+            ts_iso = berlin_dt.isoformat()
+        else:
+            ts_iso = ts
         hourly_records.append({
-            "timestamp": ts + ":00+01:00" if "+" not in ts else ts,
+            "timestamp": ts_iso,
             "temperature_c": temperatures[i] if i < len(temperatures) else None,
             "precipitation_mm": precipitations[i] if i < len(precipitations) else None,
             "weather_code": weather_codes[i] if i < len(weather_codes) else None,

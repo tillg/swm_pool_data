@@ -50,11 +50,15 @@ def load_weather_forecast(weather_path: Path, start_time: datetime) -> pd.DataFr
 
     hourly = data["hourly"]
     df = pd.DataFrame(hourly)
-    df["timestamp"] = pd.to_datetime(df["timestamp"])
+    # Parse via UTC to handle mixed offsets (CET/CEST) around DST switch
+    df["timestamp"] = pd.to_datetime(df["timestamp"], utc=True)
+    df["timestamp"] = df["timestamp"].dt.tz_convert("Europe/Berlin")
 
     # Filter to next 48 hours from start_time
     end_time = start_time + timedelta(hours=FORECAST_HOURS)
-    df = df[(df["timestamp"] >= start_time) & (df["timestamp"] < end_time)]
+    start_tz = start_time if start_time.tzinfo else start_time.replace(tzinfo=TIMEZONE)
+    end_tz = end_time if end_time.tzinfo else end_time.replace(tzinfo=TIMEZONE)
+    df = df[(df["timestamp"] >= start_tz) & (df["timestamp"] < end_tz)]
 
     if len(df) < FORECAST_HOURS:
         logger.error(
@@ -146,15 +150,16 @@ def generate_forecasts(
 
     for _, weather_row in weather_df.iterrows():
         ts = weather_row["timestamp"]
-        ts_tz = ts.tz_localize(TIMEZONE) if ts.tzinfo is None else ts
+        # Timestamps are already tz-aware (Europe/Berlin) from load_weather_forecast
+        ts_tz = ts if ts.tzinfo is not None else ts.tz_localize(TIMEZONE)
 
-        # Compute time-based features
-        hour = ts.hour
-        day_of_week = ts.dayofweek
-        month = ts.month
-        is_weekend = 1 if ts.dayofweek >= 5 else 0
-        is_holiday = 1 if ts.strftime("%Y-%m-%d") in public_holidays else 0
-        is_school_vac = 1 if is_school_vacation(ts, school_vacations) else 0
+        # Compute time-based features from Berlin local time
+        hour = ts_tz.hour
+        day_of_week = ts_tz.dayofweek
+        month = ts_tz.month
+        is_weekend = 1 if ts_tz.dayofweek >= 5 else 0
+        is_holiday = 1 if ts_tz.strftime("%Y-%m-%d") in public_holidays else 0
+        is_school_vac = 1 if is_school_vacation(ts_tz, school_vacations) else 0
 
         # Build features for each facility
         for facility_name, facility_type in facility_types:

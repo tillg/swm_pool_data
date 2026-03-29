@@ -168,7 +168,7 @@ The `datasets/occupancy_historical.csv` contains ML-ready features:
 
 | Column | Description |
 | ------ | ----------- |
-| `timestamp` | ISO 8601 timestamp |
+| `timestamp` | ISO 8601 with Berlin offset (see [Timestamp Handling](#timestamp-handling)) |
 | `facility_name` | Facility name |
 | `facility_type` | "pool", "sauna", or "ice_rink" |
 | `occupancy_percent` | Free capacity (0-100%) |
@@ -184,6 +184,27 @@ The `datasets/occupancy_historical.csv` contains ML-ready features:
 | `weather_code` | WMO weather code |
 | `cloud_cover_percent` | Cloud cover percentage |
 | `data_source` | "historical" or "forecast" |
+
+## Timestamp Handling
+
+All timestamps represent **Europe/Berlin local time** (CET = UTC+1 in winter, CEST = UTC+2 in summer). This is intentional: pool usage patterns are driven by local wall-clock time — people swim at "10 AM" regardless of the UTC offset.
+
+### How timestamps flow through the pipeline
+
+1. **Pool scraper** produces timestamps with the correct Berlin offset (e.g., `2026-01-15T14:00:00+01:00` in winter, `2026-07-15T14:00:00+02:00` in summer). The `hour`, `day_of_week`, and `is_weekend` fields are derived from Berlin local time by the scraper.
+
+2. **Weather loader** fetches hourly data from Open-Meteo with `timezone=Europe/Berlin`. The API returns naive local times; the loader attaches the correct CET/CEST offset based on the date.
+
+3. **Transform** parses all timestamps via UTC (`pd.to_datetime(..., utc=True)`) to safely handle mixed offsets (e.g., data spanning a DST switch), then converts to Berlin local time for internal processing. Weather is aligned to pool data by Berlin local hour. The output CSV stores full ISO 8601 timestamps with the correct offset.
+
+4. **Forecast** generates predictions keyed to Berlin local hours. The `hour` feature used by the model always reflects Berlin wall-clock time.
+
+### Rules for working with timestamps
+
+- **Storage format**: ISO 8601 with offset, e.g., `2026-03-29T15:00:00+02:00`
+- **Internal processing**: timezone-naive pandas timestamps representing Berlin local time
+- **Parsing**: always use `utc=True` when reading timestamps that may contain mixed offsets, then `tz_convert("Europe/Berlin")`
+- **DST transitions**: the spring-forward gap (2:00-3:00 AM) and fall-back overlap are handled via `nonexistent="shift_forward"` and `ambiguous="infer"`
 
 ## Local Development
 
