@@ -33,7 +33,11 @@ def load_historical_data(csv_path: Path) -> pd.DataFrame:
     Returns:
         DataFrame with parsed timestamps
     """
-    df = pd.read_csv(csv_path, parse_dates=["timestamp"])
+    df = pd.read_csv(csv_path)
+    # Parse via UTC to handle mixed offsets (CET +01:00 / CEST +02:00)
+    df["timestamp"] = pd.to_datetime(df["timestamp"], utc=True)
+    # Convert to Berlin local time for comparisons
+    df["timestamp"] = df["timestamp"].dt.tz_convert("Europe/Berlin")
     return df
 
 
@@ -48,14 +52,7 @@ def get_historical_facility_types(df: pd.DataFrame, days: int = HISTORICAL_DAYS)
         Set of facility type strings
     """
     cutoff = datetime.now(TIMEZONE) - timedelta(days=days)
-    # Make cutoff naive for comparison with naive timestamps
-    cutoff_naive = cutoff.replace(tzinfo=None)
-
-    # Handle both timezone-aware and naive timestamps
-    if df["timestamp"].dt.tz is not None:
-        historical = df[df["timestamp"] >= cutoff]
-    else:
-        historical = df[df["timestamp"] >= cutoff_naive]
+    historical = df[df["timestamp"] >= cutoff]
 
     return set(historical["facility_type"].unique())
 
@@ -71,13 +68,7 @@ def get_recent_facility_types(df: pd.DataFrame, hours: int = 24) -> set[str]:
         Set of facility type strings
     """
     cutoff = datetime.now(TIMEZONE) - timedelta(hours=hours)
-    cutoff_naive = cutoff.replace(tzinfo=None)
-
-    if df["timestamp"].dt.tz is not None:
-        recent = df[df["timestamp"] >= cutoff]
-    else:
-        recent = df[df["timestamp"] >= cutoff_naive]
-
+    recent = df[df["timestamp"] >= cutoff]
     return set(recent["facility_type"].unique())
 
 
@@ -138,13 +129,7 @@ def check_invalid_occupancy(df: pd.DataFrame) -> list[str]:
     """
     # Only check recent data (last 24 hours)
     cutoff = datetime.now(TIMEZONE) - timedelta(hours=24)
-    cutoff_naive = cutoff.replace(tzinfo=None)
-
-    if df["timestamp"].dt.tz is not None:
-        recent = df[df["timestamp"] >= cutoff]
-    else:
-        recent = df[df["timestamp"] >= cutoff_naive]
-
+    recent = df[df["timestamp"] >= cutoff]
     invalid = recent[recent["occupancy_percent"] > 100]
 
     issues = []
@@ -177,12 +162,7 @@ def check_extended_zero_occupancy(
     """
     # Only check recent data (last 48 hours to capture extended periods)
     cutoff = datetime.now(TIMEZONE) - timedelta(hours=48)
-    cutoff_naive = cutoff.replace(tzinfo=None)
-
-    if df["timestamp"].dt.tz is not None:
-        recent = df[df["timestamp"] >= cutoff].copy()
-    else:
-        recent = df[df["timestamp"] >= cutoff_naive].copy()
+    recent = df[df["timestamp"] >= cutoff].copy()
 
     if recent.empty:
         return []
