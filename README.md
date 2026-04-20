@@ -2,6 +2,55 @@
 
 Real-time occupancy data from Munich's public SWM facilities (pools, saunas, ice rinks), collected every 15 minutes via GitHub Actions.
 
+## 🚧 Pick up here (2026-04-20)
+
+Work in progress: wiring up the new daily opening-hours scraper and
+integrating it into the forecast. Full spec and plan:
+[`Specs/changes/integrate-opening-hours/`](./Specs/changes/integrate-opening-hours/).
+
+**What's already done (merged to `main`)**
+
+- `.github/workflows/load_opening_hours.yml` — runs daily at 02:00 UTC,
+  invokes `tillg/swm_pool_scraper/scrape_opening_hours.py`, commits any
+  new snapshot to `facility_openings_raw/`.
+- `facility_openings_raw/` directory + `README.md` in place.
+- Spec artifacts under `Specs/changes/integrate-opening-hours/` aligned
+  with the actual upstream schema (`pool_name` key, `status` field,
+  `closed_for_season` handling).
+
+**Current blocker — the workflow fails**
+
+The GitHub Actions runner can't reach `www.swm.de` when the
+opening-hours scraper tries to fetch HTML pages:
+
+```
+Network is unreachable (Errno 101) —
+  https://www.swm.de/baeder/bad-giesing-harlaching
+```
+
+The existing 15-min pool scraper (`scrape.yml`) keeps working because it
+uses SWM's JSON **API**, not HTML. So either:
+
+1. Transient GH runner egress issue (re-dispatch and see), or
+2. SWM is geo/UA-blocking GH runner IPs on the HTML endpoints — then the
+   fix belongs in `tillg/swm_pool_scraper` (user-agent header, retry with
+   backoff, or switching to a different data path).
+
+Last dispatched run (still hitting this error):
+<https://github.com/tillg/swm_pool_data/actions/runs/24666428368>
+
+**Next steps (tomorrow)**
+
+1. Check the latest scheduled run at ~02:00 UTC — if it succeeds, the
+   issue was transient, just move on.
+2. If it still fails, open an issue on `tillg/swm_pool_scraper` with a
+   reproduction (runner IP + failing URL + `curl -I` from an Actions
+   runner) and add a User-Agent header to the scraper's HTTP client.
+3. Once snapshots start landing in `facility_openings_raw/`, resume
+   [`Specs/changes/integrate-opening-hours/plan.md`](./Specs/changes/integrate-opening-hours/plan.md)
+   at section 2 (loader) and section 3 (forecast overlay) — ML-pipeline
+   integration is still pending.
+
 ## Pipeline Overview
 
 ```
