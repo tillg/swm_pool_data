@@ -44,10 +44,22 @@ deterministic record rather than a model prediction — see
 
 ### Opening Hours Snapshot
 
-A single JSON file produced by one run of the opening-hours scraper, named
-`pool_opening_YYYYMMDD_HHMMSS.json`, containing the schedule for **all**
-tracked facilities. Scraped once per day — opening hours change rarely, so
-sub-daily cadence would be wasteful.
+A single JSON file produced by one run of the opening-hours scraper
+(`scrape_opening_hours.py` in `tillg/swm_pool_scraper`), named
+`facility_opening_YYYYMMDD_HHMMSS.json`, containing the schedule for **all**
+tracked facilities (17 entries as of 2026-04). Scraped once per day —
+opening hours change rarely, so sub-daily cadence would be wasteful.
+
+Each facility entry carries a `status` field with one of two values:
+
+- `"open"` — `weekly_schedule` is populated with day→intervals.
+- `"closed_for_season"` — `weekly_schedule` is empty; the triggering
+  marker is preserved in `special_notes`. Expected for the ice rink
+  outside skating season.
+
+Any other parse outcome makes the scraper exit non-zero and **no file is
+written** — the failed GitHub Actions run is the alert that SWM's markup
+has drifted.
 
 ## Changed concepts
 
@@ -91,7 +103,7 @@ erDiagram
     FACILITY_SCHEDULE ||--|{ OPENING_INTERVAL : "lists"
     OPENING_HOURS_SNAPSHOT {
         datetime scrape_timestamp
-        string filename "pool_opening_YYYYMMDD_HHMMSS.json"
+        string filename "facility_opening_YYYYMMDD_HHMMSS.json"
     }
     FACILITY_SCHEDULE {
         string facility_name
@@ -103,15 +115,15 @@ erDiagram
 
 ```mermaid
 sequenceDiagram
-    participant Cron as GitHub Actions<br/>(daily)
-    participant Scraper as Opening-hours scraper<br/>(external)
-    participant Repo as pool_opening_raw/
+    participant Cron as GitHub Actions<br/>(daily 02:00 UTC)
+    participant Scraper as scrape_opening_hours.py<br/>(tillg/swm_pool_scraper)
+    participant Repo as facility_openings_raw/
     participant Forecast as forecast.py
     participant Loader as opening_hours_loader.py
     participant CSV as occupancy_forecast.csv
 
     Cron->>Scraper: trigger
-    Scraper->>Repo: commit pool_opening_*.json
+    Scraper->>Repo: commit facility_opening_*.json
     Cron->>Forecast: trigger (after scrape)
     Forecast->>Loader: load latest snapshot
     Loader-->>Forecast: schedule by (facility, weekday)
@@ -140,3 +152,5 @@ sequenceDiagram
 - Schedule is a **weekly pattern**, not date-specific. A Tuesday in January
   and a Tuesday in July use the same intervals unless the snapshot itself
   differs.
+- A snapshot may mark a facility `closed_for_season`, in which case all
+  hours overlay to closed regardless of day of week.

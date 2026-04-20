@@ -19,7 +19,7 @@ pipeline consumes it.
 ```mermaid
 flowchart TB
     subgraph raw[Raw data]
-        OHJson[(pool_opening_raw/<br/>pool_opening_*.json)]
+        OHJson[(facility_openings_raw/<br/>facility_opening_*.json)]
     end
 
     subgraph loaders[src/loaders/]
@@ -49,50 +49,63 @@ flowchart TB
     style forecast fill:#fff3cd
 ```
 
-## Data format: `pool_opening_*.json`
+## Data format: `facility_opening_*.json`
 
-Follows the shape of existing scrape JSON files (see
-`pool_scrapes_raw/pool_data_*.json`) for familiarity. Proposed schema:
+Produced by `scrape_opening_hours.py` in `tillg/swm_pool_scraper`.
+Schema (actual output as of 2026-04):
 
 ```json
 {
-  "scrape_timestamp": "2026-01-16T18:08:36.000000+01:00",
+  "scrape_timestamp": "2026-04-20T04:00:00+02:00",
   "scrape_metadata": {
-    "total_facilities": 13,
-    "method": "web"
+    "total_facilities": 17,
+    "pools_count": 9,
+    "saunas_count": 7,
+    "ice_rinks_count": 1,
+    "unique_pages_fetched": 10,
+    "open_count": 16,
+    "closed_for_season_count": 1,
+    "method": "html"
   },
   "facilities": [
     {
-      "facility_name": "Olympia-Schwimmhalle",
+      "pool_name": "Cosimawellenbad",
       "facility_type": "pool",
-      "source_url": "https://www.swm.de/baeder/olympia-schwimmhalle#oeffnungszeiten",
+      "status": "open",
+      "url": "https://www.swm.de/baeder/cosimawellenbad",
+      "heading": "Öffnungszeiten Hallenbad",
       "weekly_schedule": {
-        "monday":    [{"open": "07:00", "close": "22:30"}],
-        "tuesday":   [{"open": "07:00", "close": "22:30"}],
-        "wednesday": [{"open": "07:00", "close": "22:30"}],
-        "thursday":  [{"open": "07:00", "close": "22:30"}],
-        "friday":    [{"open": "07:00", "close": "22:30"}],
-        "saturday":  [{"open": "08:00", "close": "20:00"}],
-        "sunday":    [{"open": "08:00", "close": "20:00"}]
-      }
+        "monday":   [{"open": "07:30", "close": "23:00"}],
+        "saturday": [{"open": "07:30", "close": "23:00"}]
+      },
+      "special_notes": ["Kassenschluss: 30 Minuten vor Ende der Öffnungszeit"],
+      "raw_section": "...",
+      "scraped_at": "2026-04-20T04:00:00+02:00"
     }
   ]
 }
 ```
 
-**Design choices:**
+**Facility field is `pool_name`**, not `facility_name` — matching the
+existing `pool_data_*.json` convention. The loader reads it as the
+facility name and applies `facility_aliases.json` to resolve to the
+canonical name.
 
-- **Weekly pattern only.** No date-specific overrides — keeps scope tight
-  (see [proposal.md](./proposal.md#scope)).
-- **Weekday names as keys** match the keys produced by Python's `strftime`
-  (`%A`) and are more readable than integers when inspecting the file.
-- **Array of intervals per day** supports facilities with midday closures
-  without a schema change later.
-- **Times as `HH:MM` strings** in Berlin local time — same convention as
-  `holidays/school_holidays.json`.
-- **`facility_name` and `facility_type`** keyed exactly like the other raw
-  data; the loader resolves aliases via the existing
-  `src/config/facility_aliases.json`.
+**`status` values:**
+
+- `"open"` → `weekly_schedule` populated with day→interval array.
+- `"closed_for_season"` → `weekly_schedule` is empty; the overlay treats
+  the facility as closed for every hour of the forecast horizon.
+
+**Design choices (upstream):**
+
+- **Weekly pattern only.** No date-specific overrides.
+- **Weekday names as keys** match Python's `strftime("%A").lower()`.
+- **Array of intervals per day** supports facilities with midday closures.
+- **Times as `HH:MM` strings** in Berlin local time.
+- **Fail loud on parse drift.** If the scraper can't produce either
+  `"open"` with schedule or `"closed_for_season"`, it exits non-zero and
+  writes nothing — the failed GitHub Actions run is the alert.
 
 ## Loader API
 
@@ -100,8 +113,11 @@ New file: `src/loaders/opening_hours_loader.py`
 
 ```python
 def load_latest_snapshot(input_dir: Path, aliases: dict) -> dict:
-    """Return {(facility_type, facility_name): weekly_schedule} from the most
-    recent pool_opening_*.json. Applies alias resolution."""
+    """Return {(facility_type, facility_name): schedule_entry} from the most
+    recent facility_opening_*.json. schedule_entry is either:
+      - {"status": "open", "weekly_schedule": {...}}
+      - {"status": "closed_for_season"}
+    Applies alias resolution on pool_name."""
 
 def is_facility_open(
     schedules: dict,
@@ -109,7 +125,8 @@ def is_facility_open(
     facility_name: str,
     dt: datetime,
 ) -> bool | None:
-    """True/False if schedule known. None if facility missing from snapshot."""
+    """True/False if schedule known. None if facility missing from snapshot.
+    closed_for_season always returns False."""
 ```
 
 Returning `None` (not `True`) for unknown facilities preserves today's
@@ -151,23 +168,23 @@ Only the forecast CSV is touched.
 ```mermaid
 sequenceDiagram
     participant Cron
-    participant OHWorkflow as load_opening_hours.yml<br/>(NEW - daily)
+    participant OHWorkflow as load_opening_hours.yml<br/>(daily 02:00 UTC)
     participant FCWorkflow as forecast.yml<br/>(existing - daily 05:00 UTC)
     participant Repo
 
-    Cron->>OHWorkflow: 04:45 UTC daily
-    OHWorkflow->>OHWorkflow: run opening-hours scraper
-    OHWorkflow->>Repo: commit pool_opening_*.json
+    Cron->>OHWorkflow: 02:00 UTC daily
+    OHWorkflow->>OHWorkflow: scraper/scrape_opening_hours.py
+    OHWorkflow->>Repo: commit facility_opening_*.json
     Cron->>FCWorkflow: 05:00 UTC daily
-    FCWorkflow->>Repo: read latest pool_opening_*.json
+    FCWorkflow->>Repo: read latest facility_opening_*.json
     FCWorkflow->>FCWorkflow: generate forecast with overlay
     FCWorkflow->>Repo: commit occupancy_forecast.csv
 ```
 
-The new workflow runs **before** the existing daily forecast so overlay data
-is fresh. If the opening-hours scraper fails, the forecast still runs using
-whatever snapshot was committed most recently — the system degrades
-gracefully rather than blocking.
+The new workflow runs **before** the existing daily forecast (~3h earlier)
+so overlay data is fresh. If the opening-hours scraper fails, no snapshot
+is written — the forecast still runs using whatever snapshot was committed
+most recently, so the system degrades gracefully rather than blocking.
 
 ## Key decisions and tradeoffs
 
@@ -205,10 +222,10 @@ gracefully rather than blocking.
 | File | Change |
 |------|--------|
 | `src/loaders/opening_hours_loader.py` | NEW |
-| `pool_opening_raw/` | NEW directory |
+| `facility_openings_raw/` | DONE — directory + README in place |
 | `src/forecast/forecast.py` | Import loader; apply overlay in `generate_forecasts` |
-| `.github/workflows/load_opening_hours.yml` | NEW |
-| `.github/workflows/forecast.yml` | Adjust schedule / dependency ordering if needed |
+| `.github/workflows/load_opening_hours.yml` | DONE — scrapes daily 02:00 UTC |
+| `.github/workflows/forecast.yml` | No change needed (already runs at 05:00 UTC, 3h after the opening-hours scrape) |
 | `README.md` | Document new data stream |
 | `Specs/03_FORECAST_FILE_FORMAT.md` | Update `is_open` semantics for forecast rows |
 | `CLAUDE.md` | Add opening-hours file location to project overview |

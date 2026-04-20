@@ -35,12 +35,18 @@ right answer with far less machinery than a second model.
 - A new scraped data stream for opening hours (see
   [`04_ADAPT_TO_FACILITY_NAME_CHANGE.md`](../../04_ADAPT_TO_FACILITY_NAME_CHANGE.md)
   for the facility-alias conventions this must respect).
-- Storage of raw opening-hours JSON in a new `pool_opening_raw/` directory,
-  one file per scrape (filename pattern: `pool_opening_YYYYMMDD_HHMMSS.json`).
-- A daily workflow that triggers the scraper and commits the JSON.
+- Storage of raw opening-hours JSON in a new `facility_openings_raw/`
+  directory, one file per scrape (filename pattern:
+  `facility_opening_YYYYMMDD_HHMMSS.json`).
+- A daily workflow (`load_opening_hours.yml`) that invokes the upstream
+  `swm_pool_scraper` — `scrape_opening_hours.py` — and commits the JSON.
 - Integration into the forecast pipeline so `is_open` and `occupancy_percent`
   reflect the known schedule.
 - Documentation updates (README, forecast file format spec).
+
+**Status as of 2026-04-20:** the workflow and raw directory are in place
+(wired via guide from the scraper author). ML-pipeline integration
+— loader + forecast overlay — is still pending.
 
 **Out of scope**
 
@@ -59,8 +65,8 @@ right answer with far less machinery than a second model.
 - `datasets/occupancy_forecast.csv` rows during closed hours have
   `is_open = 0` and `occupancy_percent = 0` (or another sentinel — decided in
   architecture.md).
-- `pool_opening_raw/` contains one JSON file per daily scrape, in the same
-  style as `pool_scrapes_raw/` and `weather_raw/`.
+- `facility_openings_raw/` contains one JSON file per daily scrape, in the
+  same style as `pool_scrapes_raw/` and `weather_raw/`.
 - A new loader module reads the most recent opening-hours JSON and exposes a
   simple `is_facility_open(facility_name, facility_type, dt) -> bool` helper.
 - The forecast workflow runs after the opening-hours workflow so the overlay
@@ -71,8 +77,8 @@ right answer with far less machinery than a second model.
 ```mermaid
 flowchart LR
     subgraph new[New - added by this change]
-        OHScraper[pool_opening scraper<br/>daily]
-        OHRaw[pool_opening_raw/<br/>pool_opening_*.json]
+        OHScraper[scrape_opening_hours.py<br/>daily 02:00 UTC]
+        OHRaw[facility_openings_raw/<br/>facility_opening_*.json]
         OHLoader[src/loaders/opening_hours_loader.py]
     end
 
