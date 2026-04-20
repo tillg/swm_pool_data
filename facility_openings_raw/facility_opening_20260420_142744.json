@@ -1,0 +1,991 @@
+{
+  "scrape_timestamp": "2026-04-20T14:27:44.931892+02:00",
+  "scrape_metadata": {
+    "total_facilities": 17,
+    "unique_pages_fetched": 10,
+    "method": "html",
+    "pools_count": 9,
+    "saunas_count": 7,
+    "ice_rinks_count": 1,
+    "open_count": 16,
+    "closed_for_season_count": 1,
+    "duration_ms": 2845.4456329345703
+  },
+  "facilities": [
+    {
+      "pool_name": "Bad Giesing-Harlaching",
+      "facility_type": "pool",
+      "status": "open",
+      "url": "https://www.swm.de/baeder/bad-giesing-harlaching",
+      "heading": "Öffnungszeiten Bad Giesing-Harlaching",
+      "weekly_schedule": {
+        "saturday": [
+          {
+            "open": "08:00",
+            "close": "18:00"
+          }
+        ],
+        "sunday": [
+          {
+            "open": "08:00",
+            "close": "18:00"
+          }
+        ],
+        "monday": [
+          {
+            "open": "08:00",
+            "close": "18:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "open": "08:00",
+            "close": "21:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "open": "08:00",
+            "close": "21:00"
+          }
+        ],
+        "thursday": [
+          {
+            "open": "08:00",
+            "close": "21:00"
+          }
+        ],
+        "friday": [
+          {
+            "open": "08:00",
+            "close": "21:00"
+          }
+        ]
+      },
+      "special_notes": [
+        "Kassenschluss: 30 Minuten vor Ende der Öffnungszeit",
+        "Badeschluss: 15 Minuten vor Ende der Öffnungszeit",
+        "Belegungen der Schwimmbahnen durch Schulen und Vereine",
+        "Um Ihren Schwimmbad-Aufenthalt planen zu können, beachten Sie bitte die Belegungen der Schwimmbahnen durch Schulen und Vereine.",
+        "Belegungsplan Bad Giesing-Harlaching (PDF, 131 KB)",
+        "Die M-Bäder haben auch an Feiertagen geöffnet.",
+        "An Feiertagen gelten die für den jeweiligen Wochentag üblichen Öffnungszeiten.",
+        "Ausnahmen gibt es nur an Heilig Abend, Silvester und Neujahr. Diese Öffnungszeiten werden jeweils rechtzeitig auf unserer Website bekannt gegeben."
+      ],
+      "raw_section": "Öffnungszeiten Bad Giesing-Harlaching\nSamstag bis Montag: 8 bis 18 Uhr\nDienstag bis Freitag: 8 bis 21 Uhr\nKassenschluss: 30 Minuten vor Ende der Öffnungszeit\nBadeschluss: 15 Minuten vor Ende der Öffnungszeit\nBelegungen der Schwimmbahnen durch Schulen und Vereine\nUm Ihren Schwimmbad-Aufenthalt planen zu können, beachten Sie bitte die Belegungen der Schwimmbahnen durch Schulen und Vereine.\nBelegungsplan Bad Giesing-Harlaching (PDF, 131 KB)\nDie M-Bäder haben auch an Feiertagen geöffnet.\nAn Feiertagen gelten die für den jeweiligen Wochentag üblichen Öffnungszeiten.\nAusnahmen gibt es nur an Heilig Abend, Silvester und Neujahr. Diese Öffnungszeiten werden jeweils rechtzeitig auf unserer Website bekannt gegeben.",
+      "scraped_at": "2026-04-20T14:27:42.086283+02:00"
+    },
+    {
+      "pool_name": "Cosimawellenbad",
+      "facility_type": "pool",
+      "status": "open",
+      "url": "https://www.swm.de/baeder/cosimawellenbad",
+      "heading": "Öffnungszeiten Hallenbad",
+      "weekly_schedule": {
+        "monday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "thursday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "friday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "saturday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "sunday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ]
+      },
+      "special_notes": [
+        "Kassenschluss: 30 Minuten vor Ende der Öffnungszeit",
+        "Bade- und Saunaschluss: 15 Minuten vor Ende der Öffnungszeit",
+        "Wellenzeiten",
+        "Montag bis Donnerstag: wellenfrei*",
+        "Freitag: 15 bis 17 Uhr*",
+        "Samstag und Sonntag: 11 bis 18 Uhr*",
+        "Wellenbetrieb jeweils zur vollen Stunde für 15 Minuten.",
+        "*An Feiertagen und in den bayerischen Schulferien: 11 bis 18 Uhr"
+      ],
+      "raw_section": "Öffnungszeiten Hallenbad\nMo bis So: 7.30 bis 23 Uhr\nKassenschluss: 30 Minuten vor Ende der Öffnungszeit\nBade- und Saunaschluss: 15 Minuten vor Ende der Öffnungszeit\nWellenzeiten\nMontag bis Donnerstag: wellenfrei*\nFreitag: 15 bis 17 Uhr*\nSamstag und Sonntag: 11 bis 18 Uhr*\nWellenbetrieb jeweils zur vollen Stunde für 15 Minuten.\n*An Feiertagen und in den bayerischen Schulferien: 11 bis 18 Uhr",
+      "scraped_at": "2026-04-20T14:27:42.086283+02:00"
+    },
+    {
+      "pool_name": "Dante-Winter-Warmfreibad",
+      "facility_type": "pool",
+      "status": "open",
+      "url": "https://www.swm.de/baeder/freibaeder-muenchen/dantebad",
+      "heading": "Öffnungszeiten Dante-Winter-Warmfreibad",
+      "weekly_schedule": {
+        "monday": [
+          {
+            "open": "07:00",
+            "close": "23:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "open": "07:00",
+            "close": "23:00"
+          }
+        ],
+        "friday": [
+          {
+            "open": "07:00",
+            "close": "23:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "thursday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "saturday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "sunday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ]
+      },
+      "special_notes": [
+        "Badeschluss: 15 Minuten vor Ende der Öffnungszeit",
+        "Kassenschluss: 30 Minuten vor Ende der Öffnungszeit"
+      ],
+      "raw_section": "Öffnungszeiten Dante-Winter-Warmfreibad\nMo, Mi, Fr: 7 bis 23 Uhr\nDi, Do, Sa, So: 7.30 bis 23 Uhr\nBadeschluss: 15 Minuten vor Ende der Öffnungszeit\nKassenschluss: 30 Minuten vor Ende der Öffnungszeit",
+      "scraped_at": "2026-04-20T14:27:42.086283+02:00"
+    },
+    {
+      "pool_name": "Michaelibad",
+      "facility_type": "pool",
+      "status": "open",
+      "url": "https://www.swm.de/baeder/michaelibad-hallenbad",
+      "heading": "Öffnungszeiten Hallenbad",
+      "weekly_schedule": {
+        "monday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "thursday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "friday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "saturday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "sunday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ]
+      },
+      "special_notes": [
+        "Belegungen der Schwimmbahnen durch Schulen und Vereine",
+        "Um Ihren Aufenthalt planen zu können, beachten Sie bitte die Belegungen der Schwimmbahnen durch Schulen und Vereine.",
+        "Belegungsplan Michaelibad (PDF, 133 KB)",
+        "Kassenschluss: 30 Minuten vor Ende der Öffnungszeit",
+        "Bade- und Saunaschluss: 15 Minuten vor Ende der Öffnungszeit"
+      ],
+      "raw_section": "Öffnungszeiten Hallenbad\nMo bis So: 7.30 bis 23 Uhr\nBelegungen der Schwimmbahnen durch Schulen und Vereine\nUm Ihren Aufenthalt planen zu können, beachten Sie bitte die Belegungen der Schwimmbahnen durch Schulen und Vereine.\nBelegungsplan Michaelibad (PDF, 133 KB)\nKassenschluss: 30 Minuten vor Ende der Öffnungszeit\nBade- und Saunaschluss: 15 Minuten vor Ende der Öffnungszeit",
+      "scraped_at": "2026-04-20T14:27:42.086283+02:00"
+    },
+    {
+      "pool_name": "Müller'sches Volksbad",
+      "facility_type": "pool",
+      "status": "open",
+      "url": "https://www.swm.de/baeder/muellersches-volksbad",
+      "heading": "Öffnungszeiten Bad",
+      "weekly_schedule": {
+        "monday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "thursday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "friday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "saturday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "sunday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ]
+      },
+      "special_notes": [
+        "Große Halle: Montags nur bis 17 Uhr geöffnet",
+        "Frauenbadetag in der kleinen Halle",
+        "Dienstag: 15 bis 20 Uhr",
+        "Öffnungszeiten Wannen- und Brausebad",
+        "Montag: 7.30 bis 9.30 Uhr und 17.30 bis 20.30 Uhr*",
+        "Dienstag bis Freitag: 7.30 bis 9.30 Uhr",
+        "*Die Öffnung am Abend ist nur bei Vereinsbelegung der großen Halle möglich.",
+        "Kassenschluss: 30 Minuten vor Ende der Öffnungszeit",
+        "Bade- und Saunaschluss: 15 Minuten vor Ende der Öffnungszeit"
+      ],
+      "raw_section": "Öffnungszeiten Bad\nMontag bis Sonntag: 7.30 bis 23 Uhr\nGroße Halle: Montags nur bis 17 Uhr geöffnet\nFrauenbadetag in der kleinen Halle\nDienstag: 15 bis 20 Uhr\nÖffnungszeiten Wannen- und Brausebad\nMontag: 7.30 bis 9.30 Uhr und 17.30 bis 20.30 Uhr*\nDienstag bis Freitag: 7.30 bis 9.30 Uhr\n*Die Öffnung am Abend ist nur bei Vereinsbelegung der großen Halle möglich.\nKassenschluss: 30 Minuten vor Ende der Öffnungszeit\nBade- und Saunaschluss: 15 Minuten vor Ende der Öffnungszeit",
+      "scraped_at": "2026-04-20T14:27:42.086283+02:00"
+    },
+    {
+      "pool_name": "Nordbad",
+      "facility_type": "pool",
+      "status": "open",
+      "url": "https://www.swm.de/baeder/nordbad",
+      "heading": "Öffnungszeiten Hallenbad",
+      "weekly_schedule": {
+        "monday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "thursday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "friday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "saturday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "sunday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ]
+      },
+      "special_notes": [
+        "Belegungen der Schwimmbahnen durch Schulen und Vereine",
+        "Um Ihren Schwimmbad-Aufenthalt planen zu können, beachten Sie bitte die Belegungen der Schwimmbahnen durch Schulen und Vereine.",
+        "Belegungsplan Nordbad (PDF, 183 KB)"
+      ],
+      "raw_section": "Öffnungszeiten Hallenbad\nMo bis So: 7.30 bis 23 Uhr\nBelegungen der Schwimmbahnen durch Schulen und Vereine\nUm Ihren Schwimmbad-Aufenthalt planen zu können, beachten Sie bitte die Belegungen der Schwimmbahnen durch Schulen und Vereine.\nBelegungsplan Nordbad (PDF, 183 KB)",
+      "scraped_at": "2026-04-20T14:27:42.086283+02:00"
+    },
+    {
+      "pool_name": "Olympia-Schwimmhalle",
+      "facility_type": "pool",
+      "status": "open",
+      "url": "https://www.swm.de/baeder/olympia-schwimmhalle",
+      "heading": "Öffnungszeiten Hallenbad",
+      "weekly_schedule": {
+        "monday": [
+          {
+            "open": "07:00",
+            "close": "23:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "open": "07:00",
+            "close": "23:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "open": "07:00",
+            "close": "23:00"
+          }
+        ],
+        "thursday": [
+          {
+            "open": "07:00",
+            "close": "23:00"
+          }
+        ],
+        "friday": [
+          {
+            "open": "07:00",
+            "close": "23:00"
+          }
+        ],
+        "saturday": [
+          {
+            "open": "07:00",
+            "close": "23:00"
+          }
+        ],
+        "sunday": [
+          {
+            "open": "07:00",
+            "close": "23:00"
+          }
+        ]
+      },
+      "special_notes": [
+        "Belegungen der Schwimmbahnen durch Schulen und Vereine",
+        "Um Ihren Schwimmbad-Aufenthalt planen zu können, beachten Sie bitte die Belegungen der Schwimmbahnen durch Schulen und Vereine.",
+        "Belegungsplan Olympia-Schwimmhalle Wettkampfbecken (PDF, 126 KB)",
+        "Belegungsplan Olympia-Schwimmhalle Sprung-, ZHS-, Lehrschwimmbecken (PDF, 125 KB)"
+      ],
+      "raw_section": "Öffnungszeiten Hallenbad\nMo bis So: 7 bis 23 Uhr\nBelegungen der Schwimmbahnen durch Schulen und Vereine\nUm Ihren Schwimmbad-Aufenthalt planen zu können, beachten Sie bitte die Belegungen der Schwimmbahnen durch Schulen und Vereine.\nBelegungsplan Olympia-Schwimmhalle Wettkampfbecken (PDF, 126 KB)\nBelegungsplan Olympia-Schwimmhalle Sprung-, ZHS-, Lehrschwimmbecken (PDF, 125 KB)",
+      "scraped_at": "2026-04-20T14:27:42.086283+02:00"
+    },
+    {
+      "pool_name": "Südbad",
+      "facility_type": "pool",
+      "status": "open",
+      "url": "https://www.swm.de/baeder/suedbad",
+      "heading": "Öffnungszeiten Hallenbad",
+      "weekly_schedule": {
+        "monday": [
+          {
+            "open": "07:00",
+            "close": "22:30"
+          }
+        ],
+        "tuesday": [
+          {
+            "open": "07:00",
+            "close": "22:30"
+          }
+        ],
+        "wednesday": [
+          {
+            "open": "07:00",
+            "close": "22:30"
+          }
+        ],
+        "thursday": [
+          {
+            "open": "07:00",
+            "close": "22:30"
+          }
+        ],
+        "friday": [
+          {
+            "open": "07:00",
+            "close": "22:30"
+          }
+        ],
+        "saturday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "sunday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ]
+      },
+      "special_notes": [
+        "Belegungen der Schwimmbahnen durch Schulen und Vereine",
+        "Um Ihren Schwimmbad-Aufenthalt planen zu können, beachten Sie bitte die Belegungen der Schwimmbahnen durch Schulen und Vereine.",
+        "Belegungsplan Südbad (PDF, 194 KB)"
+      ],
+      "raw_section": "Öffnungszeiten Hallenbad\nMo bis Fr: 7 bis 22.30 Uhr\nSa bis So: 7.30 bis 23 Uhr\nBelegungen der Schwimmbahnen durch Schulen und Vereine\nUm Ihren Schwimmbad-Aufenthalt planen zu können, beachten Sie bitte die Belegungen der Schwimmbahnen durch Schulen und Vereine.\nBelegungsplan Südbad (PDF, 194 KB)",
+      "scraped_at": "2026-04-20T14:27:42.086283+02:00"
+    },
+    {
+      "pool_name": "Westbad",
+      "facility_type": "pool",
+      "status": "open",
+      "url": "https://www.swm.de/baeder/westbad-hallenbad",
+      "heading": "Öffnungszeiten Hallenbad inklusive Saunalandschaft (Badebekleidung ist verpflichtend)",
+      "weekly_schedule": {
+        "monday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "thursday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "friday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "saturday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "sunday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ]
+      },
+      "special_notes": [
+        "Belegungen der Schwimmbahnen durch Schulen und Vereine",
+        "Um Ihren Aufenthalt planen zu können, beachten Sie bitte die Belegungen der Schwimmbahnen durch Schulen und Vereine.",
+        "Belegungsplan Westbad (PDF, 186 KB)",
+        "Kassenschluss: 30 Minuten vor Ende der Öffnungszeit",
+        "Bade- und Saunaschluss: 15 Minuten vor Ende der Öffnungszeit"
+      ],
+      "raw_section": "Öffnungszeiten Hallenbad inklusive Saunalandschaft (Badebekleidung ist verpflichtend)\nMo bis So: 7.30 bis 23 Uhr\nBelegungen der Schwimmbahnen durch Schulen und Vereine\nUm Ihren Aufenthalt planen zu können, beachten Sie bitte die Belegungen der Schwimmbahnen durch Schulen und Vereine.\nBelegungsplan Westbad (PDF, 186 KB)\nKassenschluss: 30 Minuten vor Ende der Öffnungszeit\nBade- und Saunaschluss: 15 Minuten vor Ende der Öffnungszeit",
+      "scraped_at": "2026-04-20T14:27:42.086283+02:00"
+    },
+    {
+      "pool_name": "Cosimawellenbad",
+      "facility_type": "sauna",
+      "status": "open",
+      "url": "https://www.swm.de/baeder/cosimawellenbad",
+      "heading": "Öffnungszeiten Sauna",
+      "weekly_schedule": {
+        "monday": [
+          {
+            "open": "09:00",
+            "close": "23:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "open": "09:00",
+            "close": "23:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "open": "09:00",
+            "close": "23:00"
+          }
+        ],
+        "thursday": [
+          {
+            "open": "09:00",
+            "close": "23:00"
+          }
+        ],
+        "friday": [
+          {
+            "open": "09:00",
+            "close": "23:00"
+          }
+        ],
+        "saturday": [
+          {
+            "open": "09:00",
+            "close": "23:00"
+          }
+        ],
+        "sunday": [
+          {
+            "open": "09:00",
+            "close": "23:00"
+          }
+        ]
+      },
+      "special_notes": [
+        "Damentag** in der Sauna",
+        "Mo: 9 bis 23 Uhr",
+        "**An allen übrigen Tagen sowie an Feiertagen, Heilig Abend, Silvester und Faschingsdienstag: Sauna für alle.",
+        "Kassenschluss: 30 Minuten vor Ende der Öffnungszeit",
+        "Bade- und Saunaschluss: 15 Minuten vor Ende der Öffnungszeit"
+      ],
+      "raw_section": "Öffnungszeiten Sauna\nMo bis So: 9 bis 23 Uhr\nDamentag** in der Sauna\nMo: 9 bis 23 Uhr\n**An allen übrigen Tagen sowie an Feiertagen, Heilig Abend, Silvester und Faschingsdienstag: Sauna für alle.\nKassenschluss: 30 Minuten vor Ende der Öffnungszeit\nBade- und Saunaschluss: 15 Minuten vor Ende der Öffnungszeit",
+      "scraped_at": "2026-04-20T14:27:42.086283+02:00"
+    },
+    {
+      "pool_name": "Dantebad",
+      "facility_type": "sauna",
+      "status": "open",
+      "url": "https://www.swm.de/baeder/freibaeder-muenchen/dantebad",
+      "heading": "Öffnungszeiten Sauna",
+      "weekly_schedule": {
+        "monday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "thursday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "friday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "saturday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "sunday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ]
+      },
+      "special_notes": [
+        "Damentag** in der Sauna:",
+        "Mo: 7.30 bis 23 Uhr",
+        "** An allen übrigen Tagen sowie an Feiertagen, Heilig Abend, Silvester und Faschingsdienstag gemischter Saunabetrieb."
+      ],
+      "raw_section": "Öffnungszeiten Sauna\nMo bis So: 7.30 bis 23 Uhr\nDamentag** in der Sauna:\nMo: 7.30 bis 23 Uhr\n** An allen übrigen Tagen sowie an Feiertagen, Heilig Abend, Silvester und Faschingsdienstag gemischter Saunabetrieb.",
+      "scraped_at": "2026-04-20T14:27:42.086283+02:00"
+    },
+    {
+      "pool_name": "Michaelibad",
+      "facility_type": "sauna",
+      "status": "open",
+      "url": "https://www.swm.de/baeder/michaelibad-hallenbad",
+      "heading": "Öffnungszeiten Sauna",
+      "weekly_schedule": {
+        "monday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "thursday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "friday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "saturday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "sunday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ]
+      },
+      "special_notes": [
+        "Damentag* in der Sauna:",
+        "Di: 7.30 bis 23 Uhr",
+        "* An allen übrigen Tagen sowie an Feiertagen, Heilig Abend, Silvester und Faschingsdienstag gemischter Saunabetrieb.",
+        "Kassenschluss: 30 Minuten vor Ende der Öffnungszeit",
+        "Bade- und Saunaschluss: 15 Minuten vor Ende der Öffnungszeit"
+      ],
+      "raw_section": "Öffnungszeiten Sauna\nMo bis So: 7.30 bis 23 Uhr\nDamentag* in der Sauna:\nDi: 7.30 bis 23 Uhr\n* An allen übrigen Tagen sowie an Feiertagen, Heilig Abend, Silvester und Faschingsdienstag gemischter Saunabetrieb.\nKassenschluss: 30 Minuten vor Ende der Öffnungszeit\nBade- und Saunaschluss: 15 Minuten vor Ende der Öffnungszeit",
+      "scraped_at": "2026-04-20T14:27:42.086283+02:00"
+    },
+    {
+      "pool_name": "Müller'sches Volksbad",
+      "facility_type": "sauna",
+      "status": "open",
+      "url": "https://www.swm.de/baeder/muellersches-volksbad",
+      "heading": "Öffnungszeiten Sauna",
+      "weekly_schedule": {
+        "monday": [
+          {
+            "open": "09:00",
+            "close": "23:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "open": "09:00",
+            "close": "23:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "open": "09:00",
+            "close": "23:00"
+          }
+        ],
+        "thursday": [
+          {
+            "open": "09:00",
+            "close": "23:00"
+          }
+        ],
+        "friday": [
+          {
+            "open": "09:00",
+            "close": "23:00"
+          }
+        ],
+        "saturday": [
+          {
+            "open": "09:00",
+            "close": "23:00"
+          }
+        ],
+        "sunday": [
+          {
+            "open": "09:00",
+            "close": "23:00"
+          }
+        ]
+      },
+      "special_notes": [
+        "Damentag** in der Sauna",
+        "Dienstag: 9 bis 23 Uhr",
+        "Freitag: 9 bis 15 Uhr",
+        "** An allen übrigen Tagen sowie an Feiertagen, Heilig Abend, Silvester und Faschingsdienstag gilt Sauna für alle.",
+        "Herrentag** in der Sauna",
+        "Mittwoch: 9 bis 23 Uhr",
+        "** An allen übrigen Tagen sowie an Feiertagen, Heilig Abend, Silvester und Faschingsdienstag gilt Sauna für alle.",
+        "Kassenschluss: 30 Minuten vor Ende der Öffnungszeit",
+        "Bade- und Saunaschluss: 15 Minuten vor Ende der Öffnungszeit"
+      ],
+      "raw_section": "Öffnungszeiten Sauna\nMontag bis Sonntag: 9 bis 23 Uhr\nDamentag** in der Sauna\nDienstag: 9 bis 23 Uhr\nFreitag: 9 bis 15 Uhr\n** An allen übrigen Tagen sowie an Feiertagen, Heilig Abend, Silvester und Faschingsdienstag gilt Sauna für alle.\nHerrentag** in der Sauna\nMittwoch: 9 bis 23 Uhr\n** An allen übrigen Tagen sowie an Feiertagen, Heilig Abend, Silvester und Faschingsdienstag gilt Sauna für alle.\nKassenschluss: 30 Minuten vor Ende der Öffnungszeit\nBade- und Saunaschluss: 15 Minuten vor Ende der Öffnungszeit",
+      "scraped_at": "2026-04-20T14:27:42.086283+02:00"
+    },
+    {
+      "pool_name": "Nordbad",
+      "facility_type": "sauna",
+      "status": "open",
+      "url": "https://www.swm.de/baeder/nordbad",
+      "heading": "Öffnungszeiten Sauna",
+      "weekly_schedule": {
+        "monday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "thursday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "friday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "saturday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "sunday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ]
+      },
+      "special_notes": [
+        "Damentag* in der Sauna",
+        "Mi: 7.30 bis 23 Uhr",
+        "* An allen übrigen Tagen sowie an Feiertagen, Heilig Abend, Silvester und Faschingsdienstag: Sauna für alle."
+      ],
+      "raw_section": "Öffnungszeiten Sauna\nMo bis So: 7.30 bis 23 Uhr\nDamentag* in der Sauna\nMi: 7.30 bis 23 Uhr\n* An allen übrigen Tagen sowie an Feiertagen, Heilig Abend, Silvester und Faschingsdienstag: Sauna für alle.",
+      "scraped_at": "2026-04-20T14:27:42.086283+02:00"
+    },
+    {
+      "pool_name": "Südbad",
+      "facility_type": "sauna",
+      "status": "open",
+      "url": "https://www.swm.de/baeder/suedbad",
+      "heading": "Öffnungszeiten Sauna",
+      "weekly_schedule": {
+        "monday": [
+          {
+            "open": "09:00",
+            "close": "23:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "open": "09:00",
+            "close": "23:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "open": "09:00",
+            "close": "23:00"
+          }
+        ],
+        "thursday": [
+          {
+            "open": "09:00",
+            "close": "23:00"
+          }
+        ],
+        "friday": [
+          {
+            "open": "09:00",
+            "close": "23:00"
+          }
+        ],
+        "saturday": [
+          {
+            "open": "09:00",
+            "close": "23:00"
+          }
+        ],
+        "sunday": [
+          {
+            "open": "09:00",
+            "close": "23:00"
+          }
+        ]
+      },
+      "special_notes": [
+        "Damentag** in der Sauna",
+        "Do: 9 bis 23 Uhr",
+        "** An allen übrigen Tagen sowie an Feiertagen, Heilig Abend, Silvester und Faschingsdienstag: Sauna für alle."
+      ],
+      "raw_section": "Öffnungszeiten Sauna\nMo bis So: 9 bis 23 Uhr\nDamentag** in der Sauna\nDo: 9 bis 23 Uhr\n** An allen übrigen Tagen sowie an Feiertagen, Heilig Abend, Silvester und Faschingsdienstag: Sauna für alle.",
+      "scraped_at": "2026-04-20T14:27:42.086283+02:00"
+    },
+    {
+      "pool_name": "Westbad",
+      "facility_type": "sauna",
+      "status": "open",
+      "url": "https://www.swm.de/baeder/westbad-hallenbad",
+      "heading": "Öffnungszeiten Saunainsel (textilfrei)",
+      "weekly_schedule": {
+        "monday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "tuesday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "wednesday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "thursday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "friday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "saturday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ],
+        "sunday": [
+          {
+            "open": "07:30",
+            "close": "23:00"
+          }
+        ]
+      },
+      "special_notes": [
+        "Damentag in der Sauna:",
+        "Mittwoch ganztägig*",
+        "Herrentag in der Sauna:",
+        "Dienstag ganztägig*",
+        "* An allen übrigen Tagen sowie an Feiertagen, Heilig Abend, Silvester und Faschingsdienstag gemischter Saunabetrieb.",
+        "Kassenschluss: 30 Minuten vor Ende der Öffnungszeit",
+        "Bade- und Saunaschluss: 15 Minuten vor Ende der Öffnungszeit"
+      ],
+      "raw_section": "Öffnungszeiten Saunainsel (textilfrei)\nMo bis So: 7.30 bis 23 Uhr\nDamentag in der Sauna:\nMittwoch ganztägig*\nHerrentag in der Sauna:\nDienstag ganztägig*\n* An allen übrigen Tagen sowie an Feiertagen, Heilig Abend, Silvester und Faschingsdienstag gemischter Saunabetrieb.\nKassenschluss: 30 Minuten vor Ende der Öffnungszeit\nBade- und Saunaschluss: 15 Minuten vor Ende der Öffnungszeit",
+      "scraped_at": "2026-04-20T14:27:42.086283+02:00"
+    },
+    {
+      "pool_name": "Prinzregentenstadion - Eislaufbahn",
+      "facility_type": "ice_rink",
+      "status": "closed_for_season",
+      "url": "https://www.swm.de/baeder/eislaufen",
+      "heading": null,
+      "weekly_schedule": {},
+      "special_notes": [
+        "Eislaufsaison 2025/2026 ist beendet."
+      ],
+      "raw_section": "Eislaufsaison 2025/2026 ist beendet.",
+      "scraped_at": "2026-04-20T14:27:42.086283+02:00"
+    }
+  ]
+}
