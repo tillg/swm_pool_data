@@ -2,55 +2,6 @@
 
 Real-time occupancy data from Munich's public SWM facilities (pools, saunas, ice rinks), collected every 15 minutes via GitHub Actions.
 
-## 🚧 Pick up here (2026-04-20)
-
-Work in progress: wiring up the new daily opening-hours scraper and
-integrating it into the forecast. Full spec and plan:
-[`Specs/changes/integrate-opening-hours/`](./Specs/changes/integrate-opening-hours/).
-
-**What's already done (merged to `main`)**
-
-- `.github/workflows/load_opening_hours.yml` — runs daily at 02:00 UTC,
-  invokes `tillg/swm_pool_scraper/scrape_opening_hours.py`, commits any
-  new snapshot to `facility_openings_raw/`.
-- `facility_openings_raw/` directory + `README.md` in place.
-- Spec artifacts under `Specs/changes/integrate-opening-hours/` aligned
-  with the actual upstream schema (`pool_name` key, `status` field,
-  `closed_for_season` handling).
-
-**Current blocker — the workflow fails**
-
-The GitHub Actions runner can't reach `www.swm.de` when the
-opening-hours scraper tries to fetch HTML pages:
-
-```
-Network is unreachable (Errno 101) —
-  https://www.swm.de/baeder/bad-giesing-harlaching
-```
-
-The existing 15-min pool scraper (`scrape.yml`) keeps working because it
-uses SWM's JSON **API**, not HTML. So either:
-
-1. Transient GH runner egress issue (re-dispatch and see), or
-2. SWM is geo/UA-blocking GH runner IPs on the HTML endpoints — then the
-   fix belongs in `tillg/swm_pool_scraper` (user-agent header, retry with
-   backoff, or switching to a different data path).
-
-Last dispatched run (still hitting this error):
-<https://github.com/tillg/swm_pool_data/actions/runs/24666428368>
-
-**Next steps (tomorrow)**
-
-1. Check the latest scheduled run at ~02:00 UTC — if it succeeds, the
-   issue was transient, just move on.
-2. If it still fails, open an issue on `tillg/swm_pool_scraper` with a
-   reproduction (runner IP + failing URL + `curl -I` from an Actions
-   runner) and add a User-Agent header to the scraper's HTTP client.
-3. Once snapshots start landing in `facility_openings_raw/`, resume
-   [`Specs/changes/integrate-opening-hours/plan.md`](./Specs/changes/integrate-opening-hours/plan.md)
-   at section 2 (loader) and section 3 (forecast overlay) — ML-pipeline
-   integration is still pending.
-
 ## Pipeline Overview
 
 ```
@@ -58,24 +9,24 @@ Last dispatched run (still hitting this error):
 │                              DATA COLLECTION                                │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
-│  ┌──────────────┐              ┌──────────────┐         ┌──────────────┐   │
-│  │   SWM API    │              │  Open-Meteo  │         │   holidays   │   │
-│  │  (external)  │              │     API      │         │   package    │   │
-│  └──────┬───────┘              └──────┬───────┘         └──────┬───────┘   │
-│         │                             │                        │           │
-│         ▼                             ▼                        ▼           │
-│  ┌──────────────┐              ┌──────────────┐         ┌──────────────┐   │
-│  │ scrape.yml   │              │load_weather  │         │holiday_loader│   │
-│  │ every 15 min │              │   .yml       │         │    .py       │   │
-│  │    24/7      │              │ daily 05:00  │         │   manual     │   │
-│  │   (cron)     │              │ UTC (cron)   │         │              │   │
-│  └──────┬───────┘              └──────┬───────┘         └──────┬───────┘   │
-│         │                             │                        │           │
-│         │ commits to repo             │ commits to repo        │           │
-│         ▼                             ▼                        ▼           │
-│  pool_scrapes_raw/             weather_raw/              holidays/         │
-│  └─ pool_data_*.json           └─ weather_*.json         ├─ public_*.json │
-│                                                          └─ school_*.json │
+│  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐   ┌──────────┐   │
+│  │   SWM API    │    │  SWM website │    │  Open-Meteo  │   │ holidays │   │
+│  │  (external)  │    │  (oeffnungs) │    │     API      │   │  package │   │
+│  └──────┬───────┘    └──────┬───────┘    └──────┬───────┘   └────┬─────┘   │
+│         │                   │                   │                │         │
+│         ▼                   ▼                   ▼                ▼         │
+│  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐   ┌──────────┐   │
+│  │ scrape.yml   │    │load_opening_ │    │load_weather  │   │ holiday_ │   │
+│  │ every 15 min │    │  hours.yml   │    │   .yml       │   │ loader.py│   │
+│  │    24/7      │    │ daily 02:00  │    │ daily 05:00  │   │  manual  │   │
+│  │   (cron)     │    │ UTC (cron)   │    │ UTC (cron)   │   │          │   │
+│  └──────┬───────┘    └──────┬───────┘    └──────┬───────┘   └────┬─────┘   │
+│         │                   │                   │                │         │
+│         │ commits           │ commits           │ commits        │         │
+│         ▼                   ▼                   ▼                ▼         │
+│ pool_scrapes_raw/    facility_openings_raw/  weather_raw/   holidays/      │
+│ └ pool_data_*.json   └ facility_opening_*    └ weather_*    ├ public_*     │
+│                        .json                   .json        └ school_*.json│
 └─────────────────────────────────────────────────────────────────────────────┘
          │                             │
          │ triggers (workflow_call)    │ triggers (push to weather_raw/**)
@@ -117,11 +68,13 @@ Last dispatched run (still hitting this error):
 │                    manual (workflow_dispatch)                               │
 │                                                                             │
 │  model + weather forecast + holidays  ──►  forecast.py                     │
+│                                     + opening-hours overlay                 │
 │                                                  │                          │
 │                                                  │ commits to repo          │
 │                                                  ▼                          │
 │                                       datasets/occupancy_forecast.csv      │
-│                                       (48-hour predictions)                 │
+│                                       (48-hour predictions,                 │
+│                                        closed hours → is_open=0, 0%)        │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -156,6 +109,7 @@ Data is scraped from [Stadtwerke München (SWM)](https://www.swm.de/baeder/ausla
 ```
 swm_pool_data/
 ├── pool_scrapes_raw/          # Raw pool occupancy JSON (every 15 min)
+├── facility_openings_raw/     # Daily opening-hours snapshots
 ├── weather_raw/               # Hourly weather data from Open-Meteo
 ├── holidays/                  # Public holidays and school vacations
 │   ├── public_holidays.json   # Bavarian public holidays
@@ -165,10 +119,12 @@ swm_pool_data/
 │   └── occupancy_forecast.csv    # 48-hour forecasts
 ├── src/
 │   ├── config/
+│   │   ├── facility_aliases.json # Legacy → canonical name map (manual)
 │   │   └── facility_types.json   # Auto-generated facility name → type mapping
 │   ├── loaders/
-│   │   ├── weather_loader.py     # Fetches weather from Open-Meteo
-│   │   └── holiday_loader.py     # Generates/loads holiday data
+│   │   ├── weather_loader.py         # Fetches weather from Open-Meteo
+│   │   ├── holiday_loader.py         # Generates/loads holiday data
+│   │   └── opening_hours_loader.py   # Loads daily opening-hours snapshot
 │   ├── train/
 │   │   └── train.py              # Trains LightGBM model
 │   ├── forecast/
@@ -178,6 +134,7 @@ swm_pool_data/
 │   └── occupancy_model.pkl       # Trained LightGBM model
 └── .github/workflows/
     ├── scrape.yml                # Pool scraping (every 15 min) → triggers transform
+    ├── load_opening_hours.yml    # Opening-hours scrape (daily 02:00 UTC)
     ├── load_weather.yml          # Weather fetching (daily 05:00 UTC) → triggers transform
     ├── transform.yml             # Data transformation (after scrape or weather update)
     ├── train.yml                 # Model training (weekly)
@@ -221,7 +178,7 @@ The `datasets/occupancy_historical.csv` contains ML-ready features:
 | `facility_name` | Facility name |
 | `facility_type` | "pool", "sauna", or "ice_rink" |
 | `occupancy_percent` | Free capacity (0-100%) |
-| `is_open` | 0 or 1 |
+| `is_open` | Historical: 0 or 1. Forecast: 0 or 1 from opening-hours overlay (`NULL` if facility missing from snapshot) |
 | `hour` | Hour of day (0-23) |
 | `day_of_week` | 0=Monday, 6=Sunday |
 | `month` | Month (1-12) |
@@ -233,6 +190,45 @@ The `datasets/occupancy_historical.csv` contains ML-ready features:
 | `weather_code` | WMO weather code |
 | `cloud_cover_percent` | Cloud cover percentage |
 | `data_source` | "historical" or "forecast" |
+
+### Opening Hours
+
+Each JSON file in `facility_openings_raw/` contains the weekly schedule
+for every tracked facility, scraped once per day from swm.de:
+
+```json
+{
+  "scrape_timestamp": "2026-04-20T04:00:00+02:00",
+  "scrape_metadata": {
+    "total_facilities": 17,
+    "open_count": 16,
+    "closed_for_season_count": 1,
+    "method": "html"
+  },
+  "facilities": [
+    {
+      "pool_name": "Cosimawellenbad",
+      "facility_type": "pool",
+      "status": "open",
+      "weekly_schedule": {
+        "monday": [{"open": "07:30", "close": "23:00"}],
+        "tuesday": [{"open": "07:30", "close": "23:00"}]
+      }
+    },
+    {
+      "pool_name": "Prinzregentenstadion - Eislaufbahn",
+      "facility_type": "ice_rink",
+      "status": "closed_for_season",
+      "weekly_schedule": {}
+    }
+  ]
+}
+```
+
+Consumed by `src/loaders/opening_hours_loader.py` — the forecast pipeline
+uses the latest snapshot to overlay `is_open` and zero-out
+`occupancy_percent` on closed hours, rather than teaching the ML model
+about opening hours directly.
 
 ## Timestamp Handling
 
@@ -394,6 +390,7 @@ Options:
 | Workflow | Schedule | Description |
 | -------- | -------- | ----------- |
 | Pool scraping | Every 15 min | ~96 data points per day, triggers transform |
+| Opening hours | Daily 02:00 UTC | One snapshot per day of SWM's published opening hours |
 | Weather loading | Daily 05:00 UTC | 14 days of hourly weather, triggers transform |
 | Data transform | After scrape/weather | Merges all features into `occupancy_historical.csv` |
 | Model training | Weekly (Sun 22:00 UTC) | Retrains model on latest historical data |

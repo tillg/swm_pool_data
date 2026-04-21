@@ -11,60 +11,42 @@ Tasks are ordered: earlier ones unblock later ones.
       scraper has a commit target.
 - [x] Workflow `.github/workflows/load_opening_hours.yml` invokes
       `scrape_opening_hours.py` daily at 02:00 UTC.
-- [ ] Add a fixture snapshot at
-      `tests/fixtures/facility_opening_20260420_040000.json` covering
-      at least two facility types, a day with multiple intervals, and one
-      entry with `"status": "closed_for_season"`.
+- [x] Fixture snapshot at
+      `src/tests/fixtures/facility_opening_20260420_040000.json` covers
+      two pool entries (one with multi-interval Tuesday), one aliased
+      sauna, and one `closed_for_season` ice rink.
 
 ## 2. Opening-hours loader
 
-- [ ] Create `src/loaders/opening_hours_loader.py` with:
-  - [ ] `load_latest_snapshot(input_dir, aliases) -> dict` that picks the
-        most recent `facility_opening_*.json` by filename, reads
-        `pool_name` + `facility_type` for each entry, applies alias
-        resolution (reuse `resolve_facility_alias` from `transform.py` or
-        extract it to a shared helper), and returns
-        `{(facility_type, canonical_name): schedule_entry}` where
-        `schedule_entry` preserves `status` + `weekly_schedule`.
-  - [ ] `is_facility_open(schedules, facility_type, facility_name, dt) ->
-        bool | None` implementing the three-state contract from
-        [architecture.md](./architecture.md#loader-api). Must iterate **all**
-        intervals for the weekday, not stop at the first. Must return
-        `False` for any entry with `status == "closed_for_season"`.
-  - [ ] Graceful handling for missing dir, missing file, malformed JSON —
-        return empty dict and log a warning, same style as other loaders.
-- [ ] Add unit tests in `tests/test_opening_hours_loader.py` covering:
-  - [ ] Hour inside a single interval → `True`.
-  - [ ] Hour at the `close_time` boundary → `False` (half-open interval).
-  - [ ] Facility present but no intervals that day → `False`.
-  - [ ] Facility with `status == "closed_for_season"` → `False` on every
-        day of the week.
-  - [ ] Facility missing from snapshot → `None`.
-  - [ ] Alias resolution applied (old `pool_name` in snapshot, canonical
-        queried).
-  - [ ] Day with two intervals, hour falls in the second one → `True`.
+- [x] `src/loaders/opening_hours_loader.py` with:
+  - [x] `load_latest_snapshot(input_dir, aliases)` returning
+        `{(facility_type, canonical_name): schedule_entry}`.
+  - [x] `is_facility_open(schedules, facility_type, facility_name, dt)`
+        three-state (True/False/None), iterating all intervals per day,
+        returning False for `closed_for_season`.
+  - [x] Graceful handling for missing dir/file/malformed JSON.
+- [x] `src/tests/test_opening_hours_loader.py` — all 14 tests pass:
+  - [x] Hour inside interval / just before close / at close / before open.
+  - [x] Multi-interval midday gap → False; second interval → True.
+  - [x] `closed_for_season` every weekday → False.
+  - [x] Facility missing → None.
+  - [x] Alias resolved, canonical-name query works, legacy-name query
+        returns None.
 
 ## 3. Forecast overlay
 
-- [ ] In `src/forecast/forecast.py`:
-  - [ ] Add `--opening-hours-dir` CLI flag
-        (default `../../facility_openings_raw`).
-  - [ ] Load aliases (same helper `transform.py` uses).
-  - [ ] Call `load_latest_snapshot` once at startup; log snapshot filename
-        and facility count.
-  - [ ] In `generate_forecasts`, per (facility, hour) compute
-        `is_open_now = is_facility_open(...)` and apply the precedence table
-        from
-        [architecture.md](./architecture.md#overlay-semantics):
-    - `False` → `is_open = 0`, `occupancy_percent = 0.0`.
-    - `True` → `is_open = 1`, keep model prediction.
-    - `None` → `is_open = "NULL"`, keep model prediction, log warning once
-      per unknown facility.
-- [ ] Add/extend tests for `forecast.py`:
-  - [ ] With a fixture snapshot, verify a known-closed hour emits `is_open=0`
-        and `occupancy_percent=0.0`.
-  - [ ] With a snapshot missing a facility, verify `is_open=NULL` and a
-        warning is logged.
+- [x] `src/forecast/forecast.py`:
+  - [x] `--opening-hours-dir` CLI flag (default
+        `../../facility_openings_raw`).
+  - [x] Loads aliases via a local `_load_facility_aliases` helper.
+  - [x] Calls `load_latest_snapshot` once at startup; logs snapshot
+        filename and facility count.
+  - [x] `generate_forecasts` applies precedence table: `False` → `(0, 0.0)`;
+        `True` → `(1, prediction)`; `None` → `(NULL, prediction)` with a
+        single warning per unknown facility.
+- [x] `src/tests/test_forecast_overlay.py` — 6 tests covering all three
+      precedence branches, multi-hour warn-once behavior, `closed_for_season`,
+      and empty-snapshot fallback.
 
 ## 4. Workflow
 
@@ -81,34 +63,33 @@ Tasks are ordered: earlier ones unblock later ones.
 
 ## 5. Documentation
 
-- [ ] Update `README.md`:
-  - [ ] Add `facility_openings_raw/` to the repository-structure tree.
-  - [ ] Add a new "Opening Hours" subsection under **Data Formats** with
-        the JSON shape (including the `status` field).
-  - [ ] Add `load_opening_hours.yml` to the automation-schedule table.
-  - [ ] Update the pipeline overview ASCII diagram to include the new
-        source.
-- [ ] Update `Specs/03_FORECAST_FILE_FORMAT.md`:
-  - [ ] Change the `is_open` row for forecast to state the deterministic
-        overlay behavior (`1` / `0` / `NULL` with meanings).
-  - [ ] Note that `occupancy_percent = 0` when `is_open = 0`.
-- [ ] Add a note in `CLAUDE.md` listing the new raw directory under
-      repository structure.
+- [x] `README.md` updated: new directory in repo-structure tree, new
+      "Opening Hours" subsection under Data Formats, pipeline ASCII
+      diagram updated, automation-schedule table includes
+      `load_opening_hours.yml`. Pick-up note removed.
+- [x] `Specs/changes/forecast-file-format/proposal.md` updated: `is_open`
+      row now describes the deterministic overlay with `1` / `0` / `NULL`.
+- [x] `CLAUDE.md` updated: pipeline flow includes opening hours step,
+      key components lists `opening_hours_loader.py`, key files lists
+      `facility_openings_raw/` and `facility_aliases.json`.
 
 ## 6. Smoke test
 
-- [ ] From repo root: run the existing forecast locally with a real
-      snapshot already present in `facility_openings_raw/` (downloaded
-      via `git pull` after the daily workflow runs), inspect a few rows of
-      `datasets/occupancy_forecast.csv`, and confirm a pool's 03:00 hour
-      is `is_open=0, occupancy_percent=0`.
-- [ ] Confirm the ice rink rows stay `is_open=0` throughout the 48h
-      horizon while `status == "closed_for_season"` in the snapshot.
+- [x] Ran forecast locally against the real snapshot
+      (`facility_opening_20260420_142744.json`) and the committed
+      model. 816 rows (17 facilities × 48h), 341 closed vs 475 open.
+- [x] Pools at 03:00 → `is_open=0, occupancy_percent=0`. ✓
+- [x] Pools at 12:00 → `is_open=1, occupancy>0` (model predictions
+      preserved). ✓
+- [x] Ice rink rows every hour → `is_open=0, occupancy_percent=0` across
+      the full 48h horizon (`closed_for_season`). ✓
+- [x] Zero "No opening hours known" warnings — all 17 facilities matched
+      the snapshot.
 
 ## 7. Out of scope — confirm before finishing
 
-- [ ] Double-check no changes slipped into `src/transform.py`,
-      `src/train/train.py`, or `models/occupancy_model.pkl`. The model must
-      not be retrained as part of this change.
-- [ ] Double-check the forecast CSV schema has the **same columns in the
-      same order** as before — only values change for closed hours.
+- [x] No changes to `src/transform.py`, `src/train/train.py`, or
+      `models/occupancy_model.pkl`. Model not retrained.
+- [x] Forecast CSV schema unchanged — verified via column list
+      comparison; only values in `is_open` / `occupancy_percent` differ
+      on closed hours.

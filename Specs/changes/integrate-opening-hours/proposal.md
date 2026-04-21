@@ -44,9 +44,15 @@ right answer with far less machinery than a second model.
   reflect the known schedule.
 - Documentation updates (README, forecast file format spec).
 
-**Status as of 2026-04-20:** the workflow and raw directory are in place
-(wired via guide from the scraper author). ML-pipeline integration
-— loader + forecast overlay — is still pending.
+**Status as of 2026-04-21:** Implemented. Workflow, directory, loader,
+forecast overlay, tests, and docs are merged. See
+[plan.md](./plan.md) — all sections checked.
+
+Known gap: the scraper itself is flaky on GH runners (`Errno 101
+Network is unreachable`). Tracked in
+[swm_pool_scraper#1](https://github.com/tillg/swm_pool_scraper/issues/1).
+The overlay tolerates missing daily snapshots — the forecast keeps using
+the most recent one, degrading gracefully.
 
 **Out of scope**
 

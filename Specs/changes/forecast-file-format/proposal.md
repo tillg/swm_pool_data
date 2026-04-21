@@ -20,8 +20,8 @@ Both files share the same schema, distinguished by the `data_source` column.
 | timestamp | ISO 8601 with timezone | `2025-01-28T14:00:00+01:00` |
 | facility_name | string | e.g., "Cosimawellenbad" |
 | facility_type | string | `pool`, `sauna`, or `ice_rink` |
-| occupancy_percent | float | Predicted value for forecast |
-| is_open | int/NULL | `1` or `0` for historical, `NULL` for forecast |
+| occupancy_percent | float | Predicted value for forecast (`0.0` when `is_open=0`) |
+| is_open | int/NULL | Historical: observed `1`/`0`. Forecast: deterministic overlay from opening-hours snapshot — `1` open, `0` closed, `NULL` facility missing from snapshot. See [integrate-opening-hours](../integrate-opening-hours/proposal.md). |
 | hour | int | 0-23 |
 | day_of_week | int | 0=Monday, 6=Sunday |
 | month | int | 1-12 |

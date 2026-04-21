@@ -41,22 +41,26 @@ python forecast.py
 
 **Data Pipeline Flow:**
 1. `scrape.yml` (every 15 min) → raw pool JSON to `pool_scrapes_raw/` → triggers transform
-2. `load_weather.yml` (daily 05:00 UTC) → weather JSON to `weather_raw/` → triggers transform
-3. `transform.yml` (triggered after scrape or weather) → `datasets/occupancy_historical.csv` + `src/config/facility_types.json`
-4. `train.yml` (weekly) → `models/occupancy_model.pkl`
-5. `forecast.yml` (daily) → `datasets/occupancy_forecast.csv`
+2. `load_opening_hours.yml` (daily 02:00 UTC) → `facility_openings_raw/facility_opening_*.json`
+3. `load_weather.yml` (daily 05:00 UTC) → weather JSON to `weather_raw/` → triggers transform
+4. `transform.yml` (triggered after scrape or weather) → `datasets/occupancy_historical.csv` + `src/config/facility_types.json`
+5. `train.yml` (weekly) → `models/occupancy_model.pkl`
+6. `forecast.yml` (daily 05:00 UTC) → `datasets/occupancy_forecast.csv` (applies opening-hours overlay at emit time)
 
 **Key Components:**
 - `src/loaders/weather_loader.py` - Fetches hourly weather from Open-Meteo API
 - `src/loaders/holiday_loader.py` - Generates Bavarian public holidays
+- `src/loaders/opening_hours_loader.py` - Loads latest opening-hours snapshot; used by `forecast.py` to overlay closed hours
 - `src/transform.py` - Merges raw data into `occupancy_historical.csv`, generates `facility_types.json`
-- `src/train/train.py` - Trains LightGBM model on historical data
-- `src/forecast/forecast.py` - Generates 48-hour predictions using trained model
+- `src/train/train.py` - Trains LightGBM model on historical data (filtered to `is_open == 1`)
+- `src/forecast/forecast.py` - Generates 48-hour predictions using trained model + opening-hours overlay
 
 **Key Files:**
 - `datasets/occupancy_historical.csv` - Historical observations with weather/holiday features
 - `datasets/occupancy_forecast.csv` - 48-hour predictions (same schema as historical)
+- `facility_openings_raw/facility_opening_*.json` - Daily opening-hours snapshots (one per day)
 - `src/config/facility_types.json` - Auto-generated facility name → type mapping
+- `src/config/facility_aliases.json` - Legacy-to-canonical facility name aliases
 - `models/occupancy_model.pkl` - Trained LightGBM model
 
 **Data Sources:**

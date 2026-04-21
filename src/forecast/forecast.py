@@ -12,6 +12,16 @@ from zoneinfo import ZoneInfo
 
 import pandas as pd
 
+# Allow `from loaders.opening_hours_loader import ...` when running from
+# this file's directory (matches the repo convention of invoking scripts
+# from their own subdir).
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
+from loaders.opening_hours_loader import (  # noqa: E402
+    is_facility_open,
+    load_latest_snapshot,
+)
+
 TIMEZONE = ZoneInfo("Europe/Berlin")
 FORECAST_HOURS = 48
 
@@ -20,6 +30,21 @@ logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
 logger = logging.getLogger(__name__)
+
+
+def _load_facility_aliases() -> dict:
+    """Load facility-alias mapping, tolerating a missing file.
+
+    Returns an empty dict if the alias file is absent. Matches
+    ``transform.load_facility_aliases`` contract so schedules and
+    historical data resolve names identically.
+    """
+    path = Path(__file__).resolve().parent.parent / "config" / "facility_aliases.json"
+    if not path.exists():
+        logger.warning(f"Facility aliases file not found: {path}")
+        return {}
+    with open(path, encoding="utf-8") as f:
+        return json.load(f)
 
 
 def load_model(model_path: Path):
@@ -140,12 +165,23 @@ def is_school_vacation(dt: datetime, vacations: list) -> bool:
 
 def generate_forecasts(
     model,
-    facility_types: dict[str, str],
+    facility_types: list[tuple[str, str]],
     weather_df: pd.DataFrame,
     public_holidays: set,
     school_vacations: list,
+    opening_schedules: dict | None = None,
 ) -> list[dict]:
-    """Generate occupancy predictions for all facilities and hours."""
+    """Generate occupancy predictions for all facilities and hours.
+
+    If *opening_schedules* is provided (from ``load_latest_snapshot``), the
+    model prediction is overridden for hours when the facility is scheduled
+    closed: ``is_open = 0`` and ``occupancy_percent = 0.0``. Facilities
+    missing from the snapshot keep their model prediction with
+    ``is_open = "NULL"`` and trigger a one-off warning.
+    """
+    opening_schedules = opening_schedules or {}
+    unknown_facility_warned: set[tuple[str, str]] = set()
+
     forecasts = []
 
     for _, weather_row in weather_df.iterrows():
@@ -181,6 +217,25 @@ def generate_forecasts(
             # Clamp to valid range
             prediction = max(0, min(100, prediction))
 
+            # Apply deterministic opening-hours overlay
+            is_open_now = is_facility_open(
+                opening_schedules, facility_type, facility_name,
+                ts_tz.to_pydatetime() if hasattr(ts_tz, "to_pydatetime") else ts_tz,
+            )
+            if is_open_now is False:
+                prediction = 0.0
+                is_open_value: int | str = 0
+            elif is_open_now is True:
+                is_open_value = 1
+            else:  # None — facility missing from snapshot
+                is_open_value = "NULL"
+                key = (facility_type, facility_name)
+                if opening_schedules and key not in unknown_facility_warned:
+                    logger.warning(
+                        f"No opening hours known for {facility_type}:{facility_name}"
+                    )
+                    unknown_facility_warned.add(key)
+
             # Format timestamp as ISO 8601 with timezone
             ts_str = ts_tz.strftime("%Y-%m-%dT%H:%M:%S%z")
             # Insert colon in timezone offset for ISO 8601 compliance (+0100 -> +01:00)
@@ -191,7 +246,7 @@ def generate_forecasts(
                 "facility_name": facility_name,
                 "facility_type": facility_type,
                 "occupancy_percent": round(prediction, 1),
-                "is_open": "NULL",
+                "is_open": is_open_value,
                 "hour": hour,
                 "day_of_week": day_of_week,
                 "month": month,
@@ -257,6 +312,12 @@ def main():
         default="../../datasets/occupancy_forecast.csv",
         help="Path to save forecast CSV"
     )
+    parser.add_argument(
+        "--opening-hours-dir",
+        type=str,
+        default="../../facility_openings_raw",
+        help="Directory containing facility_opening_*.json snapshots"
+    )
 
     args = parser.parse_args()
 
@@ -272,8 +333,13 @@ def main():
     facility_types = get_facilities()
     public_holidays, school_vacations = load_holiday_data(Path(args.holiday_dir))
 
+    # Load opening-hours snapshot for the deterministic overlay
+    aliases = _load_facility_aliases()
+    opening_schedules = load_latest_snapshot(Path(args.opening_hours_dir), aliases)
+
     forecasts = generate_forecasts(
-        model, facility_types, weather_df, public_holidays, school_vacations
+        model, facility_types, weather_df, public_holidays, school_vacations,
+        opening_schedules=opening_schedules,
     )
 
     save_forecasts(forecasts, Path(args.output))

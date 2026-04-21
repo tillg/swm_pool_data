@@ -1,0 +1,72 @@
+{
+  "scrape_timestamp": "2026-04-20T04:00:00+02:00",
+  "scrape_metadata": {
+    "total_facilities": 4,
+    "pools_count": 2,
+    "saunas_count": 1,
+    "ice_rinks_count": 1,
+    "unique_pages_fetched": 3,
+    "open_count": 3,
+    "closed_for_season_count": 1,
+    "method": "html"
+  },
+  "facilities": [
+    {
+      "pool_name": "Bad Giesing-Harlaching",
+      "facility_type": "pool",
+      "status": "open",
+      "url": "https://www.swm.de/baeder/bad-giesing-harlaching",
+      "heading": "Öffnungszeiten",
+      "weekly_schedule": {
+        "monday":    [{"open": "08:00", "close": "18:00"}],
+        "tuesday":   [{"open": "08:00", "close": "12:00"}, {"open": "15:00", "close": "21:00"}],
+        "wednesday": [{"open": "08:00", "close": "21:00"}],
+        "thursday":  [{"open": "08:00", "close": "21:00"}],
+        "friday":    [{"open": "08:00", "close": "21:00"}],
+        "saturday":  [{"open": "08:00", "close": "18:00"}],
+        "sunday":    [{"open": "08:00", "close": "18:00"}]
+      }
+    },
+    {
+      "pool_name": "Nordbad",
+      "facility_type": "pool",
+      "status": "open",
+      "url": "https://www.swm.de/baeder/nordbad",
+      "heading": "Öffnungszeiten",
+      "weekly_schedule": {
+        "monday":    [{"open": "07:00", "close": "22:00"}],
+        "tuesday":   [{"open": "07:00", "close": "22:00"}],
+        "wednesday": [{"open": "07:00", "close": "22:00"}],
+        "thursday":  [{"open": "07:00", "close": "22:00"}],
+        "friday":    [{"open": "07:00", "close": "22:00"}],
+        "saturday":  [{"open": "08:00", "close": "20:00"}],
+        "sunday":    [{"open": "08:00", "close": "20:00"}]
+      }
+    },
+    {
+      "pool_name": "Nordbad Sauna",
+      "facility_type": "sauna",
+      "status": "open",
+      "url": "https://www.swm.de/baeder/nordbad",
+      "heading": "Öffnungszeiten Sauna",
+      "weekly_schedule": {
+        "monday":    [{"open": "10:00", "close": "23:00"}],
+        "tuesday":   [{"open": "10:00", "close": "23:00"}],
+        "wednesday": [{"open": "10:00", "close": "23:00"}],
+        "thursday":  [{"open": "10:00", "close": "23:00"}],
+        "friday":    [{"open": "10:00", "close": "23:00"}],
+        "saturday":  [{"open": "09:00", "close": "23:00"}],
+        "sunday":    [{"open": "09:00", "close": "23:00"}]
+      }
+    },
+    {
+      "pool_name": "Prinzregentenstadion - Eislaufbahn",
+      "facility_type": "ice_rink",
+      "status": "closed_for_season",
+      "url": "https://www.swm.de/baeder/prinzregentenstadion",
+      "heading": "Öffnungszeiten Eislaufbahn",
+      "weekly_schedule": {},
+      "special_notes": ["Außerhalb der Eislaufsaison geschlossen"]
+    }
+  ]
+}
