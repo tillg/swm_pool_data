@@ -17,6 +17,10 @@ from loaders.holiday_loader import (
     load_public_holidays,
     load_school_holidays,
 )
+from loaders.opening_hours_loader import (
+    is_facility_open,
+    load_latest_snapshot,
+)
 
 TIMEZONE = ZoneInfo("Europe/Berlin")
 
@@ -287,6 +291,51 @@ def validate_data(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
+def apply_opening_hours_overlay(df: pd.DataFrame, schedules: dict) -> pd.DataFrame:
+    """Overwrite ``is_open`` and ``occupancy_percent`` on closed hours.
+
+    Same deterministic contract the forecast pipeline uses (see
+    ``Specs/changes/integrate-opening-hours/architecture.md``):
+
+    - Schedule says closed → ``is_open = 0`` and ``occupancy_percent = 0.0``
+      regardless of what the live scraper reported.
+    - Schedule says open → ``is_open = 1``.
+    - Facility missing from snapshot → leave ``is_open`` untouched.
+
+    The scraper's raw ``is_open`` is unreliable (always ``true`` even at
+    03:00) and the scraped ``occupancy_percent`` outside opening hours is
+    likewise meaningless, so we trust the published schedule instead.
+    Idempotent: applying twice is the same as applying once.
+    """
+    if df.empty or not schedules:
+        return df
+
+    def _check(row) -> object:
+        return is_facility_open(
+            schedules,
+            row["facility_type"],
+            row["facility_name"],
+            row["timestamp"],
+        )
+
+    overlay = df.apply(_check, axis=1)
+    closed_mask = overlay.apply(lambda v: v is False)
+    open_mask = overlay.apply(lambda v: v is True)
+
+    df.loc[closed_mask, "is_open"] = 0
+    df.loc[closed_mask, "occupancy_percent"] = 0.0
+    df.loc[open_mask, "is_open"] = 1
+
+    n_closed = int(closed_mask.sum())
+    n_open = int(open_mask.sum())
+    n_unknown = len(df) - n_closed - n_open
+    logger.info(
+        f"Opening-hours overlay: open={n_open}, closed={n_closed}, "
+        f"unknown_facility={n_unknown}"
+    )
+    return df
+
+
 def load_existing_data(output_path: Path) -> pd.DataFrame:
     """Load existing output file if it exists.
 
@@ -314,7 +363,8 @@ def transform(
     pool_dir: Path,
     weather_dir: Path,
     holiday_dir: Path,
-    output_path: Path
+    output_path: Path,
+    opening_hours_dir: Path | None = None,
 ) -> None:
     """Main transform pipeline.
 
@@ -323,11 +373,18 @@ def transform(
         weather_dir: Directory with weather JSON files
         holiday_dir: Directory with holiday JSON files
         output_path: Path for output CSV file
+        opening_hours_dir: Directory with facility_opening_*.json snapshots
+            (defaults to <repo>/facility_openings_raw)
     """
     # Load facility aliases
     config_dir = Path(__file__).parent / "config"
     aliases = load_facility_aliases(config_dir)
     logger.info(f"Loaded {len(aliases)} facility aliases")
+
+    # Load opening-hours snapshot for the deterministic is_open overlay
+    if opening_hours_dir is None:
+        opening_hours_dir = Path(__file__).parent.parent / "facility_openings_raw"
+    opening_schedules = load_latest_snapshot(opening_hours_dir, aliases)
 
     # Load existing data to find the latest timestamp
     existing_df = load_existing_data(output_path)
@@ -389,6 +446,11 @@ def transform(
         )
     else:
         combined_df = validated_df
+
+    # Apply opening-hours overlay across the whole frame so backlog rows get
+    # corrected too (the overlay is idempotent). The scraper's is_open is
+    # unreliable; the published schedule wins.
+    combined_df = apply_opening_hours_overlay(combined_df, opening_schedules)
 
     # Sort and save
     combined_df = combined_df.sort_values(["timestamp", "facility_name"])
@@ -468,6 +530,12 @@ def main():
         default="datasets/occupancy_historical.csv",
         help="Output CSV file path"
     )
+    parser.add_argument(
+        "--opening-hours-dir",
+        type=str,
+        default="facility_openings_raw",
+        help="Directory with facility_opening_*.json snapshots"
+    )
 
     args = parser.parse_args()
 
@@ -476,7 +544,8 @@ def main():
             pool_dir=Path(args.pool_dir),
             weather_dir=Path(args.weather_dir),
             holiday_dir=Path(args.holiday_dir),
-            output_path=Path(args.output)
+            output_path=Path(args.output),
+            opening_hours_dir=Path(args.opening_hours_dir),
         )
     except Exception as e:
         logger.error(f"Transform failed: {e}")
