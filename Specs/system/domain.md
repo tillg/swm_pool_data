@@ -111,9 +111,22 @@ holidays) and `is_school_vacation` (Bavarian school-break periods).
 ### Opening interval
 
 A half-open time range `[open, close)` during which a facility is open on a
-given weekday. Introduced by
-[integrate-opening-hours](../changes/integrate-opening-hours/proposal.md)
-and applied deterministically to the forecast.
+given weekday. Snapshots come from `facility_openings_raw/facility_opening_*.json`
+(scraped daily) and drive a deterministic overlay on **both** the historical
+and forecast halves of the unified CSV. The scraper's reported `is_open`
+flag is unreliable (always `true`), so the published schedule is the source
+of truth.
+
+### `is_open` contract (unified across historical + forecast)
+
+| Value | Meaning |
+|-------|---------|
+| `1` | Facility scheduled open at this hour. `occupancy_percent` is a real reading (historical) or model prediction (forecast). |
+| `0` | Facility scheduled closed. `occupancy_percent` is a `0.0` sentinel — **not** a real reading or prediction. |
+| `NULL` (forecast only) | Facility is missing from the opening-hours snapshot; the overlay couldn't decide. Model prediction is preserved. |
+
+Closed-for-season facilities (e.g. ice rink in summer) overlay to `is_open=0`
+on every hour of the week.
 
 ## Key processes
 
@@ -192,8 +205,9 @@ Full rules are documented in [README.md → Timestamp Handling](../../README.md)
    offset. Timezone-naive timestamps exist only inside Python during
    processing.
 5. **Training excludes closed hours.** `is_open == 1` is the training
-   filter; the model has no closed-hour knowledge. Closed-hour forecast
-   values come from a deterministic overlay, not the model.
+   filter; the model has no closed-hour knowledge. Closed-hour values come
+   from the deterministic overlay (applied identically on both historical
+   and forecast paths), not from the model or the scraper.
 6. **Raw is immutable.** Raw JSON files are only appended, never mutated.
    Reprocessing is always possible from raw.
 
