@@ -473,6 +473,14 @@ gh run watch
 
 If the deterministic scraper happens to be green that day, only the deterministic step runs and the fallback is skipped — that's expected. The fallback only fires on a real deterministic failure (such as the recurring seasonal Dantebad heading regression).
 
+### Open architectural question: shared parser vs. per-pool scrapers
+
+Today the deterministic scraper lives in `tillg/swm_pool_scraper` as **one shared parser** (`opening_hours_parser.py`) that handles all 17 facilities via a `PAGE_BINDINGS` map of (url → expected heading). When the AI fallback fires, it patches that single file. The verify step then re-runs the deterministic scraper against the patched code before committing the upstream fix — that's our safety net against a model "fix" that breaks unrelated facilities.
+
+The alternative we considered is **one dedicated scraper per facility** (e.g. `scrapers/dantebad.py`, `scrapers/westbad.py`, …) with a small shared utils module for day/time parsing and closed-season markers. Benefits: a model repair touches only one file, so an over-eager edit can't silently break the other 16; failure modes are diagnosed per pool; SWM redesigning the saunas section can't take down the pool scrapers. Costs: 17 small files instead of one, some duplication risk if the shared utils aren't disciplined, and a one-time migration to split the existing parser.
+
+**Decision for now: keep the shared parser.** The first successful self-healing run produced a tasteful, contained edit (added two closed-season markers, made heading matching prefix-based) — evidence the model can make safe changes to shared code when the prompt forbids error-swallowing and the verify step is honest. We'll revisit if future runs produce patches that break working facilities, or if the verify step starts approving snapshots that turn out to be wrong (the verify step currently checks that the scraper *runs*, not that its output matches the LLM snapshot — that gap is the most likely thing to bite us first).
+
 ## Use Cases
 
 - Machine learning models for predicting pool occupancy

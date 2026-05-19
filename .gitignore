@@ -14,6 +14,7 @@ venv/
 *.swp
 .gitnexus
 
-# Local scratch dirs (browser-agent screenshots, MCP cache)
+# Local scratch dirs (browser-agent screenshots, MCP cache, workflow-artifact downloads)
 .tmp/
+tmp/
 .playwright-mcp/
