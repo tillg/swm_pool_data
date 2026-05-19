@@ -50,6 +50,17 @@ jobs:
             --output-dir facility_openings_raw \
             --failure-log opening_hours_deterministic.log
 
+      - name: Upload AI fallback debug logs
+        if: always() && steps.deterministic.outputs.status != '0'
+        uses: actions/upload-artifact@v4
+        with:
+          name: opening-hours-ai-debug
+          path: |
+            opening_hours_deterministic.log
+            opening_hours_ai_response.txt
+          if-no-files-found: ignore
+          retention-days: 14
+
       - name: Verify scraper after AI fallback
         if: steps.deterministic.outputs.status != '0'
         run: python scraper/scrape_opening_hours.py --output-dir /tmp/opening-hours-verify

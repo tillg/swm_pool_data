@@ -5,10 +5,12 @@ from pathlib import Path
 
 import pytest
 
+import opening_hours_ai_fallback
 from opening_hours_ai_fallback import (
     apply_file_updates,
     build_prompt,
     extract_response_payload,
+    main,
     write_snapshot,
 )
 
@@ -83,6 +85,34 @@ def test_apply_file_updates_writes_relative_scraper_files(tmp_path):
     assert (scraper_dir / "src" / "facility_pages.py").read_text(encoding="utf-8") == (
         "PAGE_BINDINGS = {}\n"
     )
+
+
+def test_main_writes_response_log_even_when_validation_fails(monkeypatch, tmp_path):
+    scraper_dir = tmp_path / "scraper"
+    scraper_dir.mkdir()
+    (scraper_dir / "scrape_opening_hours.py").write_text("print('scrape')\n")
+    response_log = tmp_path / "ai_response.txt"
+    bad_response = '{"snapshot": {"facilities": []}, "file_updates": []}'
+
+    monkeypatch.setattr(
+        opening_hours_ai_fallback, "call_openai_chat", lambda **_: bad_response
+    )
+    monkeypatch.setattr(
+        opening_hours_ai_fallback, "collect_page_context", lambda *_: {}
+    )
+
+    with pytest.raises(ValueError):
+        main(
+            [
+                "--scraper-dir", str(scraper_dir),
+                "--output-dir", str(tmp_path / "out"),
+                "--response-log", str(response_log),
+                "--openai-base-url", "http://test",
+                "--openai-api-key", "test",
+            ]
+        )
+
+    assert response_log.read_text(encoding="utf-8") == bad_response
 
 
 def test_build_prompt_contains_required_agent_instructions(tmp_path):

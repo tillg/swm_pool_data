@@ -245,6 +245,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--scraper-dir", type=Path, default=Path("scraper"))
     parser.add_argument("--output-dir", type=Path, default=Path("facility_openings_raw"))
     parser.add_argument("--failure-log", type=Path, default=Path("opening_hours_deterministic.log"))
+    parser.add_argument("--response-log", type=Path, default=Path("opening_hours_ai_response.txt"))
     parser.add_argument("--swm-base-url", default=_env("SWM_BASE_URL") or "https://www.swm.de")
     parser.add_argument("--openai-base-url", default=_env("AI_OPENAI_BASE_URL", "OPENAI_BASE_URL"))
     parser.add_argument("--openai-api-key", default=_env("AI_OPENAI_API_KEY", "OPENAI_API_KEY"))
@@ -279,6 +280,10 @@ def main(argv: list[str] | None = None) -> int:
         prompt=prompt,
         timeout=args.timeout,
     )
+    # Persist raw response before parsing so failed runs can still be debugged.
+    args.response_log.parent.mkdir(parents=True, exist_ok=True)
+    args.response_log.write_text(content, encoding="utf-8")
+    print(f"Saved raw AI response: {args.response_log}")
     payload = extract_response_payload(content)
     snapshot = payload.get("snapshot")
     file_updates = payload.get("file_updates")
