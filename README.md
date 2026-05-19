@@ -396,6 +396,83 @@ Options:
 | Model training | Weekly (Sun 22:00 UTC) | Retrains model on latest historical data |
 | Forecast | Daily 05:00 UTC | Generates 48-hour predictions to `occupancy_forecast.csv` |
 
+## GitHub Actions Secrets and Variables
+
+The daily `Load Opening Hours` workflow has a self-healing fallback: when the deterministic scraper fails (e.g., SWM redesigned a page, or a facility was renamed seasonally), it calls an LLM to re-scrape the current pages and produce a patch for the upstream `tillg/swm_pool_scraper` repo. That fallback needs three secrets and one optional variable. Without them, the workflow simply fails on a scraper regression instead of self-healing.
+
+### What you need
+
+| Name | Type | What it is |
+| ---- | ---- | ---------- |
+| `AI_OPENAI_API_KEY` | Secret | API key for an OpenAI-compatible `/chat/completions` endpoint |
+| `AI_OPENAI_BASE_URL` | Secret | Base URL of that endpoint, e.g. `https://api.openai.com/v1` |
+| `SCRAPER_REPO_TOKEN` | Secret | Fine-grained PAT with `Contents: read and write` on `tillg/swm_pool_scraper`. Used to commit the LLM's scraper fix back upstream. |
+| `AI_OPENAI_MODEL` | Variable *(optional)* | Model name. Defaults to `gpt-4.1` if unset. |
+
+### Where to get each value
+
+**`AI_OPENAI_API_KEY` + `AI_OPENAI_BASE_URL`**
+
+The fallback talks to any OpenAI-compatible chat completions endpoint. Pick one provider:
+
+- **OpenAI directly** — create a key at https://platform.openai.com/api-keys. Base URL: `https://api.openai.com/v1`.
+- **Azure OpenAI** — key from the Azure portal under your deployment's *Keys and Endpoint* blade. Base URL: `https://<your-resource>.openai.azure.com/openai/deployments/<deployment-name>` (and set `AI_OPENAI_MODEL` to the deployment name).
+- **Self-hosted (Ollama, vLLM, LM Studio, …)** — set `AI_OPENAI_BASE_URL` to the publicly reachable address of your server, ending in `/v1`. Use any non-empty placeholder string as the key if the server doesn't enforce auth.
+
+**`SCRAPER_REPO_TOKEN`**
+
+The fallback writes patched scraper files back into `tillg/swm_pool_scraper`. The default `github.token` only has access to *this* repo, so a Personal Access Token is required for cross-repo pushes.
+
+1. Open https://github.com/settings/personal-access-tokens/new
+2. Choose **Fine-grained token**
+3. Resource owner: the account that owns `swm_pool_scraper` (e.g. `tillg`)
+4. Repository access: **Only select repositories** → `swm_pool_scraper`
+5. Permissions → Repository permissions → **Contents: Read and write**
+6. Expiration: at most 1 year (rotate annually)
+7. Generate, then copy the `github_pat_…` value
+
+If you skip this token, the fallback still writes the day's snapshot to `facility_openings_raw/`, but the upstream scraper patch can't be pushed and the regression will resurface tomorrow.
+
+**`AI_OPENAI_MODEL`** *(optional)*
+
+A repository **variable** (not a secret — model names aren't sensitive). Set it to override the default `gpt-4.1`. Examples: `gpt-4o`, `gpt-4.1-mini`, or your Azure deployment name.
+
+### Where to set them in GitHub
+
+In the browser:
+
+1. Open the repo on github.com → **Settings**
+2. Sidebar → **Secrets and variables** → **Actions**
+3. There are two tabs: **Secrets** and **Variables**
+4. Click **New repository secret** (or **New repository variable**), paste name + value, save
+
+Or via the `gh` CLI (run from the repo directory):
+
+```bash
+gh secret set AI_OPENAI_API_KEY        # paste key, then Ctrl+D
+gh secret set AI_OPENAI_BASE_URL --body "https://api.openai.com/v1"
+gh secret set SCRAPER_REPO_TOKEN       # paste fine-grained PAT, then Ctrl+D
+gh variable set AI_OPENAI_MODEL --body "gpt-4.1"   # optional
+```
+
+Verify (values are hidden, only names listed):
+
+```bash
+gh secret list
+gh variable list
+```
+
+### Testing the fallback
+
+Trigger the workflow manually after setting the secrets:
+
+```bash
+gh workflow run "Load Opening Hours"
+gh run watch
+```
+
+If the deterministic scraper happens to be green that day, only the deterministic step runs and the fallback is skipped — that's expected. The fallback only fires on a real deterministic failure (such as the recurring seasonal Dantebad heading regression).
+
 ## Use Cases
 
 - Machine learning models for predicting pool occupancy

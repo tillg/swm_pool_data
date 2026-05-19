@@ -19,6 +19,7 @@ jobs:
         with:
           repository: tillg/swm_pool_scraper
           path: scraper
+          token: ${{ secrets.SCRAPER_REPO_TOKEN || github.token }}
 
       - uses: actions/setup-python@v5
         with:
@@ -26,7 +27,43 @@ jobs:
 
       - run: pip install -r scraper/requirements.txt
 
-      - run: python scraper/scrape_opening_hours.py --output-dir facility_openings_raw
+      - name: Run deterministic opening-hours scraper
+        id: deterministic
+        shell: bash
+        run: |
+          set +e
+          python scraper/scrape_opening_hours.py --output-dir facility_openings_raw 2>&1 | tee opening_hours_deterministic.log
+          status=${PIPESTATUS[0]}
+          echo "status=$status" >> "$GITHUB_OUTPUT"
+          exit 0
+
+      - name: Run AI opening-hours fallback
+        if: steps.deterministic.outputs.status != '0'
+        env:
+          AI_OPENAI_BASE_URL: ${{ secrets.AI_OPENAI_BASE_URL }}
+          AI_OPENAI_API_KEY: ${{ secrets.AI_OPENAI_API_KEY }}
+          AI_OPENAI_MODEL: ${{ vars.AI_OPENAI_MODEL || 'gpt-4.1' }}
+          SWM_BASE_URL: ${{ vars.SWM_BASE_URL || 'https://www.swm.de' }}
+        run: |
+          python src/opening_hours_ai_fallback.py \
+            --scraper-dir scraper \
+            --output-dir facility_openings_raw \
+            --failure-log opening_hours_deterministic.log
+
+      - name: Verify scraper after AI fallback
+        if: steps.deterministic.outputs.status != '0'
+        run: python scraper/scrape_opening_hours.py --output-dir /tmp/opening-hours-verify
+
+      - name: Commit and push scraper fallback fix
+        if: steps.deterministic.outputs.status != '0'
+        working-directory: scraper
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git diff --staged --quiet && exit 0
+          git commit -m "Fix opening hours scraper from AI fallback"
+          git push
 
       - name: Commit and push
         run: |
