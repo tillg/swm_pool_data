@@ -9,6 +9,7 @@ import opening_hours_ai_fallback
 from opening_hours_ai_fallback import (
     apply_file_updates,
     build_prompt,
+    extract_page_text,
     extract_response_payload,
     main,
     write_snapshot,
@@ -85,6 +86,34 @@ def test_apply_file_updates_writes_relative_scraper_files(tmp_path):
     assert (scraper_dir / "src" / "facility_pages.py").read_text(encoding="utf-8") == (
         "PAGE_BINDINGS = {}\n"
     )
+
+
+def test_extract_page_text_preserves_schedule_lines_and_drops_scripts():
+    html = """
+    <html><head>
+      <script>var tracking = 'noise'; var more = 'a'+'b';</script>
+      <style>.x { color: red; }</style>
+    </head><body>
+      <nav>Navigation Home Kontakt</nav>
+      <main>
+        <h2>Öffnungszeiten Bad Giesing-Harlaching</h2>
+        <div class="text-plus__col">
+          <p>Mo bis Fr: 7 bis 23 Uhr</p>
+          <p>Sa: 7 bis 22 Uhr</p>
+        </div>
+      </main>
+    </body></html>
+    """
+
+    text = extract_page_text(html)
+
+    assert "Mo bis Fr: 7 bis 23 Uhr" in text
+    assert "Sa: 7 bis 22 Uhr" in text
+    # Schedule must be on its own line, not collapsed into surrounding prose.
+    assert "Öffnungszeiten Bad Giesing-Harlaching\nMo bis Fr: 7 bis 23 Uhr" in text
+    # Scripts and styles are stripped — no JS body should leak through.
+    assert "tracking" not in text
+    assert "color: red" not in text
 
 
 def test_main_writes_response_log_even_when_validation_fails(monkeypatch, tmp_path):

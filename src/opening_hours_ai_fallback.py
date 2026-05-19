@@ -22,6 +22,7 @@ from pathlib import Path
 from typing import Any
 
 import requests
+from bs4 import BeautifulSoup
 
 
 SCRAPER_CONTEXT_FILES = (
@@ -121,6 +122,24 @@ def _scraper_file_context(scraper_dir: Path) -> str:
     return "\n\n".join(parts)
 
 
+def extract_page_text(html: str, max_chars: int = 60_000) -> str:
+    """Plain-text view of an SWM page, the same way the deterministic parser sees it.
+
+    The schedule on swm.de lives in a content block under an h2/h3 heading; the
+    block is rendered server-side as line-separated text ("Mo bis Fr:\\n7 bis 23
+    Uhr"). Whitespace-collapsing the raw HTML destroys those line breaks and
+    hides the schedule from the model.
+    """
+    soup = BeautifulSoup(html, "html.parser")
+    for tag in soup(["script", "style", "noscript"]):
+        tag.decompose()
+    text = soup.get_text(separator="\n", strip=True)
+    text = re.sub(r"\n{3,}", "\n\n", text)
+    if len(text) > max_chars:
+        return text[:max_chars] + "\n... [truncated]"
+    return text
+
+
 def collect_page_context(swm_base_url: str, scraper_dir: Path) -> dict[str, str]:
     """Fetch current SWM page text for URLs referenced by facility_pages.py."""
     facility_pages = _read_text(scraper_dir / "src" / "facility_pages.py", max_chars=80_000)
@@ -138,8 +157,7 @@ def collect_page_context(swm_base_url: str, scraper_dir: Path) -> dict[str, str]
         except requests.RequestException as exc:
             context[url] = f"FETCH ERROR: {exc}"
             continue
-        text = re.sub(r"\s+", " ", response.text).strip()
-        context[url] = text[:80_000]
+        context[url] = extract_page_text(response.text)
     return context
 
 
@@ -161,6 +179,11 @@ The deterministic scraper failed, so your job is to:
 2. fix the deterministic scraper under {scraper_dir} so the same deterministic command runs without error next time.
 
 If Playwright MCP is unavailable in your runtime, use the supplied current page HTML/text context below, but still produce the same artifacts. Do not invent facilities. Preserve the existing snapshot shape used by facility_openings_raw files. For temporarily closed facilities, use status "closed_for_season", an empty weekly_schedule object, and include the closure reason in special_notes/raw_section.
+
+Hard rules — these are validated and the run will fail if you break them:
+- Every facility with status "open" MUST have a non-empty weekly_schedule populated from the supplied page text. Empty schedules with placeholder notes (e.g. "Manual fallback required") are rejected.
+- If you genuinely cannot read a schedule from the page text, OMIT that facility from the snapshot rather than emitting a placeholder. A partial snapshot is preferred over fake data.
+- file_updates must FIX the deterministic parser to handle the new page layout, not silence its errors. Do NOT add code paths that return empty schedules, swallow exceptions, or downgrade ParseError into success. The parser MUST keep raising on unrecognised pages — that error is what triggers this fallback.
 
 Return exactly one JSON object and no prose. The JSON schema is:
 {{
