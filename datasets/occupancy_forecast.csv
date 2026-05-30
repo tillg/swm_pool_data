@@ -1,817 +1,817 @@
 timestamp,facility_name,facility_type,occupancy_percent,is_open,hour,day_of_week,month,is_weekend,is_holiday,is_school_vacation,temperature_c,precipitation_mm,weather_code,cloud_cover_percent,data_source
-2026-05-29T08:00:00+02:00,Bad Giesing-Harlaching,pool,91.1,1,8,4,5,0,0,1,15.6,0.0,0,0,forecast
-2026-05-29T08:00:00+02:00,Cosimawellenbad,pool,95.3,1,8,4,5,0,0,1,15.6,0.0,0,0,forecast
-2026-05-29T08:00:00+02:00,Cosimawellenbad,sauna,0.0,0,8,4,5,0,0,1,15.6,0.0,0,0,forecast
-2026-05-29T08:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,8,4,5,0,0,1,15.6,0.0,0,0,forecast
-2026-05-29T08:00:00+02:00,Dantebad,sauna,95.4,1,8,4,5,0,0,1,15.6,0.0,0,0,forecast
-2026-05-29T08:00:00+02:00,Michaelibad,pool,94.9,1,8,4,5,0,0,1,15.6,0.0,0,0,forecast
-2026-05-29T08:00:00+02:00,Michaelibad,sauna,94.9,1,8,4,5,0,0,1,15.6,0.0,0,0,forecast
-2026-05-29T08:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,8,4,5,0,0,1,15.6,0.0,0,0,forecast
-2026-05-29T08:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,8,4,5,0,0,1,15.6,0.0,0,0,forecast
-2026-05-29T08:00:00+02:00,Nordbad,pool,91.3,1,8,4,5,0,0,1,15.6,0.0,0,0,forecast
-2026-05-29T08:00:00+02:00,Nordbad,sauna,91.3,1,8,4,5,0,0,1,15.6,0.0,0,0,forecast
-2026-05-29T08:00:00+02:00,Olympia-Schwimmhalle,pool,91.3,1,8,4,5,0,0,1,15.6,0.0,0,0,forecast
-2026-05-29T08:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,8,4,5,0,0,1,15.6,0.0,0,0,forecast
-2026-05-29T08:00:00+02:00,Südbad,pool,90.6,1,8,4,5,0,0,1,15.6,0.0,0,0,forecast
-2026-05-29T08:00:00+02:00,Südbad,sauna,0.0,0,8,4,5,0,0,1,15.6,0.0,0,0,forecast
-2026-05-29T08:00:00+02:00,Westbad,pool,0.0,0,8,4,5,0,0,1,15.6,0.0,0,0,forecast
-2026-05-29T08:00:00+02:00,Westbad,sauna,0.0,0,8,4,5,0,0,1,15.6,0.0,0,0,forecast
-2026-05-29T09:00:00+02:00,Bad Giesing-Harlaching,pool,88.9,1,9,4,5,0,0,1,17.7,0.0,0,0,forecast
-2026-05-29T09:00:00+02:00,Cosimawellenbad,pool,93.0,1,9,4,5,0,0,1,17.7,0.0,0,0,forecast
-2026-05-29T09:00:00+02:00,Cosimawellenbad,sauna,93.0,1,9,4,5,0,0,1,17.7,0.0,0,0,forecast
-2026-05-29T09:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,9,4,5,0,0,1,17.7,0.0,0,0,forecast
-2026-05-29T09:00:00+02:00,Dantebad,sauna,94.3,1,9,4,5,0,0,1,17.7,0.0,0,0,forecast
-2026-05-29T09:00:00+02:00,Michaelibad,pool,93.9,1,9,4,5,0,0,1,17.7,0.0,0,0,forecast
-2026-05-29T09:00:00+02:00,Michaelibad,sauna,93.9,1,9,4,5,0,0,1,17.7,0.0,0,0,forecast
-2026-05-29T09:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,9,4,5,0,0,1,17.7,0.0,0,0,forecast
-2026-05-29T09:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,9,4,5,0,0,1,17.7,0.0,0,0,forecast
-2026-05-29T09:00:00+02:00,Nordbad,pool,86.9,1,9,4,5,0,0,1,17.7,0.0,0,0,forecast
-2026-05-29T09:00:00+02:00,Nordbad,sauna,86.9,1,9,4,5,0,0,1,17.7,0.0,0,0,forecast
-2026-05-29T09:00:00+02:00,Olympia-Schwimmhalle,pool,88.8,1,9,4,5,0,0,1,17.7,0.0,0,0,forecast
-2026-05-29T09:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,9,4,5,0,0,1,17.7,0.0,0,0,forecast
-2026-05-29T09:00:00+02:00,Südbad,pool,89.2,1,9,4,5,0,0,1,17.7,0.0,0,0,forecast
-2026-05-29T09:00:00+02:00,Südbad,sauna,89.2,1,9,4,5,0,0,1,17.7,0.0,0,0,forecast
-2026-05-29T09:00:00+02:00,Westbad,pool,0.0,0,9,4,5,0,0,1,17.7,0.0,0,0,forecast
-2026-05-29T09:00:00+02:00,Westbad,sauna,0.0,0,9,4,5,0,0,1,17.7,0.0,0,0,forecast
-2026-05-29T10:00:00+02:00,Bad Giesing-Harlaching,pool,85.0,1,10,4,5,0,0,1,19.8,0.0,1,1,forecast
-2026-05-29T10:00:00+02:00,Cosimawellenbad,pool,86.4,1,10,4,5,0,0,1,19.8,0.0,1,1,forecast
-2026-05-29T10:00:00+02:00,Cosimawellenbad,sauna,86.4,1,10,4,5,0,0,1,19.8,0.0,1,1,forecast
-2026-05-29T10:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,10,4,5,0,0,1,19.8,0.0,1,1,forecast
-2026-05-29T10:00:00+02:00,Dantebad,sauna,91.7,1,10,4,5,0,0,1,19.8,0.0,1,1,forecast
-2026-05-29T10:00:00+02:00,Michaelibad,pool,90.7,1,10,4,5,0,0,1,19.8,0.0,1,1,forecast
-2026-05-29T10:00:00+02:00,Michaelibad,sauna,90.7,1,10,4,5,0,0,1,19.8,0.0,1,1,forecast
-2026-05-29T10:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,10,4,5,0,0,1,19.8,0.0,1,1,forecast
-2026-05-29T10:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,10,4,5,0,0,1,19.8,0.0,1,1,forecast
-2026-05-29T10:00:00+02:00,Nordbad,pool,80.7,1,10,4,5,0,0,1,19.8,0.0,1,1,forecast
-2026-05-29T10:00:00+02:00,Nordbad,sauna,80.7,1,10,4,5,0,0,1,19.8,0.0,1,1,forecast
-2026-05-29T10:00:00+02:00,Olympia-Schwimmhalle,pool,83.7,1,10,4,5,0,0,1,19.8,0.0,1,1,forecast
-2026-05-29T10:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,10,4,5,0,0,1,19.8,0.0,1,1,forecast
-2026-05-29T10:00:00+02:00,Südbad,pool,84.3,1,10,4,5,0,0,1,19.8,0.0,1,1,forecast
-2026-05-29T10:00:00+02:00,Südbad,sauna,84.3,1,10,4,5,0,0,1,19.8,0.0,1,1,forecast
-2026-05-29T10:00:00+02:00,Westbad,pool,0.0,0,10,4,5,0,0,1,19.8,0.0,1,1,forecast
-2026-05-29T10:00:00+02:00,Westbad,sauna,0.0,0,10,4,5,0,0,1,19.8,0.0,1,1,forecast
-2026-05-29T11:00:00+02:00,Bad Giesing-Harlaching,pool,83.9,1,11,4,5,0,0,1,21.7,0.0,2,51,forecast
-2026-05-29T11:00:00+02:00,Cosimawellenbad,pool,84.4,1,11,4,5,0,0,1,21.7,0.0,2,51,forecast
-2026-05-29T11:00:00+02:00,Cosimawellenbad,sauna,84.4,1,11,4,5,0,0,1,21.7,0.0,2,51,forecast
-2026-05-29T11:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,11,4,5,0,0,1,21.7,0.0,2,51,forecast
-2026-05-29T11:00:00+02:00,Dantebad,sauna,92.2,1,11,4,5,0,0,1,21.7,0.0,2,51,forecast
-2026-05-29T11:00:00+02:00,Michaelibad,pool,90.0,1,11,4,5,0,0,1,21.7,0.0,2,51,forecast
-2026-05-29T11:00:00+02:00,Michaelibad,sauna,90.0,1,11,4,5,0,0,1,21.7,0.0,2,51,forecast
-2026-05-29T11:00:00+02:00,Müller'sches Volksbad,pool,82.3,1,11,4,5,0,0,1,21.7,0.0,2,51,forecast
-2026-05-29T11:00:00+02:00,Müller'sches Volksbad,sauna,82.3,1,11,4,5,0,0,1,21.7,0.0,2,51,forecast
-2026-05-29T11:00:00+02:00,Nordbad,pool,77.3,1,11,4,5,0,0,1,21.7,0.0,2,51,forecast
-2026-05-29T11:00:00+02:00,Nordbad,sauna,77.3,1,11,4,5,0,0,1,21.7,0.0,2,51,forecast
-2026-05-29T11:00:00+02:00,Olympia-Schwimmhalle,pool,81.8,1,11,4,5,0,0,1,21.7,0.0,2,51,forecast
-2026-05-29T11:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,11,4,5,0,0,1,21.7,0.0,2,51,forecast
-2026-05-29T11:00:00+02:00,Südbad,pool,81.4,1,11,4,5,0,0,1,21.7,0.0,2,51,forecast
-2026-05-29T11:00:00+02:00,Südbad,sauna,81.4,1,11,4,5,0,0,1,21.7,0.0,2,51,forecast
-2026-05-29T11:00:00+02:00,Westbad,pool,0.0,0,11,4,5,0,0,1,21.7,0.0,2,51,forecast
-2026-05-29T11:00:00+02:00,Westbad,sauna,0.0,0,11,4,5,0,0,1,21.7,0.0,2,51,forecast
-2026-05-29T12:00:00+02:00,Bad Giesing-Harlaching,pool,83.4,1,12,4,5,0,0,1,22.8,0.0,1,37,forecast
-2026-05-29T12:00:00+02:00,Cosimawellenbad,pool,82.3,1,12,4,5,0,0,1,22.8,0.0,1,37,forecast
-2026-05-29T12:00:00+02:00,Cosimawellenbad,sauna,82.3,1,12,4,5,0,0,1,22.8,0.0,1,37,forecast
-2026-05-29T12:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,12,4,5,0,0,1,22.8,0.0,1,37,forecast
-2026-05-29T12:00:00+02:00,Dantebad,sauna,92.3,1,12,4,5,0,0,1,22.8,0.0,1,37,forecast
-2026-05-29T12:00:00+02:00,Michaelibad,pool,89.5,1,12,4,5,0,0,1,22.8,0.0,1,37,forecast
-2026-05-29T12:00:00+02:00,Michaelibad,sauna,89.5,1,12,4,5,0,0,1,22.8,0.0,1,37,forecast
-2026-05-29T12:00:00+02:00,Müller'sches Volksbad,pool,82.9,1,12,4,5,0,0,1,22.8,0.0,1,37,forecast
-2026-05-29T12:00:00+02:00,Müller'sches Volksbad,sauna,82.9,1,12,4,5,0,0,1,22.8,0.0,1,37,forecast
-2026-05-29T12:00:00+02:00,Nordbad,pool,75.8,1,12,4,5,0,0,1,22.8,0.0,1,37,forecast
-2026-05-29T12:00:00+02:00,Nordbad,sauna,75.8,1,12,4,5,0,0,1,22.8,0.0,1,37,forecast
-2026-05-29T12:00:00+02:00,Olympia-Schwimmhalle,pool,81.5,1,12,4,5,0,0,1,22.8,0.0,1,37,forecast
-2026-05-29T12:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,12,4,5,0,0,1,22.8,0.0,1,37,forecast
-2026-05-29T12:00:00+02:00,Südbad,pool,79.8,1,12,4,5,0,0,1,22.8,0.0,1,37,forecast
-2026-05-29T12:00:00+02:00,Südbad,sauna,79.8,1,12,4,5,0,0,1,22.8,0.0,1,37,forecast
-2026-05-29T12:00:00+02:00,Westbad,pool,0.0,0,12,4,5,0,0,1,22.8,0.0,1,37,forecast
-2026-05-29T12:00:00+02:00,Westbad,sauna,0.0,0,12,4,5,0,0,1,22.8,0.0,1,37,forecast
-2026-05-29T13:00:00+02:00,Bad Giesing-Harlaching,pool,80.6,1,13,4,5,0,0,1,24.0,0.0,0,0,forecast
-2026-05-29T13:00:00+02:00,Cosimawellenbad,pool,76.5,1,13,4,5,0,0,1,24.0,0.0,0,0,forecast
-2026-05-29T13:00:00+02:00,Cosimawellenbad,sauna,76.5,1,13,4,5,0,0,1,24.0,0.0,0,0,forecast
-2026-05-29T13:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,13,4,5,0,0,1,24.0,0.0,0,0,forecast
-2026-05-29T13:00:00+02:00,Dantebad,sauna,91.5,1,13,4,5,0,0,1,24.0,0.0,0,0,forecast
-2026-05-29T13:00:00+02:00,Michaelibad,pool,87.9,1,13,4,5,0,0,1,24.0,0.0,0,0,forecast
-2026-05-29T13:00:00+02:00,Michaelibad,sauna,87.9,1,13,4,5,0,0,1,24.0,0.0,0,0,forecast
-2026-05-29T13:00:00+02:00,Müller'sches Volksbad,pool,80.8,1,13,4,5,0,0,1,24.0,0.0,0,0,forecast
-2026-05-29T13:00:00+02:00,Müller'sches Volksbad,sauna,80.8,1,13,4,5,0,0,1,24.0,0.0,0,0,forecast
-2026-05-29T13:00:00+02:00,Nordbad,pool,72.3,1,13,4,5,0,0,1,24.0,0.0,0,0,forecast
-2026-05-29T13:00:00+02:00,Nordbad,sauna,72.3,1,13,4,5,0,0,1,24.0,0.0,0,0,forecast
-2026-05-29T13:00:00+02:00,Olympia-Schwimmhalle,pool,79.1,1,13,4,5,0,0,1,24.0,0.0,0,0,forecast
-2026-05-29T13:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,13,4,5,0,0,1,24.0,0.0,0,0,forecast
-2026-05-29T13:00:00+02:00,Südbad,pool,71.5,1,13,4,5,0,0,1,24.0,0.0,0,0,forecast
-2026-05-29T13:00:00+02:00,Südbad,sauna,71.5,1,13,4,5,0,0,1,24.0,0.0,0,0,forecast
-2026-05-29T13:00:00+02:00,Westbad,pool,0.0,0,13,4,5,0,0,1,24.0,0.0,0,0,forecast
-2026-05-29T13:00:00+02:00,Westbad,sauna,0.0,0,13,4,5,0,0,1,24.0,0.0,0,0,forecast
-2026-05-29T14:00:00+02:00,Bad Giesing-Harlaching,pool,80.7,1,14,4,5,0,0,1,24.9,0.0,0,0,forecast
-2026-05-29T14:00:00+02:00,Cosimawellenbad,pool,71.6,1,14,4,5,0,0,1,24.9,0.0,0,0,forecast
-2026-05-29T14:00:00+02:00,Cosimawellenbad,sauna,71.6,1,14,4,5,0,0,1,24.9,0.0,0,0,forecast
-2026-05-29T14:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,14,4,5,0,0,1,24.9,0.0,0,0,forecast
-2026-05-29T14:00:00+02:00,Dantebad,sauna,91.3,1,14,4,5,0,0,1,24.9,0.0,0,0,forecast
-2026-05-29T14:00:00+02:00,Michaelibad,pool,85.7,1,14,4,5,0,0,1,24.9,0.0,0,0,forecast
-2026-05-29T14:00:00+02:00,Michaelibad,sauna,85.7,1,14,4,5,0,0,1,24.9,0.0,0,0,forecast
-2026-05-29T14:00:00+02:00,Müller'sches Volksbad,pool,79.9,1,14,4,5,0,0,1,24.9,0.0,0,0,forecast
-2026-05-29T14:00:00+02:00,Müller'sches Volksbad,sauna,79.9,1,14,4,5,0,0,1,24.9,0.0,0,0,forecast
-2026-05-29T14:00:00+02:00,Nordbad,pool,69.9,1,14,4,5,0,0,1,24.9,0.0,0,0,forecast
-2026-05-29T14:00:00+02:00,Nordbad,sauna,69.9,1,14,4,5,0,0,1,24.9,0.0,0,0,forecast
-2026-05-29T14:00:00+02:00,Olympia-Schwimmhalle,pool,77.2,1,14,4,5,0,0,1,24.9,0.0,0,0,forecast
-2026-05-29T14:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,14,4,5,0,0,1,24.9,0.0,0,0,forecast
-2026-05-29T14:00:00+02:00,Südbad,pool,68.3,1,14,4,5,0,0,1,24.9,0.0,0,0,forecast
-2026-05-29T14:00:00+02:00,Südbad,sauna,68.3,1,14,4,5,0,0,1,24.9,0.0,0,0,forecast
-2026-05-29T14:00:00+02:00,Westbad,pool,0.0,0,14,4,5,0,0,1,24.9,0.0,0,0,forecast
-2026-05-29T14:00:00+02:00,Westbad,sauna,0.0,0,14,4,5,0,0,1,24.9,0.0,0,0,forecast
-2026-05-29T15:00:00+02:00,Bad Giesing-Harlaching,pool,80.0,1,15,4,5,0,0,1,25.7,0.0,0,0,forecast
-2026-05-29T15:00:00+02:00,Cosimawellenbad,pool,68.8,1,15,4,5,0,0,1,25.7,0.0,0,0,forecast
-2026-05-29T15:00:00+02:00,Cosimawellenbad,sauna,68.8,1,15,4,5,0,0,1,25.7,0.0,0,0,forecast
-2026-05-29T15:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,15,4,5,0,0,1,25.7,0.0,0,0,forecast
-2026-05-29T15:00:00+02:00,Dantebad,sauna,91.1,1,15,4,5,0,0,1,25.7,0.0,0,0,forecast
-2026-05-29T15:00:00+02:00,Michaelibad,pool,84.0,1,15,4,5,0,0,1,25.7,0.0,0,0,forecast
-2026-05-29T15:00:00+02:00,Michaelibad,sauna,84.0,1,15,4,5,0,0,1,25.7,0.0,0,0,forecast
-2026-05-29T15:00:00+02:00,Müller'sches Volksbad,pool,79.1,1,15,4,5,0,0,1,25.7,0.0,0,0,forecast
-2026-05-29T15:00:00+02:00,Müller'sches Volksbad,sauna,79.1,1,15,4,5,0,0,1,25.7,0.0,0,0,forecast
-2026-05-29T15:00:00+02:00,Nordbad,pool,66.0,1,15,4,5,0,0,1,25.7,0.0,0,0,forecast
-2026-05-29T15:00:00+02:00,Nordbad,sauna,66.0,1,15,4,5,0,0,1,25.7,0.0,0,0,forecast
-2026-05-29T15:00:00+02:00,Olympia-Schwimmhalle,pool,75.1,1,15,4,5,0,0,1,25.7,0.0,0,0,forecast
-2026-05-29T15:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,15,4,5,0,0,1,25.7,0.0,0,0,forecast
-2026-05-29T15:00:00+02:00,Südbad,pool,65.6,1,15,4,5,0,0,1,25.7,0.0,0,0,forecast
-2026-05-29T15:00:00+02:00,Südbad,sauna,65.6,1,15,4,5,0,0,1,25.7,0.0,0,0,forecast
-2026-05-29T15:00:00+02:00,Westbad,pool,0.0,0,15,4,5,0,0,1,25.7,0.0,0,0,forecast
-2026-05-29T15:00:00+02:00,Westbad,sauna,0.0,0,15,4,5,0,0,1,25.7,0.0,0,0,forecast
-2026-05-29T16:00:00+02:00,Bad Giesing-Harlaching,pool,79.3,1,16,4,5,0,0,1,26.3,0.0,0,0,forecast
-2026-05-29T16:00:00+02:00,Cosimawellenbad,pool,69.0,1,16,4,5,0,0,1,26.3,0.0,0,0,forecast
-2026-05-29T16:00:00+02:00,Cosimawellenbad,sauna,69.0,1,16,4,5,0,0,1,26.3,0.0,0,0,forecast
-2026-05-29T16:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,16,4,5,0,0,1,26.3,0.0,0,0,forecast
-2026-05-29T16:00:00+02:00,Dantebad,sauna,90.3,1,16,4,5,0,0,1,26.3,0.0,0,0,forecast
-2026-05-29T16:00:00+02:00,Michaelibad,pool,82.6,1,16,4,5,0,0,1,26.3,0.0,0,0,forecast
-2026-05-29T16:00:00+02:00,Michaelibad,sauna,82.6,1,16,4,5,0,0,1,26.3,0.0,0,0,forecast
-2026-05-29T16:00:00+02:00,Müller'sches Volksbad,pool,78.2,1,16,4,5,0,0,1,26.3,0.0,0,0,forecast
-2026-05-29T16:00:00+02:00,Müller'sches Volksbad,sauna,78.2,1,16,4,5,0,0,1,26.3,0.0,0,0,forecast
-2026-05-29T16:00:00+02:00,Nordbad,pool,65.6,1,16,4,5,0,0,1,26.3,0.0,0,0,forecast
-2026-05-29T16:00:00+02:00,Nordbad,sauna,65.6,1,16,4,5,0,0,1,26.3,0.0,0,0,forecast
-2026-05-29T16:00:00+02:00,Olympia-Schwimmhalle,pool,73.6,1,16,4,5,0,0,1,26.3,0.0,0,0,forecast
-2026-05-29T16:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,16,4,5,0,0,1,26.3,0.0,0,0,forecast
-2026-05-29T16:00:00+02:00,Südbad,pool,65.0,1,16,4,5,0,0,1,26.3,0.0,0,0,forecast
-2026-05-29T16:00:00+02:00,Südbad,sauna,65.0,1,16,4,5,0,0,1,26.3,0.0,0,0,forecast
-2026-05-29T16:00:00+02:00,Westbad,pool,0.0,0,16,4,5,0,0,1,26.3,0.0,0,0,forecast
-2026-05-29T16:00:00+02:00,Westbad,sauna,0.0,0,16,4,5,0,0,1,26.3,0.0,0,0,forecast
-2026-05-29T17:00:00+02:00,Bad Giesing-Harlaching,pool,79.4,1,17,4,5,0,0,1,26.2,0.0,0,0,forecast
-2026-05-29T17:00:00+02:00,Cosimawellenbad,pool,69.6,1,17,4,5,0,0,1,26.2,0.0,0,0,forecast
-2026-05-29T17:00:00+02:00,Cosimawellenbad,sauna,69.6,1,17,4,5,0,0,1,26.2,0.0,0,0,forecast
-2026-05-29T17:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,17,4,5,0,0,1,26.2,0.0,0,0,forecast
-2026-05-29T17:00:00+02:00,Dantebad,sauna,91.5,1,17,4,5,0,0,1,26.2,0.0,0,0,forecast
-2026-05-29T17:00:00+02:00,Michaelibad,pool,83.8,1,17,4,5,0,0,1,26.2,0.0,0,0,forecast
-2026-05-29T17:00:00+02:00,Michaelibad,sauna,83.8,1,17,4,5,0,0,1,26.2,0.0,0,0,forecast
-2026-05-29T17:00:00+02:00,Müller'sches Volksbad,pool,77.7,1,17,4,5,0,0,1,26.2,0.0,0,0,forecast
-2026-05-29T17:00:00+02:00,Müller'sches Volksbad,sauna,77.7,1,17,4,5,0,0,1,26.2,0.0,0,0,forecast
-2026-05-29T17:00:00+02:00,Nordbad,pool,65.7,1,17,4,5,0,0,1,26.2,0.0,0,0,forecast
-2026-05-29T17:00:00+02:00,Nordbad,sauna,65.7,1,17,4,5,0,0,1,26.2,0.0,0,0,forecast
-2026-05-29T17:00:00+02:00,Olympia-Schwimmhalle,pool,73.7,1,17,4,5,0,0,1,26.2,0.0,0,0,forecast
-2026-05-29T17:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,17,4,5,0,0,1,26.2,0.0,0,0,forecast
-2026-05-29T17:00:00+02:00,Südbad,pool,65.3,1,17,4,5,0,0,1,26.2,0.0,0,0,forecast
-2026-05-29T17:00:00+02:00,Südbad,sauna,65.3,1,17,4,5,0,0,1,26.2,0.0,0,0,forecast
-2026-05-29T17:00:00+02:00,Westbad,pool,0.0,0,17,4,5,0,0,1,26.2,0.0,0,0,forecast
-2026-05-29T17:00:00+02:00,Westbad,sauna,0.0,0,17,4,5,0,0,1,26.2,0.0,0,0,forecast
-2026-05-29T18:00:00+02:00,Bad Giesing-Harlaching,pool,79.4,1,18,4,5,0,0,1,26.1,0.0,0,0,forecast
-2026-05-29T18:00:00+02:00,Cosimawellenbad,pool,75.0,1,18,4,5,0,0,1,26.1,0.0,0,0,forecast
-2026-05-29T18:00:00+02:00,Cosimawellenbad,sauna,75.0,1,18,4,5,0,0,1,26.1,0.0,0,0,forecast
-2026-05-29T18:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,18,4,5,0,0,1,26.1,0.0,0,0,forecast
-2026-05-29T18:00:00+02:00,Dantebad,sauna,92.6,1,18,4,5,0,0,1,26.1,0.0,0,0,forecast
-2026-05-29T18:00:00+02:00,Michaelibad,pool,87.4,1,18,4,5,0,0,1,26.1,0.0,0,0,forecast
-2026-05-29T18:00:00+02:00,Michaelibad,sauna,87.4,1,18,4,5,0,0,1,26.1,0.0,0,0,forecast
-2026-05-29T18:00:00+02:00,Müller'sches Volksbad,pool,77.4,1,18,4,5,0,0,1,26.1,0.0,0,0,forecast
-2026-05-29T18:00:00+02:00,Müller'sches Volksbad,sauna,77.4,1,18,4,5,0,0,1,26.1,0.0,0,0,forecast
-2026-05-29T18:00:00+02:00,Nordbad,pool,67.7,1,18,4,5,0,0,1,26.1,0.0,0,0,forecast
-2026-05-29T18:00:00+02:00,Nordbad,sauna,67.7,1,18,4,5,0,0,1,26.1,0.0,0,0,forecast
-2026-05-29T18:00:00+02:00,Olympia-Schwimmhalle,pool,75.0,1,18,4,5,0,0,1,26.1,0.0,0,0,forecast
-2026-05-29T18:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,18,4,5,0,0,1,26.1,0.0,0,0,forecast
-2026-05-29T18:00:00+02:00,Südbad,pool,70.2,1,18,4,5,0,0,1,26.1,0.0,0,0,forecast
-2026-05-29T18:00:00+02:00,Südbad,sauna,70.2,1,18,4,5,0,0,1,26.1,0.0,0,0,forecast
-2026-05-29T18:00:00+02:00,Westbad,pool,0.0,0,18,4,5,0,0,1,26.1,0.0,0,0,forecast
-2026-05-29T18:00:00+02:00,Westbad,sauna,0.0,0,18,4,5,0,0,1,26.1,0.0,0,0,forecast
-2026-05-29T19:00:00+02:00,Bad Giesing-Harlaching,pool,81.3,1,19,4,5,0,0,1,25.3,0.0,0,0,forecast
-2026-05-29T19:00:00+02:00,Cosimawellenbad,pool,76.7,1,19,4,5,0,0,1,25.3,0.0,0,0,forecast
-2026-05-29T19:00:00+02:00,Cosimawellenbad,sauna,76.7,1,19,4,5,0,0,1,25.3,0.0,0,0,forecast
-2026-05-29T19:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,19,4,5,0,0,1,25.3,0.0,0,0,forecast
-2026-05-29T19:00:00+02:00,Dantebad,sauna,93.7,1,19,4,5,0,0,1,25.3,0.0,0,0,forecast
-2026-05-29T19:00:00+02:00,Michaelibad,pool,90.1,1,19,4,5,0,0,1,25.3,0.0,0,0,forecast
-2026-05-29T19:00:00+02:00,Michaelibad,sauna,90.1,1,19,4,5,0,0,1,25.3,0.0,0,0,forecast
-2026-05-29T19:00:00+02:00,Müller'sches Volksbad,pool,78.4,1,19,4,5,0,0,1,25.3,0.0,0,0,forecast
-2026-05-29T19:00:00+02:00,Müller'sches Volksbad,sauna,78.4,1,19,4,5,0,0,1,25.3,0.0,0,0,forecast
-2026-05-29T19:00:00+02:00,Nordbad,pool,69.4,1,19,4,5,0,0,1,25.3,0.0,0,0,forecast
-2026-05-29T19:00:00+02:00,Nordbad,sauna,69.4,1,19,4,5,0,0,1,25.3,0.0,0,0,forecast
-2026-05-29T19:00:00+02:00,Olympia-Schwimmhalle,pool,76.6,1,19,4,5,0,0,1,25.3,0.0,0,0,forecast
-2026-05-29T19:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,19,4,5,0,0,1,25.3,0.0,0,0,forecast
-2026-05-29T19:00:00+02:00,Südbad,pool,71.6,1,19,4,5,0,0,1,25.3,0.0,0,0,forecast
-2026-05-29T19:00:00+02:00,Südbad,sauna,71.6,1,19,4,5,0,0,1,25.3,0.0,0,0,forecast
-2026-05-29T19:00:00+02:00,Westbad,pool,0.0,0,19,4,5,0,0,1,25.3,0.0,0,0,forecast
-2026-05-29T19:00:00+02:00,Westbad,sauna,0.0,0,19,4,5,0,0,1,25.3,0.0,0,0,forecast
-2026-05-29T20:00:00+02:00,Bad Giesing-Harlaching,pool,83.0,1,20,4,5,0,0,1,24.6,0.0,0,0,forecast
-2026-05-29T20:00:00+02:00,Cosimawellenbad,pool,78.3,1,20,4,5,0,0,1,24.6,0.0,0,0,forecast
-2026-05-29T20:00:00+02:00,Cosimawellenbad,sauna,78.3,1,20,4,5,0,0,1,24.6,0.0,0,0,forecast
-2026-05-29T20:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,20,4,5,0,0,1,24.6,0.0,0,0,forecast
-2026-05-29T20:00:00+02:00,Dantebad,sauna,93.0,1,20,4,5,0,0,1,24.6,0.0,0,0,forecast
-2026-05-29T20:00:00+02:00,Michaelibad,pool,90.0,1,20,4,5,0,0,1,24.6,0.0,0,0,forecast
-2026-05-29T20:00:00+02:00,Michaelibad,sauna,90.0,1,20,4,5,0,0,1,24.6,0.0,0,0,forecast
-2026-05-29T20:00:00+02:00,Müller'sches Volksbad,pool,78.2,1,20,4,5,0,0,1,24.6,0.0,0,0,forecast
-2026-05-29T20:00:00+02:00,Müller'sches Volksbad,sauna,78.2,1,20,4,5,0,0,1,24.6,0.0,0,0,forecast
-2026-05-29T20:00:00+02:00,Nordbad,pool,70.0,1,20,4,5,0,0,1,24.6,0.0,0,0,forecast
-2026-05-29T20:00:00+02:00,Nordbad,sauna,70.0,1,20,4,5,0,0,1,24.6,0.0,0,0,forecast
-2026-05-29T20:00:00+02:00,Olympia-Schwimmhalle,pool,76.8,1,20,4,5,0,0,1,24.6,0.0,0,0,forecast
-2026-05-29T20:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,20,4,5,0,0,1,24.6,0.0,0,0,forecast
-2026-05-29T20:00:00+02:00,Südbad,pool,72.4,1,20,4,5,0,0,1,24.6,0.0,0,0,forecast
-2026-05-29T20:00:00+02:00,Südbad,sauna,72.4,1,20,4,5,0,0,1,24.6,0.0,0,0,forecast
-2026-05-29T20:00:00+02:00,Westbad,pool,0.0,0,20,4,5,0,0,1,24.6,0.0,0,0,forecast
-2026-05-29T20:00:00+02:00,Westbad,sauna,0.0,0,20,4,5,0,0,1,24.6,0.0,0,0,forecast
-2026-05-29T21:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,21,4,5,0,0,1,23.0,0.0,0,0,forecast
-2026-05-29T21:00:00+02:00,Cosimawellenbad,pool,86.3,1,21,4,5,0,0,1,23.0,0.0,0,0,forecast
-2026-05-29T21:00:00+02:00,Cosimawellenbad,sauna,86.3,1,21,4,5,0,0,1,23.0,0.0,0,0,forecast
-2026-05-29T21:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,21,4,5,0,0,1,23.0,0.0,0,0,forecast
-2026-05-29T21:00:00+02:00,Dantebad,sauna,93.9,1,21,4,5,0,0,1,23.0,0.0,0,0,forecast
-2026-05-29T21:00:00+02:00,Michaelibad,pool,91.8,1,21,4,5,0,0,1,23.0,0.0,0,0,forecast
-2026-05-29T21:00:00+02:00,Michaelibad,sauna,91.8,1,21,4,5,0,0,1,23.0,0.0,0,0,forecast
-2026-05-29T21:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,21,4,5,0,0,1,23.0,0.0,0,0,forecast
-2026-05-29T21:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,21,4,5,0,0,1,23.0,0.0,0,0,forecast
-2026-05-29T21:00:00+02:00,Nordbad,pool,77.5,1,21,4,5,0,0,1,23.0,0.0,0,0,forecast
-2026-05-29T21:00:00+02:00,Nordbad,sauna,77.5,1,21,4,5,0,0,1,23.0,0.0,0,0,forecast
-2026-05-29T21:00:00+02:00,Olympia-Schwimmhalle,pool,83.3,1,21,4,5,0,0,1,23.0,0.0,0,0,forecast
-2026-05-29T21:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,21,4,5,0,0,1,23.0,0.0,0,0,forecast
-2026-05-29T21:00:00+02:00,Südbad,pool,81.9,1,21,4,5,0,0,1,23.0,0.0,0,0,forecast
-2026-05-29T21:00:00+02:00,Südbad,sauna,81.9,1,21,4,5,0,0,1,23.0,0.0,0,0,forecast
-2026-05-29T21:00:00+02:00,Westbad,pool,0.0,0,21,4,5,0,0,1,23.0,0.0,0,0,forecast
-2026-05-29T21:00:00+02:00,Westbad,sauna,0.0,0,21,4,5,0,0,1,23.0,0.0,0,0,forecast
-2026-05-29T22:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,22,4,5,0,0,1,20.0,0.0,0,0,forecast
-2026-05-29T22:00:00+02:00,Cosimawellenbad,pool,91.8,1,22,4,5,0,0,1,20.0,0.0,0,0,forecast
-2026-05-29T22:00:00+02:00,Cosimawellenbad,sauna,91.8,1,22,4,5,0,0,1,20.0,0.0,0,0,forecast
-2026-05-29T22:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,22,4,5,0,0,1,20.0,0.0,0,0,forecast
-2026-05-29T22:00:00+02:00,Dantebad,sauna,96.1,1,22,4,5,0,0,1,20.0,0.0,0,0,forecast
-2026-05-29T22:00:00+02:00,Michaelibad,pool,96.7,1,22,4,5,0,0,1,20.0,0.0,0,0,forecast
-2026-05-29T22:00:00+02:00,Michaelibad,sauna,96.7,1,22,4,5,0,0,1,20.0,0.0,0,0,forecast
-2026-05-29T22:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,22,4,5,0,0,1,20.0,0.0,0,0,forecast
-2026-05-29T22:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,22,4,5,0,0,1,20.0,0.0,0,0,forecast
-2026-05-29T22:00:00+02:00,Nordbad,pool,88.2,1,22,4,5,0,0,1,20.0,0.0,0,0,forecast
-2026-05-29T22:00:00+02:00,Nordbad,sauna,88.2,1,22,4,5,0,0,1,20.0,0.0,0,0,forecast
-2026-05-29T22:00:00+02:00,Olympia-Schwimmhalle,pool,92.7,1,22,4,5,0,0,1,20.0,0.0,0,0,forecast
-2026-05-29T22:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,22,4,5,0,0,1,20.0,0.0,0,0,forecast
-2026-05-29T22:00:00+02:00,Südbad,pool,91.8,1,22,4,5,0,0,1,20.0,0.0,0,0,forecast
-2026-05-29T22:00:00+02:00,Südbad,sauna,91.8,1,22,4,5,0,0,1,20.0,0.0,0,0,forecast
-2026-05-29T22:00:00+02:00,Westbad,pool,0.0,0,22,4,5,0,0,1,20.0,0.0,0,0,forecast
-2026-05-29T22:00:00+02:00,Westbad,sauna,0.0,0,22,4,5,0,0,1,20.0,0.0,0,0,forecast
-2026-05-29T23:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,23,4,5,0,0,1,18.0,0.0,1,0,forecast
-2026-05-29T23:00:00+02:00,Cosimawellenbad,pool,0.0,0,23,4,5,0,0,1,18.0,0.0,1,0,forecast
-2026-05-29T23:00:00+02:00,Cosimawellenbad,sauna,0.0,0,23,4,5,0,0,1,18.0,0.0,1,0,forecast
-2026-05-29T23:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,23,4,5,0,0,1,18.0,0.0,1,0,forecast
-2026-05-29T23:00:00+02:00,Dantebad,sauna,0.0,0,23,4,5,0,0,1,18.0,0.0,1,0,forecast
-2026-05-29T23:00:00+02:00,Michaelibad,pool,0.0,0,23,4,5,0,0,1,18.0,0.0,1,0,forecast
-2026-05-29T23:00:00+02:00,Michaelibad,sauna,0.0,0,23,4,5,0,0,1,18.0,0.0,1,0,forecast
-2026-05-29T23:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,23,4,5,0,0,1,18.0,0.0,1,0,forecast
-2026-05-29T23:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,23,4,5,0,0,1,18.0,0.0,1,0,forecast
-2026-05-29T23:00:00+02:00,Nordbad,pool,0.0,0,23,4,5,0,0,1,18.0,0.0,1,0,forecast
-2026-05-29T23:00:00+02:00,Nordbad,sauna,0.0,0,23,4,5,0,0,1,18.0,0.0,1,0,forecast
-2026-05-29T23:00:00+02:00,Olympia-Schwimmhalle,pool,0.0,0,23,4,5,0,0,1,18.0,0.0,1,0,forecast
-2026-05-29T23:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,23,4,5,0,0,1,18.0,0.0,1,0,forecast
-2026-05-29T23:00:00+02:00,Südbad,pool,0.0,0,23,4,5,0,0,1,18.0,0.0,1,0,forecast
-2026-05-29T23:00:00+02:00,Südbad,sauna,0.0,0,23,4,5,0,0,1,18.0,0.0,1,0,forecast
-2026-05-29T23:00:00+02:00,Westbad,pool,0.0,0,23,4,5,0,0,1,18.0,0.0,1,0,forecast
-2026-05-29T23:00:00+02:00,Westbad,sauna,0.0,0,23,4,5,0,0,1,18.0,0.0,1,0,forecast
-2026-05-30T00:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,0,5,5,1,0,1,16.6,0.0,1,11,forecast
-2026-05-30T00:00:00+02:00,Cosimawellenbad,pool,0.0,0,0,5,5,1,0,1,16.6,0.0,1,11,forecast
-2026-05-30T00:00:00+02:00,Cosimawellenbad,sauna,0.0,0,0,5,5,1,0,1,16.6,0.0,1,11,forecast
-2026-05-30T00:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,0,5,5,1,0,1,16.6,0.0,1,11,forecast
-2026-05-30T00:00:00+02:00,Dantebad,sauna,0.0,0,0,5,5,1,0,1,16.6,0.0,1,11,forecast
-2026-05-30T00:00:00+02:00,Michaelibad,pool,0.0,0,0,5,5,1,0,1,16.6,0.0,1,11,forecast
-2026-05-30T00:00:00+02:00,Michaelibad,sauna,0.0,0,0,5,5,1,0,1,16.6,0.0,1,11,forecast
-2026-05-30T00:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,0,5,5,1,0,1,16.6,0.0,1,11,forecast
-2026-05-30T00:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,0,5,5,1,0,1,16.6,0.0,1,11,forecast
-2026-05-30T00:00:00+02:00,Nordbad,pool,0.0,0,0,5,5,1,0,1,16.6,0.0,1,11,forecast
-2026-05-30T00:00:00+02:00,Nordbad,sauna,0.0,0,0,5,5,1,0,1,16.6,0.0,1,11,forecast
-2026-05-30T00:00:00+02:00,Olympia-Schwimmhalle,pool,0.0,0,0,5,5,1,0,1,16.6,0.0,1,11,forecast
-2026-05-30T00:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,0,5,5,1,0,1,16.6,0.0,1,11,forecast
-2026-05-30T00:00:00+02:00,Südbad,pool,0.0,0,0,5,5,1,0,1,16.6,0.0,1,11,forecast
-2026-05-30T00:00:00+02:00,Südbad,sauna,0.0,0,0,5,5,1,0,1,16.6,0.0,1,11,forecast
-2026-05-30T00:00:00+02:00,Westbad,pool,0.0,0,0,5,5,1,0,1,16.6,0.0,1,11,forecast
-2026-05-30T00:00:00+02:00,Westbad,sauna,0.0,0,0,5,5,1,0,1,16.6,0.0,1,11,forecast
-2026-05-30T01:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,1,5,5,1,0,1,15.4,0.0,0,0,forecast
-2026-05-30T01:00:00+02:00,Cosimawellenbad,pool,0.0,0,1,5,5,1,0,1,15.4,0.0,0,0,forecast
-2026-05-30T01:00:00+02:00,Cosimawellenbad,sauna,0.0,0,1,5,5,1,0,1,15.4,0.0,0,0,forecast
-2026-05-30T01:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,1,5,5,1,0,1,15.4,0.0,0,0,forecast
-2026-05-30T01:00:00+02:00,Dantebad,sauna,0.0,0,1,5,5,1,0,1,15.4,0.0,0,0,forecast
-2026-05-30T01:00:00+02:00,Michaelibad,pool,0.0,0,1,5,5,1,0,1,15.4,0.0,0,0,forecast
-2026-05-30T01:00:00+02:00,Michaelibad,sauna,0.0,0,1,5,5,1,0,1,15.4,0.0,0,0,forecast
-2026-05-30T01:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,1,5,5,1,0,1,15.4,0.0,0,0,forecast
-2026-05-30T01:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,1,5,5,1,0,1,15.4,0.0,0,0,forecast
-2026-05-30T01:00:00+02:00,Nordbad,pool,0.0,0,1,5,5,1,0,1,15.4,0.0,0,0,forecast
-2026-05-30T01:00:00+02:00,Nordbad,sauna,0.0,0,1,5,5,1,0,1,15.4,0.0,0,0,forecast
-2026-05-30T01:00:00+02:00,Olympia-Schwimmhalle,pool,0.0,0,1,5,5,1,0,1,15.4,0.0,0,0,forecast
-2026-05-30T01:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,1,5,5,1,0,1,15.4,0.0,0,0,forecast
-2026-05-30T01:00:00+02:00,Südbad,pool,0.0,0,1,5,5,1,0,1,15.4,0.0,0,0,forecast
-2026-05-30T01:00:00+02:00,Südbad,sauna,0.0,0,1,5,5,1,0,1,15.4,0.0,0,0,forecast
-2026-05-30T01:00:00+02:00,Westbad,pool,0.0,0,1,5,5,1,0,1,15.4,0.0,0,0,forecast
-2026-05-30T01:00:00+02:00,Westbad,sauna,0.0,0,1,5,5,1,0,1,15.4,0.0,0,0,forecast
-2026-05-30T02:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,2,5,5,1,0,1,14.5,0.0,2,68,forecast
-2026-05-30T02:00:00+02:00,Cosimawellenbad,pool,0.0,0,2,5,5,1,0,1,14.5,0.0,2,68,forecast
-2026-05-30T02:00:00+02:00,Cosimawellenbad,sauna,0.0,0,2,5,5,1,0,1,14.5,0.0,2,68,forecast
-2026-05-30T02:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,2,5,5,1,0,1,14.5,0.0,2,68,forecast
-2026-05-30T02:00:00+02:00,Dantebad,sauna,0.0,0,2,5,5,1,0,1,14.5,0.0,2,68,forecast
-2026-05-30T02:00:00+02:00,Michaelibad,pool,0.0,0,2,5,5,1,0,1,14.5,0.0,2,68,forecast
-2026-05-30T02:00:00+02:00,Michaelibad,sauna,0.0,0,2,5,5,1,0,1,14.5,0.0,2,68,forecast
-2026-05-30T02:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,2,5,5,1,0,1,14.5,0.0,2,68,forecast
-2026-05-30T02:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,2,5,5,1,0,1,14.5,0.0,2,68,forecast
-2026-05-30T02:00:00+02:00,Nordbad,pool,0.0,0,2,5,5,1,0,1,14.5,0.0,2,68,forecast
-2026-05-30T02:00:00+02:00,Nordbad,sauna,0.0,0,2,5,5,1,0,1,14.5,0.0,2,68,forecast
-2026-05-30T02:00:00+02:00,Olympia-Schwimmhalle,pool,0.0,0,2,5,5,1,0,1,14.5,0.0,2,68,forecast
-2026-05-30T02:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,2,5,5,1,0,1,14.5,0.0,2,68,forecast
-2026-05-30T02:00:00+02:00,Südbad,pool,0.0,0,2,5,5,1,0,1,14.5,0.0,2,68,forecast
-2026-05-30T02:00:00+02:00,Südbad,sauna,0.0,0,2,5,5,1,0,1,14.5,0.0,2,68,forecast
-2026-05-30T02:00:00+02:00,Westbad,pool,0.0,0,2,5,5,1,0,1,14.5,0.0,2,68,forecast
-2026-05-30T02:00:00+02:00,Westbad,sauna,0.0,0,2,5,5,1,0,1,14.5,0.0,2,68,forecast
-2026-05-30T03:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,3,5,5,1,0,1,13.6,0.0,3,100,forecast
-2026-05-30T03:00:00+02:00,Cosimawellenbad,pool,0.0,0,3,5,5,1,0,1,13.6,0.0,3,100,forecast
-2026-05-30T03:00:00+02:00,Cosimawellenbad,sauna,0.0,0,3,5,5,1,0,1,13.6,0.0,3,100,forecast
-2026-05-30T03:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,3,5,5,1,0,1,13.6,0.0,3,100,forecast
-2026-05-30T03:00:00+02:00,Dantebad,sauna,0.0,0,3,5,5,1,0,1,13.6,0.0,3,100,forecast
-2026-05-30T03:00:00+02:00,Michaelibad,pool,0.0,0,3,5,5,1,0,1,13.6,0.0,3,100,forecast
-2026-05-30T03:00:00+02:00,Michaelibad,sauna,0.0,0,3,5,5,1,0,1,13.6,0.0,3,100,forecast
-2026-05-30T03:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,3,5,5,1,0,1,13.6,0.0,3,100,forecast
-2026-05-30T03:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,3,5,5,1,0,1,13.6,0.0,3,100,forecast
-2026-05-30T03:00:00+02:00,Nordbad,pool,0.0,0,3,5,5,1,0,1,13.6,0.0,3,100,forecast
-2026-05-30T03:00:00+02:00,Nordbad,sauna,0.0,0,3,5,5,1,0,1,13.6,0.0,3,100,forecast
-2026-05-30T03:00:00+02:00,Olympia-Schwimmhalle,pool,0.0,0,3,5,5,1,0,1,13.6,0.0,3,100,forecast
-2026-05-30T03:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,3,5,5,1,0,1,13.6,0.0,3,100,forecast
-2026-05-30T03:00:00+02:00,Südbad,pool,0.0,0,3,5,5,1,0,1,13.6,0.0,3,100,forecast
-2026-05-30T03:00:00+02:00,Südbad,sauna,0.0,0,3,5,5,1,0,1,13.6,0.0,3,100,forecast
-2026-05-30T03:00:00+02:00,Westbad,pool,0.0,0,3,5,5,1,0,1,13.6,0.0,3,100,forecast
-2026-05-30T03:00:00+02:00,Westbad,sauna,0.0,0,3,5,5,1,0,1,13.6,0.0,3,100,forecast
-2026-05-30T04:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,4,5,5,1,0,1,12.8,0.0,3,100,forecast
-2026-05-30T04:00:00+02:00,Cosimawellenbad,pool,0.0,0,4,5,5,1,0,1,12.8,0.0,3,100,forecast
-2026-05-30T04:00:00+02:00,Cosimawellenbad,sauna,0.0,0,4,5,5,1,0,1,12.8,0.0,3,100,forecast
-2026-05-30T04:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,4,5,5,1,0,1,12.8,0.0,3,100,forecast
-2026-05-30T04:00:00+02:00,Dantebad,sauna,0.0,0,4,5,5,1,0,1,12.8,0.0,3,100,forecast
-2026-05-30T04:00:00+02:00,Michaelibad,pool,0.0,0,4,5,5,1,0,1,12.8,0.0,3,100,forecast
-2026-05-30T04:00:00+02:00,Michaelibad,sauna,0.0,0,4,5,5,1,0,1,12.8,0.0,3,100,forecast
-2026-05-30T04:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,4,5,5,1,0,1,12.8,0.0,3,100,forecast
-2026-05-30T04:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,4,5,5,1,0,1,12.8,0.0,3,100,forecast
-2026-05-30T04:00:00+02:00,Nordbad,pool,0.0,0,4,5,5,1,0,1,12.8,0.0,3,100,forecast
-2026-05-30T04:00:00+02:00,Nordbad,sauna,0.0,0,4,5,5,1,0,1,12.8,0.0,3,100,forecast
-2026-05-30T04:00:00+02:00,Olympia-Schwimmhalle,pool,0.0,0,4,5,5,1,0,1,12.8,0.0,3,100,forecast
-2026-05-30T04:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,4,5,5,1,0,1,12.8,0.0,3,100,forecast
-2026-05-30T04:00:00+02:00,Südbad,pool,0.0,0,4,5,5,1,0,1,12.8,0.0,3,100,forecast
-2026-05-30T04:00:00+02:00,Südbad,sauna,0.0,0,4,5,5,1,0,1,12.8,0.0,3,100,forecast
-2026-05-30T04:00:00+02:00,Westbad,pool,0.0,0,4,5,5,1,0,1,12.8,0.0,3,100,forecast
-2026-05-30T04:00:00+02:00,Westbad,sauna,0.0,0,4,5,5,1,0,1,12.8,0.0,3,100,forecast
-2026-05-30T05:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,5,5,5,1,0,1,12.4,0.0,3,100,forecast
-2026-05-30T05:00:00+02:00,Cosimawellenbad,pool,0.0,0,5,5,5,1,0,1,12.4,0.0,3,100,forecast
-2026-05-30T05:00:00+02:00,Cosimawellenbad,sauna,0.0,0,5,5,5,1,0,1,12.4,0.0,3,100,forecast
-2026-05-30T05:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,5,5,5,1,0,1,12.4,0.0,3,100,forecast
-2026-05-30T05:00:00+02:00,Dantebad,sauna,0.0,0,5,5,5,1,0,1,12.4,0.0,3,100,forecast
-2026-05-30T05:00:00+02:00,Michaelibad,pool,0.0,0,5,5,5,1,0,1,12.4,0.0,3,100,forecast
-2026-05-30T05:00:00+02:00,Michaelibad,sauna,0.0,0,5,5,5,1,0,1,12.4,0.0,3,100,forecast
-2026-05-30T05:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,5,5,5,1,0,1,12.4,0.0,3,100,forecast
-2026-05-30T05:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,5,5,5,1,0,1,12.4,0.0,3,100,forecast
-2026-05-30T05:00:00+02:00,Nordbad,pool,0.0,0,5,5,5,1,0,1,12.4,0.0,3,100,forecast
-2026-05-30T05:00:00+02:00,Nordbad,sauna,0.0,0,5,5,5,1,0,1,12.4,0.0,3,100,forecast
-2026-05-30T05:00:00+02:00,Olympia-Schwimmhalle,pool,0.0,0,5,5,5,1,0,1,12.4,0.0,3,100,forecast
-2026-05-30T05:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,5,5,5,1,0,1,12.4,0.0,3,100,forecast
-2026-05-30T05:00:00+02:00,Südbad,pool,0.0,0,5,5,5,1,0,1,12.4,0.0,3,100,forecast
-2026-05-30T05:00:00+02:00,Südbad,sauna,0.0,0,5,5,5,1,0,1,12.4,0.0,3,100,forecast
-2026-05-30T05:00:00+02:00,Westbad,pool,0.0,0,5,5,5,1,0,1,12.4,0.0,3,100,forecast
-2026-05-30T05:00:00+02:00,Westbad,sauna,0.0,0,5,5,5,1,0,1,12.4,0.0,3,100,forecast
-2026-05-30T06:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,6,5,5,1,0,1,12.9,0.0,3,100,forecast
-2026-05-30T06:00:00+02:00,Cosimawellenbad,pool,0.0,0,6,5,5,1,0,1,12.9,0.0,3,100,forecast
-2026-05-30T06:00:00+02:00,Cosimawellenbad,sauna,0.0,0,6,5,5,1,0,1,12.9,0.0,3,100,forecast
-2026-05-30T06:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,6,5,5,1,0,1,12.9,0.0,3,100,forecast
-2026-05-30T06:00:00+02:00,Dantebad,sauna,0.0,0,6,5,5,1,0,1,12.9,0.0,3,100,forecast
-2026-05-30T06:00:00+02:00,Michaelibad,pool,0.0,0,6,5,5,1,0,1,12.9,0.0,3,100,forecast
-2026-05-30T06:00:00+02:00,Michaelibad,sauna,0.0,0,6,5,5,1,0,1,12.9,0.0,3,100,forecast
-2026-05-30T06:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,6,5,5,1,0,1,12.9,0.0,3,100,forecast
-2026-05-30T06:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,6,5,5,1,0,1,12.9,0.0,3,100,forecast
-2026-05-30T06:00:00+02:00,Nordbad,pool,0.0,0,6,5,5,1,0,1,12.9,0.0,3,100,forecast
-2026-05-30T06:00:00+02:00,Nordbad,sauna,0.0,0,6,5,5,1,0,1,12.9,0.0,3,100,forecast
-2026-05-30T06:00:00+02:00,Olympia-Schwimmhalle,pool,0.0,0,6,5,5,1,0,1,12.9,0.0,3,100,forecast
-2026-05-30T06:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,6,5,5,1,0,1,12.9,0.0,3,100,forecast
-2026-05-30T06:00:00+02:00,Südbad,pool,0.0,0,6,5,5,1,0,1,12.9,0.0,3,100,forecast
-2026-05-30T06:00:00+02:00,Südbad,sauna,0.0,0,6,5,5,1,0,1,12.9,0.0,3,100,forecast
-2026-05-30T06:00:00+02:00,Westbad,pool,0.0,0,6,5,5,1,0,1,12.9,0.0,3,100,forecast
-2026-05-30T06:00:00+02:00,Westbad,sauna,0.0,0,6,5,5,1,0,1,12.9,0.0,3,100,forecast
-2026-05-30T07:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,7,5,5,1,0,1,14.4,0.0,3,98,forecast
-2026-05-30T07:00:00+02:00,Cosimawellenbad,pool,0.0,0,7,5,5,1,0,1,14.4,0.0,3,98,forecast
-2026-05-30T07:00:00+02:00,Cosimawellenbad,sauna,0.0,0,7,5,5,1,0,1,14.4,0.0,3,98,forecast
-2026-05-30T07:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,7,5,5,1,0,1,14.4,0.0,3,98,forecast
-2026-05-30T07:00:00+02:00,Dantebad,sauna,0.0,0,7,5,5,1,0,1,14.4,0.0,3,98,forecast
-2026-05-30T07:00:00+02:00,Michaelibad,pool,0.0,0,7,5,5,1,0,1,14.4,0.0,3,98,forecast
-2026-05-30T07:00:00+02:00,Michaelibad,sauna,0.0,0,7,5,5,1,0,1,14.4,0.0,3,98,forecast
-2026-05-30T07:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,7,5,5,1,0,1,14.4,0.0,3,98,forecast
-2026-05-30T07:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,7,5,5,1,0,1,14.4,0.0,3,98,forecast
-2026-05-30T07:00:00+02:00,Nordbad,pool,0.0,0,7,5,5,1,0,1,14.4,0.0,3,98,forecast
-2026-05-30T07:00:00+02:00,Nordbad,sauna,0.0,0,7,5,5,1,0,1,14.4,0.0,3,98,forecast
-2026-05-30T07:00:00+02:00,Olympia-Schwimmhalle,pool,96.3,1,7,5,5,1,0,1,14.4,0.0,3,98,forecast
-2026-05-30T07:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,7,5,5,1,0,1,14.4,0.0,3,98,forecast
-2026-05-30T07:00:00+02:00,Südbad,pool,0.0,0,7,5,5,1,0,1,14.4,0.0,3,98,forecast
-2026-05-30T07:00:00+02:00,Südbad,sauna,0.0,0,7,5,5,1,0,1,14.4,0.0,3,98,forecast
-2026-05-30T07:00:00+02:00,Westbad,pool,0.0,0,7,5,5,1,0,1,14.4,0.0,3,98,forecast
-2026-05-30T07:00:00+02:00,Westbad,sauna,0.0,0,7,5,5,1,0,1,14.4,0.0,3,98,forecast
-2026-05-30T08:00:00+02:00,Bad Giesing-Harlaching,pool,91.2,1,8,5,5,1,0,1,17.4,0.0,3,100,forecast
-2026-05-30T08:00:00+02:00,Cosimawellenbad,pool,94.6,1,8,5,5,1,0,1,17.4,0.0,3,100,forecast
-2026-05-30T08:00:00+02:00,Cosimawellenbad,sauna,0.0,0,8,5,5,1,0,1,17.4,0.0,3,100,forecast
-2026-05-30T08:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,8,5,5,1,0,1,17.4,0.0,3,100,forecast
-2026-05-30T08:00:00+02:00,Dantebad,sauna,95.8,1,8,5,5,1,0,1,17.4,0.0,3,100,forecast
-2026-05-30T08:00:00+02:00,Michaelibad,pool,95.4,1,8,5,5,1,0,1,17.4,0.0,3,100,forecast
-2026-05-30T08:00:00+02:00,Michaelibad,sauna,95.4,1,8,5,5,1,0,1,17.4,0.0,3,100,forecast
-2026-05-30T08:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,8,5,5,1,0,1,17.4,0.0,3,100,forecast
-2026-05-30T08:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,8,5,5,1,0,1,17.4,0.0,3,100,forecast
-2026-05-30T08:00:00+02:00,Nordbad,pool,91.0,1,8,5,5,1,0,1,17.4,0.0,3,100,forecast
-2026-05-30T08:00:00+02:00,Nordbad,sauna,91.0,1,8,5,5,1,0,1,17.4,0.0,3,100,forecast
-2026-05-30T08:00:00+02:00,Olympia-Schwimmhalle,pool,90.9,1,8,5,5,1,0,1,17.4,0.0,3,100,forecast
-2026-05-30T08:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,8,5,5,1,0,1,17.4,0.0,3,100,forecast
-2026-05-30T08:00:00+02:00,Südbad,pool,90.0,1,8,5,5,1,0,1,17.4,0.0,3,100,forecast
-2026-05-30T08:00:00+02:00,Südbad,sauna,0.0,0,8,5,5,1,0,1,17.4,0.0,3,100,forecast
-2026-05-30T08:00:00+02:00,Westbad,pool,0.0,0,8,5,5,1,0,1,17.4,0.0,3,100,forecast
-2026-05-30T08:00:00+02:00,Westbad,sauna,0.0,0,8,5,5,1,0,1,17.4,0.0,3,100,forecast
-2026-05-30T09:00:00+02:00,Bad Giesing-Harlaching,pool,90.1,1,9,5,5,1,0,1,20.0,0.0,3,97,forecast
-2026-05-30T09:00:00+02:00,Cosimawellenbad,pool,94.0,1,9,5,5,1,0,1,20.0,0.0,3,97,forecast
-2026-05-30T09:00:00+02:00,Cosimawellenbad,sauna,94.0,1,9,5,5,1,0,1,20.0,0.0,3,97,forecast
-2026-05-30T09:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,9,5,5,1,0,1,20.0,0.0,3,97,forecast
-2026-05-30T09:00:00+02:00,Dantebad,sauna,95.1,1,9,5,5,1,0,1,20.0,0.0,3,97,forecast
-2026-05-30T09:00:00+02:00,Michaelibad,pool,95.0,1,9,5,5,1,0,1,20.0,0.0,3,97,forecast
-2026-05-30T09:00:00+02:00,Michaelibad,sauna,95.0,1,9,5,5,1,0,1,20.0,0.0,3,97,forecast
-2026-05-30T09:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,9,5,5,1,0,1,20.0,0.0,3,97,forecast
-2026-05-30T09:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,9,5,5,1,0,1,20.0,0.0,3,97,forecast
-2026-05-30T09:00:00+02:00,Nordbad,pool,88.9,1,9,5,5,1,0,1,20.0,0.0,3,97,forecast
-2026-05-30T09:00:00+02:00,Nordbad,sauna,88.9,1,9,5,5,1,0,1,20.0,0.0,3,97,forecast
-2026-05-30T09:00:00+02:00,Olympia-Schwimmhalle,pool,90.0,1,9,5,5,1,0,1,20.0,0.0,3,97,forecast
-2026-05-30T09:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,9,5,5,1,0,1,20.0,0.0,3,97,forecast
-2026-05-30T09:00:00+02:00,Südbad,pool,90.3,1,9,5,5,1,0,1,20.0,0.0,3,97,forecast
-2026-05-30T09:00:00+02:00,Südbad,sauna,90.3,1,9,5,5,1,0,1,20.0,0.0,3,97,forecast
-2026-05-30T09:00:00+02:00,Westbad,pool,0.0,0,9,5,5,1,0,1,20.0,0.0,3,97,forecast
-2026-05-30T09:00:00+02:00,Westbad,sauna,0.0,0,9,5,5,1,0,1,20.0,0.0,3,97,forecast
-2026-05-30T10:00:00+02:00,Bad Giesing-Harlaching,pool,86.2,1,10,5,5,1,0,1,22.5,0.0,2,55,forecast
-2026-05-30T10:00:00+02:00,Cosimawellenbad,pool,87.1,1,10,5,5,1,0,1,22.5,0.0,2,55,forecast
-2026-05-30T10:00:00+02:00,Cosimawellenbad,sauna,87.1,1,10,5,5,1,0,1,22.5,0.0,2,55,forecast
-2026-05-30T10:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,10,5,5,1,0,1,22.5,0.0,2,55,forecast
-2026-05-30T10:00:00+02:00,Dantebad,sauna,92.9,1,10,5,5,1,0,1,22.5,0.0,2,55,forecast
-2026-05-30T10:00:00+02:00,Michaelibad,pool,91.7,1,10,5,5,1,0,1,22.5,0.0,2,55,forecast
-2026-05-30T10:00:00+02:00,Michaelibad,sauna,91.7,1,10,5,5,1,0,1,22.5,0.0,2,55,forecast
-2026-05-30T10:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,10,5,5,1,0,1,22.5,0.0,2,55,forecast
-2026-05-30T10:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,10,5,5,1,0,1,22.5,0.0,2,55,forecast
-2026-05-30T10:00:00+02:00,Nordbad,pool,81.0,1,10,5,5,1,0,1,22.5,0.0,2,55,forecast
-2026-05-30T10:00:00+02:00,Nordbad,sauna,81.0,1,10,5,5,1,0,1,22.5,0.0,2,55,forecast
-2026-05-30T10:00:00+02:00,Olympia-Schwimmhalle,pool,85.3,1,10,5,5,1,0,1,22.5,0.0,2,55,forecast
-2026-05-30T10:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,10,5,5,1,0,1,22.5,0.0,2,55,forecast
-2026-05-30T10:00:00+02:00,Südbad,pool,85.0,1,10,5,5,1,0,1,22.5,0.0,2,55,forecast
-2026-05-30T10:00:00+02:00,Südbad,sauna,85.0,1,10,5,5,1,0,1,22.5,0.0,2,55,forecast
-2026-05-30T10:00:00+02:00,Westbad,pool,0.0,0,10,5,5,1,0,1,22.5,0.0,2,55,forecast
-2026-05-30T10:00:00+02:00,Westbad,sauna,0.0,0,10,5,5,1,0,1,22.5,0.0,2,55,forecast
-2026-05-30T11:00:00+02:00,Bad Giesing-Harlaching,pool,81.6,1,11,5,5,1,0,1,24.2,0.0,2,80,forecast
-2026-05-30T11:00:00+02:00,Cosimawellenbad,pool,80.1,1,11,5,5,1,0,1,24.2,0.0,2,80,forecast
-2026-05-30T11:00:00+02:00,Cosimawellenbad,sauna,80.1,1,11,5,5,1,0,1,24.2,0.0,2,80,forecast
-2026-05-30T11:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,11,5,5,1,0,1,24.2,0.0,2,80,forecast
-2026-05-30T11:00:00+02:00,Dantebad,sauna,93.3,1,11,5,5,1,0,1,24.2,0.0,2,80,forecast
-2026-05-30T11:00:00+02:00,Michaelibad,pool,91.7,1,11,5,5,1,0,1,24.2,0.0,2,80,forecast
-2026-05-30T11:00:00+02:00,Michaelibad,sauna,91.7,1,11,5,5,1,0,1,24.2,0.0,2,80,forecast
-2026-05-30T11:00:00+02:00,Müller'sches Volksbad,pool,82.2,1,11,5,5,1,0,1,24.2,0.0,2,80,forecast
-2026-05-30T11:00:00+02:00,Müller'sches Volksbad,sauna,82.2,1,11,5,5,1,0,1,24.2,0.0,2,80,forecast
-2026-05-30T11:00:00+02:00,Nordbad,pool,76.3,1,11,5,5,1,0,1,24.2,0.0,2,80,forecast
-2026-05-30T11:00:00+02:00,Nordbad,sauna,76.3,1,11,5,5,1,0,1,24.2,0.0,2,80,forecast
-2026-05-30T11:00:00+02:00,Olympia-Schwimmhalle,pool,80.6,1,11,5,5,1,0,1,24.2,0.0,2,80,forecast
-2026-05-30T11:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,11,5,5,1,0,1,24.2,0.0,2,80,forecast
-2026-05-30T11:00:00+02:00,Südbad,pool,76.2,1,11,5,5,1,0,1,24.2,0.0,2,80,forecast
-2026-05-30T11:00:00+02:00,Südbad,sauna,76.2,1,11,5,5,1,0,1,24.2,0.0,2,80,forecast
-2026-05-30T11:00:00+02:00,Westbad,pool,0.0,0,11,5,5,1,0,1,24.2,0.0,2,80,forecast
-2026-05-30T11:00:00+02:00,Westbad,sauna,0.0,0,11,5,5,1,0,1,24.2,0.0,2,80,forecast
-2026-05-30T12:00:00+02:00,Bad Giesing-Harlaching,pool,83.3,1,12,5,5,1,0,1,25.4,0.0,3,86,forecast
-2026-05-30T12:00:00+02:00,Cosimawellenbad,pool,79.0,1,12,5,5,1,0,1,25.4,0.0,3,86,forecast
-2026-05-30T12:00:00+02:00,Cosimawellenbad,sauna,79.0,1,12,5,5,1,0,1,25.4,0.0,3,86,forecast
-2026-05-30T12:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,12,5,5,1,0,1,25.4,0.0,3,86,forecast
-2026-05-30T12:00:00+02:00,Dantebad,sauna,93.2,1,12,5,5,1,0,1,25.4,0.0,3,86,forecast
-2026-05-30T12:00:00+02:00,Michaelibad,pool,93.0,1,12,5,5,1,0,1,25.4,0.0,3,86,forecast
-2026-05-30T12:00:00+02:00,Michaelibad,sauna,93.0,1,12,5,5,1,0,1,25.4,0.0,3,86,forecast
-2026-05-30T12:00:00+02:00,Müller'sches Volksbad,pool,81.9,1,12,5,5,1,0,1,25.4,0.0,3,86,forecast
-2026-05-30T12:00:00+02:00,Müller'sches Volksbad,sauna,81.9,1,12,5,5,1,0,1,25.4,0.0,3,86,forecast
-2026-05-30T12:00:00+02:00,Nordbad,pool,76.9,1,12,5,5,1,0,1,25.4,0.0,3,86,forecast
-2026-05-30T12:00:00+02:00,Nordbad,sauna,76.9,1,12,5,5,1,0,1,25.4,0.0,3,86,forecast
-2026-05-30T12:00:00+02:00,Olympia-Schwimmhalle,pool,79.4,1,12,5,5,1,0,1,25.4,0.0,3,86,forecast
-2026-05-30T12:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,12,5,5,1,0,1,25.4,0.0,3,86,forecast
-2026-05-30T12:00:00+02:00,Südbad,pool,76.3,1,12,5,5,1,0,1,25.4,0.0,3,86,forecast
-2026-05-30T12:00:00+02:00,Südbad,sauna,76.3,1,12,5,5,1,0,1,25.4,0.0,3,86,forecast
-2026-05-30T12:00:00+02:00,Westbad,pool,0.0,0,12,5,5,1,0,1,25.4,0.0,3,86,forecast
-2026-05-30T12:00:00+02:00,Westbad,sauna,0.0,0,12,5,5,1,0,1,25.4,0.0,3,86,forecast
-2026-05-30T13:00:00+02:00,Bad Giesing-Harlaching,pool,82.2,1,13,5,5,1,0,1,26.6,0.0,3,96,forecast
-2026-05-30T13:00:00+02:00,Cosimawellenbad,pool,77.2,1,13,5,5,1,0,1,26.6,0.0,3,96,forecast
-2026-05-30T13:00:00+02:00,Cosimawellenbad,sauna,77.2,1,13,5,5,1,0,1,26.6,0.0,3,96,forecast
-2026-05-30T13:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,13,5,5,1,0,1,26.6,0.0,3,96,forecast
-2026-05-30T13:00:00+02:00,Dantebad,sauna,93.9,1,13,5,5,1,0,1,26.6,0.0,3,96,forecast
-2026-05-30T13:00:00+02:00,Michaelibad,pool,93.6,1,13,5,5,1,0,1,26.6,0.0,3,96,forecast
-2026-05-30T13:00:00+02:00,Michaelibad,sauna,93.6,1,13,5,5,1,0,1,26.6,0.0,3,96,forecast
-2026-05-30T13:00:00+02:00,Müller'sches Volksbad,pool,82.7,1,13,5,5,1,0,1,26.6,0.0,3,96,forecast
-2026-05-30T13:00:00+02:00,Müller'sches Volksbad,sauna,82.7,1,13,5,5,1,0,1,26.6,0.0,3,96,forecast
-2026-05-30T13:00:00+02:00,Nordbad,pool,75.4,1,13,5,5,1,0,1,26.6,0.0,3,96,forecast
-2026-05-30T13:00:00+02:00,Nordbad,sauna,75.4,1,13,5,5,1,0,1,26.6,0.0,3,96,forecast
-2026-05-30T13:00:00+02:00,Olympia-Schwimmhalle,pool,78.1,1,13,5,5,1,0,1,26.6,0.0,3,96,forecast
-2026-05-30T13:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,13,5,5,1,0,1,26.6,0.0,3,96,forecast
-2026-05-30T13:00:00+02:00,Südbad,pool,76.9,1,13,5,5,1,0,1,26.6,0.0,3,96,forecast
-2026-05-30T13:00:00+02:00,Südbad,sauna,76.9,1,13,5,5,1,0,1,26.6,0.0,3,96,forecast
-2026-05-30T13:00:00+02:00,Westbad,pool,0.0,0,13,5,5,1,0,1,26.6,0.0,3,96,forecast
-2026-05-30T13:00:00+02:00,Westbad,sauna,0.0,0,13,5,5,1,0,1,26.6,0.0,3,96,forecast
-2026-05-30T14:00:00+02:00,Bad Giesing-Harlaching,pool,80.5,1,14,5,5,1,0,1,27.2,0.0,2,83,forecast
-2026-05-30T14:00:00+02:00,Cosimawellenbad,pool,72.4,1,14,5,5,1,0,1,27.2,0.0,2,83,forecast
-2026-05-30T14:00:00+02:00,Cosimawellenbad,sauna,72.4,1,14,5,5,1,0,1,27.2,0.0,2,83,forecast
-2026-05-30T14:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,14,5,5,1,0,1,27.2,0.0,2,83,forecast
-2026-05-30T14:00:00+02:00,Dantebad,sauna,93.3,1,14,5,5,1,0,1,27.2,0.0,2,83,forecast
-2026-05-30T14:00:00+02:00,Michaelibad,pool,90.8,1,14,5,5,1,0,1,27.2,0.0,2,83,forecast
-2026-05-30T14:00:00+02:00,Michaelibad,sauna,90.8,1,14,5,5,1,0,1,27.2,0.0,2,83,forecast
-2026-05-30T14:00:00+02:00,Müller'sches Volksbad,pool,81.7,1,14,5,5,1,0,1,27.2,0.0,2,83,forecast
-2026-05-30T14:00:00+02:00,Müller'sches Volksbad,sauna,81.7,1,14,5,5,1,0,1,27.2,0.0,2,83,forecast
-2026-05-30T14:00:00+02:00,Nordbad,pool,71.9,1,14,5,5,1,0,1,27.2,0.0,2,83,forecast
-2026-05-30T14:00:00+02:00,Nordbad,sauna,71.9,1,14,5,5,1,0,1,27.2,0.0,2,83,forecast
-2026-05-30T14:00:00+02:00,Olympia-Schwimmhalle,pool,77.3,1,14,5,5,1,0,1,27.2,0.0,2,83,forecast
-2026-05-30T14:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,14,5,5,1,0,1,27.2,0.0,2,83,forecast
-2026-05-30T14:00:00+02:00,Südbad,pool,72.4,1,14,5,5,1,0,1,27.2,0.0,2,83,forecast
-2026-05-30T14:00:00+02:00,Südbad,sauna,72.4,1,14,5,5,1,0,1,27.2,0.0,2,83,forecast
-2026-05-30T14:00:00+02:00,Westbad,pool,0.0,0,14,5,5,1,0,1,27.2,0.0,2,83,forecast
-2026-05-30T14:00:00+02:00,Westbad,sauna,0.0,0,14,5,5,1,0,1,27.2,0.0,2,83,forecast
-2026-05-30T15:00:00+02:00,Bad Giesing-Harlaching,pool,79.3,1,15,5,5,1,0,1,27.2,0.0,2,89,forecast
-2026-05-30T15:00:00+02:00,Cosimawellenbad,pool,69.6,1,15,5,5,1,0,1,27.2,0.0,2,89,forecast
-2026-05-30T15:00:00+02:00,Cosimawellenbad,sauna,69.6,1,15,5,5,1,0,1,27.2,0.0,2,89,forecast
-2026-05-30T15:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,15,5,5,1,0,1,27.2,0.0,2,89,forecast
-2026-05-30T15:00:00+02:00,Dantebad,sauna,92.8,1,15,5,5,1,0,1,27.2,0.0,2,89,forecast
-2026-05-30T15:00:00+02:00,Michaelibad,pool,89.1,1,15,5,5,1,0,1,27.2,0.0,2,89,forecast
-2026-05-30T15:00:00+02:00,Michaelibad,sauna,89.1,1,15,5,5,1,0,1,27.2,0.0,2,89,forecast
-2026-05-30T15:00:00+02:00,Müller'sches Volksbad,pool,80.2,1,15,5,5,1,0,1,27.2,0.0,2,89,forecast
-2026-05-30T15:00:00+02:00,Müller'sches Volksbad,sauna,80.2,1,15,5,5,1,0,1,27.2,0.0,2,89,forecast
-2026-05-30T15:00:00+02:00,Nordbad,pool,68.2,1,15,5,5,1,0,1,27.2,0.0,2,89,forecast
-2026-05-30T15:00:00+02:00,Nordbad,sauna,68.2,1,15,5,5,1,0,1,27.2,0.0,2,89,forecast
-2026-05-30T15:00:00+02:00,Olympia-Schwimmhalle,pool,74.8,1,15,5,5,1,0,1,27.2,0.0,2,89,forecast
-2026-05-30T15:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,15,5,5,1,0,1,27.2,0.0,2,89,forecast
-2026-05-30T15:00:00+02:00,Südbad,pool,69.0,1,15,5,5,1,0,1,27.2,0.0,2,89,forecast
-2026-05-30T15:00:00+02:00,Südbad,sauna,69.0,1,15,5,5,1,0,1,27.2,0.0,2,89,forecast
-2026-05-30T15:00:00+02:00,Westbad,pool,0.0,0,15,5,5,1,0,1,27.2,0.0,2,89,forecast
-2026-05-30T15:00:00+02:00,Westbad,sauna,0.0,0,15,5,5,1,0,1,27.2,0.0,2,89,forecast
-2026-05-30T16:00:00+02:00,Bad Giesing-Harlaching,pool,78.8,1,16,5,5,1,0,1,26.8,0.0,2,78,forecast
-2026-05-30T16:00:00+02:00,Cosimawellenbad,pool,70.8,1,16,5,5,1,0,1,26.8,0.0,2,78,forecast
-2026-05-30T16:00:00+02:00,Cosimawellenbad,sauna,70.8,1,16,5,5,1,0,1,26.8,0.0,2,78,forecast
-2026-05-30T16:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,16,5,5,1,0,1,26.8,0.0,2,78,forecast
-2026-05-30T16:00:00+02:00,Dantebad,sauna,92.0,1,16,5,5,1,0,1,26.8,0.0,2,78,forecast
-2026-05-30T16:00:00+02:00,Michaelibad,pool,88.2,1,16,5,5,1,0,1,26.8,0.0,2,78,forecast
-2026-05-30T16:00:00+02:00,Michaelibad,sauna,88.2,1,16,5,5,1,0,1,26.8,0.0,2,78,forecast
-2026-05-30T16:00:00+02:00,Müller'sches Volksbad,pool,80.8,1,16,5,5,1,0,1,26.8,0.0,2,78,forecast
-2026-05-30T16:00:00+02:00,Müller'sches Volksbad,sauna,80.8,1,16,5,5,1,0,1,26.8,0.0,2,78,forecast
-2026-05-30T16:00:00+02:00,Nordbad,pool,68.0,1,16,5,5,1,0,1,26.8,0.0,2,78,forecast
-2026-05-30T16:00:00+02:00,Nordbad,sauna,68.0,1,16,5,5,1,0,1,26.8,0.0,2,78,forecast
-2026-05-30T16:00:00+02:00,Olympia-Schwimmhalle,pool,74.5,1,16,5,5,1,0,1,26.8,0.0,2,78,forecast
-2026-05-30T16:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,16,5,5,1,0,1,26.8,0.0,2,78,forecast
-2026-05-30T16:00:00+02:00,Südbad,pool,68.6,1,16,5,5,1,0,1,26.8,0.0,2,78,forecast
-2026-05-30T16:00:00+02:00,Südbad,sauna,68.6,1,16,5,5,1,0,1,26.8,0.0,2,78,forecast
-2026-05-30T16:00:00+02:00,Westbad,pool,0.0,0,16,5,5,1,0,1,26.8,0.0,2,78,forecast
-2026-05-30T16:00:00+02:00,Westbad,sauna,0.0,0,16,5,5,1,0,1,26.8,0.0,2,78,forecast
-2026-05-30T17:00:00+02:00,Bad Giesing-Harlaching,pool,79.0,1,17,5,5,1,0,1,27.4,0.0,2,87,forecast
-2026-05-30T17:00:00+02:00,Cosimawellenbad,pool,71.4,1,17,5,5,1,0,1,27.4,0.0,2,87,forecast
-2026-05-30T17:00:00+02:00,Cosimawellenbad,sauna,71.4,1,17,5,5,1,0,1,27.4,0.0,2,87,forecast
-2026-05-30T17:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,17,5,5,1,0,1,27.4,0.0,2,87,forecast
-2026-05-30T17:00:00+02:00,Dantebad,sauna,93.1,1,17,5,5,1,0,1,27.4,0.0,2,87,forecast
-2026-05-30T17:00:00+02:00,Michaelibad,pool,89.2,1,17,5,5,1,0,1,27.4,0.0,2,87,forecast
-2026-05-30T17:00:00+02:00,Michaelibad,sauna,89.2,1,17,5,5,1,0,1,27.4,0.0,2,87,forecast
-2026-05-30T17:00:00+02:00,Müller'sches Volksbad,pool,80.8,1,17,5,5,1,0,1,27.4,0.0,2,87,forecast
-2026-05-30T17:00:00+02:00,Müller'sches Volksbad,sauna,80.8,1,17,5,5,1,0,1,27.4,0.0,2,87,forecast
-2026-05-30T17:00:00+02:00,Nordbad,pool,68.4,1,17,5,5,1,0,1,27.4,0.0,2,87,forecast
-2026-05-30T17:00:00+02:00,Nordbad,sauna,68.4,1,17,5,5,1,0,1,27.4,0.0,2,87,forecast
-2026-05-30T17:00:00+02:00,Olympia-Schwimmhalle,pool,74.8,1,17,5,5,1,0,1,27.4,0.0,2,87,forecast
-2026-05-30T17:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,17,5,5,1,0,1,27.4,0.0,2,87,forecast
-2026-05-30T17:00:00+02:00,Südbad,pool,68.9,1,17,5,5,1,0,1,27.4,0.0,2,87,forecast
-2026-05-30T17:00:00+02:00,Südbad,sauna,68.9,1,17,5,5,1,0,1,27.4,0.0,2,87,forecast
-2026-05-30T17:00:00+02:00,Westbad,pool,0.0,0,17,5,5,1,0,1,27.4,0.0,2,87,forecast
-2026-05-30T17:00:00+02:00,Westbad,sauna,0.0,0,17,5,5,1,0,1,27.4,0.0,2,87,forecast
-2026-05-30T18:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,18,5,5,1,0,1,27.1,0.0,2,68,forecast
-2026-05-30T18:00:00+02:00,Cosimawellenbad,pool,74.9,1,18,5,5,1,0,1,27.1,0.0,2,68,forecast
-2026-05-30T18:00:00+02:00,Cosimawellenbad,sauna,74.9,1,18,5,5,1,0,1,27.1,0.0,2,68,forecast
-2026-05-30T18:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,18,5,5,1,0,1,27.1,0.0,2,68,forecast
-2026-05-30T18:00:00+02:00,Dantebad,sauna,94.4,1,18,5,5,1,0,1,27.1,0.0,2,68,forecast
-2026-05-30T18:00:00+02:00,Michaelibad,pool,91.0,1,18,5,5,1,0,1,27.1,0.0,2,68,forecast
-2026-05-30T18:00:00+02:00,Michaelibad,sauna,91.0,1,18,5,5,1,0,1,27.1,0.0,2,68,forecast
-2026-05-30T18:00:00+02:00,Müller'sches Volksbad,pool,81.7,1,18,5,5,1,0,1,27.1,0.0,2,68,forecast
-2026-05-30T18:00:00+02:00,Müller'sches Volksbad,sauna,81.7,1,18,5,5,1,0,1,27.1,0.0,2,68,forecast
-2026-05-30T18:00:00+02:00,Nordbad,pool,69.2,1,18,5,5,1,0,1,27.1,0.0,2,68,forecast
-2026-05-30T18:00:00+02:00,Nordbad,sauna,69.2,1,18,5,5,1,0,1,27.1,0.0,2,68,forecast
-2026-05-30T18:00:00+02:00,Olympia-Schwimmhalle,pool,76.3,1,18,5,5,1,0,1,27.1,0.0,2,68,forecast
-2026-05-30T18:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,18,5,5,1,0,1,27.1,0.0,2,68,forecast
-2026-05-30T18:00:00+02:00,Südbad,pool,73.0,1,18,5,5,1,0,1,27.1,0.0,2,68,forecast
-2026-05-30T18:00:00+02:00,Südbad,sauna,73.0,1,18,5,5,1,0,1,27.1,0.0,2,68,forecast
-2026-05-30T18:00:00+02:00,Westbad,pool,0.0,0,18,5,5,1,0,1,27.1,0.0,2,68,forecast
-2026-05-30T18:00:00+02:00,Westbad,sauna,0.0,0,18,5,5,1,0,1,27.1,0.0,2,68,forecast
-2026-05-30T19:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,19,5,5,1,0,1,25.9,0.0,3,92,forecast
-2026-05-30T19:00:00+02:00,Cosimawellenbad,pool,82.7,1,19,5,5,1,0,1,25.9,0.0,3,92,forecast
-2026-05-30T19:00:00+02:00,Cosimawellenbad,sauna,82.7,1,19,5,5,1,0,1,25.9,0.0,3,92,forecast
-2026-05-30T19:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,19,5,5,1,0,1,25.9,0.0,3,92,forecast
-2026-05-30T19:00:00+02:00,Dantebad,sauna,95.8,1,19,5,5,1,0,1,25.9,0.0,3,92,forecast
-2026-05-30T19:00:00+02:00,Michaelibad,pool,95.0,1,19,5,5,1,0,1,25.9,0.0,3,92,forecast
-2026-05-30T19:00:00+02:00,Michaelibad,sauna,95.0,1,19,5,5,1,0,1,25.9,0.0,3,92,forecast
-2026-05-30T19:00:00+02:00,Müller'sches Volksbad,pool,83.9,1,19,5,5,1,0,1,25.9,0.0,3,92,forecast
-2026-05-30T19:00:00+02:00,Müller'sches Volksbad,sauna,83.9,1,19,5,5,1,0,1,25.9,0.0,3,92,forecast
-2026-05-30T19:00:00+02:00,Nordbad,pool,76.3,1,19,5,5,1,0,1,25.9,0.0,3,92,forecast
-2026-05-30T19:00:00+02:00,Nordbad,sauna,76.3,1,19,5,5,1,0,1,25.9,0.0,3,92,forecast
-2026-05-30T19:00:00+02:00,Olympia-Schwimmhalle,pool,80.3,1,19,5,5,1,0,1,25.9,0.0,3,92,forecast
-2026-05-30T19:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,19,5,5,1,0,1,25.9,0.0,3,92,forecast
-2026-05-30T19:00:00+02:00,Südbad,pool,79.8,1,19,5,5,1,0,1,25.9,0.0,3,92,forecast
-2026-05-30T19:00:00+02:00,Südbad,sauna,79.8,1,19,5,5,1,0,1,25.9,0.0,3,92,forecast
-2026-05-30T19:00:00+02:00,Westbad,pool,0.0,0,19,5,5,1,0,1,25.9,0.0,3,92,forecast
-2026-05-30T19:00:00+02:00,Westbad,sauna,0.0,0,19,5,5,1,0,1,25.9,0.0,3,92,forecast
-2026-05-30T20:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,20,5,5,1,0,1,23.7,0.0,3,100,forecast
-2026-05-30T20:00:00+02:00,Cosimawellenbad,pool,86.1,1,20,5,5,1,0,1,23.7,0.0,3,100,forecast
-2026-05-30T20:00:00+02:00,Cosimawellenbad,sauna,86.1,1,20,5,5,1,0,1,23.7,0.0,3,100,forecast
-2026-05-30T20:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,20,5,5,1,0,1,23.7,0.0,3,100,forecast
-2026-05-30T20:00:00+02:00,Dantebad,sauna,94.0,1,20,5,5,1,0,1,23.7,0.0,3,100,forecast
-2026-05-30T20:00:00+02:00,Michaelibad,pool,92.5,1,20,5,5,1,0,1,23.7,0.0,3,100,forecast
-2026-05-30T20:00:00+02:00,Michaelibad,sauna,92.5,1,20,5,5,1,0,1,23.7,0.0,3,100,forecast
-2026-05-30T20:00:00+02:00,Müller'sches Volksbad,pool,83.7,1,20,5,5,1,0,1,23.7,0.0,3,100,forecast
-2026-05-30T20:00:00+02:00,Müller'sches Volksbad,sauna,83.7,1,20,5,5,1,0,1,23.7,0.0,3,100,forecast
-2026-05-30T20:00:00+02:00,Nordbad,pool,79.8,1,20,5,5,1,0,1,23.7,0.0,3,100,forecast
-2026-05-30T20:00:00+02:00,Nordbad,sauna,79.8,1,20,5,5,1,0,1,23.7,0.0,3,100,forecast
-2026-05-30T20:00:00+02:00,Olympia-Schwimmhalle,pool,82.2,1,20,5,5,1,0,1,23.7,0.0,3,100,forecast
-2026-05-30T20:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,20,5,5,1,0,1,23.7,0.0,3,100,forecast
-2026-05-30T20:00:00+02:00,Südbad,pool,81.3,1,20,5,5,1,0,1,23.7,0.0,3,100,forecast
-2026-05-30T20:00:00+02:00,Südbad,sauna,81.3,1,20,5,5,1,0,1,23.7,0.0,3,100,forecast
-2026-05-30T20:00:00+02:00,Westbad,pool,0.0,0,20,5,5,1,0,1,23.7,0.0,3,100,forecast
-2026-05-30T20:00:00+02:00,Westbad,sauna,0.0,0,20,5,5,1,0,1,23.7,0.0,3,100,forecast
-2026-05-30T21:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,21,5,5,1,0,1,22.9,0.1,61,66,forecast
-2026-05-30T21:00:00+02:00,Cosimawellenbad,pool,88.0,1,21,5,5,1,0,1,22.9,0.1,61,66,forecast
-2026-05-30T21:00:00+02:00,Cosimawellenbad,sauna,88.0,1,21,5,5,1,0,1,22.9,0.1,61,66,forecast
-2026-05-30T21:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,21,5,5,1,0,1,22.9,0.1,61,66,forecast
-2026-05-30T21:00:00+02:00,Dantebad,sauna,94.6,1,21,5,5,1,0,1,22.9,0.1,61,66,forecast
-2026-05-30T21:00:00+02:00,Michaelibad,pool,94.2,1,21,5,5,1,0,1,22.9,0.1,61,66,forecast
-2026-05-30T21:00:00+02:00,Michaelibad,sauna,94.2,1,21,5,5,1,0,1,22.9,0.1,61,66,forecast
-2026-05-30T21:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,21,5,5,1,0,1,22.9,0.1,61,66,forecast
-2026-05-30T21:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,21,5,5,1,0,1,22.9,0.1,61,66,forecast
-2026-05-30T21:00:00+02:00,Nordbad,pool,81.7,1,21,5,5,1,0,1,22.9,0.1,61,66,forecast
-2026-05-30T21:00:00+02:00,Nordbad,sauna,81.7,1,21,5,5,1,0,1,22.9,0.1,61,66,forecast
-2026-05-30T21:00:00+02:00,Olympia-Schwimmhalle,pool,84.4,1,21,5,5,1,0,1,22.9,0.1,61,66,forecast
-2026-05-30T21:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,21,5,5,1,0,1,22.9,0.1,61,66,forecast
-2026-05-30T21:00:00+02:00,Südbad,pool,83.8,1,21,5,5,1,0,1,22.9,0.1,61,66,forecast
-2026-05-30T21:00:00+02:00,Südbad,sauna,83.8,1,21,5,5,1,0,1,22.9,0.1,61,66,forecast
-2026-05-30T21:00:00+02:00,Westbad,pool,0.0,0,21,5,5,1,0,1,22.9,0.1,61,66,forecast
-2026-05-30T21:00:00+02:00,Westbad,sauna,0.0,0,21,5,5,1,0,1,22.9,0.1,61,66,forecast
-2026-05-30T22:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,22,5,5,1,0,1,21.1,0.0,3,82,forecast
-2026-05-30T22:00:00+02:00,Cosimawellenbad,pool,93.8,1,22,5,5,1,0,1,21.1,0.0,3,82,forecast
-2026-05-30T22:00:00+02:00,Cosimawellenbad,sauna,93.8,1,22,5,5,1,0,1,21.1,0.0,3,82,forecast
-2026-05-30T22:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,22,5,5,1,0,1,21.1,0.0,3,82,forecast
-2026-05-30T22:00:00+02:00,Dantebad,sauna,96.2,1,22,5,5,1,0,1,21.1,0.0,3,82,forecast
-2026-05-30T22:00:00+02:00,Michaelibad,pool,97.9,1,22,5,5,1,0,1,21.1,0.0,3,82,forecast
-2026-05-30T22:00:00+02:00,Michaelibad,sauna,97.9,1,22,5,5,1,0,1,21.1,0.0,3,82,forecast
-2026-05-30T22:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,22,5,5,1,0,1,21.1,0.0,3,82,forecast
-2026-05-30T22:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,22,5,5,1,0,1,21.1,0.0,3,82,forecast
-2026-05-30T22:00:00+02:00,Nordbad,pool,91.0,1,22,5,5,1,0,1,21.1,0.0,3,82,forecast
-2026-05-30T22:00:00+02:00,Nordbad,sauna,91.0,1,22,5,5,1,0,1,21.1,0.0,3,82,forecast
-2026-05-30T22:00:00+02:00,Olympia-Schwimmhalle,pool,93.8,1,22,5,5,1,0,1,21.1,0.0,3,82,forecast
-2026-05-30T22:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,22,5,5,1,0,1,21.1,0.0,3,82,forecast
-2026-05-30T22:00:00+02:00,Südbad,pool,93.0,1,22,5,5,1,0,1,21.1,0.0,3,82,forecast
-2026-05-30T22:00:00+02:00,Südbad,sauna,93.0,1,22,5,5,1,0,1,21.1,0.0,3,82,forecast
-2026-05-30T22:00:00+02:00,Westbad,pool,0.0,0,22,5,5,1,0,1,21.1,0.0,3,82,forecast
-2026-05-30T22:00:00+02:00,Westbad,sauna,0.0,0,22,5,5,1,0,1,21.1,0.0,3,82,forecast
-2026-05-30T23:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,23,5,5,1,0,1,19.6,0.0,3,97,forecast
-2026-05-30T23:00:00+02:00,Cosimawellenbad,pool,0.0,0,23,5,5,1,0,1,19.6,0.0,3,97,forecast
-2026-05-30T23:00:00+02:00,Cosimawellenbad,sauna,0.0,0,23,5,5,1,0,1,19.6,0.0,3,97,forecast
-2026-05-30T23:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,23,5,5,1,0,1,19.6,0.0,3,97,forecast
-2026-05-30T23:00:00+02:00,Dantebad,sauna,0.0,0,23,5,5,1,0,1,19.6,0.0,3,97,forecast
-2026-05-30T23:00:00+02:00,Michaelibad,pool,0.0,0,23,5,5,1,0,1,19.6,0.0,3,97,forecast
-2026-05-30T23:00:00+02:00,Michaelibad,sauna,0.0,0,23,5,5,1,0,1,19.6,0.0,3,97,forecast
-2026-05-30T23:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,23,5,5,1,0,1,19.6,0.0,3,97,forecast
-2026-05-30T23:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,23,5,5,1,0,1,19.6,0.0,3,97,forecast
-2026-05-30T23:00:00+02:00,Nordbad,pool,0.0,0,23,5,5,1,0,1,19.6,0.0,3,97,forecast
-2026-05-30T23:00:00+02:00,Nordbad,sauna,0.0,0,23,5,5,1,0,1,19.6,0.0,3,97,forecast
-2026-05-30T23:00:00+02:00,Olympia-Schwimmhalle,pool,0.0,0,23,5,5,1,0,1,19.6,0.0,3,97,forecast
-2026-05-30T23:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,23,5,5,1,0,1,19.6,0.0,3,97,forecast
-2026-05-30T23:00:00+02:00,Südbad,pool,0.0,0,23,5,5,1,0,1,19.6,0.0,3,97,forecast
-2026-05-30T23:00:00+02:00,Südbad,sauna,0.0,0,23,5,5,1,0,1,19.6,0.0,3,97,forecast
-2026-05-30T23:00:00+02:00,Westbad,pool,0.0,0,23,5,5,1,0,1,19.6,0.0,3,97,forecast
-2026-05-30T23:00:00+02:00,Westbad,sauna,0.0,0,23,5,5,1,0,1,19.6,0.0,3,97,forecast
-2026-05-31T00:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,0,6,5,1,0,1,17.9,0.0,3,99,forecast
-2026-05-31T00:00:00+02:00,Cosimawellenbad,pool,0.0,0,0,6,5,1,0,1,17.9,0.0,3,99,forecast
-2026-05-31T00:00:00+02:00,Cosimawellenbad,sauna,0.0,0,0,6,5,1,0,1,17.9,0.0,3,99,forecast
-2026-05-31T00:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,0,6,5,1,0,1,17.9,0.0,3,99,forecast
-2026-05-31T00:00:00+02:00,Dantebad,sauna,0.0,0,0,6,5,1,0,1,17.9,0.0,3,99,forecast
-2026-05-31T00:00:00+02:00,Michaelibad,pool,0.0,0,0,6,5,1,0,1,17.9,0.0,3,99,forecast
-2026-05-31T00:00:00+02:00,Michaelibad,sauna,0.0,0,0,6,5,1,0,1,17.9,0.0,3,99,forecast
-2026-05-31T00:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,0,6,5,1,0,1,17.9,0.0,3,99,forecast
-2026-05-31T00:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,0,6,5,1,0,1,17.9,0.0,3,99,forecast
-2026-05-31T00:00:00+02:00,Nordbad,pool,0.0,0,0,6,5,1,0,1,17.9,0.0,3,99,forecast
-2026-05-31T00:00:00+02:00,Nordbad,sauna,0.0,0,0,6,5,1,0,1,17.9,0.0,3,99,forecast
-2026-05-31T00:00:00+02:00,Olympia-Schwimmhalle,pool,0.0,0,0,6,5,1,0,1,17.9,0.0,3,99,forecast
-2026-05-31T00:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,0,6,5,1,0,1,17.9,0.0,3,99,forecast
-2026-05-31T00:00:00+02:00,Südbad,pool,0.0,0,0,6,5,1,0,1,17.9,0.0,3,99,forecast
-2026-05-31T00:00:00+02:00,Südbad,sauna,0.0,0,0,6,5,1,0,1,17.9,0.0,3,99,forecast
-2026-05-31T00:00:00+02:00,Westbad,pool,0.0,0,0,6,5,1,0,1,17.9,0.0,3,99,forecast
-2026-05-31T00:00:00+02:00,Westbad,sauna,0.0,0,0,6,5,1,0,1,17.9,0.0,3,99,forecast
-2026-05-31T01:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,1,6,5,1,0,1,17.5,0.0,1,0,forecast
-2026-05-31T01:00:00+02:00,Cosimawellenbad,pool,0.0,0,1,6,5,1,0,1,17.5,0.0,1,0,forecast
-2026-05-31T01:00:00+02:00,Cosimawellenbad,sauna,0.0,0,1,6,5,1,0,1,17.5,0.0,1,0,forecast
-2026-05-31T01:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,1,6,5,1,0,1,17.5,0.0,1,0,forecast
-2026-05-31T01:00:00+02:00,Dantebad,sauna,0.0,0,1,6,5,1,0,1,17.5,0.0,1,0,forecast
-2026-05-31T01:00:00+02:00,Michaelibad,pool,0.0,0,1,6,5,1,0,1,17.5,0.0,1,0,forecast
-2026-05-31T01:00:00+02:00,Michaelibad,sauna,0.0,0,1,6,5,1,0,1,17.5,0.0,1,0,forecast
-2026-05-31T01:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,1,6,5,1,0,1,17.5,0.0,1,0,forecast
-2026-05-31T01:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,1,6,5,1,0,1,17.5,0.0,1,0,forecast
-2026-05-31T01:00:00+02:00,Nordbad,pool,0.0,0,1,6,5,1,0,1,17.5,0.0,1,0,forecast
-2026-05-31T01:00:00+02:00,Nordbad,sauna,0.0,0,1,6,5,1,0,1,17.5,0.0,1,0,forecast
-2026-05-31T01:00:00+02:00,Olympia-Schwimmhalle,pool,0.0,0,1,6,5,1,0,1,17.5,0.0,1,0,forecast
-2026-05-31T01:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,1,6,5,1,0,1,17.5,0.0,1,0,forecast
-2026-05-31T01:00:00+02:00,Südbad,pool,0.0,0,1,6,5,1,0,1,17.5,0.0,1,0,forecast
-2026-05-31T01:00:00+02:00,Südbad,sauna,0.0,0,1,6,5,1,0,1,17.5,0.0,1,0,forecast
-2026-05-31T01:00:00+02:00,Westbad,pool,0.0,0,1,6,5,1,0,1,17.5,0.0,1,0,forecast
-2026-05-31T01:00:00+02:00,Westbad,sauna,0.0,0,1,6,5,1,0,1,17.5,0.0,1,0,forecast
-2026-05-31T02:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,2,6,5,1,0,1,17.3,0.0,1,18,forecast
-2026-05-31T02:00:00+02:00,Cosimawellenbad,pool,0.0,0,2,6,5,1,0,1,17.3,0.0,1,18,forecast
-2026-05-31T02:00:00+02:00,Cosimawellenbad,sauna,0.0,0,2,6,5,1,0,1,17.3,0.0,1,18,forecast
-2026-05-31T02:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,2,6,5,1,0,1,17.3,0.0,1,18,forecast
-2026-05-31T02:00:00+02:00,Dantebad,sauna,0.0,0,2,6,5,1,0,1,17.3,0.0,1,18,forecast
-2026-05-31T02:00:00+02:00,Michaelibad,pool,0.0,0,2,6,5,1,0,1,17.3,0.0,1,18,forecast
-2026-05-31T02:00:00+02:00,Michaelibad,sauna,0.0,0,2,6,5,1,0,1,17.3,0.0,1,18,forecast
-2026-05-31T02:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,2,6,5,1,0,1,17.3,0.0,1,18,forecast
-2026-05-31T02:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,2,6,5,1,0,1,17.3,0.0,1,18,forecast
-2026-05-31T02:00:00+02:00,Nordbad,pool,0.0,0,2,6,5,1,0,1,17.3,0.0,1,18,forecast
-2026-05-31T02:00:00+02:00,Nordbad,sauna,0.0,0,2,6,5,1,0,1,17.3,0.0,1,18,forecast
-2026-05-31T02:00:00+02:00,Olympia-Schwimmhalle,pool,0.0,0,2,6,5,1,0,1,17.3,0.0,1,18,forecast
-2026-05-31T02:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,2,6,5,1,0,1,17.3,0.0,1,18,forecast
-2026-05-31T02:00:00+02:00,Südbad,pool,0.0,0,2,6,5,1,0,1,17.3,0.0,1,18,forecast
-2026-05-31T02:00:00+02:00,Südbad,sauna,0.0,0,2,6,5,1,0,1,17.3,0.0,1,18,forecast
-2026-05-31T02:00:00+02:00,Westbad,pool,0.0,0,2,6,5,1,0,1,17.3,0.0,1,18,forecast
-2026-05-31T02:00:00+02:00,Westbad,sauna,0.0,0,2,6,5,1,0,1,17.3,0.0,1,18,forecast
-2026-05-31T03:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,3,6,5,1,0,1,16.6,0.0,0,13,forecast
-2026-05-31T03:00:00+02:00,Cosimawellenbad,pool,0.0,0,3,6,5,1,0,1,16.6,0.0,0,13,forecast
-2026-05-31T03:00:00+02:00,Cosimawellenbad,sauna,0.0,0,3,6,5,1,0,1,16.6,0.0,0,13,forecast
-2026-05-31T03:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,3,6,5,1,0,1,16.6,0.0,0,13,forecast
-2026-05-31T03:00:00+02:00,Dantebad,sauna,0.0,0,3,6,5,1,0,1,16.6,0.0,0,13,forecast
-2026-05-31T03:00:00+02:00,Michaelibad,pool,0.0,0,3,6,5,1,0,1,16.6,0.0,0,13,forecast
-2026-05-31T03:00:00+02:00,Michaelibad,sauna,0.0,0,3,6,5,1,0,1,16.6,0.0,0,13,forecast
-2026-05-31T03:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,3,6,5,1,0,1,16.6,0.0,0,13,forecast
-2026-05-31T03:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,3,6,5,1,0,1,16.6,0.0,0,13,forecast
-2026-05-31T03:00:00+02:00,Nordbad,pool,0.0,0,3,6,5,1,0,1,16.6,0.0,0,13,forecast
-2026-05-31T03:00:00+02:00,Nordbad,sauna,0.0,0,3,6,5,1,0,1,16.6,0.0,0,13,forecast
-2026-05-31T03:00:00+02:00,Olympia-Schwimmhalle,pool,0.0,0,3,6,5,1,0,1,16.6,0.0,0,13,forecast
-2026-05-31T03:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,3,6,5,1,0,1,16.6,0.0,0,13,forecast
-2026-05-31T03:00:00+02:00,Südbad,pool,0.0,0,3,6,5,1,0,1,16.6,0.0,0,13,forecast
-2026-05-31T03:00:00+02:00,Südbad,sauna,0.0,0,3,6,5,1,0,1,16.6,0.0,0,13,forecast
-2026-05-31T03:00:00+02:00,Westbad,pool,0.0,0,3,6,5,1,0,1,16.6,0.0,0,13,forecast
-2026-05-31T03:00:00+02:00,Westbad,sauna,0.0,0,3,6,5,1,0,1,16.6,0.0,0,13,forecast
-2026-05-31T04:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,4,6,5,1,0,1,15.8,0.0,0,36,forecast
-2026-05-31T04:00:00+02:00,Cosimawellenbad,pool,0.0,0,4,6,5,1,0,1,15.8,0.0,0,36,forecast
-2026-05-31T04:00:00+02:00,Cosimawellenbad,sauna,0.0,0,4,6,5,1,0,1,15.8,0.0,0,36,forecast
-2026-05-31T04:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,4,6,5,1,0,1,15.8,0.0,0,36,forecast
-2026-05-31T04:00:00+02:00,Dantebad,sauna,0.0,0,4,6,5,1,0,1,15.8,0.0,0,36,forecast
-2026-05-31T04:00:00+02:00,Michaelibad,pool,0.0,0,4,6,5,1,0,1,15.8,0.0,0,36,forecast
-2026-05-31T04:00:00+02:00,Michaelibad,sauna,0.0,0,4,6,5,1,0,1,15.8,0.0,0,36,forecast
-2026-05-31T04:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,4,6,5,1,0,1,15.8,0.0,0,36,forecast
-2026-05-31T04:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,4,6,5,1,0,1,15.8,0.0,0,36,forecast
-2026-05-31T04:00:00+02:00,Nordbad,pool,0.0,0,4,6,5,1,0,1,15.8,0.0,0,36,forecast
-2026-05-31T04:00:00+02:00,Nordbad,sauna,0.0,0,4,6,5,1,0,1,15.8,0.0,0,36,forecast
-2026-05-31T04:00:00+02:00,Olympia-Schwimmhalle,pool,0.0,0,4,6,5,1,0,1,15.8,0.0,0,36,forecast
-2026-05-31T04:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,4,6,5,1,0,1,15.8,0.0,0,36,forecast
-2026-05-31T04:00:00+02:00,Südbad,pool,0.0,0,4,6,5,1,0,1,15.8,0.0,0,36,forecast
-2026-05-31T04:00:00+02:00,Südbad,sauna,0.0,0,4,6,5,1,0,1,15.8,0.0,0,36,forecast
-2026-05-31T04:00:00+02:00,Westbad,pool,0.0,0,4,6,5,1,0,1,15.8,0.0,0,36,forecast
-2026-05-31T04:00:00+02:00,Westbad,sauna,0.0,0,4,6,5,1,0,1,15.8,0.0,0,36,forecast
-2026-05-31T05:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,5,6,5,1,0,1,15.6,0.0,1,77,forecast
-2026-05-31T05:00:00+02:00,Cosimawellenbad,pool,0.0,0,5,6,5,1,0,1,15.6,0.0,1,77,forecast
-2026-05-31T05:00:00+02:00,Cosimawellenbad,sauna,0.0,0,5,6,5,1,0,1,15.6,0.0,1,77,forecast
-2026-05-31T05:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,5,6,5,1,0,1,15.6,0.0,1,77,forecast
-2026-05-31T05:00:00+02:00,Dantebad,sauna,0.0,0,5,6,5,1,0,1,15.6,0.0,1,77,forecast
-2026-05-31T05:00:00+02:00,Michaelibad,pool,0.0,0,5,6,5,1,0,1,15.6,0.0,1,77,forecast
-2026-05-31T05:00:00+02:00,Michaelibad,sauna,0.0,0,5,6,5,1,0,1,15.6,0.0,1,77,forecast
-2026-05-31T05:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,5,6,5,1,0,1,15.6,0.0,1,77,forecast
-2026-05-31T05:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,5,6,5,1,0,1,15.6,0.0,1,77,forecast
-2026-05-31T05:00:00+02:00,Nordbad,pool,0.0,0,5,6,5,1,0,1,15.6,0.0,1,77,forecast
-2026-05-31T05:00:00+02:00,Nordbad,sauna,0.0,0,5,6,5,1,0,1,15.6,0.0,1,77,forecast
-2026-05-31T05:00:00+02:00,Olympia-Schwimmhalle,pool,0.0,0,5,6,5,1,0,1,15.6,0.0,1,77,forecast
-2026-05-31T05:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,5,6,5,1,0,1,15.6,0.0,1,77,forecast
-2026-05-31T05:00:00+02:00,Südbad,pool,0.0,0,5,6,5,1,0,1,15.6,0.0,1,77,forecast
-2026-05-31T05:00:00+02:00,Südbad,sauna,0.0,0,5,6,5,1,0,1,15.6,0.0,1,77,forecast
-2026-05-31T05:00:00+02:00,Westbad,pool,0.0,0,5,6,5,1,0,1,15.6,0.0,1,77,forecast
-2026-05-31T05:00:00+02:00,Westbad,sauna,0.0,0,5,6,5,1,0,1,15.6,0.0,1,77,forecast
-2026-05-31T06:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,6,6,5,1,0,1,15.5,0.0,2,67,forecast
-2026-05-31T06:00:00+02:00,Cosimawellenbad,pool,0.0,0,6,6,5,1,0,1,15.5,0.0,2,67,forecast
-2026-05-31T06:00:00+02:00,Cosimawellenbad,sauna,0.0,0,6,6,5,1,0,1,15.5,0.0,2,67,forecast
-2026-05-31T06:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,6,6,5,1,0,1,15.5,0.0,2,67,forecast
-2026-05-31T06:00:00+02:00,Dantebad,sauna,0.0,0,6,6,5,1,0,1,15.5,0.0,2,67,forecast
-2026-05-31T06:00:00+02:00,Michaelibad,pool,0.0,0,6,6,5,1,0,1,15.5,0.0,2,67,forecast
-2026-05-31T06:00:00+02:00,Michaelibad,sauna,0.0,0,6,6,5,1,0,1,15.5,0.0,2,67,forecast
-2026-05-31T06:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,6,6,5,1,0,1,15.5,0.0,2,67,forecast
-2026-05-31T06:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,6,6,5,1,0,1,15.5,0.0,2,67,forecast
-2026-05-31T06:00:00+02:00,Nordbad,pool,0.0,0,6,6,5,1,0,1,15.5,0.0,2,67,forecast
-2026-05-31T06:00:00+02:00,Nordbad,sauna,0.0,0,6,6,5,1,0,1,15.5,0.0,2,67,forecast
-2026-05-31T06:00:00+02:00,Olympia-Schwimmhalle,pool,0.0,0,6,6,5,1,0,1,15.5,0.0,2,67,forecast
-2026-05-31T06:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,6,6,5,1,0,1,15.5,0.0,2,67,forecast
-2026-05-31T06:00:00+02:00,Südbad,pool,0.0,0,6,6,5,1,0,1,15.5,0.0,2,67,forecast
-2026-05-31T06:00:00+02:00,Südbad,sauna,0.0,0,6,6,5,1,0,1,15.5,0.0,2,67,forecast
-2026-05-31T06:00:00+02:00,Westbad,pool,0.0,0,6,6,5,1,0,1,15.5,0.0,2,67,forecast
-2026-05-31T06:00:00+02:00,Westbad,sauna,0.0,0,6,6,5,1,0,1,15.5,0.0,2,67,forecast
-2026-05-31T07:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,7,6,5,1,0,1,17.0,0.0,3,99,forecast
-2026-05-31T07:00:00+02:00,Cosimawellenbad,pool,0.0,0,7,6,5,1,0,1,17.0,0.0,3,99,forecast
-2026-05-31T07:00:00+02:00,Cosimawellenbad,sauna,0.0,0,7,6,5,1,0,1,17.0,0.0,3,99,forecast
-2026-05-31T07:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,7,6,5,1,0,1,17.0,0.0,3,99,forecast
-2026-05-31T07:00:00+02:00,Dantebad,sauna,0.0,0,7,6,5,1,0,1,17.0,0.0,3,99,forecast
-2026-05-31T07:00:00+02:00,Michaelibad,pool,0.0,0,7,6,5,1,0,1,17.0,0.0,3,99,forecast
-2026-05-31T07:00:00+02:00,Michaelibad,sauna,0.0,0,7,6,5,1,0,1,17.0,0.0,3,99,forecast
-2026-05-31T07:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,7,6,5,1,0,1,17.0,0.0,3,99,forecast
-2026-05-31T07:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,7,6,5,1,0,1,17.0,0.0,3,99,forecast
-2026-05-31T07:00:00+02:00,Nordbad,pool,0.0,0,7,6,5,1,0,1,17.0,0.0,3,99,forecast
-2026-05-31T07:00:00+02:00,Nordbad,sauna,0.0,0,7,6,5,1,0,1,17.0,0.0,3,99,forecast
-2026-05-31T07:00:00+02:00,Olympia-Schwimmhalle,pool,97.4,1,7,6,5,1,0,1,17.0,0.0,3,99,forecast
-2026-05-31T07:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,7,6,5,1,0,1,17.0,0.0,3,99,forecast
-2026-05-31T07:00:00+02:00,Südbad,pool,0.0,0,7,6,5,1,0,1,17.0,0.0,3,99,forecast
-2026-05-31T07:00:00+02:00,Südbad,sauna,0.0,0,7,6,5,1,0,1,17.0,0.0,3,99,forecast
-2026-05-31T07:00:00+02:00,Westbad,pool,0.0,0,7,6,5,1,0,1,17.0,0.0,3,99,forecast
-2026-05-31T07:00:00+02:00,Westbad,sauna,0.0,0,7,6,5,1,0,1,17.0,0.0,3,99,forecast
+2026-05-30T08:00:00+02:00,Bad Giesing-Harlaching,pool,91.2,1,8,5,5,1,0,1,18.3,0.0,2,86,forecast
+2026-05-30T08:00:00+02:00,Cosimawellenbad,pool,94.5,1,8,5,5,1,0,1,18.3,0.0,2,86,forecast
+2026-05-30T08:00:00+02:00,Cosimawellenbad,sauna,0.0,0,8,5,5,1,0,1,18.3,0.0,2,86,forecast
+2026-05-30T08:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,8,5,5,1,0,1,18.3,0.0,2,86,forecast
+2026-05-30T08:00:00+02:00,Dantebad,sauna,95.7,1,8,5,5,1,0,1,18.3,0.0,2,86,forecast
+2026-05-30T08:00:00+02:00,Michaelibad,pool,95.0,1,8,5,5,1,0,1,18.3,0.0,2,86,forecast
+2026-05-30T08:00:00+02:00,Michaelibad,sauna,95.0,1,8,5,5,1,0,1,18.3,0.0,2,86,forecast
+2026-05-30T08:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,8,5,5,1,0,1,18.3,0.0,2,86,forecast
+2026-05-30T08:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,8,5,5,1,0,1,18.3,0.0,2,86,forecast
+2026-05-30T08:00:00+02:00,Nordbad,pool,90.9,1,8,5,5,1,0,1,18.3,0.0,2,86,forecast
+2026-05-30T08:00:00+02:00,Nordbad,sauna,90.9,1,8,5,5,1,0,1,18.3,0.0,2,86,forecast
+2026-05-30T08:00:00+02:00,Olympia-Schwimmhalle,pool,91.0,1,8,5,5,1,0,1,18.3,0.0,2,86,forecast
+2026-05-30T08:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,8,5,5,1,0,1,18.3,0.0,2,86,forecast
+2026-05-30T08:00:00+02:00,Südbad,pool,90.0,1,8,5,5,1,0,1,18.3,0.0,2,86,forecast
+2026-05-30T08:00:00+02:00,Südbad,sauna,0.0,0,8,5,5,1,0,1,18.3,0.0,2,86,forecast
+2026-05-30T08:00:00+02:00,Westbad,pool,0.0,0,8,5,5,1,0,1,18.3,0.0,2,86,forecast
+2026-05-30T08:00:00+02:00,Westbad,sauna,0.0,0,8,5,5,1,0,1,18.3,0.0,2,86,forecast
+2026-05-30T09:00:00+02:00,Bad Giesing-Harlaching,pool,90.1,1,9,5,5,1,0,1,19.9,0.0,3,99,forecast
+2026-05-30T09:00:00+02:00,Cosimawellenbad,pool,94.0,1,9,5,5,1,0,1,19.9,0.0,3,99,forecast
+2026-05-30T09:00:00+02:00,Cosimawellenbad,sauna,94.0,1,9,5,5,1,0,1,19.9,0.0,3,99,forecast
+2026-05-30T09:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,9,5,5,1,0,1,19.9,0.0,3,99,forecast
+2026-05-30T09:00:00+02:00,Dantebad,sauna,95.1,1,9,5,5,1,0,1,19.9,0.0,3,99,forecast
+2026-05-30T09:00:00+02:00,Michaelibad,pool,95.0,1,9,5,5,1,0,1,19.9,0.0,3,99,forecast
+2026-05-30T09:00:00+02:00,Michaelibad,sauna,95.0,1,9,5,5,1,0,1,19.9,0.0,3,99,forecast
+2026-05-30T09:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,9,5,5,1,0,1,19.9,0.0,3,99,forecast
+2026-05-30T09:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,9,5,5,1,0,1,19.9,0.0,3,99,forecast
+2026-05-30T09:00:00+02:00,Nordbad,pool,88.9,1,9,5,5,1,0,1,19.9,0.0,3,99,forecast
+2026-05-30T09:00:00+02:00,Nordbad,sauna,88.9,1,9,5,5,1,0,1,19.9,0.0,3,99,forecast
+2026-05-30T09:00:00+02:00,Olympia-Schwimmhalle,pool,90.0,1,9,5,5,1,0,1,19.9,0.0,3,99,forecast
+2026-05-30T09:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,9,5,5,1,0,1,19.9,0.0,3,99,forecast
+2026-05-30T09:00:00+02:00,Südbad,pool,90.3,1,9,5,5,1,0,1,19.9,0.0,3,99,forecast
+2026-05-30T09:00:00+02:00,Südbad,sauna,90.3,1,9,5,5,1,0,1,19.9,0.0,3,99,forecast
+2026-05-30T09:00:00+02:00,Westbad,pool,0.0,0,9,5,5,1,0,1,19.9,0.0,3,99,forecast
+2026-05-30T09:00:00+02:00,Westbad,sauna,0.0,0,9,5,5,1,0,1,19.9,0.0,3,99,forecast
+2026-05-30T10:00:00+02:00,Bad Giesing-Harlaching,pool,86.3,1,10,5,5,1,0,1,22.4,0.0,3,90,forecast
+2026-05-30T10:00:00+02:00,Cosimawellenbad,pool,87.5,1,10,5,5,1,0,1,22.4,0.0,3,90,forecast
+2026-05-30T10:00:00+02:00,Cosimawellenbad,sauna,87.5,1,10,5,5,1,0,1,22.4,0.0,3,90,forecast
+2026-05-30T10:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,10,5,5,1,0,1,22.4,0.0,3,90,forecast
+2026-05-30T10:00:00+02:00,Dantebad,sauna,92.8,1,10,5,5,1,0,1,22.4,0.0,3,90,forecast
+2026-05-30T10:00:00+02:00,Michaelibad,pool,92.1,1,10,5,5,1,0,1,22.4,0.0,3,90,forecast
+2026-05-30T10:00:00+02:00,Michaelibad,sauna,92.1,1,10,5,5,1,0,1,22.4,0.0,3,90,forecast
+2026-05-30T10:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,10,5,5,1,0,1,22.4,0.0,3,90,forecast
+2026-05-30T10:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,10,5,5,1,0,1,22.4,0.0,3,90,forecast
+2026-05-30T10:00:00+02:00,Nordbad,pool,82.7,1,10,5,5,1,0,1,22.4,0.0,3,90,forecast
+2026-05-30T10:00:00+02:00,Nordbad,sauna,82.7,1,10,5,5,1,0,1,22.4,0.0,3,90,forecast
+2026-05-30T10:00:00+02:00,Olympia-Schwimmhalle,pool,84.9,1,10,5,5,1,0,1,22.4,0.0,3,90,forecast
+2026-05-30T10:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,10,5,5,1,0,1,22.4,0.0,3,90,forecast
+2026-05-30T10:00:00+02:00,Südbad,pool,85.3,1,10,5,5,1,0,1,22.4,0.0,3,90,forecast
+2026-05-30T10:00:00+02:00,Südbad,sauna,85.3,1,10,5,5,1,0,1,22.4,0.0,3,90,forecast
+2026-05-30T10:00:00+02:00,Westbad,pool,0.0,0,10,5,5,1,0,1,22.4,0.0,3,90,forecast
+2026-05-30T10:00:00+02:00,Westbad,sauna,0.0,0,10,5,5,1,0,1,22.4,0.0,3,90,forecast
+2026-05-30T11:00:00+02:00,Bad Giesing-Harlaching,pool,83.4,1,11,5,5,1,0,1,24.0,0.0,3,100,forecast
+2026-05-30T11:00:00+02:00,Cosimawellenbad,pool,82.6,1,11,5,5,1,0,1,24.0,0.0,3,100,forecast
+2026-05-30T11:00:00+02:00,Cosimawellenbad,sauna,82.6,1,11,5,5,1,0,1,24.0,0.0,3,100,forecast
+2026-05-30T11:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,11,5,5,1,0,1,24.0,0.0,3,100,forecast
+2026-05-30T11:00:00+02:00,Dantebad,sauna,93.0,1,11,5,5,1,0,1,24.0,0.0,3,100,forecast
+2026-05-30T11:00:00+02:00,Michaelibad,pool,91.9,1,11,5,5,1,0,1,24.0,0.0,3,100,forecast
+2026-05-30T11:00:00+02:00,Michaelibad,sauna,91.9,1,11,5,5,1,0,1,24.0,0.0,3,100,forecast
+2026-05-30T11:00:00+02:00,Müller'sches Volksbad,pool,82.3,1,11,5,5,1,0,1,24.0,0.0,3,100,forecast
+2026-05-30T11:00:00+02:00,Müller'sches Volksbad,sauna,82.3,1,11,5,5,1,0,1,24.0,0.0,3,100,forecast
+2026-05-30T11:00:00+02:00,Nordbad,pool,78.6,1,11,5,5,1,0,1,24.0,0.0,3,100,forecast
+2026-05-30T11:00:00+02:00,Nordbad,sauna,78.6,1,11,5,5,1,0,1,24.0,0.0,3,100,forecast
+2026-05-30T11:00:00+02:00,Olympia-Schwimmhalle,pool,80.9,1,11,5,5,1,0,1,24.0,0.0,3,100,forecast
+2026-05-30T11:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,11,5,5,1,0,1,24.0,0.0,3,100,forecast
+2026-05-30T11:00:00+02:00,Südbad,pool,79.2,1,11,5,5,1,0,1,24.0,0.0,3,100,forecast
+2026-05-30T11:00:00+02:00,Südbad,sauna,79.2,1,11,5,5,1,0,1,24.0,0.0,3,100,forecast
+2026-05-30T11:00:00+02:00,Westbad,pool,0.0,0,11,5,5,1,0,1,24.0,0.0,3,100,forecast
+2026-05-30T11:00:00+02:00,Westbad,sauna,0.0,0,11,5,5,1,0,1,24.0,0.0,3,100,forecast
+2026-05-30T12:00:00+02:00,Bad Giesing-Harlaching,pool,83.3,1,12,5,5,1,0,1,25.2,0.0,3,100,forecast
+2026-05-30T12:00:00+02:00,Cosimawellenbad,pool,79.0,1,12,5,5,1,0,1,25.2,0.0,3,100,forecast
+2026-05-30T12:00:00+02:00,Cosimawellenbad,sauna,79.0,1,12,5,5,1,0,1,25.2,0.0,3,100,forecast
+2026-05-30T12:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,12,5,5,1,0,1,25.2,0.0,3,100,forecast
+2026-05-30T12:00:00+02:00,Dantebad,sauna,93.2,1,12,5,5,1,0,1,25.2,0.0,3,100,forecast
+2026-05-30T12:00:00+02:00,Michaelibad,pool,93.0,1,12,5,5,1,0,1,25.2,0.0,3,100,forecast
+2026-05-30T12:00:00+02:00,Michaelibad,sauna,93.0,1,12,5,5,1,0,1,25.2,0.0,3,100,forecast
+2026-05-30T12:00:00+02:00,Müller'sches Volksbad,pool,81.9,1,12,5,5,1,0,1,25.2,0.0,3,100,forecast
+2026-05-30T12:00:00+02:00,Müller'sches Volksbad,sauna,81.9,1,12,5,5,1,0,1,25.2,0.0,3,100,forecast
+2026-05-30T12:00:00+02:00,Nordbad,pool,76.9,1,12,5,5,1,0,1,25.2,0.0,3,100,forecast
+2026-05-30T12:00:00+02:00,Nordbad,sauna,76.9,1,12,5,5,1,0,1,25.2,0.0,3,100,forecast
+2026-05-30T12:00:00+02:00,Olympia-Schwimmhalle,pool,79.4,1,12,5,5,1,0,1,25.2,0.0,3,100,forecast
+2026-05-30T12:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,12,5,5,1,0,1,25.2,0.0,3,100,forecast
+2026-05-30T12:00:00+02:00,Südbad,pool,76.3,1,12,5,5,1,0,1,25.2,0.0,3,100,forecast
+2026-05-30T12:00:00+02:00,Südbad,sauna,76.3,1,12,5,5,1,0,1,25.2,0.0,3,100,forecast
+2026-05-30T12:00:00+02:00,Westbad,pool,0.0,0,12,5,5,1,0,1,25.2,0.0,3,100,forecast
+2026-05-30T12:00:00+02:00,Westbad,sauna,0.0,0,12,5,5,1,0,1,25.2,0.0,3,100,forecast
+2026-05-30T13:00:00+02:00,Bad Giesing-Harlaching,pool,83.5,1,13,5,5,1,0,1,26.0,0.0,3,85,forecast
+2026-05-30T13:00:00+02:00,Cosimawellenbad,pool,78.5,1,13,5,5,1,0,1,26.0,0.0,3,85,forecast
+2026-05-30T13:00:00+02:00,Cosimawellenbad,sauna,78.5,1,13,5,5,1,0,1,26.0,0.0,3,85,forecast
+2026-05-30T13:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,13,5,5,1,0,1,26.0,0.0,3,85,forecast
+2026-05-30T13:00:00+02:00,Dantebad,sauna,93.9,1,13,5,5,1,0,1,26.0,0.0,3,85,forecast
+2026-05-30T13:00:00+02:00,Michaelibad,pool,93.6,1,13,5,5,1,0,1,26.0,0.0,3,85,forecast
+2026-05-30T13:00:00+02:00,Michaelibad,sauna,93.6,1,13,5,5,1,0,1,26.0,0.0,3,85,forecast
+2026-05-30T13:00:00+02:00,Müller'sches Volksbad,pool,82.7,1,13,5,5,1,0,1,26.0,0.0,3,85,forecast
+2026-05-30T13:00:00+02:00,Müller'sches Volksbad,sauna,82.7,1,13,5,5,1,0,1,26.0,0.0,3,85,forecast
+2026-05-30T13:00:00+02:00,Nordbad,pool,76.7,1,13,5,5,1,0,1,26.0,0.0,3,85,forecast
+2026-05-30T13:00:00+02:00,Nordbad,sauna,76.7,1,13,5,5,1,0,1,26.0,0.0,3,85,forecast
+2026-05-30T13:00:00+02:00,Olympia-Schwimmhalle,pool,79.4,1,13,5,5,1,0,1,26.0,0.0,3,85,forecast
+2026-05-30T13:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,13,5,5,1,0,1,26.0,0.0,3,85,forecast
+2026-05-30T13:00:00+02:00,Südbad,pool,76.9,1,13,5,5,1,0,1,26.0,0.0,3,85,forecast
+2026-05-30T13:00:00+02:00,Südbad,sauna,76.9,1,13,5,5,1,0,1,26.0,0.0,3,85,forecast
+2026-05-30T13:00:00+02:00,Westbad,pool,0.0,0,13,5,5,1,0,1,26.0,0.0,3,85,forecast
+2026-05-30T13:00:00+02:00,Westbad,sauna,0.0,0,13,5,5,1,0,1,26.0,0.0,3,85,forecast
+2026-05-30T14:00:00+02:00,Bad Giesing-Harlaching,pool,83.7,1,14,5,5,1,0,1,25.9,0.0,3,100,forecast
+2026-05-30T14:00:00+02:00,Cosimawellenbad,pool,76.8,1,14,5,5,1,0,1,25.9,0.0,3,100,forecast
+2026-05-30T14:00:00+02:00,Cosimawellenbad,sauna,76.8,1,14,5,5,1,0,1,25.9,0.0,3,100,forecast
+2026-05-30T14:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,14,5,5,1,0,1,25.9,0.0,3,100,forecast
+2026-05-30T14:00:00+02:00,Dantebad,sauna,93.1,1,14,5,5,1,0,1,25.9,0.0,3,100,forecast
+2026-05-30T14:00:00+02:00,Michaelibad,pool,91.1,1,14,5,5,1,0,1,25.9,0.0,3,100,forecast
+2026-05-30T14:00:00+02:00,Michaelibad,sauna,91.1,1,14,5,5,1,0,1,25.9,0.0,3,100,forecast
+2026-05-30T14:00:00+02:00,Müller'sches Volksbad,pool,81.7,1,14,5,5,1,0,1,25.9,0.0,3,100,forecast
+2026-05-30T14:00:00+02:00,Müller'sches Volksbad,sauna,81.7,1,14,5,5,1,0,1,25.9,0.0,3,100,forecast
+2026-05-30T14:00:00+02:00,Nordbad,pool,76.1,1,14,5,5,1,0,1,25.9,0.0,3,100,forecast
+2026-05-30T14:00:00+02:00,Nordbad,sauna,76.1,1,14,5,5,1,0,1,25.9,0.0,3,100,forecast
+2026-05-30T14:00:00+02:00,Olympia-Schwimmhalle,pool,78.9,1,14,5,5,1,0,1,25.9,0.0,3,100,forecast
+2026-05-30T14:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,14,5,5,1,0,1,25.9,0.0,3,100,forecast
+2026-05-30T14:00:00+02:00,Südbad,pool,75.4,1,14,5,5,1,0,1,25.9,0.0,3,100,forecast
+2026-05-30T14:00:00+02:00,Südbad,sauna,75.4,1,14,5,5,1,0,1,25.9,0.0,3,100,forecast
+2026-05-30T14:00:00+02:00,Westbad,pool,0.0,0,14,5,5,1,0,1,25.9,0.0,3,100,forecast
+2026-05-30T14:00:00+02:00,Westbad,sauna,0.0,0,14,5,5,1,0,1,25.9,0.0,3,100,forecast
+2026-05-30T15:00:00+02:00,Bad Giesing-Harlaching,pool,82.2,1,15,5,5,1,0,1,26.3,0.0,3,88,forecast
+2026-05-30T15:00:00+02:00,Cosimawellenbad,pool,73.8,1,15,5,5,1,0,1,26.3,0.0,3,88,forecast
+2026-05-30T15:00:00+02:00,Cosimawellenbad,sauna,73.8,1,15,5,5,1,0,1,26.3,0.0,3,88,forecast
+2026-05-30T15:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,15,5,5,1,0,1,26.3,0.0,3,88,forecast
+2026-05-30T15:00:00+02:00,Dantebad,sauna,92.9,1,15,5,5,1,0,1,26.3,0.0,3,88,forecast
+2026-05-30T15:00:00+02:00,Michaelibad,pool,89.7,1,15,5,5,1,0,1,26.3,0.0,3,88,forecast
+2026-05-30T15:00:00+02:00,Michaelibad,sauna,89.7,1,15,5,5,1,0,1,26.3,0.0,3,88,forecast
+2026-05-30T15:00:00+02:00,Müller'sches Volksbad,pool,80.6,1,15,5,5,1,0,1,26.3,0.0,3,88,forecast
+2026-05-30T15:00:00+02:00,Müller'sches Volksbad,sauna,80.6,1,15,5,5,1,0,1,26.3,0.0,3,88,forecast
+2026-05-30T15:00:00+02:00,Nordbad,pool,71.4,1,15,5,5,1,0,1,26.3,0.0,3,88,forecast
+2026-05-30T15:00:00+02:00,Nordbad,sauna,71.4,1,15,5,5,1,0,1,26.3,0.0,3,88,forecast
+2026-05-30T15:00:00+02:00,Olympia-Schwimmhalle,pool,75.4,1,15,5,5,1,0,1,26.3,0.0,3,88,forecast
+2026-05-30T15:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,15,5,5,1,0,1,26.3,0.0,3,88,forecast
+2026-05-30T15:00:00+02:00,Südbad,pool,73.0,1,15,5,5,1,0,1,26.3,0.0,3,88,forecast
+2026-05-30T15:00:00+02:00,Südbad,sauna,73.0,1,15,5,5,1,0,1,26.3,0.0,3,88,forecast
+2026-05-30T15:00:00+02:00,Westbad,pool,0.0,0,15,5,5,1,0,1,26.3,0.0,3,88,forecast
+2026-05-30T15:00:00+02:00,Westbad,sauna,0.0,0,15,5,5,1,0,1,26.3,0.0,3,88,forecast
+2026-05-30T16:00:00+02:00,Bad Giesing-Harlaching,pool,81.7,1,16,5,5,1,0,1,26.9,0.0,3,100,forecast
+2026-05-30T16:00:00+02:00,Cosimawellenbad,pool,75.0,1,16,5,5,1,0,1,26.9,0.0,3,100,forecast
+2026-05-30T16:00:00+02:00,Cosimawellenbad,sauna,75.0,1,16,5,5,1,0,1,26.9,0.0,3,100,forecast
+2026-05-30T16:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,16,5,5,1,0,1,26.9,0.0,3,100,forecast
+2026-05-30T16:00:00+02:00,Dantebad,sauna,92.1,1,16,5,5,1,0,1,26.9,0.0,3,100,forecast
+2026-05-30T16:00:00+02:00,Michaelibad,pool,88.7,1,16,5,5,1,0,1,26.9,0.0,3,100,forecast
+2026-05-30T16:00:00+02:00,Michaelibad,sauna,88.7,1,16,5,5,1,0,1,26.9,0.0,3,100,forecast
+2026-05-30T16:00:00+02:00,Müller'sches Volksbad,pool,81.1,1,16,5,5,1,0,1,26.9,0.0,3,100,forecast
+2026-05-30T16:00:00+02:00,Müller'sches Volksbad,sauna,81.1,1,16,5,5,1,0,1,26.9,0.0,3,100,forecast
+2026-05-30T16:00:00+02:00,Nordbad,pool,71.2,1,16,5,5,1,0,1,26.9,0.0,3,100,forecast
+2026-05-30T16:00:00+02:00,Nordbad,sauna,71.2,1,16,5,5,1,0,1,26.9,0.0,3,100,forecast
+2026-05-30T16:00:00+02:00,Olympia-Schwimmhalle,pool,75.0,1,16,5,5,1,0,1,26.9,0.0,3,100,forecast
+2026-05-30T16:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,16,5,5,1,0,1,26.9,0.0,3,100,forecast
+2026-05-30T16:00:00+02:00,Südbad,pool,72.6,1,16,5,5,1,0,1,26.9,0.0,3,100,forecast
+2026-05-30T16:00:00+02:00,Südbad,sauna,72.6,1,16,5,5,1,0,1,26.9,0.0,3,100,forecast
+2026-05-30T16:00:00+02:00,Westbad,pool,0.0,0,16,5,5,1,0,1,26.9,0.0,3,100,forecast
+2026-05-30T16:00:00+02:00,Westbad,sauna,0.0,0,16,5,5,1,0,1,26.9,0.0,3,100,forecast
+2026-05-30T17:00:00+02:00,Bad Giesing-Harlaching,pool,83.2,1,17,5,5,1,0,1,25.5,0.0,3,97,forecast
+2026-05-30T17:00:00+02:00,Cosimawellenbad,pool,76.2,1,17,5,5,1,0,1,25.5,0.0,3,97,forecast
+2026-05-30T17:00:00+02:00,Cosimawellenbad,sauna,76.2,1,17,5,5,1,0,1,25.5,0.0,3,97,forecast
+2026-05-30T17:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,17,5,5,1,0,1,25.5,0.0,3,97,forecast
+2026-05-30T17:00:00+02:00,Dantebad,sauna,92.1,1,17,5,5,1,0,1,25.5,0.0,3,97,forecast
+2026-05-30T17:00:00+02:00,Michaelibad,pool,88.1,1,17,5,5,1,0,1,25.5,0.0,3,97,forecast
+2026-05-30T17:00:00+02:00,Michaelibad,sauna,88.1,1,17,5,5,1,0,1,25.5,0.0,3,97,forecast
+2026-05-30T17:00:00+02:00,Müller'sches Volksbad,pool,80.1,1,17,5,5,1,0,1,25.5,0.0,3,97,forecast
+2026-05-30T17:00:00+02:00,Müller'sches Volksbad,sauna,80.1,1,17,5,5,1,0,1,25.5,0.0,3,97,forecast
+2026-05-30T17:00:00+02:00,Nordbad,pool,72.8,1,17,5,5,1,0,1,25.5,0.0,3,97,forecast
+2026-05-30T17:00:00+02:00,Nordbad,sauna,72.8,1,17,5,5,1,0,1,25.5,0.0,3,97,forecast
+2026-05-30T17:00:00+02:00,Olympia-Schwimmhalle,pool,76.6,1,17,5,5,1,0,1,25.5,0.0,3,97,forecast
+2026-05-30T17:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,17,5,5,1,0,1,25.5,0.0,3,97,forecast
+2026-05-30T17:00:00+02:00,Südbad,pool,71.9,1,17,5,5,1,0,1,25.5,0.0,3,97,forecast
+2026-05-30T17:00:00+02:00,Südbad,sauna,71.9,1,17,5,5,1,0,1,25.5,0.0,3,97,forecast
+2026-05-30T17:00:00+02:00,Westbad,pool,0.0,0,17,5,5,1,0,1,25.5,0.0,3,97,forecast
+2026-05-30T17:00:00+02:00,Westbad,sauna,0.0,0,17,5,5,1,0,1,25.5,0.0,3,97,forecast
+2026-05-30T18:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,18,5,5,1,0,1,25.9,0.0,3,100,forecast
+2026-05-30T18:00:00+02:00,Cosimawellenbad,pool,80.4,1,18,5,5,1,0,1,25.9,0.0,3,100,forecast
+2026-05-30T18:00:00+02:00,Cosimawellenbad,sauna,80.4,1,18,5,5,1,0,1,25.9,0.0,3,100,forecast
+2026-05-30T18:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,18,5,5,1,0,1,25.9,0.0,3,100,forecast
+2026-05-30T18:00:00+02:00,Dantebad,sauna,94.4,1,18,5,5,1,0,1,25.9,0.0,3,100,forecast
+2026-05-30T18:00:00+02:00,Michaelibad,pool,91.5,1,18,5,5,1,0,1,25.9,0.0,3,100,forecast
+2026-05-30T18:00:00+02:00,Michaelibad,sauna,91.5,1,18,5,5,1,0,1,25.9,0.0,3,100,forecast
+2026-05-30T18:00:00+02:00,Müller'sches Volksbad,pool,82.0,1,18,5,5,1,0,1,25.9,0.0,3,100,forecast
+2026-05-30T18:00:00+02:00,Müller'sches Volksbad,sauna,82.0,1,18,5,5,1,0,1,25.9,0.0,3,100,forecast
+2026-05-30T18:00:00+02:00,Nordbad,pool,73.6,1,18,5,5,1,0,1,25.9,0.0,3,100,forecast
+2026-05-30T18:00:00+02:00,Nordbad,sauna,73.6,1,18,5,5,1,0,1,25.9,0.0,3,100,forecast
+2026-05-30T18:00:00+02:00,Olympia-Schwimmhalle,pool,78.1,1,18,5,5,1,0,1,25.9,0.0,3,100,forecast
+2026-05-30T18:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,18,5,5,1,0,1,25.9,0.0,3,100,forecast
+2026-05-30T18:00:00+02:00,Südbad,pool,77.0,1,18,5,5,1,0,1,25.9,0.0,3,100,forecast
+2026-05-30T18:00:00+02:00,Südbad,sauna,77.0,1,18,5,5,1,0,1,25.9,0.0,3,100,forecast
+2026-05-30T18:00:00+02:00,Westbad,pool,0.0,0,18,5,5,1,0,1,25.9,0.0,3,100,forecast
+2026-05-30T18:00:00+02:00,Westbad,sauna,0.0,0,18,5,5,1,0,1,25.9,0.0,3,100,forecast
+2026-05-30T19:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,19,5,5,1,0,1,25.6,0.0,2,42,forecast
+2026-05-30T19:00:00+02:00,Cosimawellenbad,pool,78.5,1,19,5,5,1,0,1,25.6,0.0,2,42,forecast
+2026-05-30T19:00:00+02:00,Cosimawellenbad,sauna,78.5,1,19,5,5,1,0,1,25.6,0.0,2,42,forecast
+2026-05-30T19:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,19,5,5,1,0,1,25.6,0.0,2,42,forecast
+2026-05-30T19:00:00+02:00,Dantebad,sauna,94.5,1,19,5,5,1,0,1,25.6,0.0,2,42,forecast
+2026-05-30T19:00:00+02:00,Michaelibad,pool,93.1,1,19,5,5,1,0,1,25.6,0.0,2,42,forecast
+2026-05-30T19:00:00+02:00,Michaelibad,sauna,93.1,1,19,5,5,1,0,1,25.6,0.0,2,42,forecast
+2026-05-30T19:00:00+02:00,Müller'sches Volksbad,pool,82.0,1,19,5,5,1,0,1,25.6,0.0,2,42,forecast
+2026-05-30T19:00:00+02:00,Müller'sches Volksbad,sauna,82.0,1,19,5,5,1,0,1,25.6,0.0,2,42,forecast
+2026-05-30T19:00:00+02:00,Nordbad,pool,73.1,1,19,5,5,1,0,1,25.6,0.0,2,42,forecast
+2026-05-30T19:00:00+02:00,Nordbad,sauna,73.1,1,19,5,5,1,0,1,25.6,0.0,2,42,forecast
+2026-05-30T19:00:00+02:00,Olympia-Schwimmhalle,pool,79.5,1,19,5,5,1,0,1,25.6,0.0,2,42,forecast
+2026-05-30T19:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,19,5,5,1,0,1,25.6,0.0,2,42,forecast
+2026-05-30T19:00:00+02:00,Südbad,pool,74.8,1,19,5,5,1,0,1,25.6,0.0,2,42,forecast
+2026-05-30T19:00:00+02:00,Südbad,sauna,74.8,1,19,5,5,1,0,1,25.6,0.0,2,42,forecast
+2026-05-30T19:00:00+02:00,Westbad,pool,0.0,0,19,5,5,1,0,1,25.6,0.0,2,42,forecast
+2026-05-30T19:00:00+02:00,Westbad,sauna,0.0,0,19,5,5,1,0,1,25.6,0.0,2,42,forecast
+2026-05-30T20:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,20,5,5,1,0,1,24.9,0.0,1,32,forecast
+2026-05-30T20:00:00+02:00,Cosimawellenbad,pool,80.1,1,20,5,5,1,0,1,24.9,0.0,1,32,forecast
+2026-05-30T20:00:00+02:00,Cosimawellenbad,sauna,80.1,1,20,5,5,1,0,1,24.9,0.0,1,32,forecast
+2026-05-30T20:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,20,5,5,1,0,1,24.9,0.0,1,32,forecast
+2026-05-30T20:00:00+02:00,Dantebad,sauna,94.8,1,20,5,5,1,0,1,24.9,0.0,1,32,forecast
+2026-05-30T20:00:00+02:00,Michaelibad,pool,93.5,1,20,5,5,1,0,1,24.9,0.0,1,32,forecast
+2026-05-30T20:00:00+02:00,Michaelibad,sauna,93.5,1,20,5,5,1,0,1,24.9,0.0,1,32,forecast
+2026-05-30T20:00:00+02:00,Müller'sches Volksbad,pool,82.6,1,20,5,5,1,0,1,24.9,0.0,1,32,forecast
+2026-05-30T20:00:00+02:00,Müller'sches Volksbad,sauna,82.6,1,20,5,5,1,0,1,24.9,0.0,1,32,forecast
+2026-05-30T20:00:00+02:00,Nordbad,pool,72.9,1,20,5,5,1,0,1,24.9,0.0,1,32,forecast
+2026-05-30T20:00:00+02:00,Nordbad,sauna,72.9,1,20,5,5,1,0,1,24.9,0.0,1,32,forecast
+2026-05-30T20:00:00+02:00,Olympia-Schwimmhalle,pool,79.6,1,20,5,5,1,0,1,24.9,0.0,1,32,forecast
+2026-05-30T20:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,20,5,5,1,0,1,24.9,0.0,1,32,forecast
+2026-05-30T20:00:00+02:00,Südbad,pool,74.8,1,20,5,5,1,0,1,24.9,0.0,1,32,forecast
+2026-05-30T20:00:00+02:00,Südbad,sauna,74.8,1,20,5,5,1,0,1,24.9,0.0,1,32,forecast
+2026-05-30T20:00:00+02:00,Westbad,pool,0.0,0,20,5,5,1,0,1,24.9,0.0,1,32,forecast
+2026-05-30T20:00:00+02:00,Westbad,sauna,0.0,0,20,5,5,1,0,1,24.9,0.0,1,32,forecast
+2026-05-30T21:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,21,5,5,1,0,1,23.5,0.0,1,30,forecast
+2026-05-30T21:00:00+02:00,Cosimawellenbad,pool,86.0,1,21,5,5,1,0,1,23.5,0.0,1,30,forecast
+2026-05-30T21:00:00+02:00,Cosimawellenbad,sauna,86.0,1,21,5,5,1,0,1,23.5,0.0,1,30,forecast
+2026-05-30T21:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,21,5,5,1,0,1,23.5,0.0,1,30,forecast
+2026-05-30T21:00:00+02:00,Dantebad,sauna,95.1,1,21,5,5,1,0,1,23.5,0.0,1,30,forecast
+2026-05-30T21:00:00+02:00,Michaelibad,pool,94.5,1,21,5,5,1,0,1,23.5,0.0,1,30,forecast
+2026-05-30T21:00:00+02:00,Michaelibad,sauna,94.5,1,21,5,5,1,0,1,23.5,0.0,1,30,forecast
+2026-05-30T21:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,21,5,5,1,0,1,23.5,0.0,1,30,forecast
+2026-05-30T21:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,21,5,5,1,0,1,23.5,0.0,1,30,forecast
+2026-05-30T21:00:00+02:00,Nordbad,pool,78.7,1,21,5,5,1,0,1,23.5,0.0,1,30,forecast
+2026-05-30T21:00:00+02:00,Nordbad,sauna,78.7,1,21,5,5,1,0,1,23.5,0.0,1,30,forecast
+2026-05-30T21:00:00+02:00,Olympia-Schwimmhalle,pool,84.0,1,21,5,5,1,0,1,23.5,0.0,1,30,forecast
+2026-05-30T21:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,21,5,5,1,0,1,23.5,0.0,1,30,forecast
+2026-05-30T21:00:00+02:00,Südbad,pool,80.6,1,21,5,5,1,0,1,23.5,0.0,1,30,forecast
+2026-05-30T21:00:00+02:00,Südbad,sauna,80.6,1,21,5,5,1,0,1,23.5,0.0,1,30,forecast
+2026-05-30T21:00:00+02:00,Westbad,pool,0.0,0,21,5,5,1,0,1,23.5,0.0,1,30,forecast
+2026-05-30T21:00:00+02:00,Westbad,sauna,0.0,0,21,5,5,1,0,1,23.5,0.0,1,30,forecast
+2026-05-30T22:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,22,5,5,1,0,1,21.8,0.0,2,64,forecast
+2026-05-30T22:00:00+02:00,Cosimawellenbad,pool,92.9,1,22,5,5,1,0,1,21.8,0.0,2,64,forecast
+2026-05-30T22:00:00+02:00,Cosimawellenbad,sauna,92.9,1,22,5,5,1,0,1,21.8,0.0,2,64,forecast
+2026-05-30T22:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,22,5,5,1,0,1,21.8,0.0,2,64,forecast
+2026-05-30T22:00:00+02:00,Dantebad,sauna,96.6,1,22,5,5,1,0,1,21.8,0.0,2,64,forecast
+2026-05-30T22:00:00+02:00,Michaelibad,pool,98.2,1,22,5,5,1,0,1,21.8,0.0,2,64,forecast
+2026-05-30T22:00:00+02:00,Michaelibad,sauna,98.2,1,22,5,5,1,0,1,21.8,0.0,2,64,forecast
+2026-05-30T22:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,22,5,5,1,0,1,21.8,0.0,2,64,forecast
+2026-05-30T22:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,22,5,5,1,0,1,21.8,0.0,2,64,forecast
+2026-05-30T22:00:00+02:00,Nordbad,pool,89.1,1,22,5,5,1,0,1,21.8,0.0,2,64,forecast
+2026-05-30T22:00:00+02:00,Nordbad,sauna,89.1,1,22,5,5,1,0,1,21.8,0.0,2,64,forecast
+2026-05-30T22:00:00+02:00,Olympia-Schwimmhalle,pool,93.8,1,22,5,5,1,0,1,21.8,0.0,2,64,forecast
+2026-05-30T22:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,22,5,5,1,0,1,21.8,0.0,2,64,forecast
+2026-05-30T22:00:00+02:00,Südbad,pool,92.9,1,22,5,5,1,0,1,21.8,0.0,2,64,forecast
+2026-05-30T22:00:00+02:00,Südbad,sauna,92.9,1,22,5,5,1,0,1,21.8,0.0,2,64,forecast
+2026-05-30T22:00:00+02:00,Westbad,pool,0.0,0,22,5,5,1,0,1,21.8,0.0,2,64,forecast
+2026-05-30T22:00:00+02:00,Westbad,sauna,0.0,0,22,5,5,1,0,1,21.8,0.0,2,64,forecast
+2026-05-30T23:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,23,5,5,1,0,1,19.0,0.0,3,100,forecast
+2026-05-30T23:00:00+02:00,Cosimawellenbad,pool,0.0,0,23,5,5,1,0,1,19.0,0.0,3,100,forecast
+2026-05-30T23:00:00+02:00,Cosimawellenbad,sauna,0.0,0,23,5,5,1,0,1,19.0,0.0,3,100,forecast
+2026-05-30T23:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,23,5,5,1,0,1,19.0,0.0,3,100,forecast
+2026-05-30T23:00:00+02:00,Dantebad,sauna,0.0,0,23,5,5,1,0,1,19.0,0.0,3,100,forecast
+2026-05-30T23:00:00+02:00,Michaelibad,pool,0.0,0,23,5,5,1,0,1,19.0,0.0,3,100,forecast
+2026-05-30T23:00:00+02:00,Michaelibad,sauna,0.0,0,23,5,5,1,0,1,19.0,0.0,3,100,forecast
+2026-05-30T23:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,23,5,5,1,0,1,19.0,0.0,3,100,forecast
+2026-05-30T23:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,23,5,5,1,0,1,19.0,0.0,3,100,forecast
+2026-05-30T23:00:00+02:00,Nordbad,pool,0.0,0,23,5,5,1,0,1,19.0,0.0,3,100,forecast
+2026-05-30T23:00:00+02:00,Nordbad,sauna,0.0,0,23,5,5,1,0,1,19.0,0.0,3,100,forecast
+2026-05-30T23:00:00+02:00,Olympia-Schwimmhalle,pool,0.0,0,23,5,5,1,0,1,19.0,0.0,3,100,forecast
+2026-05-30T23:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,23,5,5,1,0,1,19.0,0.0,3,100,forecast
+2026-05-30T23:00:00+02:00,Südbad,pool,0.0,0,23,5,5,1,0,1,19.0,0.0,3,100,forecast
+2026-05-30T23:00:00+02:00,Südbad,sauna,0.0,0,23,5,5,1,0,1,19.0,0.0,3,100,forecast
+2026-05-30T23:00:00+02:00,Westbad,pool,0.0,0,23,5,5,1,0,1,19.0,0.0,3,100,forecast
+2026-05-30T23:00:00+02:00,Westbad,sauna,0.0,0,23,5,5,1,0,1,19.0,0.0,3,100,forecast
+2026-05-31T00:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,0,6,5,1,0,1,18.1,0.0,3,100,forecast
+2026-05-31T00:00:00+02:00,Cosimawellenbad,pool,0.0,0,0,6,5,1,0,1,18.1,0.0,3,100,forecast
+2026-05-31T00:00:00+02:00,Cosimawellenbad,sauna,0.0,0,0,6,5,1,0,1,18.1,0.0,3,100,forecast
+2026-05-31T00:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,0,6,5,1,0,1,18.1,0.0,3,100,forecast
+2026-05-31T00:00:00+02:00,Dantebad,sauna,0.0,0,0,6,5,1,0,1,18.1,0.0,3,100,forecast
+2026-05-31T00:00:00+02:00,Michaelibad,pool,0.0,0,0,6,5,1,0,1,18.1,0.0,3,100,forecast
+2026-05-31T00:00:00+02:00,Michaelibad,sauna,0.0,0,0,6,5,1,0,1,18.1,0.0,3,100,forecast
+2026-05-31T00:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,0,6,5,1,0,1,18.1,0.0,3,100,forecast
+2026-05-31T00:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,0,6,5,1,0,1,18.1,0.0,3,100,forecast
+2026-05-31T00:00:00+02:00,Nordbad,pool,0.0,0,0,6,5,1,0,1,18.1,0.0,3,100,forecast
+2026-05-31T00:00:00+02:00,Nordbad,sauna,0.0,0,0,6,5,1,0,1,18.1,0.0,3,100,forecast
+2026-05-31T00:00:00+02:00,Olympia-Schwimmhalle,pool,0.0,0,0,6,5,1,0,1,18.1,0.0,3,100,forecast
+2026-05-31T00:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,0,6,5,1,0,1,18.1,0.0,3,100,forecast
+2026-05-31T00:00:00+02:00,Südbad,pool,0.0,0,0,6,5,1,0,1,18.1,0.0,3,100,forecast
+2026-05-31T00:00:00+02:00,Südbad,sauna,0.0,0,0,6,5,1,0,1,18.1,0.0,3,100,forecast
+2026-05-31T00:00:00+02:00,Westbad,pool,0.0,0,0,6,5,1,0,1,18.1,0.0,3,100,forecast
+2026-05-31T00:00:00+02:00,Westbad,sauna,0.0,0,0,6,5,1,0,1,18.1,0.0,3,100,forecast
+2026-05-31T01:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,1,6,5,1,0,1,17.8,0.0,2,52,forecast
+2026-05-31T01:00:00+02:00,Cosimawellenbad,pool,0.0,0,1,6,5,1,0,1,17.8,0.0,2,52,forecast
+2026-05-31T01:00:00+02:00,Cosimawellenbad,sauna,0.0,0,1,6,5,1,0,1,17.8,0.0,2,52,forecast
+2026-05-31T01:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,1,6,5,1,0,1,17.8,0.0,2,52,forecast
+2026-05-31T01:00:00+02:00,Dantebad,sauna,0.0,0,1,6,5,1,0,1,17.8,0.0,2,52,forecast
+2026-05-31T01:00:00+02:00,Michaelibad,pool,0.0,0,1,6,5,1,0,1,17.8,0.0,2,52,forecast
+2026-05-31T01:00:00+02:00,Michaelibad,sauna,0.0,0,1,6,5,1,0,1,17.8,0.0,2,52,forecast
+2026-05-31T01:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,1,6,5,1,0,1,17.8,0.0,2,52,forecast
+2026-05-31T01:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,1,6,5,1,0,1,17.8,0.0,2,52,forecast
+2026-05-31T01:00:00+02:00,Nordbad,pool,0.0,0,1,6,5,1,0,1,17.8,0.0,2,52,forecast
+2026-05-31T01:00:00+02:00,Nordbad,sauna,0.0,0,1,6,5,1,0,1,17.8,0.0,2,52,forecast
+2026-05-31T01:00:00+02:00,Olympia-Schwimmhalle,pool,0.0,0,1,6,5,1,0,1,17.8,0.0,2,52,forecast
+2026-05-31T01:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,1,6,5,1,0,1,17.8,0.0,2,52,forecast
+2026-05-31T01:00:00+02:00,Südbad,pool,0.0,0,1,6,5,1,0,1,17.8,0.0,2,52,forecast
+2026-05-31T01:00:00+02:00,Südbad,sauna,0.0,0,1,6,5,1,0,1,17.8,0.0,2,52,forecast
+2026-05-31T01:00:00+02:00,Westbad,pool,0.0,0,1,6,5,1,0,1,17.8,0.0,2,52,forecast
+2026-05-31T01:00:00+02:00,Westbad,sauna,0.0,0,1,6,5,1,0,1,17.8,0.0,2,52,forecast
+2026-05-31T02:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,2,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T02:00:00+02:00,Cosimawellenbad,pool,0.0,0,2,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T02:00:00+02:00,Cosimawellenbad,sauna,0.0,0,2,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T02:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,2,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T02:00:00+02:00,Dantebad,sauna,0.0,0,2,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T02:00:00+02:00,Michaelibad,pool,0.0,0,2,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T02:00:00+02:00,Michaelibad,sauna,0.0,0,2,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T02:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,2,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T02:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,2,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T02:00:00+02:00,Nordbad,pool,0.0,0,2,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T02:00:00+02:00,Nordbad,sauna,0.0,0,2,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T02:00:00+02:00,Olympia-Schwimmhalle,pool,0.0,0,2,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T02:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,2,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T02:00:00+02:00,Südbad,pool,0.0,0,2,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T02:00:00+02:00,Südbad,sauna,0.0,0,2,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T02:00:00+02:00,Westbad,pool,0.0,0,2,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T02:00:00+02:00,Westbad,sauna,0.0,0,2,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T03:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,3,6,5,1,0,1,16.6,0.0,3,100,forecast
+2026-05-31T03:00:00+02:00,Cosimawellenbad,pool,0.0,0,3,6,5,1,0,1,16.6,0.0,3,100,forecast
+2026-05-31T03:00:00+02:00,Cosimawellenbad,sauna,0.0,0,3,6,5,1,0,1,16.6,0.0,3,100,forecast
+2026-05-31T03:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,3,6,5,1,0,1,16.6,0.0,3,100,forecast
+2026-05-31T03:00:00+02:00,Dantebad,sauna,0.0,0,3,6,5,1,0,1,16.6,0.0,3,100,forecast
+2026-05-31T03:00:00+02:00,Michaelibad,pool,0.0,0,3,6,5,1,0,1,16.6,0.0,3,100,forecast
+2026-05-31T03:00:00+02:00,Michaelibad,sauna,0.0,0,3,6,5,1,0,1,16.6,0.0,3,100,forecast
+2026-05-31T03:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,3,6,5,1,0,1,16.6,0.0,3,100,forecast
+2026-05-31T03:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,3,6,5,1,0,1,16.6,0.0,3,100,forecast
+2026-05-31T03:00:00+02:00,Nordbad,pool,0.0,0,3,6,5,1,0,1,16.6,0.0,3,100,forecast
+2026-05-31T03:00:00+02:00,Nordbad,sauna,0.0,0,3,6,5,1,0,1,16.6,0.0,3,100,forecast
+2026-05-31T03:00:00+02:00,Olympia-Schwimmhalle,pool,0.0,0,3,6,5,1,0,1,16.6,0.0,3,100,forecast
+2026-05-31T03:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,3,6,5,1,0,1,16.6,0.0,3,100,forecast
+2026-05-31T03:00:00+02:00,Südbad,pool,0.0,0,3,6,5,1,0,1,16.6,0.0,3,100,forecast
+2026-05-31T03:00:00+02:00,Südbad,sauna,0.0,0,3,6,5,1,0,1,16.6,0.0,3,100,forecast
+2026-05-31T03:00:00+02:00,Westbad,pool,0.0,0,3,6,5,1,0,1,16.6,0.0,3,100,forecast
+2026-05-31T03:00:00+02:00,Westbad,sauna,0.0,0,3,6,5,1,0,1,16.6,0.0,3,100,forecast
+2026-05-31T04:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,4,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T04:00:00+02:00,Cosimawellenbad,pool,0.0,0,4,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T04:00:00+02:00,Cosimawellenbad,sauna,0.0,0,4,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T04:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,4,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T04:00:00+02:00,Dantebad,sauna,0.0,0,4,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T04:00:00+02:00,Michaelibad,pool,0.0,0,4,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T04:00:00+02:00,Michaelibad,sauna,0.0,0,4,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T04:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,4,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T04:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,4,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T04:00:00+02:00,Nordbad,pool,0.0,0,4,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T04:00:00+02:00,Nordbad,sauna,0.0,0,4,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T04:00:00+02:00,Olympia-Schwimmhalle,pool,0.0,0,4,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T04:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,4,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T04:00:00+02:00,Südbad,pool,0.0,0,4,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T04:00:00+02:00,Südbad,sauna,0.0,0,4,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T04:00:00+02:00,Westbad,pool,0.0,0,4,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T04:00:00+02:00,Westbad,sauna,0.0,0,4,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T05:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,5,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T05:00:00+02:00,Cosimawellenbad,pool,0.0,0,5,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T05:00:00+02:00,Cosimawellenbad,sauna,0.0,0,5,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T05:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,5,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T05:00:00+02:00,Dantebad,sauna,0.0,0,5,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T05:00:00+02:00,Michaelibad,pool,0.0,0,5,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T05:00:00+02:00,Michaelibad,sauna,0.0,0,5,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T05:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,5,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T05:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,5,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T05:00:00+02:00,Nordbad,pool,0.0,0,5,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T05:00:00+02:00,Nordbad,sauna,0.0,0,5,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T05:00:00+02:00,Olympia-Schwimmhalle,pool,0.0,0,5,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T05:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,5,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T05:00:00+02:00,Südbad,pool,0.0,0,5,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T05:00:00+02:00,Südbad,sauna,0.0,0,5,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T05:00:00+02:00,Westbad,pool,0.0,0,5,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T05:00:00+02:00,Westbad,sauna,0.0,0,5,6,5,1,0,1,17.1,0.0,3,100,forecast
+2026-05-31T06:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,6,6,5,1,0,1,17.0,0.0,2,57,forecast
+2026-05-31T06:00:00+02:00,Cosimawellenbad,pool,0.0,0,6,6,5,1,0,1,17.0,0.0,2,57,forecast
+2026-05-31T06:00:00+02:00,Cosimawellenbad,sauna,0.0,0,6,6,5,1,0,1,17.0,0.0,2,57,forecast
+2026-05-31T06:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,6,6,5,1,0,1,17.0,0.0,2,57,forecast
+2026-05-31T06:00:00+02:00,Dantebad,sauna,0.0,0,6,6,5,1,0,1,17.0,0.0,2,57,forecast
+2026-05-31T06:00:00+02:00,Michaelibad,pool,0.0,0,6,6,5,1,0,1,17.0,0.0,2,57,forecast
+2026-05-31T06:00:00+02:00,Michaelibad,sauna,0.0,0,6,6,5,1,0,1,17.0,0.0,2,57,forecast
+2026-05-31T06:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,6,6,5,1,0,1,17.0,0.0,2,57,forecast
+2026-05-31T06:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,6,6,5,1,0,1,17.0,0.0,2,57,forecast
+2026-05-31T06:00:00+02:00,Nordbad,pool,0.0,0,6,6,5,1,0,1,17.0,0.0,2,57,forecast
+2026-05-31T06:00:00+02:00,Nordbad,sauna,0.0,0,6,6,5,1,0,1,17.0,0.0,2,57,forecast
+2026-05-31T06:00:00+02:00,Olympia-Schwimmhalle,pool,0.0,0,6,6,5,1,0,1,17.0,0.0,2,57,forecast
+2026-05-31T06:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,6,6,5,1,0,1,17.0,0.0,2,57,forecast
+2026-05-31T06:00:00+02:00,Südbad,pool,0.0,0,6,6,5,1,0,1,17.0,0.0,2,57,forecast
+2026-05-31T06:00:00+02:00,Südbad,sauna,0.0,0,6,6,5,1,0,1,17.0,0.0,2,57,forecast
+2026-05-31T06:00:00+02:00,Westbad,pool,0.0,0,6,6,5,1,0,1,17.0,0.0,2,57,forecast
+2026-05-31T06:00:00+02:00,Westbad,sauna,0.0,0,6,6,5,1,0,1,17.0,0.0,2,57,forecast
+2026-05-31T07:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,7,6,5,1,0,1,18.1,0.0,2,73,forecast
+2026-05-31T07:00:00+02:00,Cosimawellenbad,pool,0.0,0,7,6,5,1,0,1,18.1,0.0,2,73,forecast
+2026-05-31T07:00:00+02:00,Cosimawellenbad,sauna,0.0,0,7,6,5,1,0,1,18.1,0.0,2,73,forecast
+2026-05-31T07:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,7,6,5,1,0,1,18.1,0.0,2,73,forecast
+2026-05-31T07:00:00+02:00,Dantebad,sauna,0.0,0,7,6,5,1,0,1,18.1,0.0,2,73,forecast
+2026-05-31T07:00:00+02:00,Michaelibad,pool,0.0,0,7,6,5,1,0,1,18.1,0.0,2,73,forecast
+2026-05-31T07:00:00+02:00,Michaelibad,sauna,0.0,0,7,6,5,1,0,1,18.1,0.0,2,73,forecast
+2026-05-31T07:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,7,6,5,1,0,1,18.1,0.0,2,73,forecast
+2026-05-31T07:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,7,6,5,1,0,1,18.1,0.0,2,73,forecast
+2026-05-31T07:00:00+02:00,Nordbad,pool,0.0,0,7,6,5,1,0,1,18.1,0.0,2,73,forecast
+2026-05-31T07:00:00+02:00,Nordbad,sauna,0.0,0,7,6,5,1,0,1,18.1,0.0,2,73,forecast
+2026-05-31T07:00:00+02:00,Olympia-Schwimmhalle,pool,97.4,1,7,6,5,1,0,1,18.1,0.0,2,73,forecast
+2026-05-31T07:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,7,6,5,1,0,1,18.1,0.0,2,73,forecast
+2026-05-31T07:00:00+02:00,Südbad,pool,0.0,0,7,6,5,1,0,1,18.1,0.0,2,73,forecast
+2026-05-31T07:00:00+02:00,Südbad,sauna,0.0,0,7,6,5,1,0,1,18.1,0.0,2,73,forecast
+2026-05-31T07:00:00+02:00,Westbad,pool,0.0,0,7,6,5,1,0,1,18.1,0.0,2,73,forecast
+2026-05-31T07:00:00+02:00,Westbad,sauna,0.0,0,7,6,5,1,0,1,18.1,0.0,2,73,forecast
+2026-05-31T08:00:00+02:00,Bad Giesing-Harlaching,pool,91.4,1,8,6,5,1,0,1,19.9,0.0,3,87,forecast
+2026-05-31T08:00:00+02:00,Cosimawellenbad,pool,95.9,1,8,6,5,1,0,1,19.9,0.0,3,87,forecast
+2026-05-31T08:00:00+02:00,Cosimawellenbad,sauna,0.0,0,8,6,5,1,0,1,19.9,0.0,3,87,forecast
+2026-05-31T08:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,8,6,5,1,0,1,19.9,0.0,3,87,forecast
+2026-05-31T08:00:00+02:00,Dantebad,sauna,96.6,1,8,6,5,1,0,1,19.9,0.0,3,87,forecast
+2026-05-31T08:00:00+02:00,Michaelibad,pool,96.8,1,8,6,5,1,0,1,19.9,0.0,3,87,forecast
+2026-05-31T08:00:00+02:00,Michaelibad,sauna,96.8,1,8,6,5,1,0,1,19.9,0.0,3,87,forecast
+2026-05-31T08:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,8,6,5,1,0,1,19.9,0.0,3,87,forecast
+2026-05-31T08:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,8,6,5,1,0,1,19.9,0.0,3,87,forecast
+2026-05-31T08:00:00+02:00,Nordbad,pool,92.1,1,8,6,5,1,0,1,19.9,0.0,3,87,forecast
+2026-05-31T08:00:00+02:00,Nordbad,sauna,92.1,1,8,6,5,1,0,1,19.9,0.0,3,87,forecast
+2026-05-31T08:00:00+02:00,Olympia-Schwimmhalle,pool,92.7,1,8,6,5,1,0,1,19.9,0.0,3,87,forecast
+2026-05-31T08:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,8,6,5,1,0,1,19.9,0.0,3,87,forecast
+2026-05-31T08:00:00+02:00,Südbad,pool,91.6,1,8,6,5,1,0,1,19.9,0.0,3,87,forecast
+2026-05-31T08:00:00+02:00,Südbad,sauna,0.0,0,8,6,5,1,0,1,19.9,0.0,3,87,forecast
+2026-05-31T08:00:00+02:00,Westbad,pool,0.0,0,8,6,5,1,0,1,19.9,0.0,3,87,forecast
+2026-05-31T08:00:00+02:00,Westbad,sauna,0.0,0,8,6,5,1,0,1,19.9,0.0,3,87,forecast
+2026-05-31T09:00:00+02:00,Bad Giesing-Harlaching,pool,89.5,1,9,6,5,1,0,1,22.4,0.0,3,94,forecast
+2026-05-31T09:00:00+02:00,Cosimawellenbad,pool,94.0,1,9,6,5,1,0,1,22.4,0.0,3,94,forecast
+2026-05-31T09:00:00+02:00,Cosimawellenbad,sauna,94.0,1,9,6,5,1,0,1,22.4,0.0,3,94,forecast
+2026-05-31T09:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,9,6,5,1,0,1,22.4,0.0,3,94,forecast
+2026-05-31T09:00:00+02:00,Dantebad,sauna,95.4,1,9,6,5,1,0,1,22.4,0.0,3,94,forecast
+2026-05-31T09:00:00+02:00,Michaelibad,pool,96.5,1,9,6,5,1,0,1,22.4,0.0,3,94,forecast
+2026-05-31T09:00:00+02:00,Michaelibad,sauna,96.5,1,9,6,5,1,0,1,22.4,0.0,3,94,forecast
+2026-05-31T09:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,9,6,5,1,0,1,22.4,0.0,3,94,forecast
+2026-05-31T09:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,9,6,5,1,0,1,22.4,0.0,3,94,forecast
+2026-05-31T09:00:00+02:00,Nordbad,pool,88.4,1,9,6,5,1,0,1,22.4,0.0,3,94,forecast
+2026-05-31T09:00:00+02:00,Nordbad,sauna,88.4,1,9,6,5,1,0,1,22.4,0.0,3,94,forecast
+2026-05-31T09:00:00+02:00,Olympia-Schwimmhalle,pool,91.4,1,9,6,5,1,0,1,22.4,0.0,3,94,forecast
+2026-05-31T09:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,9,6,5,1,0,1,22.4,0.0,3,94,forecast
+2026-05-31T09:00:00+02:00,Südbad,pool,90.7,1,9,6,5,1,0,1,22.4,0.0,3,94,forecast
+2026-05-31T09:00:00+02:00,Südbad,sauna,90.7,1,9,6,5,1,0,1,22.4,0.0,3,94,forecast
+2026-05-31T09:00:00+02:00,Westbad,pool,0.0,0,9,6,5,1,0,1,22.4,0.0,3,94,forecast
+2026-05-31T09:00:00+02:00,Westbad,sauna,0.0,0,9,6,5,1,0,1,22.4,0.0,3,94,forecast
+2026-05-31T10:00:00+02:00,Bad Giesing-Harlaching,pool,82.3,1,10,6,5,1,0,1,24.8,0.0,3,100,forecast
+2026-05-31T10:00:00+02:00,Cosimawellenbad,pool,82.1,1,10,6,5,1,0,1,24.8,0.0,3,100,forecast
+2026-05-31T10:00:00+02:00,Cosimawellenbad,sauna,82.1,1,10,6,5,1,0,1,24.8,0.0,3,100,forecast
+2026-05-31T10:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,10,6,5,1,0,1,24.8,0.0,3,100,forecast
+2026-05-31T10:00:00+02:00,Dantebad,sauna,93.1,1,10,6,5,1,0,1,24.8,0.0,3,100,forecast
+2026-05-31T10:00:00+02:00,Michaelibad,pool,92.5,1,10,6,5,1,0,1,24.8,0.0,3,100,forecast
+2026-05-31T10:00:00+02:00,Michaelibad,sauna,92.5,1,10,6,5,1,0,1,24.8,0.0,3,100,forecast
+2026-05-31T10:00:00+02:00,Müller'sches Volksbad,pool,88.0,1,10,6,5,1,0,1,24.8,0.0,3,100,forecast
+2026-05-31T10:00:00+02:00,Müller'sches Volksbad,sauna,88.0,1,10,6,5,1,0,1,24.8,0.0,3,100,forecast
+2026-05-31T10:00:00+02:00,Nordbad,pool,81.2,1,10,6,5,1,0,1,24.8,0.0,3,100,forecast
+2026-05-31T10:00:00+02:00,Nordbad,sauna,81.2,1,10,6,5,1,0,1,24.8,0.0,3,100,forecast
+2026-05-31T10:00:00+02:00,Olympia-Schwimmhalle,pool,84.1,1,10,6,5,1,0,1,24.8,0.0,3,100,forecast
+2026-05-31T10:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,10,6,5,1,0,1,24.8,0.0,3,100,forecast
+2026-05-31T10:00:00+02:00,Südbad,pool,81.4,1,10,6,5,1,0,1,24.8,0.0,3,100,forecast
+2026-05-31T10:00:00+02:00,Südbad,sauna,81.4,1,10,6,5,1,0,1,24.8,0.0,3,100,forecast
+2026-05-31T10:00:00+02:00,Westbad,pool,0.0,0,10,6,5,1,0,1,24.8,0.0,3,100,forecast
+2026-05-31T10:00:00+02:00,Westbad,sauna,0.0,0,10,6,5,1,0,1,24.8,0.0,3,100,forecast
+2026-05-31T11:00:00+02:00,Bad Giesing-Harlaching,pool,76.2,1,11,6,5,1,0,1,26.7,0.0,2,58,forecast
+2026-05-31T11:00:00+02:00,Cosimawellenbad,pool,73.3,1,11,6,5,1,0,1,26.7,0.0,2,58,forecast
+2026-05-31T11:00:00+02:00,Cosimawellenbad,sauna,73.3,1,11,6,5,1,0,1,26.7,0.0,2,58,forecast
+2026-05-31T11:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,11,6,5,1,0,1,26.7,0.0,2,58,forecast
+2026-05-31T11:00:00+02:00,Dantebad,sauna,93.9,1,11,6,5,1,0,1,26.7,0.0,2,58,forecast
+2026-05-31T11:00:00+02:00,Michaelibad,pool,92.5,1,11,6,5,1,0,1,26.7,0.0,2,58,forecast
+2026-05-31T11:00:00+02:00,Michaelibad,sauna,92.5,1,11,6,5,1,0,1,26.7,0.0,2,58,forecast
+2026-05-31T11:00:00+02:00,Müller'sches Volksbad,pool,85.6,1,11,6,5,1,0,1,26.7,0.0,2,58,forecast
+2026-05-31T11:00:00+02:00,Müller'sches Volksbad,sauna,85.6,1,11,6,5,1,0,1,26.7,0.0,2,58,forecast
+2026-05-31T11:00:00+02:00,Nordbad,pool,71.2,1,11,6,5,1,0,1,26.7,0.0,2,58,forecast
+2026-05-31T11:00:00+02:00,Nordbad,sauna,71.2,1,11,6,5,1,0,1,26.7,0.0,2,58,forecast
+2026-05-31T11:00:00+02:00,Olympia-Schwimmhalle,pool,80.1,1,11,6,5,1,0,1,26.7,0.0,2,58,forecast
+2026-05-31T11:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,11,6,5,1,0,1,26.7,0.0,2,58,forecast
+2026-05-31T11:00:00+02:00,Südbad,pool,74.4,1,11,6,5,1,0,1,26.7,0.0,2,58,forecast
+2026-05-31T11:00:00+02:00,Südbad,sauna,74.4,1,11,6,5,1,0,1,26.7,0.0,2,58,forecast
+2026-05-31T11:00:00+02:00,Westbad,pool,0.0,0,11,6,5,1,0,1,26.7,0.0,2,58,forecast
+2026-05-31T11:00:00+02:00,Westbad,sauna,0.0,0,11,6,5,1,0,1,26.7,0.0,2,58,forecast
+2026-05-31T12:00:00+02:00,Bad Giesing-Harlaching,pool,78.7,1,12,6,5,1,0,1,28.2,0.0,3,100,forecast
+2026-05-31T12:00:00+02:00,Cosimawellenbad,pool,76.0,1,12,6,5,1,0,1,28.2,0.0,3,100,forecast
+2026-05-31T12:00:00+02:00,Cosimawellenbad,sauna,76.0,1,12,6,5,1,0,1,28.2,0.0,3,100,forecast
+2026-05-31T12:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,12,6,5,1,0,1,28.2,0.0,3,100,forecast
+2026-05-31T12:00:00+02:00,Dantebad,sauna,92.9,1,12,6,5,1,0,1,28.2,0.0,3,100,forecast
+2026-05-31T12:00:00+02:00,Michaelibad,pool,90.7,1,12,6,5,1,0,1,28.2,0.0,3,100,forecast
+2026-05-31T12:00:00+02:00,Michaelibad,sauna,90.7,1,12,6,5,1,0,1,28.2,0.0,3,100,forecast
+2026-05-31T12:00:00+02:00,Müller'sches Volksbad,pool,84.4,1,12,6,5,1,0,1,28.2,0.0,3,100,forecast
+2026-05-31T12:00:00+02:00,Müller'sches Volksbad,sauna,84.4,1,12,6,5,1,0,1,28.2,0.0,3,100,forecast
+2026-05-31T12:00:00+02:00,Nordbad,pool,73.1,1,12,6,5,1,0,1,28.2,0.0,3,100,forecast
+2026-05-31T12:00:00+02:00,Nordbad,sauna,73.1,1,12,6,5,1,0,1,28.2,0.0,3,100,forecast
+2026-05-31T12:00:00+02:00,Olympia-Schwimmhalle,pool,79.7,1,12,6,5,1,0,1,28.2,0.0,3,100,forecast
+2026-05-31T12:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,12,6,5,1,0,1,28.2,0.0,3,100,forecast
+2026-05-31T12:00:00+02:00,Südbad,pool,75.6,1,12,6,5,1,0,1,28.2,0.0,3,100,forecast
+2026-05-31T12:00:00+02:00,Südbad,sauna,75.6,1,12,6,5,1,0,1,28.2,0.0,3,100,forecast
+2026-05-31T12:00:00+02:00,Westbad,pool,0.0,0,12,6,5,1,0,1,28.2,0.0,3,100,forecast
+2026-05-31T12:00:00+02:00,Westbad,sauna,0.0,0,12,6,5,1,0,1,28.2,0.0,3,100,forecast
+2026-05-31T13:00:00+02:00,Bad Giesing-Harlaching,pool,78.8,1,13,6,5,1,0,1,29.4,0.0,3,97,forecast
+2026-05-31T13:00:00+02:00,Cosimawellenbad,pool,75.5,1,13,6,5,1,0,1,29.4,0.0,3,97,forecast
+2026-05-31T13:00:00+02:00,Cosimawellenbad,sauna,75.5,1,13,6,5,1,0,1,29.4,0.0,3,97,forecast
+2026-05-31T13:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,13,6,5,1,0,1,29.4,0.0,3,97,forecast
+2026-05-31T13:00:00+02:00,Dantebad,sauna,92.5,1,13,6,5,1,0,1,29.4,0.0,3,97,forecast
+2026-05-31T13:00:00+02:00,Michaelibad,pool,90.2,1,13,6,5,1,0,1,29.4,0.0,3,97,forecast
+2026-05-31T13:00:00+02:00,Michaelibad,sauna,90.2,1,13,6,5,1,0,1,29.4,0.0,3,97,forecast
+2026-05-31T13:00:00+02:00,Müller'sches Volksbad,pool,84.2,1,13,6,5,1,0,1,29.4,0.0,3,97,forecast
+2026-05-31T13:00:00+02:00,Müller'sches Volksbad,sauna,84.2,1,13,6,5,1,0,1,29.4,0.0,3,97,forecast
+2026-05-31T13:00:00+02:00,Nordbad,pool,73.0,1,13,6,5,1,0,1,29.4,0.0,3,97,forecast
+2026-05-31T13:00:00+02:00,Nordbad,sauna,73.0,1,13,6,5,1,0,1,29.4,0.0,3,97,forecast
+2026-05-31T13:00:00+02:00,Olympia-Schwimmhalle,pool,79.7,1,13,6,5,1,0,1,29.4,0.0,3,97,forecast
+2026-05-31T13:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,13,6,5,1,0,1,29.4,0.0,3,97,forecast
+2026-05-31T13:00:00+02:00,Südbad,pool,75.2,1,13,6,5,1,0,1,29.4,0.0,3,97,forecast
+2026-05-31T13:00:00+02:00,Südbad,sauna,75.2,1,13,6,5,1,0,1,29.4,0.0,3,97,forecast
+2026-05-31T13:00:00+02:00,Westbad,pool,0.0,0,13,6,5,1,0,1,29.4,0.0,3,97,forecast
+2026-05-31T13:00:00+02:00,Westbad,sauna,0.0,0,13,6,5,1,0,1,29.4,0.0,3,97,forecast
+2026-05-31T14:00:00+02:00,Bad Giesing-Harlaching,pool,74.8,1,14,6,5,1,0,1,29.8,0.0,2,45,forecast
+2026-05-31T14:00:00+02:00,Cosimawellenbad,pool,67.9,1,14,6,5,1,0,1,29.8,0.0,2,45,forecast
+2026-05-31T14:00:00+02:00,Cosimawellenbad,sauna,67.9,1,14,6,5,1,0,1,29.8,0.0,2,45,forecast
+2026-05-31T14:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,14,6,5,1,0,1,29.8,0.0,2,45,forecast
+2026-05-31T14:00:00+02:00,Dantebad,sauna,90.5,1,14,6,5,1,0,1,29.8,0.0,2,45,forecast
+2026-05-31T14:00:00+02:00,Michaelibad,pool,87.1,1,14,6,5,1,0,1,29.8,0.0,2,45,forecast
+2026-05-31T14:00:00+02:00,Michaelibad,sauna,87.1,1,14,6,5,1,0,1,29.8,0.0,2,45,forecast
+2026-05-31T14:00:00+02:00,Müller'sches Volksbad,pool,82.0,1,14,6,5,1,0,1,29.8,0.0,2,45,forecast
+2026-05-31T14:00:00+02:00,Müller'sches Volksbad,sauna,82.0,1,14,6,5,1,0,1,29.8,0.0,2,45,forecast
+2026-05-31T14:00:00+02:00,Nordbad,pool,67.3,1,14,6,5,1,0,1,29.8,0.0,2,45,forecast
+2026-05-31T14:00:00+02:00,Nordbad,sauna,67.3,1,14,6,5,1,0,1,29.8,0.0,2,45,forecast
+2026-05-31T14:00:00+02:00,Olympia-Schwimmhalle,pool,77.6,1,14,6,5,1,0,1,29.8,0.0,2,45,forecast
+2026-05-31T14:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,14,6,5,1,0,1,29.8,0.0,2,45,forecast
+2026-05-31T14:00:00+02:00,Südbad,pool,68.6,1,14,6,5,1,0,1,29.8,0.0,2,45,forecast
+2026-05-31T14:00:00+02:00,Südbad,sauna,68.6,1,14,6,5,1,0,1,29.8,0.0,2,45,forecast
+2026-05-31T14:00:00+02:00,Westbad,pool,0.0,0,14,6,5,1,0,1,29.8,0.0,2,45,forecast
+2026-05-31T14:00:00+02:00,Westbad,sauna,0.0,0,14,6,5,1,0,1,29.8,0.0,2,45,forecast
+2026-05-31T15:00:00+02:00,Bad Giesing-Harlaching,pool,77.7,1,15,6,5,1,0,1,30.1,0.0,3,100,forecast
+2026-05-31T15:00:00+02:00,Cosimawellenbad,pool,69.5,1,15,6,5,1,0,1,30.1,0.0,3,100,forecast
+2026-05-31T15:00:00+02:00,Cosimawellenbad,sauna,69.5,1,15,6,5,1,0,1,30.1,0.0,3,100,forecast
+2026-05-31T15:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,15,6,5,1,0,1,30.1,0.0,3,100,forecast
+2026-05-31T15:00:00+02:00,Dantebad,sauna,88.4,1,15,6,5,1,0,1,30.1,0.0,3,100,forecast
+2026-05-31T15:00:00+02:00,Michaelibad,pool,82.7,1,15,6,5,1,0,1,30.1,0.0,3,100,forecast
+2026-05-31T15:00:00+02:00,Michaelibad,sauna,82.7,1,15,6,5,1,0,1,30.1,0.0,3,100,forecast
+2026-05-31T15:00:00+02:00,Müller'sches Volksbad,pool,79.9,1,15,6,5,1,0,1,30.1,0.0,3,100,forecast
+2026-05-31T15:00:00+02:00,Müller'sches Volksbad,sauna,79.9,1,15,6,5,1,0,1,30.1,0.0,3,100,forecast
+2026-05-31T15:00:00+02:00,Nordbad,pool,66.4,1,15,6,5,1,0,1,30.1,0.0,3,100,forecast
+2026-05-31T15:00:00+02:00,Nordbad,sauna,66.4,1,15,6,5,1,0,1,30.1,0.0,3,100,forecast
+2026-05-31T15:00:00+02:00,Olympia-Schwimmhalle,pool,75.6,1,15,6,5,1,0,1,30.1,0.0,3,100,forecast
+2026-05-31T15:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,15,6,5,1,0,1,30.1,0.0,3,100,forecast
+2026-05-31T15:00:00+02:00,Südbad,pool,68.8,1,15,6,5,1,0,1,30.1,0.0,3,100,forecast
+2026-05-31T15:00:00+02:00,Südbad,sauna,68.8,1,15,6,5,1,0,1,30.1,0.0,3,100,forecast
+2026-05-31T15:00:00+02:00,Westbad,pool,0.0,0,15,6,5,1,0,1,30.1,0.0,3,100,forecast
+2026-05-31T15:00:00+02:00,Westbad,sauna,0.0,0,15,6,5,1,0,1,30.1,0.0,3,100,forecast
+2026-05-31T16:00:00+02:00,Bad Giesing-Harlaching,pool,81.1,1,16,6,5,1,0,1,21.6,0.0,3,100,forecast
+2026-05-31T16:00:00+02:00,Cosimawellenbad,pool,75.5,1,16,6,5,1,0,1,21.6,0.0,3,100,forecast
+2026-05-31T16:00:00+02:00,Cosimawellenbad,sauna,75.5,1,16,6,5,1,0,1,21.6,0.0,3,100,forecast
+2026-05-31T16:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,16,6,5,1,0,1,21.6,0.0,3,100,forecast
+2026-05-31T16:00:00+02:00,Dantebad,sauna,86.4,1,16,6,5,1,0,1,21.6,0.0,3,100,forecast
+2026-05-31T16:00:00+02:00,Michaelibad,pool,78.3,1,16,6,5,1,0,1,21.6,0.0,3,100,forecast
+2026-05-31T16:00:00+02:00,Michaelibad,sauna,78.3,1,16,6,5,1,0,1,21.6,0.0,3,100,forecast
+2026-05-31T16:00:00+02:00,Müller'sches Volksbad,pool,80.6,1,16,6,5,1,0,1,21.6,0.0,3,100,forecast
+2026-05-31T16:00:00+02:00,Müller'sches Volksbad,sauna,80.6,1,16,6,5,1,0,1,21.6,0.0,3,100,forecast
+2026-05-31T16:00:00+02:00,Nordbad,pool,72.8,1,16,6,5,1,0,1,21.6,0.0,3,100,forecast
+2026-05-31T16:00:00+02:00,Nordbad,sauna,72.8,1,16,6,5,1,0,1,21.6,0.0,3,100,forecast
+2026-05-31T16:00:00+02:00,Olympia-Schwimmhalle,pool,79.6,1,16,6,5,1,0,1,21.6,0.0,3,100,forecast
+2026-05-31T16:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,16,6,5,1,0,1,21.6,0.0,3,100,forecast
+2026-05-31T16:00:00+02:00,Südbad,pool,73.8,1,16,6,5,1,0,1,21.6,0.0,3,100,forecast
+2026-05-31T16:00:00+02:00,Südbad,sauna,73.8,1,16,6,5,1,0,1,21.6,0.0,3,100,forecast
+2026-05-31T16:00:00+02:00,Westbad,pool,0.0,0,16,6,5,1,0,1,21.6,0.0,3,100,forecast
+2026-05-31T16:00:00+02:00,Westbad,sauna,0.0,0,16,6,5,1,0,1,21.6,0.0,3,100,forecast
+2026-05-31T17:00:00+02:00,Bad Giesing-Harlaching,pool,81.8,1,17,6,5,1,0,1,20.1,1.2,95,100,forecast
+2026-05-31T17:00:00+02:00,Cosimawellenbad,pool,76.8,1,17,6,5,1,0,1,20.1,1.2,95,100,forecast
+2026-05-31T17:00:00+02:00,Cosimawellenbad,sauna,76.8,1,17,6,5,1,0,1,20.1,1.2,95,100,forecast
+2026-05-31T17:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,17,6,5,1,0,1,20.1,1.2,95,100,forecast
+2026-05-31T17:00:00+02:00,Dantebad,sauna,87.9,1,17,6,5,1,0,1,20.1,1.2,95,100,forecast
+2026-05-31T17:00:00+02:00,Michaelibad,pool,79.4,1,17,6,5,1,0,1,20.1,1.2,95,100,forecast
+2026-05-31T17:00:00+02:00,Michaelibad,sauna,79.4,1,17,6,5,1,0,1,20.1,1.2,95,100,forecast
+2026-05-31T17:00:00+02:00,Müller'sches Volksbad,pool,79.1,1,17,6,5,1,0,1,20.1,1.2,95,100,forecast
+2026-05-31T17:00:00+02:00,Müller'sches Volksbad,sauna,79.1,1,17,6,5,1,0,1,20.1,1.2,95,100,forecast
+2026-05-31T17:00:00+02:00,Nordbad,pool,73.6,1,17,6,5,1,0,1,20.1,1.2,95,100,forecast
+2026-05-31T17:00:00+02:00,Nordbad,sauna,73.6,1,17,6,5,1,0,1,20.1,1.2,95,100,forecast
+2026-05-31T17:00:00+02:00,Olympia-Schwimmhalle,pool,80.7,1,17,6,5,1,0,1,20.1,1.2,95,100,forecast
+2026-05-31T17:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,17,6,5,1,0,1,20.1,1.2,95,100,forecast
+2026-05-31T17:00:00+02:00,Südbad,pool,74.7,1,17,6,5,1,0,1,20.1,1.2,95,100,forecast
+2026-05-31T17:00:00+02:00,Südbad,sauna,74.7,1,17,6,5,1,0,1,20.1,1.2,95,100,forecast
+2026-05-31T17:00:00+02:00,Westbad,pool,0.0,0,17,6,5,1,0,1,20.1,1.2,95,100,forecast
+2026-05-31T17:00:00+02:00,Westbad,sauna,0.0,0,17,6,5,1,0,1,20.1,1.2,95,100,forecast
+2026-05-31T18:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,18,6,5,1,0,1,18.4,2.2,95,100,forecast
+2026-05-31T18:00:00+02:00,Cosimawellenbad,pool,84.3,1,18,6,5,1,0,1,18.4,2.2,95,100,forecast
+2026-05-31T18:00:00+02:00,Cosimawellenbad,sauna,84.3,1,18,6,5,1,0,1,18.4,2.2,95,100,forecast
+2026-05-31T18:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,18,6,5,1,0,1,18.4,2.2,95,100,forecast
+2026-05-31T18:00:00+02:00,Dantebad,sauna,93.2,1,18,6,5,1,0,1,18.4,2.2,95,100,forecast
+2026-05-31T18:00:00+02:00,Michaelibad,pool,86.5,1,18,6,5,1,0,1,18.4,2.2,95,100,forecast
+2026-05-31T18:00:00+02:00,Michaelibad,sauna,86.5,1,18,6,5,1,0,1,18.4,2.2,95,100,forecast
+2026-05-31T18:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,18,6,5,1,0,1,18.4,2.2,95,100,forecast
+2026-05-31T18:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,18,6,5,1,0,1,18.4,2.2,95,100,forecast
+2026-05-31T18:00:00+02:00,Nordbad,pool,79.6,1,18,6,5,1,0,1,18.4,2.2,95,100,forecast
+2026-05-31T18:00:00+02:00,Nordbad,sauna,79.6,1,18,6,5,1,0,1,18.4,2.2,95,100,forecast
+2026-05-31T18:00:00+02:00,Olympia-Schwimmhalle,pool,84.7,1,18,6,5,1,0,1,18.4,2.2,95,100,forecast
+2026-05-31T18:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,18,6,5,1,0,1,18.4,2.2,95,100,forecast
+2026-05-31T18:00:00+02:00,Südbad,pool,81.4,1,18,6,5,1,0,1,18.4,2.2,95,100,forecast
+2026-05-31T18:00:00+02:00,Südbad,sauna,81.4,1,18,6,5,1,0,1,18.4,2.2,95,100,forecast
+2026-05-31T18:00:00+02:00,Westbad,pool,0.0,0,18,6,5,1,0,1,18.4,2.2,95,100,forecast
+2026-05-31T18:00:00+02:00,Westbad,sauna,0.0,0,18,6,5,1,0,1,18.4,2.2,95,100,forecast
+2026-05-31T19:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,19,6,5,1,0,1,18.4,0.2,61,100,forecast
+2026-05-31T19:00:00+02:00,Cosimawellenbad,pool,88.2,1,19,6,5,1,0,1,18.4,0.2,61,100,forecast
+2026-05-31T19:00:00+02:00,Cosimawellenbad,sauna,88.2,1,19,6,5,1,0,1,18.4,0.2,61,100,forecast
+2026-05-31T19:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,19,6,5,1,0,1,18.4,0.2,61,100,forecast
+2026-05-31T19:00:00+02:00,Dantebad,sauna,95.4,1,19,6,5,1,0,1,18.4,0.2,61,100,forecast
+2026-05-31T19:00:00+02:00,Michaelibad,pool,91.9,1,19,6,5,1,0,1,18.4,0.2,61,100,forecast
+2026-05-31T19:00:00+02:00,Michaelibad,sauna,91.9,1,19,6,5,1,0,1,18.4,0.2,61,100,forecast
+2026-05-31T19:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,19,6,5,1,0,1,18.4,0.2,61,100,forecast
+2026-05-31T19:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,19,6,5,1,0,1,18.4,0.2,61,100,forecast
+2026-05-31T19:00:00+02:00,Nordbad,pool,84.9,1,19,6,5,1,0,1,18.4,0.2,61,100,forecast
+2026-05-31T19:00:00+02:00,Nordbad,sauna,84.9,1,19,6,5,1,0,1,18.4,0.2,61,100,forecast
+2026-05-31T19:00:00+02:00,Olympia-Schwimmhalle,pool,88.4,1,19,6,5,1,0,1,18.4,0.2,61,100,forecast
+2026-05-31T19:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,19,6,5,1,0,1,18.4,0.2,61,100,forecast
+2026-05-31T19:00:00+02:00,Südbad,pool,86.0,1,19,6,5,1,0,1,18.4,0.2,61,100,forecast
+2026-05-31T19:00:00+02:00,Südbad,sauna,86.0,1,19,6,5,1,0,1,18.4,0.2,61,100,forecast
+2026-05-31T19:00:00+02:00,Westbad,pool,0.0,0,19,6,5,1,0,1,18.4,0.2,61,100,forecast
+2026-05-31T19:00:00+02:00,Westbad,sauna,0.0,0,19,6,5,1,0,1,18.4,0.2,61,100,forecast
+2026-05-31T20:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,20,6,5,1,0,1,18.1,0.0,3,100,forecast
+2026-05-31T20:00:00+02:00,Cosimawellenbad,pool,89.1,1,20,6,5,1,0,1,18.1,0.0,3,100,forecast
+2026-05-31T20:00:00+02:00,Cosimawellenbad,sauna,89.1,1,20,6,5,1,0,1,18.1,0.0,3,100,forecast
+2026-05-31T20:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,20,6,5,1,0,1,18.1,0.0,3,100,forecast
+2026-05-31T20:00:00+02:00,Dantebad,sauna,95.1,1,20,6,5,1,0,1,18.1,0.0,3,100,forecast
+2026-05-31T20:00:00+02:00,Michaelibad,pool,92.4,1,20,6,5,1,0,1,18.1,0.0,3,100,forecast
+2026-05-31T20:00:00+02:00,Michaelibad,sauna,92.4,1,20,6,5,1,0,1,18.1,0.0,3,100,forecast
+2026-05-31T20:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,20,6,5,1,0,1,18.1,0.0,3,100,forecast
+2026-05-31T20:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,20,6,5,1,0,1,18.1,0.0,3,100,forecast
+2026-05-31T20:00:00+02:00,Nordbad,pool,85.2,1,20,6,5,1,0,1,18.1,0.0,3,100,forecast
+2026-05-31T20:00:00+02:00,Nordbad,sauna,85.2,1,20,6,5,1,0,1,18.1,0.0,3,100,forecast
+2026-05-31T20:00:00+02:00,Olympia-Schwimmhalle,pool,89.1,1,20,6,5,1,0,1,18.1,0.0,3,100,forecast
+2026-05-31T20:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,20,6,5,1,0,1,18.1,0.0,3,100,forecast
+2026-05-31T20:00:00+02:00,Südbad,pool,86.4,1,20,6,5,1,0,1,18.1,0.0,3,100,forecast
+2026-05-31T20:00:00+02:00,Südbad,sauna,86.4,1,20,6,5,1,0,1,18.1,0.0,3,100,forecast
+2026-05-31T20:00:00+02:00,Westbad,pool,0.0,0,20,6,5,1,0,1,18.1,0.0,3,100,forecast
+2026-05-31T20:00:00+02:00,Westbad,sauna,0.0,0,20,6,5,1,0,1,18.1,0.0,3,100,forecast
+2026-05-31T21:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,21,6,5,1,0,1,18.3,0.0,3,100,forecast
+2026-05-31T21:00:00+02:00,Cosimawellenbad,pool,90.6,1,21,6,5,1,0,1,18.3,0.0,3,100,forecast
+2026-05-31T21:00:00+02:00,Cosimawellenbad,sauna,90.6,1,21,6,5,1,0,1,18.3,0.0,3,100,forecast
+2026-05-31T21:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,21,6,5,1,0,1,18.3,0.0,3,100,forecast
+2026-05-31T21:00:00+02:00,Dantebad,sauna,93.8,1,21,6,5,1,0,1,18.3,0.0,3,100,forecast
+2026-05-31T21:00:00+02:00,Michaelibad,pool,95.5,1,21,6,5,1,0,1,18.3,0.0,3,100,forecast
+2026-05-31T21:00:00+02:00,Michaelibad,sauna,95.5,1,21,6,5,1,0,1,18.3,0.0,3,100,forecast
+2026-05-31T21:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,21,6,5,1,0,1,18.3,0.0,3,100,forecast
+2026-05-31T21:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,21,6,5,1,0,1,18.3,0.0,3,100,forecast
+2026-05-31T21:00:00+02:00,Nordbad,pool,86.7,1,21,6,5,1,0,1,18.3,0.0,3,100,forecast
+2026-05-31T21:00:00+02:00,Nordbad,sauna,86.7,1,21,6,5,1,0,1,18.3,0.0,3,100,forecast
+2026-05-31T21:00:00+02:00,Olympia-Schwimmhalle,pool,91.3,1,21,6,5,1,0,1,18.3,0.0,3,100,forecast
+2026-05-31T21:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,21,6,5,1,0,1,18.3,0.0,3,100,forecast
+2026-05-31T21:00:00+02:00,Südbad,pool,89.0,1,21,6,5,1,0,1,18.3,0.0,3,100,forecast
+2026-05-31T21:00:00+02:00,Südbad,sauna,89.0,1,21,6,5,1,0,1,18.3,0.0,3,100,forecast
+2026-05-31T21:00:00+02:00,Westbad,pool,0.0,0,21,6,5,1,0,1,18.3,0.0,3,100,forecast
+2026-05-31T21:00:00+02:00,Westbad,sauna,0.0,0,21,6,5,1,0,1,18.3,0.0,3,100,forecast
+2026-05-31T22:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,22,6,5,1,0,1,18.4,0.0,3,100,forecast
+2026-05-31T22:00:00+02:00,Cosimawellenbad,pool,92.9,1,22,6,5,1,0,1,18.4,0.0,3,100,forecast
+2026-05-31T22:00:00+02:00,Cosimawellenbad,sauna,92.9,1,22,6,5,1,0,1,18.4,0.0,3,100,forecast
+2026-05-31T22:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,22,6,5,1,0,1,18.4,0.0,3,100,forecast
+2026-05-31T22:00:00+02:00,Dantebad,sauna,95.3,1,22,6,5,1,0,1,18.4,0.0,3,100,forecast
+2026-05-31T22:00:00+02:00,Michaelibad,pool,98.2,1,22,6,5,1,0,1,18.4,0.0,3,100,forecast
+2026-05-31T22:00:00+02:00,Michaelibad,sauna,98.2,1,22,6,5,1,0,1,18.4,0.0,3,100,forecast
+2026-05-31T22:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,22,6,5,1,0,1,18.4,0.0,3,100,forecast
+2026-05-31T22:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,22,6,5,1,0,1,18.4,0.0,3,100,forecast
+2026-05-31T22:00:00+02:00,Nordbad,pool,91.5,1,22,6,5,1,0,1,18.4,0.0,3,100,forecast
+2026-05-31T22:00:00+02:00,Nordbad,sauna,91.5,1,22,6,5,1,0,1,18.4,0.0,3,100,forecast
+2026-05-31T22:00:00+02:00,Olympia-Schwimmhalle,pool,93.7,1,22,6,5,1,0,1,18.4,0.0,3,100,forecast
+2026-05-31T22:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,22,6,5,1,0,1,18.4,0.0,3,100,forecast
+2026-05-31T22:00:00+02:00,Südbad,pool,92.7,1,22,6,5,1,0,1,18.4,0.0,3,100,forecast
+2026-05-31T22:00:00+02:00,Südbad,sauna,92.7,1,22,6,5,1,0,1,18.4,0.0,3,100,forecast
+2026-05-31T22:00:00+02:00,Westbad,pool,0.0,0,22,6,5,1,0,1,18.4,0.0,3,100,forecast
+2026-05-31T22:00:00+02:00,Westbad,sauna,0.0,0,22,6,5,1,0,1,18.4,0.0,3,100,forecast
+2026-05-31T23:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,23,6,5,1,0,1,17.9,0.1,61,100,forecast
+2026-05-31T23:00:00+02:00,Cosimawellenbad,pool,0.0,0,23,6,5,1,0,1,17.9,0.1,61,100,forecast
+2026-05-31T23:00:00+02:00,Cosimawellenbad,sauna,0.0,0,23,6,5,1,0,1,17.9,0.1,61,100,forecast
+2026-05-31T23:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,23,6,5,1,0,1,17.9,0.1,61,100,forecast
+2026-05-31T23:00:00+02:00,Dantebad,sauna,0.0,0,23,6,5,1,0,1,17.9,0.1,61,100,forecast
+2026-05-31T23:00:00+02:00,Michaelibad,pool,0.0,0,23,6,5,1,0,1,17.9,0.1,61,100,forecast
+2026-05-31T23:00:00+02:00,Michaelibad,sauna,0.0,0,23,6,5,1,0,1,17.9,0.1,61,100,forecast
+2026-05-31T23:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,23,6,5,1,0,1,17.9,0.1,61,100,forecast
+2026-05-31T23:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,23,6,5,1,0,1,17.9,0.1,61,100,forecast
+2026-05-31T23:00:00+02:00,Nordbad,pool,0.0,0,23,6,5,1,0,1,17.9,0.1,61,100,forecast
+2026-05-31T23:00:00+02:00,Nordbad,sauna,0.0,0,23,6,5,1,0,1,17.9,0.1,61,100,forecast
+2026-05-31T23:00:00+02:00,Olympia-Schwimmhalle,pool,0.0,0,23,6,5,1,0,1,17.9,0.1,61,100,forecast
+2026-05-31T23:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,23,6,5,1,0,1,17.9,0.1,61,100,forecast
+2026-05-31T23:00:00+02:00,Südbad,pool,0.0,0,23,6,5,1,0,1,17.9,0.1,61,100,forecast
+2026-05-31T23:00:00+02:00,Südbad,sauna,0.0,0,23,6,5,1,0,1,17.9,0.1,61,100,forecast
+2026-05-31T23:00:00+02:00,Westbad,pool,0.0,0,23,6,5,1,0,1,17.9,0.1,61,100,forecast
+2026-05-31T23:00:00+02:00,Westbad,sauna,0.0,0,23,6,5,1,0,1,17.9,0.1,61,100,forecast
+2026-06-01T00:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,0,0,6,0,0,1,17.3,0.3,61,100,forecast
+2026-06-01T00:00:00+02:00,Cosimawellenbad,pool,0.0,0,0,0,6,0,0,1,17.3,0.3,61,100,forecast
+2026-06-01T00:00:00+02:00,Cosimawellenbad,sauna,0.0,0,0,0,6,0,0,1,17.3,0.3,61,100,forecast
+2026-06-01T00:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,0,0,6,0,0,1,17.3,0.3,61,100,forecast
+2026-06-01T00:00:00+02:00,Dantebad,sauna,0.0,0,0,0,6,0,0,1,17.3,0.3,61,100,forecast
+2026-06-01T00:00:00+02:00,Michaelibad,pool,0.0,0,0,0,6,0,0,1,17.3,0.3,61,100,forecast
+2026-06-01T00:00:00+02:00,Michaelibad,sauna,0.0,0,0,0,6,0,0,1,17.3,0.3,61,100,forecast
+2026-06-01T00:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,0,0,6,0,0,1,17.3,0.3,61,100,forecast
+2026-06-01T00:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,0,0,6,0,0,1,17.3,0.3,61,100,forecast
+2026-06-01T00:00:00+02:00,Nordbad,pool,0.0,0,0,0,6,0,0,1,17.3,0.3,61,100,forecast
+2026-06-01T00:00:00+02:00,Nordbad,sauna,0.0,0,0,0,6,0,0,1,17.3,0.3,61,100,forecast
+2026-06-01T00:00:00+02:00,Olympia-Schwimmhalle,pool,0.0,0,0,0,6,0,0,1,17.3,0.3,61,100,forecast
+2026-06-01T00:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,0,0,6,0,0,1,17.3,0.3,61,100,forecast
+2026-06-01T00:00:00+02:00,Südbad,pool,0.0,0,0,0,6,0,0,1,17.3,0.3,61,100,forecast
+2026-06-01T00:00:00+02:00,Südbad,sauna,0.0,0,0,0,6,0,0,1,17.3,0.3,61,100,forecast
+2026-06-01T00:00:00+02:00,Westbad,pool,0.0,0,0,0,6,0,0,1,17.3,0.3,61,100,forecast
+2026-06-01T00:00:00+02:00,Westbad,sauna,0.0,0,0,0,6,0,0,1,17.3,0.3,61,100,forecast
+2026-06-01T01:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,1,0,6,0,0,1,16.9,0.0,3,100,forecast
+2026-06-01T01:00:00+02:00,Cosimawellenbad,pool,0.0,0,1,0,6,0,0,1,16.9,0.0,3,100,forecast
+2026-06-01T01:00:00+02:00,Cosimawellenbad,sauna,0.0,0,1,0,6,0,0,1,16.9,0.0,3,100,forecast
+2026-06-01T01:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,1,0,6,0,0,1,16.9,0.0,3,100,forecast
+2026-06-01T01:00:00+02:00,Dantebad,sauna,0.0,0,1,0,6,0,0,1,16.9,0.0,3,100,forecast
+2026-06-01T01:00:00+02:00,Michaelibad,pool,0.0,0,1,0,6,0,0,1,16.9,0.0,3,100,forecast
+2026-06-01T01:00:00+02:00,Michaelibad,sauna,0.0,0,1,0,6,0,0,1,16.9,0.0,3,100,forecast
+2026-06-01T01:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,1,0,6,0,0,1,16.9,0.0,3,100,forecast
+2026-06-01T01:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,1,0,6,0,0,1,16.9,0.0,3,100,forecast
+2026-06-01T01:00:00+02:00,Nordbad,pool,0.0,0,1,0,6,0,0,1,16.9,0.0,3,100,forecast
+2026-06-01T01:00:00+02:00,Nordbad,sauna,0.0,0,1,0,6,0,0,1,16.9,0.0,3,100,forecast
+2026-06-01T01:00:00+02:00,Olympia-Schwimmhalle,pool,0.0,0,1,0,6,0,0,1,16.9,0.0,3,100,forecast
+2026-06-01T01:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,1,0,6,0,0,1,16.9,0.0,3,100,forecast
+2026-06-01T01:00:00+02:00,Südbad,pool,0.0,0,1,0,6,0,0,1,16.9,0.0,3,100,forecast
+2026-06-01T01:00:00+02:00,Südbad,sauna,0.0,0,1,0,6,0,0,1,16.9,0.0,3,100,forecast
+2026-06-01T01:00:00+02:00,Westbad,pool,0.0,0,1,0,6,0,0,1,16.9,0.0,3,100,forecast
+2026-06-01T01:00:00+02:00,Westbad,sauna,0.0,0,1,0,6,0,0,1,16.9,0.0,3,100,forecast
+2026-06-01T02:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,2,0,6,0,0,1,16.9,0.1,61,100,forecast
+2026-06-01T02:00:00+02:00,Cosimawellenbad,pool,0.0,0,2,0,6,0,0,1,16.9,0.1,61,100,forecast
+2026-06-01T02:00:00+02:00,Cosimawellenbad,sauna,0.0,0,2,0,6,0,0,1,16.9,0.1,61,100,forecast
+2026-06-01T02:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,2,0,6,0,0,1,16.9,0.1,61,100,forecast
+2026-06-01T02:00:00+02:00,Dantebad,sauna,0.0,0,2,0,6,0,0,1,16.9,0.1,61,100,forecast
+2026-06-01T02:00:00+02:00,Michaelibad,pool,0.0,0,2,0,6,0,0,1,16.9,0.1,61,100,forecast
+2026-06-01T02:00:00+02:00,Michaelibad,sauna,0.0,0,2,0,6,0,0,1,16.9,0.1,61,100,forecast
+2026-06-01T02:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,2,0,6,0,0,1,16.9,0.1,61,100,forecast
+2026-06-01T02:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,2,0,6,0,0,1,16.9,0.1,61,100,forecast
+2026-06-01T02:00:00+02:00,Nordbad,pool,0.0,0,2,0,6,0,0,1,16.9,0.1,61,100,forecast
+2026-06-01T02:00:00+02:00,Nordbad,sauna,0.0,0,2,0,6,0,0,1,16.9,0.1,61,100,forecast
+2026-06-01T02:00:00+02:00,Olympia-Schwimmhalle,pool,0.0,0,2,0,6,0,0,1,16.9,0.1,61,100,forecast
+2026-06-01T02:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,2,0,6,0,0,1,16.9,0.1,61,100,forecast
+2026-06-01T02:00:00+02:00,Südbad,pool,0.0,0,2,0,6,0,0,1,16.9,0.1,61,100,forecast
+2026-06-01T02:00:00+02:00,Südbad,sauna,0.0,0,2,0,6,0,0,1,16.9,0.1,61,100,forecast
+2026-06-01T02:00:00+02:00,Westbad,pool,0.0,0,2,0,6,0,0,1,16.9,0.1,61,100,forecast
+2026-06-01T02:00:00+02:00,Westbad,sauna,0.0,0,2,0,6,0,0,1,16.9,0.1,61,100,forecast
+2026-06-01T03:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,3,0,6,0,0,1,16.0,0.65,61,100,forecast
+2026-06-01T03:00:00+02:00,Cosimawellenbad,pool,0.0,0,3,0,6,0,0,1,16.0,0.65,61,100,forecast
+2026-06-01T03:00:00+02:00,Cosimawellenbad,sauna,0.0,0,3,0,6,0,0,1,16.0,0.65,61,100,forecast
+2026-06-01T03:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,3,0,6,0,0,1,16.0,0.65,61,100,forecast
+2026-06-01T03:00:00+02:00,Dantebad,sauna,0.0,0,3,0,6,0,0,1,16.0,0.65,61,100,forecast
+2026-06-01T03:00:00+02:00,Michaelibad,pool,0.0,0,3,0,6,0,0,1,16.0,0.65,61,100,forecast
+2026-06-01T03:00:00+02:00,Michaelibad,sauna,0.0,0,3,0,6,0,0,1,16.0,0.65,61,100,forecast
+2026-06-01T03:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,3,0,6,0,0,1,16.0,0.65,61,100,forecast
+2026-06-01T03:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,3,0,6,0,0,1,16.0,0.65,61,100,forecast
+2026-06-01T03:00:00+02:00,Nordbad,pool,0.0,0,3,0,6,0,0,1,16.0,0.65,61,100,forecast
+2026-06-01T03:00:00+02:00,Nordbad,sauna,0.0,0,3,0,6,0,0,1,16.0,0.65,61,100,forecast
+2026-06-01T03:00:00+02:00,Olympia-Schwimmhalle,pool,0.0,0,3,0,6,0,0,1,16.0,0.65,61,100,forecast
+2026-06-01T03:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,3,0,6,0,0,1,16.0,0.65,61,100,forecast
+2026-06-01T03:00:00+02:00,Südbad,pool,0.0,0,3,0,6,0,0,1,16.0,0.65,61,100,forecast
+2026-06-01T03:00:00+02:00,Südbad,sauna,0.0,0,3,0,6,0,0,1,16.0,0.65,61,100,forecast
+2026-06-01T03:00:00+02:00,Westbad,pool,0.0,0,3,0,6,0,0,1,16.0,0.65,61,100,forecast
+2026-06-01T03:00:00+02:00,Westbad,sauna,0.0,0,3,0,6,0,0,1,16.0,0.65,61,100,forecast
+2026-06-01T04:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,4,0,6,0,0,1,15.5,0.65,61,100,forecast
+2026-06-01T04:00:00+02:00,Cosimawellenbad,pool,0.0,0,4,0,6,0,0,1,15.5,0.65,61,100,forecast
+2026-06-01T04:00:00+02:00,Cosimawellenbad,sauna,0.0,0,4,0,6,0,0,1,15.5,0.65,61,100,forecast
+2026-06-01T04:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,4,0,6,0,0,1,15.5,0.65,61,100,forecast
+2026-06-01T04:00:00+02:00,Dantebad,sauna,0.0,0,4,0,6,0,0,1,15.5,0.65,61,100,forecast
+2026-06-01T04:00:00+02:00,Michaelibad,pool,0.0,0,4,0,6,0,0,1,15.5,0.65,61,100,forecast
+2026-06-01T04:00:00+02:00,Michaelibad,sauna,0.0,0,4,0,6,0,0,1,15.5,0.65,61,100,forecast
+2026-06-01T04:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,4,0,6,0,0,1,15.5,0.65,61,100,forecast
+2026-06-01T04:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,4,0,6,0,0,1,15.5,0.65,61,100,forecast
+2026-06-01T04:00:00+02:00,Nordbad,pool,0.0,0,4,0,6,0,0,1,15.5,0.65,61,100,forecast
+2026-06-01T04:00:00+02:00,Nordbad,sauna,0.0,0,4,0,6,0,0,1,15.5,0.65,61,100,forecast
+2026-06-01T04:00:00+02:00,Olympia-Schwimmhalle,pool,0.0,0,4,0,6,0,0,1,15.5,0.65,61,100,forecast
+2026-06-01T04:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,4,0,6,0,0,1,15.5,0.65,61,100,forecast
+2026-06-01T04:00:00+02:00,Südbad,pool,0.0,0,4,0,6,0,0,1,15.5,0.65,61,100,forecast
+2026-06-01T04:00:00+02:00,Südbad,sauna,0.0,0,4,0,6,0,0,1,15.5,0.65,61,100,forecast
+2026-06-01T04:00:00+02:00,Westbad,pool,0.0,0,4,0,6,0,0,1,15.5,0.65,61,100,forecast
+2026-06-01T04:00:00+02:00,Westbad,sauna,0.0,0,4,0,6,0,0,1,15.5,0.65,61,100,forecast
+2026-06-01T05:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,5,0,6,0,0,1,14.5,0.08,3,91,forecast
+2026-06-01T05:00:00+02:00,Cosimawellenbad,pool,0.0,0,5,0,6,0,0,1,14.5,0.08,3,91,forecast
+2026-06-01T05:00:00+02:00,Cosimawellenbad,sauna,0.0,0,5,0,6,0,0,1,14.5,0.08,3,91,forecast
+2026-06-01T05:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,5,0,6,0,0,1,14.5,0.08,3,91,forecast
+2026-06-01T05:00:00+02:00,Dantebad,sauna,0.0,0,5,0,6,0,0,1,14.5,0.08,3,91,forecast
+2026-06-01T05:00:00+02:00,Michaelibad,pool,0.0,0,5,0,6,0,0,1,14.5,0.08,3,91,forecast
+2026-06-01T05:00:00+02:00,Michaelibad,sauna,0.0,0,5,0,6,0,0,1,14.5,0.08,3,91,forecast
+2026-06-01T05:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,5,0,6,0,0,1,14.5,0.08,3,91,forecast
+2026-06-01T05:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,5,0,6,0,0,1,14.5,0.08,3,91,forecast
+2026-06-01T05:00:00+02:00,Nordbad,pool,0.0,0,5,0,6,0,0,1,14.5,0.08,3,91,forecast
+2026-06-01T05:00:00+02:00,Nordbad,sauna,0.0,0,5,0,6,0,0,1,14.5,0.08,3,91,forecast
+2026-06-01T05:00:00+02:00,Olympia-Schwimmhalle,pool,0.0,0,5,0,6,0,0,1,14.5,0.08,3,91,forecast
+2026-06-01T05:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,5,0,6,0,0,1,14.5,0.08,3,91,forecast
+2026-06-01T05:00:00+02:00,Südbad,pool,0.0,0,5,0,6,0,0,1,14.5,0.08,3,91,forecast
+2026-06-01T05:00:00+02:00,Südbad,sauna,0.0,0,5,0,6,0,0,1,14.5,0.08,3,91,forecast
+2026-06-01T05:00:00+02:00,Westbad,pool,0.0,0,5,0,6,0,0,1,14.5,0.08,3,91,forecast
+2026-06-01T05:00:00+02:00,Westbad,sauna,0.0,0,5,0,6,0,0,1,14.5,0.08,3,91,forecast
+2026-06-01T06:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,6,0,6,0,0,1,13.8,0.0,3,98,forecast
+2026-06-01T06:00:00+02:00,Cosimawellenbad,pool,0.0,0,6,0,6,0,0,1,13.8,0.0,3,98,forecast
+2026-06-01T06:00:00+02:00,Cosimawellenbad,sauna,0.0,0,6,0,6,0,0,1,13.8,0.0,3,98,forecast
+2026-06-01T06:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,6,0,6,0,0,1,13.8,0.0,3,98,forecast
+2026-06-01T06:00:00+02:00,Dantebad,sauna,0.0,0,6,0,6,0,0,1,13.8,0.0,3,98,forecast
+2026-06-01T06:00:00+02:00,Michaelibad,pool,0.0,0,6,0,6,0,0,1,13.8,0.0,3,98,forecast
+2026-06-01T06:00:00+02:00,Michaelibad,sauna,0.0,0,6,0,6,0,0,1,13.8,0.0,3,98,forecast
+2026-06-01T06:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,6,0,6,0,0,1,13.8,0.0,3,98,forecast
+2026-06-01T06:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,6,0,6,0,0,1,13.8,0.0,3,98,forecast
+2026-06-01T06:00:00+02:00,Nordbad,pool,0.0,0,6,0,6,0,0,1,13.8,0.0,3,98,forecast
+2026-06-01T06:00:00+02:00,Nordbad,sauna,0.0,0,6,0,6,0,0,1,13.8,0.0,3,98,forecast
+2026-06-01T06:00:00+02:00,Olympia-Schwimmhalle,pool,0.0,0,6,0,6,0,0,1,13.8,0.0,3,98,forecast
+2026-06-01T06:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,6,0,6,0,0,1,13.8,0.0,3,98,forecast
+2026-06-01T06:00:00+02:00,Südbad,pool,0.0,0,6,0,6,0,0,1,13.8,0.0,3,98,forecast
+2026-06-01T06:00:00+02:00,Südbad,sauna,0.0,0,6,0,6,0,0,1,13.8,0.0,3,98,forecast
+2026-06-01T06:00:00+02:00,Westbad,pool,0.0,0,6,0,6,0,0,1,13.8,0.0,3,98,forecast
+2026-06-01T06:00:00+02:00,Westbad,sauna,0.0,0,6,0,6,0,0,1,13.8,0.0,3,98,forecast
+2026-06-01T07:00:00+02:00,Bad Giesing-Harlaching,pool,0.0,0,7,0,6,0,0,1,14.3,0.0,3,100,forecast
+2026-06-01T07:00:00+02:00,Cosimawellenbad,pool,0.0,0,7,0,6,0,0,1,14.3,0.0,3,100,forecast
+2026-06-01T07:00:00+02:00,Cosimawellenbad,sauna,0.0,0,7,0,6,0,0,1,14.3,0.0,3,100,forecast
+2026-06-01T07:00:00+02:00,Dante-Winter-Warmfreibad,pool,0.0,0,7,0,6,0,0,1,14.3,0.0,3,100,forecast
+2026-06-01T07:00:00+02:00,Dantebad,sauna,0.0,0,7,0,6,0,0,1,14.3,0.0,3,100,forecast
+2026-06-01T07:00:00+02:00,Michaelibad,pool,0.0,0,7,0,6,0,0,1,14.3,0.0,3,100,forecast
+2026-06-01T07:00:00+02:00,Michaelibad,sauna,0.0,0,7,0,6,0,0,1,14.3,0.0,3,100,forecast
+2026-06-01T07:00:00+02:00,Müller'sches Volksbad,pool,0.0,0,7,0,6,0,0,1,14.3,0.0,3,100,forecast
+2026-06-01T07:00:00+02:00,Müller'sches Volksbad,sauna,0.0,0,7,0,6,0,0,1,14.3,0.0,3,100,forecast
+2026-06-01T07:00:00+02:00,Nordbad,pool,0.0,0,7,0,6,0,0,1,14.3,0.0,3,100,forecast
+2026-06-01T07:00:00+02:00,Nordbad,sauna,0.0,0,7,0,6,0,0,1,14.3,0.0,3,100,forecast
+2026-06-01T07:00:00+02:00,Olympia-Schwimmhalle,pool,96.1,1,7,0,6,0,0,1,14.3,0.0,3,100,forecast
+2026-06-01T07:00:00+02:00,Prinzregentenstadion - Eislaufbahn,ice_rink,0.0,0,7,0,6,0,0,1,14.3,0.0,3,100,forecast
+2026-06-01T07:00:00+02:00,Südbad,pool,95.6,1,7,0,6,0,0,1,14.3,0.0,3,100,forecast
+2026-06-01T07:00:00+02:00,Südbad,sauna,0.0,0,7,0,6,0,0,1,14.3,0.0,3,100,forecast
+2026-06-01T07:00:00+02:00,Westbad,pool,0.0,0,7,0,6,0,0,1,14.3,0.0,3,100,forecast
+2026-06-01T07:00:00+02:00,Westbad,sauna,0.0,0,7,0,6,0,0,1,14.3,0.0,3,100,forecast
