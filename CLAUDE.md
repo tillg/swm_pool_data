@@ -40,12 +40,16 @@ python forecast.py
 ## Architecture
 
 **Data Pipeline Flow:**
-1. `scrape.yml` (every 15 min) → raw pool JSON to `pool_scrapes_raw/` → triggers transform
-2. `load_opening_hours.yml` (daily 02:00 UTC) → `facility_openings_raw/facility_opening_*.json`
-3. `load_weather.yml` (daily 05:00 UTC) → weather JSON to `weather_raw/` → triggers transform
-4. `transform.yml` (triggered after scrape or weather) → `datasets/occupancy_historical.csv` + `src/config/facility_types.json`
-5. `train.yml` (weekly) → `models/occupancy_model.pkl`
-6. `forecast.yml` (daily 05:00 UTC) → `datasets/occupancy_forecast.csv` (applies opening-hours overlay at emit time)
+
+> All scheduled (cron) triggers have been removed. Every workflow below now runs **manually only** (`workflow_dispatch`), except `transform.yml` which still fires automatically on pushes to `weather_raw/**`.
+
+1. `scrape.yml` (manual only, `workflow_dispatch`) → raw pool JSON to `pool_scrapes_raw/`
+2. `load_opening_hours.yml` (manual only, `workflow_dispatch`) → `facility_openings_raw/facility_opening_*.json`
+3. `load_weather.yml` (manual only, `workflow_dispatch`) → weather JSON to `weather_raw/` → triggers transform (via push to `weather_raw/**`)
+4. `transform.yml` (push to `weather_raw/**`, or `workflow_call`/`workflow_dispatch`) → `datasets/occupancy_historical.csv` + `src/config/facility_types.json`
+5. `train.yml` (manual only, `workflow_dispatch`) → `models/occupancy_model.pkl`
+6. `forecast.yml` (manual only, `workflow_dispatch`) → `datasets/occupancy_forecast.csv` (applies opening-hours overlay at emit time)
+7. `detect_irregularities.yml` (manual only, `workflow_dispatch`) → opens issues for anomalies
 
 **Key Components:**
 - `src/loaders/weather_loader.py` - Fetches hourly weather from Open-Meteo API

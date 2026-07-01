@@ -2,8 +2,6 @@
 name: Load Opening Hours
 
 on:
-  schedule:
-    - cron: "0 2 * * *"   # daily 02:00 UTC (~03:00/04:00 Berlin)
   workflow_dispatch:
 
 permissions:

@@ -1,8 +1,6 @@
 name: Train Model
 
 on:
-  schedule:
-    - cron: '0 22 * * 0'  # Sunday 22:00 UTC (23:00 Europe/Berlin)
   workflow_dispatch:
 
 permissions:
